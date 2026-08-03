@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora — Divmetric</title>
+  <meta name="description" content="Projeção ilustrativa de aportes vs Selic, BTC, ouro, DXY e Ibovespa.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="page-header">
+    <p class="section-kicker">Ferramenta · educacional</p>
+    <h1>Calculadora de <span>projeção</span></h1>
+    <p class="tagline">Compare um plano de aportes com benchmarks (dados em /data/benchmarks.json). Valores stub até o collector oficial.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="grid-2">
+        <div>
+          <label for="principal">Aporte inicial (R$)</label>
+          <input id="principal" type="number" min="0" step="100" value="10000">
+          <label for="monthly">Aporte mensal (R$)</label>
+          <input id="monthly" type="number" min="0" step="50" value="500">
+          <label for="months">Prazo (meses)</label>
+          <input id="months" type="number" min="1" max="600" step="1" value="120">
+          <div class="hero-actions">
+            <button type="button" class="btn btn-primary" id="run">Calcular</button>
+          </div>
+        </div>
+        <div>
+          <p class="muted tiny" id="as-of">Carregando benchmarks…</p>
+          <div id="results"></div>
+        </div>
+      </div>
+    </section>
+    <p class="tiny muted" style="margin-top:1rem">
+      Taxas anuais são proxies educativas (não retornos garantidos). Selic/IPCA virão do BCB; demais do layer de mercado.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    · <a href="/">Início</a> · <a href="/radar/">Radar</a> · <a href="https://velumetric.pages.dev/">Velumetric</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+  <script>
+    const { loadJSON, projectFutureValue, fmtBRL } = window.DivmetricSite;
+
+    async function run() {
+      const principal = Number(document.getElementById("principal").value);
+      const monthly = Number(document.getElementById("monthly").value);
+      const months = Number(document.getElementById("months").value);
+      const data = await loadJSON("/data/benchmarks.json");
+      document.getElementById("as-of").textContent =
+        `Benchmarks em ${data.as_of || "—"} · ${data.note || ""}`;
+
+      const rows = (data.items || [])
+        .map((item) => {
+          const fv = projectFutureValue(principal, monthly, months, item.annual_rate_pct);
+          return `<tr>
+            <td>${item.label}</td>
+            <td>${Number(item.annual_rate_pct).toFixed(2)}% ${item.unit || ""}</td>
+            <td>${fmtBRL(fv)}</td>
+          </tr>`;
+        })
+        .join("");
+
+      document.getElementById("results").innerHTML = `
+        <table>
+          <thead><tr><th>Benchmark</th><th>Taxa usada</th><th>Projeção</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+    }
+
+    document.getElementById("run").addEventListener("click", () => {
+      run().catch((err) => {
+        document.getElementById("results").textContent = err.message || String(err);
+      });
+    });
+    run().catch(() => {});
+  </script>
+</body>
+</html>

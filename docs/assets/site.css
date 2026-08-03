@@ -1,0 +1,180 @@
+:root {
+  --bg: #0b1210;
+  --bg-elevated: #12201a;
+  --panel: #15241d;
+  --text: #e8f0ea;
+  --muted: #9bb0a3;
+  --accent: #3ecf8e;
+  --accent-dim: #1f9d63;
+  --border: #24352c;
+  --warn: #fbbf24;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(18, 32, 26, 0.94);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(8px);
+}
+
+.site-nav .brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.15rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  text-decoration: none !important;
+}
+.site-nav .brand em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.site-nav .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.1rem;
+  font-size: 0.92rem;
+}
+.site-nav .links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.site-nav .links a:hover,
+.site-nav .links a.active {
+  color: var(--accent);
+}
+
+.page-header, .home-hero {
+  padding: 2rem 1.25rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  background:
+    radial-gradient(ellipse 70% 60% at 90% 0%, rgba(62, 207, 142, 0.12), transparent 55%),
+    linear-gradient(180deg, #12201a 0%, var(--bg) 100%);
+}
+
+.page-header h1, .home-hero h1 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+}
+.page-header h1 span, .home-hero h1 span { color: var(--accent); }
+
+.tagline, .lead {
+  margin: 0;
+  max-width: 38rem;
+  color: var(--muted);
+}
+
+.section-kicker {
+  margin: 0 0 0.5rem;
+  color: var(--accent);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.wrap { max-width: 980px; margin: 0 auto; padding: 1.25rem; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.muted { color: var(--muted); }
+.tiny { font-size: 0.85rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.55rem 0.95rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.btn-primary {
+  background: var(--accent);
+  color: #042014 !important;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.btn-ghost { color: var(--text); background: transparent; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 0.65rem; margin-top: 1.15rem; }
+
+label { display: block; margin: 0.75rem 0 0.35rem; color: var(--muted); font-size: 0.9rem; }
+input, select {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #0b1511;
+  color: var(--text);
+  font: inherit;
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+.stat {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.85rem;
+}
+.stat strong { display: block; font-size: 1.15rem; }
+.stat span { color: var(--muted); font-size: 0.8rem; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th, td { text-align: left; padding: 0.55rem 0.35rem; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 600; }
+
+.site-footer {
+  margin-top: 2.5rem;
+  padding: 1.25rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.check { padding-left: 1.1rem; }
+.check li { margin: 0.35rem 0; }
+
+@media (max-width: 640px) {
+  .site-nav .links { width: 100%; }
+}

@@ -1,0 +1,8 @@
+{
+  "as_of": "2026-08-03",
+  "source_layer": "dividends_consolidated",
+  "source_note": "Preencher via export autorizado (ex.: Status Invest). Não usar scrape agressivo.",
+  "top_yield": [],
+  "upcoming_payments": [],
+  "status": "empty_scaffold"
+}

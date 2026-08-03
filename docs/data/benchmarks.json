@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-08-03",
+  "currency": "BRL",
+  "note": "Valores placeholder para a calculadora stub. Substituir pelo collector (BCB + market API).",
+  "items": [
+    {
+      "id": "selic",
+      "label": "Selic",
+      "source_layer": "official",
+      "annual_rate_pct": 14.75,
+      "unit": "a.a.",
+      "description": "Taxa Selic (placeholder)"
+    },
+    {
+      "id": "ipca",
+      "label": "IPCA",
+      "source_layer": "official",
+      "annual_rate_pct": 4.5,
+      "unit": "a.a.",
+      "description": "Inflação IPCA (placeholder)"
+    },
+    {
+      "id": "ibov",
+      "label": "Ibovespa",
+      "source_layer": "market",
+      "annual_rate_pct": 12.0,
+      "unit": "retorno anual ilustrativo",
+      "description": "Proxy histórico simplificado (placeholder)"
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "source_layer": "market",
+      "annual_rate_pct": 25.0,
+      "unit": "retorno anual ilustrativo",
+      "description": "Alta volatilidade — uso educativo (placeholder)"
+    },
+    {
+      "id": "gold",
+      "label": "Ouro",
+      "source_layer": "market",
+      "annual_rate_pct": 8.0,
+      "unit": "retorno anual ilustrativo",
+      "description": "Proxy (placeholder)"
+    },
+    {
+      "id": "dxy",
+      "label": "DXY (proxy BRL)",
+      "source_layer": "market",
+      "annual_rate_pct": 5.0,
+      "unit": "retorno anual ilustrativo",
+      "description": "Não é o índice DXY puro — proxy educativo (placeholder)"
+    }
+  ]
+}

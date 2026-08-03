@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divmetric — Dividendos e projeção em reais</title>
+  <meta name="description" content="Divmetric: dividendos, radar de rendimento e calculadora vs Selic, BTC, ouro e índices. Marca irmã da Velumetric.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="home-hero">
+    <p class="section-kicker">Marca irmã da Velumetric · renda</p>
+    <h1>Div<span>metric</span></h1>
+    <p class="lead">
+      Camada de dividendos e projeção patrimonial: dados consolidados, radar de yields
+      e comparações com Selic, BTC, ouro, DXY e índices — sem misturar com o terminal cripto.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/calculadora/">Abrir calculadora</a>
+      <a class="btn btn-ghost" href="/radar/">Radar de dividendos</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid-2">
+      <article class="card">
+        <h2>Modelagem de dados</h2>
+        <ul class="check muted">
+          <li><strong>Oficial:</strong> BCB (Selic, IPCA)</li>
+          <li><strong>Mercado:</strong> preços e índices via API</li>
+          <li><strong>Consolidado:</strong> cópia diária de DY/agenda (Status Invest / feed autorizado)</li>
+          <li><strong>Editorial:</strong> Suno e InfoMoney (contexto, não banco)</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>O que este MVP entrega</h2>
+        <ul class="check muted">
+          <li>Contrato JSON em <code>/data/</code></li>
+          <li>Calculadora ilustrativa vs benchmarks</li>
+          <li>Radar (placeholder até o collector)</li>
+          <li>Fronteira clara com a Velumetric</li>
+        </ul>
+      </article>
+    </div>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>Como se relaciona com a Velumetric</h2>
+      <p class="muted">
+        <strong>Velumetric</strong> = cripto, score e digest.
+        <strong>Divmetric</strong> = dividendos e projeção em reais.
+        Productos, schemas e login ficam separados; só há link cruzado.
+      </p>
+      <a class="btn btn-ghost" href="https://velumetric.pages.dev/" rel="noopener">Ir para Velumetric</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Conteúdo educacional. Não é recomendação de investimento.
+    · <a href="/calculadora/">Calculadora</a>
+    · <a href="https://velumetric.pages.dev/">Velumetric</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+</body>
+</html>

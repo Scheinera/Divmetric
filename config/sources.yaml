@@ -1,0 +1,43 @@
+product:
+  name: Divmetric
+  tagline: Dividendos, renda e projeção em reais
+  sister: Velumetric
+  site_base: https://divmetric.pages.dev  # placeholder até o primeiro deploy
+
+sources:
+  official:
+    - id: bcb_sgs
+      name: Banco Central do Brasil (SGS)
+      role: selic_ipca_macro
+      trust: canonical
+  market:
+    - id: market_api
+      name: BRAPI / Yahoo Finance (ou provedor B3)
+      role: prices_indices_btc_gold_dxy
+      trust: operational
+  dividends_consolidated:
+    - id: status_invest
+      name: Status Invest
+      role: dy_agenda_fii_ranking
+      trust: consolidated_ui
+      note: Preferir export/API autorizada; guardar cópia diária em store/
+  editorial:
+    - id: suno
+      name: Suno
+      role: guides_education
+      url: https://www.suno.com.br/guias/dividendos/
+    - id: infomoney
+      name: InfoMoney
+      role: news_agenda_context
+      url: https://www.infomoney.com.br/
+
+export:
+  target: docs/data
+  files:
+    - meta.json
+    - benchmarks.json
+    - dividends_radar.json
+    - tickers_catalog.json
+    - history_monthly.json
+
+disclaimer: Conteúdo educacional. Não é recomendação de investimento.

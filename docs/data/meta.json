@@ -1,0 +1,13 @@
+{
+  "product": "Divmetric",
+  "version": 1,
+  "updated_at": "2026-08-03T00:00:00+00:00",
+  "disclaimer": "Conteúdo educacional. Não é recomendação de investimento.",
+  "layers": {
+    "official": "BCB SGS",
+    "market": "BRAPI/Yahoo/B3 provider",
+    "dividends": "consolidated copy (Status Invest or authorized feed)",
+    "editorial": "Suno / InfoMoney (links only)"
+  },
+  "status": "scaffold"
+}

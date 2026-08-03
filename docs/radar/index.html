@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radar de dividendos — Divmetric</title>
+  <meta name="description" content="Radar de yields e agenda — alimentado por cópia consolidada diária.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="page-header">
+    <p class="section-kicker">Dividendos · consolidado</p>
+    <h1>Radar de <span>dividendos</span></h1>
+    <p class="tagline">Top yields e próximos pagamentos a partir da nossa cópia diária (Status Invest / feed autorizado).</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="panel">
+      <p class="muted">Carregando…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    · <a href="/">Início</a> · <a href="/calculadora/">Calculadora</a> · <a href="https://velumetric.pages.dev/">Velumetric</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+  <script>
+    const { loadJSON } = window.DivmetricSite;
+    (async () => {
+      const panel = document.getElementById("panel");
+      try {
+        const data = await loadJSON("/data/dividends_radar.json");
+        const top = data.top_yield || [];
+        const upcoming = data.upcoming_payments || [];
+        if (!top.length && !upcoming.length) {
+          panel.innerHTML = `
+            <strong>Scaffold pronto</strong>
+            <p class="muted">${data.source_note || "Aguardando collector."}</p>
+            <p class="tiny muted">Status: ${data.status || "—"} · as_of ${data.as_of || "—"}</p>`;
+          return;
+        }
+        panel.innerHTML = `
+          <h2>Top yield</h2>
+          <pre class="tiny">${JSON.stringify(top, null, 2)}</pre>
+          <h2>Próximos pagamentos</h2>
+          <pre class="tiny">${JSON.stringify(upcoming, null, 2)}</pre>`;
+      } catch (err) {
+        panel.textContent = err.message || String(err);
+      }
+    })();
+  </script>
+</body>
+</html>
