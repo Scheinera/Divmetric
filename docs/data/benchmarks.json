@@ -2,7 +2,7 @@
   "as_of": "2026-08-04",
   "currency": "BRL",
   "analysis_start": "2015-01-01",
-  "note": "Séries alinhadas desde 2015-01-01. Selic/CDI/IPCA = BCB. Demais = Yahoo chart (CAGR desde a janela + retorno ~12m). Educacional.",
+  "note": "Séries alinhadas desde 2015-01-01. Selic/CDI/IPCA = BCB. IFIX = B3 oficial. Demais = Yahoo chart. Educacional.",
   "items": [
     {
       "id": "selic",
@@ -19,8 +19,8 @@
       "source_layer": "official",
       "annual_rate_pct": 14.15,
       "unit": "% a.a. (approx 252)",
-      "description": "BCB SGS 12 · ref 2026-07-31",
-      "as_of": "2026-07-31"
+      "description": "BCB SGS 12 · ref 2026-08-03",
+      "as_of": "2026-08-03"
     },
     {
       "id": "ipca",
@@ -30,6 +30,20 @@
       "unit": "%",
       "description": "BCB SGS 13522 · ref 2026-06-01",
       "as_of": "2026-06-01"
+    },
+    {
+      "id": "ifix",
+      "label": "IFIX (B3 oficial)",
+      "source_layer": "official",
+      "annual_rate_pct": 8.89,
+      "trailing_12m_pct": 8.89,
+      "cagr_since_start_pct": 9.16,
+      "unit": "retorno ~12m · CAGR desde janela",
+      "description": "B3 IFIX oficial · ref 2026-08",
+      "as_of": "2026-08",
+      "last_close": 3785.52,
+      "start_used": "2015-01-01",
+      "trust": "canonical"
     },
     {
       "id": "ibov",
@@ -63,56 +77,56 @@
       "id": "btc",
       "label": "Bitcoin",
       "source_layer": "market",
-      "annual_rate_pct": -44.84,
-      "trailing_12m_pct": -44.84,
-      "cagr_since_start_pct": 58.09,
+      "annual_rate_pct": -44.55,
+      "trailing_12m_pct": -44.55,
+      "cagr_since_start_pct": 58.17,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário BTC-USD desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "BTC-USD",
-      "last_close": 63472.9414,
+      "last_close": 63802.5781,
       "start_used": "2015-01-01"
     },
     {
       "id": "gold",
       "label": "Ouro (futuro)",
       "source_layer": "market",
-      "annual_rate_pct": 21.68,
-      "trailing_12m_pct": 21.68,
-      "cagr_since_start_pct": 11.31,
+      "annual_rate_pct": 22.36,
+      "trailing_12m_pct": 22.36,
+      "cagr_since_start_pct": 11.37,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário GC=F desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "GC=F",
-      "last_close": 4105.8999,
+      "last_close": 4128.7998,
       "start_used": "2015-01-02"
     },
     {
       "id": "dxy",
       "label": "DXY",
       "source_layer": "market",
-      "annual_rate_pct": 1.24,
-      "trailing_12m_pct": 1.24,
-      "cagr_since_start_pct": 0.81,
+      "annual_rate_pct": 1.15,
+      "trailing_12m_pct": 1.15,
+      "cagr_since_start_pct": 0.8,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário DX-Y.NYB desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "DX-Y.NYB",
-      "last_close": 100.003,
+      "last_close": 99.918,
       "start_used": "2015-01-02"
     },
     {
       "id": "usdbrl",
       "label": "USD/BRL",
       "source_layer": "market",
-      "annual_rate_pct": -7.42,
-      "trailing_12m_pct": -7.42,
-      "cagr_since_start_pct": 5.78,
+      "annual_rate_pct": -7.62,
+      "trailing_12m_pct": -7.62,
+      "cagr_since_start_pct": 5.76,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário USDBRL=X desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "USDBRL=X",
-      "last_close": 5.0881,
+      "last_close": 5.0771,
       "start_used": "2015-01-01"
     },
     {
@@ -133,20 +147,21 @@
       "id": "ewz",
       "label": "MSCI Brazil ETF",
       "source_layer": "market",
-      "annual_rate_pct": 38.04,
-      "trailing_12m_pct": 38.04,
-      "cagr_since_start_pct": 0.31,
+      "annual_rate_pct": 36.66,
+      "trailing_12m_pct": 36.66,
+      "cagr_since_start_pct": 0.26,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário EWZ desde 2015-01-01",
-      "as_of": "2026-07-31",
+      "as_of": "2026-08-03",
       "symbol": "EWZ",
-      "last_close": 36.65,
+      "last_close": 36.42,
       "start_used": "2015-01-02"
     }
   ],
   "sources": {
     "official": "BCB SGS",
+    "ifix": "B3 indexStatisticsProxy + indexProxy (IFIX oficial)",
     "market": "Yahoo Finance chart API (period1/period2 diário) + AwesomeAPI"
   },
-  "fetched_at": "2026-08-04T10:42:27.794300+00:00"
+  "fetched_at": "2026-08-04T12:07:54.705638+00:00"
 }

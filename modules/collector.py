@@ -18,6 +18,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from modules.connectors.bcb import fetch_official_rates  # noqa: E402
+from modules.connectors.b3_ifix import fetch_ifix_bundle  # noqa: E402
 from modules.connectors.market_http import (  # noqa: E402
     fetch_b3_liquidity_and_elite,
     fetch_benchmark_market,
@@ -109,7 +110,12 @@ def merge_liq_preserve(previous_elite: dict[str, Any] | None, previous_liq: dict
     return liq
 
 
-def build_benchmarks(official: dict[str, Any], market: dict[str, Any], start_date: str) -> dict[str, Any]:
+def build_benchmarks(
+    official: dict[str, Any],
+    market: dict[str, Any],
+    start_date: str,
+    ifix: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     items: list[dict[str, Any]] = []
     selic = official.get("selic") or {}
     ipca = official.get("ipca") or {}
@@ -150,6 +156,24 @@ def build_benchmarks(official: dict[str, Any], market: dict[str, Any], start_dat
         }
     )
 
+    if ifix and ifix.get("trailing_12m_pct") is not None:
+        items.append(
+            {
+                "id": "ifix",
+                "label": "IFIX (B3 oficial)",
+                "source_layer": "official",
+                "annual_rate_pct": ifix.get("trailing_12m_pct"),
+                "trailing_12m_pct": ifix.get("trailing_12m_pct"),
+                "cagr_since_start_pct": ifix.get("cagr_since_start_pct"),
+                "unit": "retorno ~12m · CAGR desde janela",
+                "description": f"B3 IFIX oficial · ref {ifix.get('as_of_month')}",
+                "as_of": ifix.get("as_of_month"),
+                "last_close": ifix.get("latest"),
+                "start_used": start_date,
+                "trust": "canonical",
+            }
+        )
+
     for key in ("ibov", "spx", "btc", "gold", "dxy", "usdbrl", "us10y", "ewz"):
         row = (market.get("items") or {}).get(key) or {}
         if row.get("annual_rate_pct") is None and row.get("error"):
@@ -179,19 +203,41 @@ def build_benchmarks(official: dict[str, Any], market: dict[str, Any], start_dat
         "analysis_start": start_date,
         "note": (
             f"Séries alinhadas desde {start_date}. "
-            "Selic/CDI/IPCA = BCB. Demais = Yahoo chart (CAGR desde a janela + retorno ~12m). Educacional."
+            "Selic/CDI/IPCA = BCB. IFIX = B3 oficial. Demais = Yahoo chart. Educacional."
         ),
         "items": items,
-        "sources": {"official": official.get("source"), "market": market.get("source")},
+        "sources": {
+            "official": official.get("source"),
+            "ifix": (ifix or {}).get("source"),
+            "market": market.get("source"),
+        },
         "fetched_at": datetime.now(timezone.utc).isoformat(),
     }
 
 
-def build_history_aligned(official: dict[str, Any], market: dict[str, Any], start_date: str) -> dict[str, Any]:
+def build_history_aligned(
+    official: dict[str, Any],
+    market: dict[str, Any],
+    start_date: str,
+    ifix: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     official_monthly = {}
     for key, series in (official.get("series") or {}).items():
         if series.get("monthly"):
             official_monthly[key] = series["monthly"]
+    if ifix and ifix.get("monthly_levels"):
+        official_monthly["ifix"] = ifix["monthly_levels"]
+
+    market_levels = dict(market.get("monthly_levels") or {})
+    market_indexed = dict(market.get("indexed_100") or {})
+    returns = dict(market.get("monthly") or {})
+    if ifix:
+        if ifix.get("monthly_levels"):
+            market_levels["ifix"] = ifix["monthly_levels"]
+        if ifix.get("indexed_100"):
+            market_indexed["ifix"] = ifix["indexed_100"]
+        if ifix.get("monthly_returns"):
+            returns["ifix"] = ifix["monthly_returns"]
 
     return {
         "status": "live",
@@ -200,14 +246,18 @@ def build_history_aligned(official: dict[str, Any], market: dict[str, Any], star
         "base_index": 100,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "official_levels": official_monthly,
-        "market_levels": market.get("monthly_levels") or {},
-        "market_indexed_100": market.get("indexed_100") or {},
-        "returns": market.get("monthly") or {},
+        "market_levels": market_levels,
+        "market_indexed_100": market_indexed,
+        "returns": returns,
         "note": (
             "Todas as séries de mercado usam nível de fim de mês desde analysis_start. "
-            "Índice 100 = primeiro mês disponível na janela (ou primeiro preço do ativo)."
+            "IFIX vem da B3 (oficial). Índice 100 = primeiro mês disponível na janela."
         ),
-        "sources": {"official": official.get("source"), "market": market.get("source")},
+        "sources": {
+            "official": official.get("source"),
+            "ifix": (ifix or {}).get("source"),
+            "market": market.get("source"),
+        },
     }
 
 
@@ -286,15 +336,25 @@ def build_opportunity_cost(
                 "metric": "retorno ~12m + CAGR desde janela",
             },
             {
+                "id": "ifix",
+                "label": "IFIX (B3 oficial)",
+                "certainty": "média",
+                "role": "índice oficial de FIIs",
+                "annual_rate_pct": (by_id.get("ifix") or {}).get("trailing_12m_pct"),
+                "trailing_12m_pct": (by_id.get("ifix") or {}).get("trailing_12m_pct"),
+                "cagr_since_start_pct": (by_id.get("ifix") or {}).get("cagr_since_start_pct"),
+                "metric": "B3 oficial — retorno ~12m + CAGR desde janela",
+            },
+            {
                 "id": "fii_basket",
                 "label": "FIIs (mediana da cesta líquida)",
                 "certainty": "média",
-                "role": "renda imobiliária listada (provento + preço)",
+                "role": "amostra líquida vs IFIX",
                 "annual_rate_pct": fii_tsr_med,
                 "total_return_12m_pct_median": fii_tsr_med,
                 "dividend_yield_pct_median": fii_dy_med,
                 "sample_size": len(fii_rows),
-                "metric": "mediana TSR ~12m da cesta FII (Yahoo); DY mediana à parte",
+                "metric": "mediana TSR ~12m da cesta FII (Yahoo); comparar com IFIX oficial",
             },
             {
                 "id": "gold",
@@ -439,13 +499,13 @@ def build_dividends_radar(
             "includes": ["variação de preço/cota", "dividendos/proventos em dinheiro (eventos Yahoo)"],
             "excludes": [
                 "recompra de ações (buyback) — ainda sem fonte consolidada gratuita",
-                "índice IFIX oficial (Yahoo não entrega série estável; usamos cesta líquida)",
             ],
+            "ifix_note": "IFIX oficial B3 entra em benchmarks/oportunidade/histórico; a cesta FII continua como amostra líquida individual.",
             "liquidity_note": "Volume da última sessão reforça: sem liquidez, DY alto não serve.",
         },
         "source_note": (
-            "Ações e FIIs: DY = cash ~365d / preço; TSR = preço + cash no mesmo intervalo. "
-            "Cesta FII é proxy educacional de fundos líquidos — não o IFIX oficial."
+            "Ações e FIIs individuais: DY/TSR via Yahoo. "
+            "IFIX (índice) = B3 oficial em /data/ifix.json e benchmarks."
         ),
         "top_yield": top_yield,
         "top_fii": top_fii,
@@ -680,6 +740,7 @@ def build_sources_registry(window: dict[str, Any]) -> dict[str, Any]:
         "analysis_start": window["start_date"],
         "trust_order": [
             "BCB SGS (canônico BR)",
+            "B3 IFIX oficial",
             "Yahoo Finance chart diário + eventos de dividendos",
             "AwesomeAPI (FX fallback)",
             "Editorial (Suno / InfoMoney / B3 educacionais)",
@@ -694,12 +755,20 @@ def build_sources_registry(window: dict[str, Any]) -> dict[str, Any]:
                 "note": "Séries oficiais em chunks ≤10 anos; janela alinhada desde analysis_start.",
             },
             {
+                "id": "b3_ifix",
+                "name": "B3 — IFIX (índice oficial)",
+                "trust": "canonical",
+                "url": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-estatisticas-historicas.htm",
+                "fields": ["IFIX mensal", "IFIX anual", "carteira teórica do dia"],
+                "note": "indexStatisticsProxy GetMonthlyEvolution / GetYearlyVariation + GetPortfolioDay.",
+            },
+            {
                 "id": "yahoo",
                 "name": "Yahoo Finance chart API",
                 "trust": "operational",
                 "url": "https://finance.yahoo.com/",
                 "fields": ["Ibov", "S&P 500", "BTC", "Ouro", "DXY", "USD/BRL", "US 10Y", "EWZ", "B3 elite", "FIIs", "DY cash events"],
-                "note": "period1/period2 + interval=1d. DY/TSR = eventos div trailing 12m. FIIs = cesta líquida (não IFIX).",
+                "note": "period1/period2 + interval=1d. DY/TSR = eventos div trailing 12m. Cesta FII ≠ IFIX.",
             },
             {
                 "id": "awesomeapi",
@@ -787,12 +856,39 @@ def main() -> int:
     )
     print(f"  fii ok_count={fii_liq.get('ok_count')} errors={len(fii_liq.get('errors') or [])}")
 
-    benchmarks = build_benchmarks(official, market, start_date)
-    aligned = build_history_aligned(official, market, start_date)
+    print("  fetching IFIX oficial (B3)…")
+    try:
+        ifix = fetch_ifix_bundle(start_date=start_date)
+        print(
+            f"  IFIX last={ifix.get('latest')} ({ifix.get('as_of_month')}) "
+            f"t12={ifix.get('trailing_12m_pct')}% cagr={ifix.get('cagr_since_start_pct')}% "
+            f"portfolio={((ifix.get('portfolio') or {}).get('count'))}"
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  IFIX FAIL: {exc}")
+        ifix = None
+
+    benchmarks = build_benchmarks(official, market, start_date, ifix)
+    aligned = build_history_aligned(official, market, start_date, ifix)
 
     write_json("benchmarks.json", benchmarks)
     write_json("history_aligned.json", aligned)
-    write_json("history_monthly.json", build_history_monthly(market, start_date))
+    write_json("history_monthly.json", build_history_monthly({
+        **market,
+        "monthly": aligned.get("returns") or market.get("monthly") or {},
+    }, start_date))
+    if ifix:
+        write_json(
+            "ifix.json",
+            {
+                "as_of": datetime.now(timezone.utc).date().isoformat(),
+                "analysis_start": start_date,
+                "status": "live",
+                "trust": "canonical",
+                **ifix,
+                "disclaimer": DISCLAIMER,
+            },
+        )
     write_json("opportunity_cost.json", build_opportunity_cost(official, benchmarks, start_date, fii_liq))
     write_json("elite_stocks.json", build_elite(liq, start_date, fii_liq))
     write_json("liquidity_watch.json", build_liquidity(liq, start_date, fii_liq))
@@ -813,7 +909,7 @@ def main() -> int:
         "meta.json",
         {
             "product": "Divmetric",
-            "version": 4,
+            "version": 5,
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "disclaimer": DISCLAIMER,
             "status": "live",
@@ -821,8 +917,9 @@ def main() -> int:
             "analysis_year": window.get("start_year"),
             "layers": {
                 "official": "BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX)",
+                "ifix": "B3 IFIX oficial (mensal/anual/carteira)",
                 "market": "Yahoo chart diário (period1/2) + eventos DY + AwesomeAPI",
-                "fii": "Cesta líquida B3 (proxy; não IFIX oficial)",
+                "fii": "Cesta líquida B3 (comparar com IFIX oficial)",
                 "aligned_history": f"monthly from {start_date}",
                 "editorial": "Suno / InfoMoney / B3 referência",
             },
@@ -830,6 +927,8 @@ def main() -> int:
                 "benchmarks": len(benchmarks.get("items") or []),
                 "elite": len(liq.get("elite") or []),
                 "fii": len(fii_liq.get("elite") or []),
+                "ifix_months": len((ifix or {}).get("monthly_levels") or []),
+                "ifix_constituents": ((ifix or {}).get("portfolio") or {}).get("count") or 0,
                 "gap_attention": len(liq.get("gap_attention") or []) + len(fii_liq.get("gap_attention") or []),
                 "analog_years": max(0, len((build_analogs(official, market, start_date).get("analogs") or [])) - 1),
                 "dividend_rows": len([e for e in (liq.get("elite") or []) if e.get("dividend_yield_pct") is not None]),

@@ -12,12 +12,12 @@
       "dividendos/proventos em dinheiro (eventos Yahoo)"
     ],
     "excludes": [
-      "recompra de ações (buyback) — ainda sem fonte consolidada gratuita",
-      "índice IFIX oficial (Yahoo não entrega série estável; usamos cesta líquida)"
+      "recompra de ações (buyback) — ainda sem fonte consolidada gratuita"
     ],
+    "ifix_note": "IFIX oficial B3 entra em benchmarks/oportunidade/histórico; a cesta FII continua como amostra líquida individual.",
     "liquidity_note": "Volume da última sessão reforça: sem liquidez, DY alto não serve."
   },
-  "source_note": "Ações e FIIs: DY = cash ~365d / preço; TSR = preço + cash no mesmo intervalo. Cesta FII é proxy educacional de fundos líquidos — não o IFIX oficial.",
+  "source_note": "Ações e FIIs individuais: DY/TSR via Yahoo. IFIX (índice) = B3 oficial em /data/ifix.json e benchmarks.",
   "top_yield": [
     {
       "ticker": "VBBR3",

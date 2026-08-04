@@ -3,6 +3,7 @@
   "analysis_start": "2015-01-01",
   "trust_order": [
     "BCB SGS (canônico BR)",
+    "B3 IFIX oficial",
     "Yahoo Finance chart diário + eventos de dividendos",
     "AwesomeAPI (FX fallback)",
     "Editorial (Suno / InfoMoney / B3 educacionais)"
@@ -24,6 +25,18 @@
       "note": "Séries oficiais em chunks ≤10 anos; janela alinhada desde analysis_start."
     },
     {
+      "id": "b3_ifix",
+      "name": "B3 — IFIX (índice oficial)",
+      "trust": "canonical",
+      "url": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-estatisticas-historicas.htm",
+      "fields": [
+        "IFIX mensal",
+        "IFIX anual",
+        "carteira teórica do dia"
+      ],
+      "note": "indexStatisticsProxy GetMonthlyEvolution / GetYearlyVariation + GetPortfolioDay."
+    },
+    {
       "id": "yahoo",
       "name": "Yahoo Finance chart API",
       "trust": "operational",
@@ -41,7 +54,7 @@
         "FIIs",
         "DY cash events"
       ],
-      "note": "period1/period2 + interval=1d. DY/TSR = eventos div trailing 12m. FIIs = cesta líquida (não IFIX)."
+      "note": "period1/period2 + interval=1d. DY/TSR = eventos div trailing 12m. Cesta FII ≠ IFIX."
     },
     {
       "id": "awesomeapi",

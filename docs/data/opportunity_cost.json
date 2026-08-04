@@ -41,24 +41,34 @@
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
+      "id": "ifix",
+      "label": "IFIX (B3 oficial)",
+      "certainty": "média",
+      "role": "índice oficial de FIIs",
+      "annual_rate_pct": 8.89,
+      "trailing_12m_pct": 8.89,
+      "cagr_since_start_pct": 9.16,
+      "metric": "B3 oficial — retorno ~12m + CAGR desde janela"
+    },
+    {
       "id": "fii_basket",
       "label": "FIIs (mediana da cesta líquida)",
       "certainty": "média",
-      "role": "renda imobiliária listada (provento + preço)",
+      "role": "amostra líquida vs IFIX",
       "annual_rate_pct": 8.95,
       "total_return_12m_pct_median": 8.95,
       "dividend_yield_pct_median": 10.2,
       "sample_size": 18,
-      "metric": "mediana TSR ~12m da cesta FII (Yahoo); DY mediana à parte"
+      "metric": "mediana TSR ~12m da cesta FII (Yahoo); comparar com IFIX oficial"
     },
     {
       "id": "gold",
       "label": "Ouro",
       "certainty": "média",
       "role": "reserva / hedge",
-      "annual_rate_pct": 21.68,
-      "trailing_12m_pct": 21.68,
-      "cagr_since_start_pct": 11.31,
+      "annual_rate_pct": 22.36,
+      "trailing_12m_pct": 22.36,
+      "cagr_since_start_pct": 11.37,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -66,9 +76,9 @@
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -44.84,
-      "trailing_12m_pct": -44.84,
-      "cagr_since_start_pct": 58.09,
+      "annual_rate_pct": -44.55,
+      "trailing_12m_pct": -44.55,
+      "cagr_since_start_pct": 58.17,
       "metric": "retorno ~12m + CAGR desde janela"
     }
   ],

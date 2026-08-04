@@ -36,12 +36,23 @@ Todas as séries oficiais e de mercado, analogias Selic×anos, CAGR e índices 1
 | Camada | Fonte | Papel |
 |--------|--------|--------|
 | Macro oficial | BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX) | Canônico BR — calculadora e custo de oportunidade |
+| IFIX oficial | **B3** `indexStatisticsProxy` (mensal/anual) + carteira do dia | Benchmark canônico de FIIs desde 2015 |
 | Mercado | Yahoo chart **diário** (`period1`/`period2`) + AwesomeAPI | Ibov, S&P, BTC, ouro, DXY, USD/BRL, US10Y, EWZ, B3 |
-| Dividendos | Eventos `div` do Yahoo (trailing 12m cash / preço) + cesta FII líquida | Radar DY/TSR ações e FIIs; Status Invest depois (export autorizado) |
-| Referência | B3 | Contexto de listagem/liquidez (sem scrape agressivo) |
+| Dividendos / FIIs individuais | Eventos `div` do Yahoo | Radar DY/TSR; cesta FII complementar ao IFIX |
+| Referência | B3 | Contexto de listagem/liquidez |
 | Editorial | Suno, InfoMoney | Guias e notícias; citação + link |
 
-**Regra técnica:** não usar `range=max` no Yahoo para histórico longo — a API faz downsample e o “retorno 12m” vira retorno multi-ano.
+### Roadmap de enriquecimento (próximas fontes)
+
+| Tema | Fonte preferida | Status |
+|------|-----------------|--------|
+| Minério de ferro | Yahoo `TIO=F` / Fastmarkets proxy | Pendente |
+| Dow Jones | Yahoo `^DJI` | Pendente (S&P já no ar) |
+| Bolsas mundiais | Yahoo `^N225`, `^GDAXI`, `^FTSE`, `^HSI`… | Pendente |
+| Brent / WTI | Yahoo `BZ=F`, `CL=F` | Pendente |
+| Juros países | FRED (DGS10 etc.) + BCB / banks sites | Pendente (US10Y já proxy Yahoo) |
+| COPOM | BCB agenda + atas (HTML/RSS) | Pendente |
+| Notícias / agenda / balanços | RSS InfoMoney/Valor + calendar B3/earnings | Pendente (editorial leve; digest estilo Velumetric) |
 
 ## Pipelines (alvo)
 

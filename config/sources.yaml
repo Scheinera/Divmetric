@@ -26,6 +26,13 @@ sources:
         - {code: 433, field: ipca_mensal}
         - {code: 28655, field: igpm}
         - {code: 1, field: ptax_venda}
+  official_index:
+    - id: b3_ifix
+      name: B3 IFIX (índice oficial)
+      role: ifix_monthly_yearly_portfolio
+      trust: canonical
+      url: https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-estatisticas-historicas.htm
+      note: indexStatisticsProxy GetMonthlyEvolution / GetYearlyVariation + GetPortfolioDay
   market:
     - id: yahoo_chart
       name: Yahoo Finance chart API (HTTP)

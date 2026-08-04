@@ -75,7 +75,10 @@
     (async () => {
       const panel = document.getElementById("panel");
       try {
-        const data = await loadJSON("/data/dividends_radar.json");
+        const [data, ifix] = await Promise.all([
+          loadJSON("/data/dividends_radar.json"),
+          loadJSON("/data/ifix.json").catch(() => null),
+        ]);
         const top = data.top_yield || [];
         const fiis = data.top_fii || [];
         const upcoming = data.upcoming_payments || [];
@@ -87,6 +90,17 @@
           return;
         }
 
+        const ifixBlock = ifix ? `
+          <h2>IFIX oficial (B3)</h2>
+          <p class="muted">Índice canônico de FIIs — não confundir com a cesta líquida abaixo.</p>
+          <div class="stat-row">
+            <div class="stat"><strong>Nível</strong><span>${fmt(ifix.latest, 2)} · ${ifix.as_of_month || ""}</span></div>
+            <div class="stat"><strong>~12m</strong><span>${fmt(ifix.trailing_12m_pct)}%</span></div>
+            <div class="stat"><strong>CAGR desde ${ifix.analysis_start || "2015"}</strong><span>${fmt(ifix.cagr_since_start_pct)}%</span></div>
+            <div class="stat"><strong>Carteira</strong><span>${(ifix.portfolio || {}).count ?? "—"} FIIs</span></div>
+          </div>
+          <p class="tiny muted">Fonte: ${(ifix.source || "B3")}</p>` : "";
+
         panel.innerHTML = `
           <h2>${method.title || "Dividendos e total return"}</h2>
           <p class="muted">${method.summary || ""}</p>
@@ -95,12 +109,12 @@
             ${(method.includes || []).map((x) => `<li>Inclui: ${x}</li>`).join("")}
             ${(method.excludes || []).map((x) => `<li>Ainda fora: ${x}</li>`).join("")}
           </ul>
-          <p class="tiny muted">${method.liquidity_note || ""}</p>
+          <p class="tiny muted">${method.ifix_note || method.liquidity_note || ""}</p>
+          ${ifixBlock}
           <p class="tiny muted" style="margin-top:1rem">${data.source_note || ""} · ${data.as_of || ""}</p>
-          ${tableFor(fiis, "Fundos imobiliários (cesta líquida)")}
+          ${tableFor(fiis, "Fundos imobiliários (cesta líquida vs IFIX)")}
           ${tableFor(top, "Ações (elite B3)")}
           <p class="tiny muted" style="margin-top:0.75rem">
-            Cesta FII é proxy educacional — não é o índice IFIX oficial.
             ${data.analysis_start ? `Janela desde ${data.analysis_start}.` : ""}
           </p>
           ${upcoming.length ? `<h2>Próximos pagamentos</h2><pre class="tiny">${JSON.stringify(upcoming, null, 2)}</pre>` : ""}`;
