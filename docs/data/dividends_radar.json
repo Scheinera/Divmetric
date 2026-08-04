@@ -1,8 +1,172 @@
 {
   "as_of": "2026-08-04",
+  "analysis_start": "2015-01-01",
   "source_layer": "market",
-  "source_note": "DY via Yahoo (quando disponível). Agenda Status Invest entra depois com export autorizado.",
-  "top_yield": [],
+  "source_note": "DY = soma dos dividendos em dinheiro (eventos Yahoo chart) nos últimos ~365 dias dividida pelo último preço. Agenda B3/Status Invest pode enriquecer com export autorizado.",
+  "top_yield": [
+    {
+      "ticker": "CMIG4",
+      "dividend_yield_pct": 11.29,
+      "last": 11.34,
+      "cagr_since_start_pct": 5.17,
+      "trailing_12m_pct": 9.78,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "BBSE3",
+      "dividend_yield_pct": 11.0,
+      "last": 41.36,
+      "cagr_since_start_pct": 2.71,
+      "trailing_12m_pct": 23.68,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "ITSA4",
+      "dividend_yield_pct": 9.43,
+      "last": 13.88,
+      "cagr_since_start_pct": 8.82,
+      "trailing_12m_pct": 36.92,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "BBDC4",
+      "dividend_yield_pct": 8.44,
+      "last": 18.43,
+      "cagr_since_start_pct": 2.76,
+      "trailing_12m_pct": 18.67,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "TAEE11",
+      "dividend_yield_pct": 8.26,
+      "last": 39.66,
+      "cagr_since_start_pct": 6.64,
+      "trailing_12m_pct": 18.88,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "ITUB4",
+      "dividend_yield_pct": 8.04,
+      "last": 42.89,
+      "cagr_since_start_pct": 8.63,
+      "trailing_12m_pct": 25.64,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "VIVT3",
+      "dividend_yield_pct": 7.61,
+      "last": 32.63,
+      "cagr_since_start_pct": 4.83,
+      "trailing_12m_pct": 3.65,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "VALE3",
+      "dividend_yield_pct": 7.18,
+      "last": 76.28,
+      "cagr_since_start_pct": 11.66,
+      "trailing_12m_pct": 42.69,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "PETR4",
+      "dividend_yield_pct": 6.94,
+      "last": 43.05,
+      "cagr_since_start_pct": 14.08,
+      "trailing_12m_pct": 33.65,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "RENT3",
+      "dividend_yield_pct": 5.48,
+      "last": 38.1,
+      "cagr_since_start_pct": 11.71,
+      "trailing_12m_pct": 10.85,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "ABEV3",
+      "dividend_yield_pct": 4.85,
+      "last": 15.99,
+      "cagr_since_start_pct": -0.02,
+      "trailing_12m_pct": 28.33,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "B3SA3",
+      "dividend_yield_pct": 4.83,
+      "last": 15.62,
+      "cagr_since_start_pct": 14.76,
+      "trailing_12m_pct": 24.07,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "VBBR3",
+      "dividend_yield_pct": 4.32,
+      "last": 36.13,
+      "cagr_since_start_pct": 6.6,
+      "trailing_12m_pct": 82.54,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "WEGE3",
+      "dividend_yield_pct": 4.25,
+      "last": 47.2,
+      "cagr_since_start_pct": 19.64,
+      "trailing_12m_pct": 27.19,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "EQTL3",
+      "dividend_yield_pct": 4.1,
+      "last": 38.66,
+      "cagr_since_start_pct": 18.36,
+      "trailing_12m_pct": 13.47,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "SUZB3",
+      "dividend_yield_pct": 2.59,
+      "last": 43.32,
+      "cagr_since_start_pct": 8.92,
+      "trailing_12m_pct": -16.93,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "BBAS3",
+      "dividend_yield_pct": 2.58,
+      "last": 21.27,
+      "cagr_since_start_pct": 5.59,
+      "trailing_12m_pct": 15.91,
+      "as_of": "2026-08-03",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    },
+    {
+      "ticker": "RADL3",
+      "dividend_yield_pct": 2.38,
+      "last": 18.48,
+      "cagr_since_start_pct": 12.53,
+      "trailing_12m_pct": 39.94,
+      "as_of": "2026-07-31",
+      "source": "yahoo_chart_dividends_trailing_12m"
+    }
+  ],
   "upcoming_payments": [],
-  "status": "live_partial"
+  "status": "live"
 }

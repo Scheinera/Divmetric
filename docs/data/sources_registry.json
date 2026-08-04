@@ -1,0 +1,91 @@
+{
+  "as_of": "2026-08-04",
+  "analysis_start": "2015-01-01",
+  "trust_order": [
+    "BCB SGS (canônico BR)",
+    "Yahoo Finance chart diário + eventos de dividendos",
+    "AwesomeAPI (FX fallback)",
+    "Editorial (Suno / InfoMoney / B3 educacionais)"
+  ],
+  "sources": [
+    {
+      "id": "bcb",
+      "name": "Banco Central do Brasil — SGS",
+      "trust": "canonical",
+      "url": "https://dadosabertos.bcb.gov.br/",
+      "fields": [
+        "Selic (432)",
+        "CDI (12)",
+        "IPCA 12m (13522)",
+        "IPCA m (433)",
+        "IGP-M (28655)",
+        "PTAX (1)"
+      ],
+      "note": "Séries oficiais em chunks ≤10 anos; janela alinhada desde analysis_start."
+    },
+    {
+      "id": "yahoo",
+      "name": "Yahoo Finance chart API",
+      "trust": "operational",
+      "url": "https://finance.yahoo.com/",
+      "fields": [
+        "Ibov",
+        "S&P 500",
+        "BTC",
+        "Ouro",
+        "DXY",
+        "USD/BRL",
+        "US 10Y",
+        "EWZ",
+        "B3 elite",
+        "DY cash events"
+      ],
+      "note": "period1/period2 + interval=1d (evita downsample de range=max). DY = eventos div trailing 12m."
+    },
+    {
+      "id": "awesomeapi",
+      "name": "AwesomeAPI",
+      "trust": "operational",
+      "url": "https://docs.awesomeapi.com.br/",
+      "fields": [
+        "USD-BRL fallback"
+      ]
+    },
+    {
+      "id": "b3",
+      "name": "B3 — educacionais / listados",
+      "trust": "reference",
+      "url": "https://www.b3.com.br/",
+      "fields": [
+        "contexto de listagem e liquidez"
+      ],
+      "note": "Referência de mercado; números do site vêm do collector, não de scrape agressivo."
+    },
+    {
+      "id": "status_invest",
+      "name": "Status Invest",
+      "trust": "consolidated_ui",
+      "url": "https://statusinvest.com.br/",
+      "fields": [
+        "DY consolidado",
+        "agenda",
+        "FII"
+      ],
+      "note": "Preferir export/API autorizada; não é fonte canônica do MVP."
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "trust": "editorial",
+      "url": "https://www.suno.com.br/guias/dividendos/"
+    },
+    {
+      "id": "infomoney",
+      "name": "InfoMoney",
+      "trust": "editorial",
+      "url": "https://www.infomoney.com.br/"
+    }
+  ],
+  "rationale": "Cobre ciclos de Selic no Brasil, IPO/expansão de cripto líquidos, e séries BCB/Yahoo com boa continuidade. BTC entra quando houver preço.\n",
+  "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
+}

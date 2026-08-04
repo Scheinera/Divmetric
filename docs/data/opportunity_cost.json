@@ -1,6 +1,7 @@
 {
   "as_of": "2026-08-04",
   "status": "live",
+  "analysis_start": "2015-01-01",
   "principle": "Toda escolha de capital tem um custo implícito: o que você deixou de ganhar na melhor alternativa comparável.",
   "primary_benchmark": "selic",
   "selic_annual_rate_pct": 14.25,
@@ -15,29 +16,48 @@
       "label": "Caixa / Selic",
       "certainty": "alta",
       "role": "âncora de oportunidade",
-      "annual_rate_pct": 14.25
+      "annual_rate_pct": 14.25,
+      "metric": "taxa oficial a.a."
     },
     {
-      "id": "dividends",
-      "label": "Carteira de dividendos",
+      "id": "spx",
+      "label": "S&P 500",
       "certainty": "média",
-      "role": "renda + risco de preço",
-      "annual_rate_pct": null,
-      "note": "Usar DY consolidado quando radar estiver preenchido"
+      "role": "equity mercados desenvolvidos",
+      "annual_rate_pct": 18.15,
+      "trailing_12m_pct": 18.15,
+      "cagr_since_start_pct": 11.81,
+      "metric": "retorno ~12m + CAGR desde janela"
     },
     {
       "id": "elite_equity",
-      "label": "Ações de elite / líderes",
+      "label": "Ibovespa / líderes",
       "certainty": "média-baixa",
-      "role": "crescimento com liquidez",
-      "annual_rate_pct": 32.85
+      "role": "crescimento com liquidez BR",
+      "annual_rate_pct": 33.76,
+      "trailing_12m_pct": 33.76,
+      "cagr_since_start_pct": 11.89,
+      "metric": "retorno ~12m + CAGR desde janela"
+    },
+    {
+      "id": "gold",
+      "label": "Ouro",
+      "certainty": "média",
+      "role": "reserva / hedge",
+      "annual_rate_pct": 21.6,
+      "trailing_12m_pct": 21.6,
+      "cagr_since_start_pct": 11.31,
+      "metric": "retorno ~12m + CAGR desde janela"
     },
     {
       "id": "btc",
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -28.28
+      "annual_rate_pct": -44.82,
+      "trailing_12m_pct": -44.82,
+      "cagr_since_start_pct": 58.1,
+      "metric": "retorno ~12m + CAGR desde janela"
     }
   ],
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."

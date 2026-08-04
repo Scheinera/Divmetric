@@ -26,14 +26,22 @@ O site consome apenas **nossos JSON** em `docs/data/` (mínimo processamento no 
 
 **Regra de ouro:** liquidez primeiro. Explosões de ~2% no pré-market são *sinal de atenção* (fluxo/notícia), não ordem automática.
 
+## Janela de análise
+
+**Início alinhado: `2015-01-01`** (`config/analysis_window.yaml`).  
+Todas as séries oficiais e de mercado, analogias Selic×anos, CAGR e índices 100 usam essa âncora (ou o primeiro preço disponível do ativo).
+
 ## Fontes
 
 | Camada | Fonte | Papel |
 |--------|--------|--------|
-| Macro oficial | BCB SGS (Selic, IPCA…) | Referência da calculadora |
-| Mercado | Yahoo chart API + AwesomeAPI | Ibov, BTC, ouro, DXY, USD/BRL, B3 |
-| Dividendos BR | Parcial agora; Status Invest depois (export autorizado) | DY, agenda, FII, ranking |
+| Macro oficial | BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX) | Canônico BR — calculadora e custo de oportunidade |
+| Mercado | Yahoo chart **diário** (`period1`/`period2`) + AwesomeAPI | Ibov, S&P, BTC, ouro, DXY, USD/BRL, US10Y, EWZ, B3 |
+| Dividendos | Eventos `div` do Yahoo (trailing 12m cash / preço) | Radar DY; Status Invest depois (export autorizado) |
+| Referência | B3 | Contexto de listagem/liquidez (sem scrape agressivo) |
 | Editorial | Suno, InfoMoney | Guias e notícias; citação + link |
+
+**Regra técnica:** não usar `range=max` no Yahoo para histórico longo — a API faz downsample e o “retorno 12m” vira retorno multi-ano.
 
 ## Pipelines (alvo)
 

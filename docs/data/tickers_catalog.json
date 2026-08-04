@@ -1,7 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "live",
-  "updated_at": "2026-08-04T00:58:00.051218+00:00",
+  "analysis_start": "2015-01-01",
+  "updated_at": "2026-08-04T09:46:24.700661+00:00",
   "tickers": [
     {
       "ticker": "ABEV3",
@@ -9,15 +10,21 @@
       "type": "acao",
       "market": "B3",
       "last": 15.99,
-      "volume": 38243300
+      "volume": 38243300,
+      "dividend_yield_pct": 4.85,
+      "cagr_since_start_pct": -0.02,
+      "start_used": "2015-01-02"
     },
     {
-      "ticker": "BBAS3",
-      "symbol": "BBAS3.SA",
+      "ticker": "B3SA3",
+      "symbol": "B3SA3.SA",
       "type": "acao",
       "market": "B3",
-      "last": 21.35,
-      "volume": 28502900
+      "last": 15.62,
+      "volume": 30632200,
+      "dividend_yield_pct": 4.83,
+      "cagr_since_start_pct": 14.76,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "BBDC4",
@@ -25,23 +32,32 @@
       "type": "acao",
       "market": "B3",
       "last": 18.43,
-      "volume": 25192900
+      "volume": 25192900,
+      "dividend_yield_pct": 8.44,
+      "cagr_since_start_pct": 2.76,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "PETR4",
       "symbol": "PETR4.SA",
       "type": "acao",
       "market": "B3",
-      "last": 43.42,
-      "volume": 24997300
+      "last": 43.05,
+      "volume": 24400900,
+      "dividend_yield_pct": 6.94,
+      "cagr_since_start_pct": 14.08,
+      "start_used": "2015-01-02"
     },
     {
-      "ticker": "B3SA3",
-      "symbol": "B3SA3.SA",
+      "ticker": "ITSA4",
+      "symbol": "ITSA4.SA",
       "type": "acao",
       "market": "B3",
-      "last": 15.73,
-      "volume": 24490400
+      "last": 13.88,
+      "volume": 19025700,
+      "dividend_yield_pct": 9.43,
+      "cagr_since_start_pct": 8.82,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "VALE3",
@@ -49,7 +65,10 @@
       "type": "acao",
       "market": "B3",
       "last": 76.28,
-      "volume": 17353300
+      "volume": 17353300,
+      "dividend_yield_pct": 7.18,
+      "cagr_since_start_pct": 11.66,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "ITUB4",
@@ -57,15 +76,76 @@
       "type": "acao",
       "market": "B3",
       "last": 42.89,
-      "volume": 10285400
+      "volume": 10285400,
+      "dividend_yield_pct": 8.04,
+      "cagr_since_start_pct": 8.63,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "CMIG4",
+      "symbol": "CMIG4.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 11.34,
+      "volume": 9550800,
+      "dividend_yield_pct": 11.29,
+      "cagr_since_start_pct": 5.17,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "BBAS3",
+      "symbol": "BBAS3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 21.27,
+      "volume": 8365700,
+      "dividend_yield_pct": 2.58,
+      "cagr_since_start_pct": 5.59,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "PRIO3",
       "symbol": "PRIO3.SA",
       "type": "acao",
       "market": "B3",
-      "last": 60.85,
-      "volume": 7178400
+      "last": 58.5,
+      "volume": 7072400,
+      "dividend_yield_pct": null,
+      "cagr_since_start_pct": 52.52,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "RADL3",
+      "symbol": "RADL3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 18.48,
+      "volume": 6254000,
+      "dividend_yield_pct": 2.38,
+      "cagr_since_start_pct": 12.53,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "VBBR3",
+      "symbol": "VBBR3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 36.13,
+      "volume": 5733700,
+      "dividend_yield_pct": 4.32,
+      "cagr_since_start_pct": 6.6,
+      "start_used": "2018-03-14"
+    },
+    {
+      "ticker": "BBSE3",
+      "symbol": "BBSE3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 41.36,
+      "volume": 5313900,
+      "dividend_yield_pct": 11.0,
+      "cagr_since_start_pct": 2.71,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "WEGE3",
@@ -73,15 +153,65 @@
       "type": "acao",
       "market": "B3",
       "last": 47.2,
-      "volume": 5153000
+      "volume": 5153000,
+      "dividend_yield_pct": 4.25,
+      "cagr_since_start_pct": 19.64,
+      "start_used": "2015-01-02"
     },
     {
       "ticker": "RENT3",
       "symbol": "RENT3.SA",
       "type": "acao",
       "market": "B3",
-      "last": 37.61,
-      "volume": 4718300
+      "last": 38.1,
+      "volume": 4634000,
+      "dividend_yield_pct": 5.48,
+      "cagr_since_start_pct": 11.71,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "VIVT3",
+      "symbol": "VIVT3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 32.63,
+      "volume": 4096300,
+      "dividend_yield_pct": 7.61,
+      "cagr_since_start_pct": 4.83,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "EQTL3",
+      "symbol": "EQTL3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 38.66,
+      "volume": 3594100,
+      "dividend_yield_pct": 4.1,
+      "cagr_since_start_pct": 18.36,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "SUZB3",
+      "symbol": "SUZB3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 43.32,
+      "volume": 3411300,
+      "dividend_yield_pct": 2.59,
+      "cagr_since_start_pct": 8.92,
+      "start_used": "2017-11-10"
+    },
+    {
+      "ticker": "TAEE11",
+      "symbol": "TAEE11.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 39.66,
+      "volume": 1166600,
+      "dividend_yield_pct": 8.26,
+      "cagr_since_start_pct": 6.64,
+      "start_used": "2015-01-02"
     }
   ]
 }

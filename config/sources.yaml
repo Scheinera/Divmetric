@@ -11,26 +11,47 @@ pillars:
   - liquidity_first
   - world_frameworks
 
+# Ordem de confiança: canônico → operacional → consolidado UI → editorial
 sources:
   official:
     - id: bcb_sgs
-      name: Banco Central do Brasil (SGS)
-      role: selic_ipca_macro
+      name: Banco Central do Brasil (SGS / Dados Abertos)
+      role: selic_cdi_ipca_igpm_ptax
       trust: canonical
+      url: https://dadosabertos.bcb.gov.br/
+      series:
+        - {code: 432, field: selic_meta}
+        - {code: 12, field: cdi_diario}
+        - {code: 13522, field: ipca_12m}
+        - {code: 433, field: ipca_mensal}
+        - {code: 28655, field: igpm}
+        - {code: 1, field: ptax_venda}
   market:
     - id: yahoo_chart
       name: Yahoo Finance chart API (HTTP)
-      role: prices_indices_btc_gold_dxy_b3
+      role: prices_indices_btc_gold_dxy_b3_dividends
       trust: operational
+      url: https://finance.yahoo.com/
+      note: >
+        Usar period1/period2 + interval=1d. range=max downsample e quebra retorno 12m.
+        Dividend yield = soma eventos div ~365d / preço.
     - id: awesomeapi
       name: AwesomeAPI USD-BRL
       role: fx_fallback
       trust: operational
+      url: https://docs.awesomeapi.com.br/
+  reference:
+    - id: b3
+      name: B3
+      role: listing_liquidity_context
+      trust: reference
+      url: https://www.b3.com.br/
   dividends_consolidated:
     - id: status_invest
       name: Status Invest
       role: dy_agenda_fii_ranking
       trust: consolidated_ui
+      url: https://statusinvest.com.br/
       note: Preferir export/API autorizada; guardar cópia diária em store/
   editorial:
     - id: suno
@@ -47,13 +68,18 @@ export:
   files:
     - meta.json
     - benchmarks.json
+    - official_macro.json
+    - history_aligned.json
+    - history_monthly.json
     - dividends_radar.json
     - tickers_catalog.json
-    - history_monthly.json
     - opportunity_cost.json
     - elite_stocks.json
     - historical_analogs.json
     - liquidity_watch.json
     - world_frameworks.json
+    - sources_registry.json
+
+analysis_window: config/analysis_window.yaml
 
 disclaimer: Conteúdo educacional. Não é recomendação de investimento.

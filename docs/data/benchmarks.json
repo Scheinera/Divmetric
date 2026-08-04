@@ -1,7 +1,8 @@
 {
   "as_of": "2026-08-04",
   "currency": "BRL",
-  "note": "Selic/IPCA = BCB. Demais = retorno ~12 meses (Yahoo) para projeção educativa — não é retorno garantido.",
+  "analysis_start": "2015-01-01",
+  "note": "Séries alinhadas desde 2015-01-01. Selic/CDI/IPCA = BCB. Demais = Yahoo chart (CAGR desde a janela + retorno ~12m). Educacional.",
   "items": [
     {
       "id": "selic",
@@ -9,85 +10,143 @@
       "source_layer": "official",
       "annual_rate_pct": 14.25,
       "unit": "a.a.",
-      "description": "BCB SGS 432 · ref 05/08/2026",
-      "as_of": "05/08/2026"
+      "description": "BCB SGS 432 · ref 2026-08-04",
+      "as_of": "2026-08-04"
+    },
+    {
+      "id": "cdi",
+      "label": "CDI",
+      "source_layer": "official",
+      "annual_rate_pct": 14.15,
+      "unit": "% a.a. (approx 252)",
+      "description": "BCB SGS 12 · ref 2026-07-31",
+      "as_of": "2026-07-31"
     },
     {
       "id": "ipca",
       "label": "IPCA (12m)",
       "source_layer": "official",
       "annual_rate_pct": 4.64,
-      "unit": "a.a. acum.",
-      "description": "BCB SGS 13522 · ref 01/06/2026",
-      "as_of": "01/06/2026"
+      "unit": "%",
+      "description": "BCB SGS 13522 · ref 2026-06-01",
+      "as_of": "2026-06-01"
     },
     {
       "id": "ibov",
       "label": "Ibovespa",
       "source_layer": "market",
-      "annual_rate_pct": 32.85,
-      "trailing_12m_pct": 32.85,
-      "cagr_approx_pct": 7.57,
-      "unit": "retorno 12m (proxy anual ilustrativo)",
-      "description": "Yahoo chart ^BVSP — retorno ~12m educativo",
-      "as_of": "2026-08-03",
+      "annual_rate_pct": 33.76,
+      "trailing_12m_pct": 33.76,
+      "cagr_since_start_pct": 11.89,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário ^BVSP desde 2015-01-01",
+      "as_of": "2026-07-31",
       "symbol": "^BVSP",
-      "last_close": 178000.2344
+      "last_close": 177999.0,
+      "start_used": "2015-01-02"
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "source_layer": "market",
+      "annual_rate_pct": 18.15,
+      "trailing_12m_pct": 18.15,
+      "cagr_since_start_pct": 11.81,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário ^GSPC desde 2015-01-01",
+      "as_of": "2026-07-31",
+      "symbol": "^GSPC",
+      "last_close": 7489.7202,
+      "start_used": "2015-01-02"
     },
     {
       "id": "btc",
       "label": "Bitcoin",
       "source_layer": "market",
-      "annual_rate_pct": -28.28,
-      "trailing_12m_pct": -28.28,
-      "cagr_approx_pct": 9.76,
-      "unit": "retorno 12m (proxy anual ilustrativo)",
-      "description": "Yahoo chart BTC-USD — retorno ~12m educativo",
+      "annual_rate_pct": -44.82,
+      "trailing_12m_pct": -44.82,
+      "cagr_since_start_pct": 58.1,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário BTC-USD desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "BTC-USD",
-      "last_close": 63303.6406
+      "last_close": 63492.0,
+      "start_used": "2015-01-01"
     },
     {
       "id": "gold",
       "label": "Ouro (futuro)",
       "source_layer": "market",
-      "annual_rate_pct": 24.85,
-      "trailing_12m_pct": 24.85,
-      "cagr_approx_pct": 17.82,
-      "unit": "retorno 12m (proxy anual ilustrativo)",
-      "description": "Yahoo chart GC=F — retorno ~12m educativo",
+      "annual_rate_pct": 21.6,
+      "trailing_12m_pct": 21.6,
+      "cagr_since_start_pct": 11.31,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário GC=F desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "GC=F",
-      "last_close": 4111.7002
+      "last_close": 4103.2002,
+      "start_used": "2015-01-02"
     },
     {
       "id": "dxy",
       "label": "DXY",
       "source_layer": "market",
-      "annual_rate_pct": -0.05,
-      "trailing_12m_pct": -0.05,
-      "cagr_approx_pct": 1.66,
-      "unit": "retorno 12m (proxy anual ilustrativo)",
-      "description": "Yahoo chart DX-Y.NYB — retorno ~12m educativo",
+      "annual_rate_pct": 1.23,
+      "trailing_12m_pct": 1.23,
+      "cagr_since_start_pct": 0.81,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário DX-Y.NYB desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "DX-Y.NYB",
-      "last_close": 99.978
+      "last_close": 99.998,
+      "start_used": "2015-01-02"
     },
     {
       "id": "usdbrl",
       "label": "USD/BRL",
       "source_layer": "market",
-      "annual_rate_pct": -5.77,
-      "unit": "variação ~12m",
-      "description": "Proxy cambial educativo",
+      "annual_rate_pct": -7.41,
+      "trailing_12m_pct": -7.41,
+      "cagr_since_start_pct": 5.78,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário USDBRL=X desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "USDBRL=X",
-      "last_close": 5.0894
+      "last_close": 5.089,
+      "start_used": "2015-01-01"
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "source_layer": "market",
+      "annual_rate_pct": 4.74,
+      "trailing_12m_pct": 8.83,
+      "cagr_since_start_pct": 7.19,
+      "unit": "% a.a. (nível do título)",
+      "description": "Yahoo chart ^TNX — nível do yield (não retorno de preço)",
+      "as_of": "2026-07-31",
+      "symbol": "^TNX",
+      "last_close": 4.745,
+      "start_used": "2015-01-02"
+    },
+    {
+      "id": "ewz",
+      "label": "MSCI Brazil ETF",
+      "source_layer": "market",
+      "annual_rate_pct": 38.04,
+      "trailing_12m_pct": 38.04,
+      "cagr_since_start_pct": 0.31,
+      "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
+      "description": "Yahoo chart diário EWZ desde 2015-01-01",
+      "as_of": "2026-07-31",
+      "symbol": "EWZ",
+      "last_close": 36.65,
+      "start_used": "2015-01-02"
     }
   ],
   "sources": {
     "official": "BCB SGS",
-    "market": "Yahoo chart API + AwesomeAPI"
+    "market": "Yahoo Finance chart API (period1/period2 diário) + AwesomeAPI"
   },
-  "fetched_at": "2026-08-04T00:58:00.043090+00:00"
+  "fetched_at": "2026-08-04T09:46:24.683870+00:00"
 }

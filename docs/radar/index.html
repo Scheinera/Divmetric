@@ -12,7 +12,7 @@
   <header class="page-header">
     <p class="section-kicker">Dividendos · consolidado</p>
     <h1>Radar de <span>dividendos</span></h1>
-    <p class="tagline">Top yields e próximos pagamentos a partir da nossa cópia diária (Status Invest / feed autorizado).</p>
+    <p class="tagline">Yields trailing ~12m a partir dos eventos de dividendos (Yahoo) nos papéis líquidos da elite B3 — janela alinhada desde 2015.</p>
   </header>
 
   <main class="wrap">
@@ -44,9 +44,9 @@
           <p class="tiny muted">${data.source_note || ""} · ${data.as_of || ""}</p>
           <h2>Top yield (parcial)</h2>
           <table>
-            <thead><tr><th>Ticker</th><th>DY %</th><th>Último</th><th>Ref</th></tr></thead>
+            <thead><tr><th>Ticker</th><th>DY %</th><th>Último</th><th>12m %</th><th>CAGR %</th><th>Ref</th></tr></thead>
             <tbody>
-              ${top.map((r) => `<tr><td>${r.ticker}</td><td>${r.dividend_yield_pct}</td><td>${r.last ?? "—"}</td><td>${r.as_of || ""}</td></tr>`).join("")}
+              ${top.map((r) => `<tr><td>${r.ticker}</td><td>${r.dividend_yield_pct}</td><td>${r.last ?? "—"}</td><td>${r.trailing_12m_pct ?? "—"}</td><td>${r.cagr_since_start_pct ?? "—"}</td><td>${r.as_of || ""}</td></tr>`).join("")}
             </tbody>
           </table>
           ${upcoming.length ? `<h2>Próximos pagamentos</h2><pre class="tiny">${JSON.stringify(upcoming, null, 2)}</pre>` : ""}`;

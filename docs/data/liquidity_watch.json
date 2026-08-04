@@ -1,7 +1,8 @@
 {
   "as_of": "2026-08-04",
   "status": "live",
-  "rule": "Avaliar liquidez antes de qualquer ideias de operação. Sem liquidez, o passado e a notícia não salvam a saída.",
+  "analysis_start": "2015-01-01",
+  "rule": "Avaliar liquidez antes de qualquer ideia de operação. Sem liquidez, o passado e a notícia não salvam a saída.",
   "do_not_operate_when": [
     "Spread amplo / livro fino",
     "Volume atípico sem contexto",
@@ -10,7 +11,7 @@
   ],
   "premarket": {
     "example_threshold_pct": 2.0,
-    "interpretation": "Explosões de ~2% no gap de abertura vs fechamento anterior são um sinal de atenção (fluxo/notícia) — não um gatilho automático de compra/venda. Em B3 usamos gap de abertura como proxy educativo do pré-leilão.",
+    "interpretation": "Explosões de ~2% no gap de abertura vs fechamento anterior são sinal de atenção (fluxo/notícia) — não gatilho automático. Em B3 usamos gap de abertura como proxy educativo.",
     "checklist": [
       "Há notícia verificável?",
       "O volume relativo confirma interesse?",
@@ -20,18 +21,58 @@
   },
   "watch": [
     {
+      "ticker": "PRIO3",
+      "symbol": "PRIO3.SA",
+      "last": 58.5,
+      "volume": 7072400,
+      "day_change_pct": -3.86,
+      "open_gap_pct": -3.62,
+      "trailing_12m_pct": 42.72,
+      "cagr_since_start_pct": 52.52,
+      "start_used": "2015-01-02",
+      "as_of": "2026-08-03",
+      "bars": 2871,
+      "signal": "pre_open_gap_attention",
+      "threshold_pct": 2.0,
+      "note": "Gap abertura vs fechamento anterior ≥ limiar — atenção (não é ordem)."
+    },
+    {
+      "ticker": "PETR4",
+      "symbol": "PETR4.SA",
+      "last": 43.05,
+      "volume": 24400900,
+      "day_change_pct": -0.85,
+      "open_gap_pct": -2.35,
+      "trailing_12m_pct": 33.65,
+      "cagr_since_start_pct": 14.08,
+      "start_used": "2015-01-02",
+      "as_of": "2026-08-03",
+      "bars": 2873,
+      "dividend_yield_pct": 6.94,
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "signal": "pre_open_gap_attention",
+      "threshold_pct": 2.0,
+      "note": "Gap abertura vs fechamento anterior ≥ limiar — atenção (não é ordem)."
+    },
+    {
       "ticker": "RENT3",
       "symbol": "RENT3.SA",
-      "last": 37.61,
-      "volume": 4718300,
-      "day_change_pct": -1.62,
-      "open_gap_pct": 2.01,
-      "as_of": "2026-07-31",
+      "last": 38.1,
+      "volume": 4634000,
+      "day_change_pct": 1.3,
+      "open_gap_pct": 2.23,
+      "trailing_12m_pct": 10.85,
+      "cagr_since_start_pct": 11.71,
+      "start_used": "2015-01-02",
+      "as_of": "2026-08-03",
+      "bars": 2873,
+      "dividend_yield_pct": 5.48,
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
       "signal": "pre_open_gap_attention",
       "threshold_pct": 2.0,
       "note": "Gap abertura vs fechamento anterior ≥ limiar — atenção (não é ordem)."
     }
   ],
-  "source": "Yahoo chart API (B3)",
+  "source": "Yahoo chart diário + eventos de dividendos",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
 }

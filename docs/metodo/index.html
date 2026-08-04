@@ -12,10 +12,11 @@
   <header class="page-header">
     <p class="section-kicker">Pilares · educacional</p>
     <h1>Método <span>Divmetric</span></h1>
-    <p class="tagline">Custo de oportunidade, líderes de mercado, certeza relativa e o que o passado rima com o hoje.</p>
+    <p class="tagline">Custo de oportunidade, líderes de mercado, certeza relativa e o que o passado rima com o hoje — janela alinhada desde 2015.</p>
   </header>
 
   <main class="wrap">
+    <p class="tiny muted" id="window-note" style="margin:0 0 1rem"></p>
     <section class="card" id="oportunidade">
       <h2>Custo de oportunidade</h2>
       <p class="muted" id="oc-principle">—</p>
@@ -47,6 +48,13 @@
       <ol class="muted" id="an-method"></ol>
       <p class="tiny muted" id="an-note"></p>
     </section>
+
+    <section class="card" style="margin-top:1rem" id="fontes">
+      <h2>Fontes e confiança</h2>
+      <p class="muted" id="sources-order">—</p>
+      <ul class="check muted" id="sources-list"></ul>
+      <p class="tiny muted" id="sources-rationale"></p>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -57,18 +65,23 @@
   <script>
     const { loadJSON } = window.DivmetricSite;
     (async () => {
-      const [oc, elite, analogs] = await Promise.all([
+      const [oc, elite, analogs, sources] = await Promise.all([
         loadJSON("/data/opportunity_cost.json"),
         loadJSON("/data/elite_stocks.json"),
         loadJSON("/data/historical_analogs.json"),
+        loadJSON("/data/sources_registry.json"),
       ]);
+      const start = oc.analysis_start || elite.analysis_start || analogs.analysis_start || "2015-01-01";
+      document.getElementById("window-note").textContent =
+        `Janela de análise alinhada desde ${start}. Comparações usam a mesma base temporal.`;
       document.getElementById("oc-principle").textContent = oc.principle || "";
       document.getElementById("oc-questions").innerHTML = (oc.questions || [])
         .map((q) => `<li>${q}</li>`).join("");
       document.getElementById("oc-compare").innerHTML = (oc.comparisons || [])
         .map((c) => {
-          const rate = c.annual_rate_pct != null ? `${Number(c.annual_rate_pct).toFixed(2)}% a.a.` : "—";
-          return `<div class="stat"><strong>${c.label}</strong><span>${rate} · ${c.certainty} · ${c.role}</span></div>`;
+          const rate = c.annual_rate_pct != null ? `${Number(c.annual_rate_pct).toFixed(2)}%` : "—";
+          const cagr = c.cagr_since_start_pct != null ? ` · CAGR ${Number(c.cagr_since_start_pct).toFixed(2)}%` : "";
+          return `<div class="stat"><strong>${c.label}</strong><span>${rate}${cagr} · ${c.certainty} · ${c.role}</span></div>`;
         })
         .join("");
 
@@ -79,8 +92,8 @@
         .map((f) => `<li>${f}</li>`).join("");
       const watch = elite.b3_watch || [];
       document.getElementById("elite-note").innerHTML = watch.length
-        ? `<table style="margin-top:0.75rem"><thead><tr><th>Ticker</th><th>Último</th><th>Dia %</th><th>Volume</th><th>Ref</th></tr></thead><tbody>${
-            watch.slice(0, 10).map((w) => `<tr><td>${w.ticker}</td><td>${w.last}</td><td>${w.day_change_pct}</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td><td>${w.as_of || ""}</td></tr>`).join("")
+        ? `<table style="margin-top:0.75rem"><thead><tr><th>Ticker</th><th>Último</th><th>DY%</th><th>12m%</th><th>CAGR%</th><th>Vol</th></tr></thead><tbody>${
+            watch.slice(0, 12).map((w) => `<tr><td>${w.ticker}</td><td>${w.last}</td><td>${w.dividend_yield_pct ?? "—"}</td><td>${w.trailing_12m_pct ?? "—"}</td><td>${w.cagr_since_start_pct ?? "—"}</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td></tr>`).join("")
           }</tbody></table><p class="tiny muted">${elite.note || ""}</p>`
         : (elite.note || "");
 
@@ -88,6 +101,28 @@
       document.getElementById("an-method").innerHTML = (analogs.method || [])
         .map((m) => `<li>${m}</li>`).join("");
       document.getElementById("an-note").textContent = analogs.note || "";
+      const extra = (analogs.analogs || []).slice(1);
+      if (extra.length) {
+        document.getElementById("an-note").insertAdjacentHTML(
+          "beforebegin",
+          `<div class="stat-row">${extra.map((a) => {
+            const ib = a.ibov_year_return_pct != null ? `Ibov ${a.ibov_year_return_pct}%` : "Ibov —";
+            const sp = a.spx_year_return_pct != null ? `S&P ${a.spx_year_return_pct}%` : "S&P —";
+            return `<div class="stat"><strong>${a.year || a.title}</strong><span>Selic~${a.selic_avg_near_pct}% · ${ib} · ${sp}</span></div>`;
+          }).join("")}</div>`
+        );
+      }
+
+      document.getElementById("sources-order").textContent =
+        `Ordem de confiança: ${(sources.trust_order || []).join(" → ")}`;
+      document.getElementById("sources-list").innerHTML = (sources.sources || [])
+        .map((s) => {
+          const fields = (s.fields || []).join(", ");
+          const link = s.url ? ` · <a href="${s.url}" rel="noopener" target="_blank">site</a>` : "";
+          return `<li><strong>${s.name}</strong> (${s.trust})${fields ? ` — ${fields}` : ""}${link}</li>`;
+        })
+        .join("");
+      document.getElementById("sources-rationale").textContent = sources.rationale || "";
     })().catch((err) => {
       document.querySelector("main").insertAdjacentHTML("afterbegin", `<p class="muted">${err.message}</p>`);
     });

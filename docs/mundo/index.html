@@ -34,6 +34,21 @@
     (async () => {
       const data = await loadJSON("/data/world_frameworks.json");
       document.getElementById("q").textContent = data.question || "";
+      if (data.analysis_start) {
+        document.getElementById("q").insertAdjacentHTML(
+          "afterend",
+          `<p class="tiny muted">Séries comparadas desde ${data.analysis_start}.</p>`
+        );
+      }
+      const snap = data.snapshots || {};
+      const snapHtml = ["spx","ibov","gold","btc","us10y"].map((k) => {
+        const s = snap[k] || {};
+        if (!s.label && s.cagr_since_start_pct == null) return "";
+        return `<div class="stat"><strong>${s.label || k}</strong><span>CAGR ${s.cagr_since_start_pct ?? "—"}% · 12m ${s.trailing_12m_pct ?? "—"}%</span></div>`;
+      }).join("");
+      if (snapHtml) {
+        document.getElementById("themes").insertAdjacentHTML("beforebegin", `<div class="stat-row">${snapHtml}</div>`);
+      }
       document.getElementById("themes").innerHTML = (data.themes || [])
         .map((t) => `<article class="card"><h3>${t.title}</h3><p class="muted">${t.summary}</p></article>`)
         .join("");

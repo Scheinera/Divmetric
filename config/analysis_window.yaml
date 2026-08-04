@@ -1,0 +1,67 @@
+# Janela alinhada para análises e comparações Divmetric
+analysis:
+  start_date: "2015-01-01"
+  start_year: 2015
+  rationale: >
+    Cobre ciclos de Selic no Brasil, IPO/expansão de cripto líquidos,
+    e séries BCB/Yahoo com boa continuidade. BTC entra quando houver preço.
+  compare_base_index: 100
+  frequency: monthly
+
+official_series:
+  selic:
+    code: 432
+    label: Selic meta
+    unit: "a.a."
+  cdi:
+    code: 12
+    label: CDI
+    unit: "% a.a."
+  ipca_12m:
+    code: 13522
+    label: IPCA acumulado 12 meses
+    unit: "%"
+  ipca_m:
+    code: 433
+    label: IPCA variação mensal
+    unit: "% m/m"
+  usd_ptax:
+    code: 1
+    label: Dólar PTAX (venda)
+    unit: "BRL"
+  igpm_m:
+    code: 28655
+    label: IGP-M variação mensal
+    unit: "% m/m"
+
+market_benchmarks:
+  ibov: { symbol: "^BVSP", label: Ibovespa }
+  spx: { symbol: "^GSPC", label: "S&P 500" }
+  btc: { symbol: "BTC-USD", label: Bitcoin }
+  gold: { symbol: "GC=F", label: "Ouro (futuro)" }
+  dxy: { symbol: "DX-Y.NYB", label: DXY }
+  usdbrl: { symbol: "USDBRL=X", label: "USD/BRL" }
+  us10y: { symbol: "^TNX", label: "US 10Y yield" }
+  ewz: { symbol: "EWZ", label: "MSCI Brazil ETF" }
+
+b3_elite:
+  - PETR4.SA
+  - VALE3.SA
+  - ITUB4.SA
+  - BBDC4.SA
+  - BBAS3.SA
+  - WEGE3.SA
+  - ABEV3.SA
+  - B3SA3.SA
+  - RENT3.SA
+  - PRIO3.SA
+  - SUZB3.SA
+  - VBBR3.SA
+  - EQTL3.SA
+  - RADL3.SA
+  - ITSA4.SA
+  - ELET3.SA
+  - VIVT3.SA
+  - BBSE3.SA
+  - CMIG4.SA
+  - TAEE11.SA

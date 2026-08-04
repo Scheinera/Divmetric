@@ -1,17 +1,18 @@
 {
   "as_of": "2026-08-04",
-  "status": "editorial_live_stamp",
+  "status": "live",
+  "analysis_start": "2015-01-01",
   "question": "Como economias mais prósperas tratam certeza, dividendos, liquidez e custo de oportunidade?",
   "themes": [
     {
       "id": "certainty",
       "title": "Busca de certeza",
-      "summary": "Mercados maduros precificam risco com Treasuries/bonds como âncora; equity exige prêmio explícito."
+      "summary": "No Brasil a âncora atual é Selic ~14.25% a.a. (IPCA 12m ~4.64%). Nos EUA, o yield de 10 anos (~4.745% se disponível) é referência de custo de oportunidade em USD."
     },
     {
       "id": "dividends",
-      "title": "Dividendos e buybacks",
-      "summary": "EUA enfatizam total shareholder return (dividendos + recompra); Europa e mercados emergentes variam por fiscal e ciclo."
+      "title": "Dividendos e total return",
+      "summary": "Mercados maduros olham total shareholder return (dividendos + recompra + preço). DY isolado sem liquidez é armadilha."
     },
     {
       "id": "liquidity",
@@ -21,30 +22,87 @@
     {
       "id": "opportunity_cost",
       "title": "Custo de oportunidade",
-      "summary": "Com juro alto, o cash compete forte com equity; com juro baixo, o prêmio de risco fica mais atrativo — padrão visto em vários ciclos (EUA, Europa, Brasil)."
+      "summary": "Desde 2015-01-01, compare CAGR de S&P 500, Ibovespa, ouro e BTC contra a Selic — o prêmio de risco precisa compensar a incerteza."
     }
   ],
+  "snapshots": {
+    "brazil_selic": 14.25,
+    "brazil_ipca_12m": 4.64,
+    "spx": {
+      "label": "S&P 500",
+      "trailing_12m_pct": 18.15,
+      "cagr_since_start_pct": 11.81,
+      "as_of": "2026-07-31",
+      "start_used": "2015-01-02"
+    },
+    "ibov": {
+      "label": "Ibovespa",
+      "trailing_12m_pct": 33.76,
+      "cagr_since_start_pct": 11.89,
+      "as_of": "2026-07-31",
+      "start_used": "2015-01-02"
+    },
+    "ewz": {
+      "label": "MSCI Brazil ETF",
+      "trailing_12m_pct": 38.04,
+      "cagr_since_start_pct": 0.31,
+      "as_of": "2026-07-31",
+      "start_used": "2015-01-02"
+    },
+    "gold": {
+      "label": "Ouro (futuro)",
+      "trailing_12m_pct": 21.6,
+      "cagr_since_start_pct": 11.31,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "btc": {
+      "label": "Bitcoin",
+      "trailing_12m_pct": -44.82,
+      "cagr_since_start_pct": 58.1,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-01"
+    },
+    "dxy": {
+      "label": "DXY",
+      "trailing_12m_pct": 1.23,
+      "cagr_since_start_pct": 0.81,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "us10y": {
+      "label": "US 10Y yield",
+      "trailing_12m_pct": 8.83,
+      "cagr_since_start_pct": 7.19,
+      "as_of": "2026-07-31",
+      "start_used": "2015-01-02"
+    }
+  },
   "regions": [
     {
       "id": "us",
       "label": "Estados Unidos",
-      "notes": []
-    },
-    {
-      "id": "eu",
-      "label": "Europa",
-      "notes": []
-    },
-    {
-      "id": "east_asia",
-      "label": "Ásia (ex. JP/KR/SG)",
-      "notes": []
+      "notes": [
+        "S&P 500 como proxy de equity desenvolvida",
+        "US 10Y como âncora de juro longo em USD"
+      ]
     },
     {
       "id": "br",
-      "label": "Brasil (contexto local)",
-      "notes": []
+      "label": "Brasil",
+      "notes": [
+        "Selic/CDI/IPCA (BCB) como âncoras locais",
+        "Ibovespa + EWZ para preço e acesso internacional"
+      ]
+    },
+    {
+      "id": "global_hard",
+      "label": "Reservas globais",
+      "notes": [
+        "Ouro e DXY como leituras de risco/âncora",
+        "BTC como ativo assimétrico (alta vol) na mesma janela"
+      ]
     }
   ],
-  "disclaimer": "Conteúdo educacional e comparativo. Não é recomendação."
+  "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
 }

@@ -1,18 +1,22 @@
 {
   "product": "Divmetric",
-  "version": 2,
-  "updated_at": "2026-08-04T00:58:00.051952+00:00",
+  "version": 3,
+  "updated_at": "2026-08-04T09:46:24.705777+00:00",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento.",
   "status": "live",
+  "analysis_start": "2015-01-01",
+  "analysis_year": 2015,
   "layers": {
-    "official": "BCB SGS (Selic 432, IPCA 12m 13522)",
-    "market": "Yahoo chart API + AwesomeAPI",
-    "dividends": "parcial (Status Invest depois)",
-    "editorial": "Suno / InfoMoney (links only)"
+    "official": "BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX)",
+    "market": "Yahoo chart diário (period1/2) + eventos DY + AwesomeAPI",
+    "aligned_history": "monthly from 2015-01-01",
+    "editorial": "Suno / InfoMoney / B3 referência"
   },
   "counts": {
-    "benchmarks": 7,
-    "elite": 10,
-    "gap_attention": 1
+    "benchmarks": 11,
+    "elite": 19,
+    "gap_attention": 3,
+    "analog_years": 5,
+    "dividend_rows": 18
   }
 }

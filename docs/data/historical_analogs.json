@@ -1,21 +1,74 @@
 {
   "as_of": "2026-08-04",
-  "status": "live_seed",
+  "status": "live",
+  "analysis_start": "2015-01-01",
   "thesis": "Mercados rimam: regimes de juro, liquidez e narrativas se repetem com variações. Estudar o passado não prevê o futuro — reduz surpresa.",
   "method": [
     "Isolar o regime (Selic alta/baixa, dólar, risco global)",
-    "Mapear o comportamento de preços e volumes na época análoga",
+    "Usar a janela alinhada desde 2015-01-01",
+    "Mapear Ibovespa/S&P/ouro/BTC no mesmo período",
     "Espelhar com notícias e fluxo de hoje (sem forçar narrativa)",
-    "Perguntar: o que foi liquidez vs o que foi thesis?"
+    "Liquidez primeiro — analogia sem saída não serve"
   ],
   "analogs": [
     {
       "id": "current_selic_regime",
       "title": "Regime atual — Selic elevada",
       "selic_annual_rate_pct": 14.25,
-      "note": "Ponto de partida automático do collector. Completar com janelas históricas manuais/API."
+      "analysis_start": "2015-01-01",
+      "note": "Âncora automática; compare com anos em que a Selic esteve em banda semelhante."
+    },
+    {
+      "id": "selic_near_2015",
+      "title": "Ano 2015: Selic próxima de 14.25%",
+      "year": "2015",
+      "selic_avg_near_pct": 13.97,
+      "months_matched": 9,
+      "ibov_year_return_pct": -7.59,
+      "spx_year_return_pct": 2.45,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2016",
+      "title": "Ano 2016: Selic próxima de 14.25%",
+      "year": "2016",
+      "selic_avg_near_pct": 14.17,
+      "months_matched": 12,
+      "ibov_year_return_pct": 38.93,
+      "spx_year_return_pct": 9.54,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2022",
+      "title": "Ano 2022: Selic próxima de 14.25%",
+      "year": "2022",
+      "selic_avg_near_pct": 13.61,
+      "months_matched": 7,
+      "ibov_year_return_pct": 4.97,
+      "spx_year_return_pct": -19.44,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2023",
+      "title": "Ano 2023: Selic próxima de 14.25%",
+      "year": "2023",
+      "selic_avg_near_pct": 13.69,
+      "months_matched": 8,
+      "ibov_year_return_pct": 21.95,
+      "spx_year_return_pct": 24.23,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2025",
+      "title": "Ano 2025: Selic próxima de 14.25%",
+      "year": "2025",
+      "selic_avg_near_pct": 14.56,
+      "months_matched": 12,
+      "ibov_year_return_pct": 33.95,
+      "spx_year_return_pct": 16.39,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
     }
   ],
-  "note": "Cada analogia deve citar janela histórica, ativos observados e diferenças críticas vs hoje.",
+  "note": "Gerado a partir de BCB Selic + retornos mensais Yahoo desde a janela.",
   "disclaimer": "Conteúdo educacional. Analogia ≠ previsão."
 }

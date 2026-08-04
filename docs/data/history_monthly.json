@@ -1,10 +1,471 @@
 {
   "granularity": "monthly",
   "status": "live",
-  "note": "Retornos mensais (Yahoo) — uso educacional.",
-  "updated_at": "2026-08-04T00:58:00.045584+00:00",
+  "analysis_start": "2015-01-01",
+  "note": "Retornos mensais alinhados à janela — uso educacional.",
+  "updated_at": "2026-08-04T09:46:24.690759+00:00",
   "series": {
     "ibov": [
+      {
+        "month": "2015-02",
+        "return_pct": 9.9663
+      },
+      {
+        "month": "2015-03",
+        "return_pct": -0.8394
+      },
+      {
+        "month": "2015-04",
+        "return_pct": 9.9296
+      },
+      {
+        "month": "2015-05",
+        "return_pct": -6.1694
+      },
+      {
+        "month": "2015-06",
+        "return_pct": 0.6084
+      },
+      {
+        "month": "2015-07",
+        "return_pct": -4.1748
+      },
+      {
+        "month": "2015-08",
+        "return_pct": -8.3338
+      },
+      {
+        "month": "2015-09",
+        "return_pct": -3.3608
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 1.7976
+      },
+      {
+        "month": "2015-11",
+        "return_pct": -1.6329
+      },
+      {
+        "month": "2015-12",
+        "return_pct": -3.9229
+      },
+      {
+        "month": "2016-01",
+        "return_pct": -6.7912
+      },
+      {
+        "month": "2016-02",
+        "return_pct": 5.91
+      },
+      {
+        "month": "2016-03",
+        "return_pct": 16.9673
+      },
+      {
+        "month": "2016-04",
+        "return_pct": 7.7035
+      },
+      {
+        "month": "2016-05",
+        "return_pct": -10.0889
+      },
+      {
+        "month": "2016-06",
+        "return_pct": 6.3026
+      },
+      {
+        "month": "2016-07",
+        "return_pct": 11.2194
+      },
+      {
+        "month": "2016-08",
+        "return_pct": 1.0348
+      },
+      {
+        "month": "2016-09",
+        "return_pct": 0.8048
+      },
+      {
+        "month": "2016-10",
+        "return_pct": 11.2358
+      },
+      {
+        "month": "2016-11",
+        "return_pct": -4.65
+      },
+      {
+        "month": "2016-12",
+        "return_pct": -2.7122
+      },
+      {
+        "month": "2017-01",
+        "return_pct": 7.3788
+      },
+      {
+        "month": "2017-02",
+        "return_pct": 3.0787
+      },
+      {
+        "month": "2017-03",
+        "return_pct": -2.5172
+      },
+      {
+        "month": "2017-04",
+        "return_pct": 0.6448
+      },
+      {
+        "month": "2017-05",
+        "return_pct": -4.116
+      },
+      {
+        "month": "2017-06",
+        "return_pct": 0.3014
+      },
+      {
+        "month": "2017-07",
+        "return_pct": 4.8013
+      },
+      {
+        "month": "2017-08",
+        "return_pct": 7.456
+      },
+      {
+        "month": "2017-09",
+        "return_pct": 4.8832
+      },
+      {
+        "month": "2017-10",
+        "return_pct": 0.0188
+      },
+      {
+        "month": "2017-11",
+        "return_pct": -3.145
+      },
+      {
+        "month": "2017-12",
+        "return_pct": 6.1566
+      },
+      {
+        "month": "2018-01",
+        "return_pct": 11.1398
+      },
+      {
+        "month": "2018-02",
+        "return_pct": 0.6689
+      },
+      {
+        "month": "2018-03",
+        "return_pct": -0.1345
+      },
+      {
+        "month": "2018-04",
+        "return_pct": 0.8774
+      },
+      {
+        "month": "2018-05",
+        "return_pct": -10.8703
+      },
+      {
+        "month": "2018-06",
+        "return_pct": -5.1997
+      },
+      {
+        "month": "2018-07",
+        "return_pct": 8.874
+      },
+      {
+        "month": "2018-08",
+        "return_pct": -3.2088
+      },
+      {
+        "month": "2018-09",
+        "return_pct": 3.4743
+      },
+      {
+        "month": "2018-10",
+        "return_pct": 10.1863
+      },
+      {
+        "month": "2018-11",
+        "return_pct": 2.3792
+      },
+      {
+        "month": "2018-12",
+        "return_pct": -1.8066
+      },
+      {
+        "month": "2019-01",
+        "return_pct": 10.8173
+      },
+      {
+        "month": "2019-02",
+        "return_pct": -1.8584
+      },
+      {
+        "month": "2019-03",
+        "return_pct": -0.1768
+      },
+      {
+        "month": "2019-04",
+        "return_pct": 0.9831
+      },
+      {
+        "month": "2019-05",
+        "return_pct": 0.7026
+      },
+      {
+        "month": "2019-06",
+        "return_pct": 4.0575
+      },
+      {
+        "month": "2019-07",
+        "return_pct": 0.8369
+      },
+      {
+        "month": "2019-08",
+        "return_pct": -0.665
+      },
+      {
+        "month": "2019-09",
+        "return_pct": 3.5695
+      },
+      {
+        "month": "2019-10",
+        "return_pct": 2.3629
+      },
+      {
+        "month": "2019-11",
+        "return_pct": 0.9448
+      },
+      {
+        "month": "2019-12",
+        "return_pct": 7.1429
+      },
+      {
+        "month": "2020-01",
+        "return_pct": -1.8997
+      },
+      {
+        "month": "2020-02",
+        "return_pct": -8.4291
+      },
+      {
+        "month": "2020-03",
+        "return_pct": -29.9044
+      },
+      {
+        "month": "2020-04",
+        "return_pct": 10.252
+      },
+      {
+        "month": "2020-05",
+        "return_pct": 8.5671
+      },
+      {
+        "month": "2020-06",
+        "return_pct": 8.756
+      },
+      {
+        "month": "2020-07",
+        "return_pct": 8.2646
+      },
+      {
+        "month": "2020-08",
+        "return_pct": -3.4427
+      },
+      {
+        "month": "2020-09",
+        "return_pct": -4.7963
+      },
+      {
+        "month": "2020-10",
+        "return_pct": -0.6881
+      },
+      {
+        "month": "2020-11",
+        "return_pct": 15.8975
+      },
+      {
+        "month": "2020-12",
+        "return_pct": 9.5676
+      },
+      {
+        "month": "2021-01",
+        "return_pct": -2.7652
+      },
+      {
+        "month": "2021-02",
+        "return_pct": -5.148
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 5.9972
+      },
+      {
+        "month": "2021-04",
+        "return_pct": 1.9377
+      },
+      {
+        "month": "2021-05",
+        "return_pct": 6.1584
+      },
+      {
+        "month": "2021-06",
+        "return_pct": 0.4643
+      },
+      {
+        "month": "2021-07",
+        "return_pct": -3.9439
+      },
+      {
+        "month": "2021-08",
+        "return_pct": -2.4795
+      },
+      {
+        "month": "2021-09",
+        "return_pct": -6.5684
+      },
+      {
+        "month": "2021-10",
+        "return_pct": -6.7382
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -1.5324
+      },
+      {
+        "month": "2021-12",
+        "return_pct": 2.8524
+      },
+      {
+        "month": "2022-01",
+        "return_pct": 7.218
+      },
+      {
+        "month": "2022-02",
+        "return_pct": 0.6709
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 6.0605
+      },
+      {
+        "month": "2022-04",
+        "return_pct": -10.1026
+      },
+      {
+        "month": "2022-05",
+        "return_pct": 3.2213
+      },
+      {
+        "month": "2022-06",
+        "return_pct": -11.5033
+      },
+      {
+        "month": "2022-07",
+        "return_pct": 4.6914
+      },
+      {
+        "month": "2022-08",
+        "return_pct": 6.1629
+      },
+      {
+        "month": "2022-09",
+        "return_pct": 0.4693
+      },
+      {
+        "month": "2022-10",
+        "return_pct": 5.4527
+      },
+      {
+        "month": "2022-11",
+        "return_pct": -3.0602
+      },
+      {
+        "month": "2022-12",
+        "return_pct": -2.1825
+      },
+      {
+        "month": "2023-01",
+        "return_pct": 3.1818
+      },
+      {
+        "month": "2023-02",
+        "return_pct": -7.575
+      },
+      {
+        "month": "2023-03",
+        "return_pct": -2.9066
+      },
+      {
+        "month": "2023-04",
+        "return_pct": 2.5029
+      },
+      {
+        "month": "2023-05",
+        "return_pct": 3.7374
+      },
+      {
+        "month": "2023-06",
+        "return_pct": 9.0017
+      },
+      {
+        "month": "2023-07",
+        "return_pct": 3.2654
+      },
+      {
+        "month": "2023-08",
+        "return_pct": -5.0852
+      },
+      {
+        "month": "2023-09",
+        "return_pct": 0.7111
+      },
+      {
+        "month": "2023-10",
+        "return_pct": -2.9348
+      },
+      {
+        "month": "2023-11",
+        "return_pct": 12.5389
+      },
+      {
+        "month": "2023-12",
+        "return_pct": 5.3828
+      },
+      {
+        "month": "2024-01",
+        "return_pct": -4.7941
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 0.9925
+      },
+      {
+        "month": "2024-03",
+        "return_pct": -0.7084
+      },
+      {
+        "month": "2024-04",
+        "return_pct": -1.7033
+      },
+      {
+        "month": "2024-05",
+        "return_pct": -3.0383
+      },
+      {
+        "month": "2024-06",
+        "return_pct": 1.4816
+      },
+      {
+        "month": "2024-07",
+        "return_pct": 3.0224
+      },
+      {
+        "month": "2024-08",
+        "return_pct": 6.5428
+      },
       {
         "month": "2024-09",
         "return_pct": -3.0793
@@ -96,13 +557,1023 @@
       {
         "month": "2026-07",
         "return_pct": 3.4734
+      }
+    ],
+    "spx": [
+      {
+        "month": "2015-02",
+        "return_pct": 5.4893
       },
       {
-        "month": "2026-08",
-        "return_pct": 0.0007
+        "month": "2015-03",
+        "return_pct": -1.7396
+      },
+      {
+        "month": "2015-04",
+        "return_pct": 0.8521
+      },
+      {
+        "month": "2015-05",
+        "return_pct": 1.0491
+      },
+      {
+        "month": "2015-06",
+        "return_pct": -2.1012
+      },
+      {
+        "month": "2015-07",
+        "return_pct": 1.9742
+      },
+      {
+        "month": "2015-08",
+        "return_pct": -6.2581
+      },
+      {
+        "month": "2015-09",
+        "return_pct": -2.6443
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 8.2983
+      },
+      {
+        "month": "2015-11",
+        "return_pct": 0.0505
+      },
+      {
+        "month": "2015-12",
+        "return_pct": -1.753
+      },
+      {
+        "month": "2016-01",
+        "return_pct": -5.0735
+      },
+      {
+        "month": "2016-02",
+        "return_pct": -0.4128
+      },
+      {
+        "month": "2016-03",
+        "return_pct": 6.5991
+      },
+      {
+        "month": "2016-04",
+        "return_pct": 0.2699
+      },
+      {
+        "month": "2016-05",
+        "return_pct": 1.5325
+      },
+      {
+        "month": "2016-06",
+        "return_pct": 0.0911
+      },
+      {
+        "month": "2016-07",
+        "return_pct": 3.561
+      },
+      {
+        "month": "2016-08",
+        "return_pct": -0.1219
+      },
+      {
+        "month": "2016-09",
+        "return_pct": -0.1234
+      },
+      {
+        "month": "2016-10",
+        "return_pct": -1.9426
+      },
+      {
+        "month": "2016-11",
+        "return_pct": 3.4175
+      },
+      {
+        "month": "2016-12",
+        "return_pct": 1.8201
+      },
+      {
+        "month": "2017-01",
+        "return_pct": 1.7884
+      },
+      {
+        "month": "2017-02",
+        "return_pct": 3.7198
+      },
+      {
+        "month": "2017-03",
+        "return_pct": -0.0389
+      },
+      {
+        "month": "2017-04",
+        "return_pct": 0.9091
+      },
+      {
+        "month": "2017-05",
+        "return_pct": 1.1576
+      },
+      {
+        "month": "2017-06",
+        "return_pct": 0.4814
+      },
+      {
+        "month": "2017-07",
+        "return_pct": 1.9349
+      },
+      {
+        "month": "2017-08",
+        "return_pct": 0.0546
+      },
+      {
+        "month": "2017-09",
+        "return_pct": 1.9303
+      },
+      {
+        "month": "2017-10",
+        "return_pct": 2.2188
+      },
+      {
+        "month": "2017-11",
+        "return_pct": 2.8083
+      },
+      {
+        "month": "2017-12",
+        "return_pct": 0.9832
+      },
+      {
+        "month": "2018-01",
+        "return_pct": 5.6179
+      },
+      {
+        "month": "2018-02",
+        "return_pct": -3.8947
+      },
+      {
+        "month": "2018-03",
+        "return_pct": -2.6884
+      },
+      {
+        "month": "2018-04",
+        "return_pct": 0.2719
+      },
+      {
+        "month": "2018-05",
+        "return_pct": 2.1608
+      },
+      {
+        "month": "2018-06",
+        "return_pct": 0.4842
+      },
+      {
+        "month": "2018-07",
+        "return_pct": 3.6022
+      },
+      {
+        "month": "2018-08",
+        "return_pct": 3.0263
+      },
+      {
+        "month": "2018-09",
+        "return_pct": 0.4294
+      },
+      {
+        "month": "2018-10",
+        "return_pct": -6.9403
+      },
+      {
+        "month": "2018-11",
+        "return_pct": 1.7859
+      },
+      {
+        "month": "2018-12",
+        "return_pct": -9.1777
+      },
+      {
+        "month": "2019-01",
+        "return_pct": 7.8684
+      },
+      {
+        "month": "2019-02",
+        "return_pct": 2.9729
+      },
+      {
+        "month": "2019-03",
+        "return_pct": 1.7924
+      },
+      {
+        "month": "2019-04",
+        "return_pct": 3.9313
+      },
+      {
+        "month": "2019-05",
+        "return_pct": -6.5778
+      },
+      {
+        "month": "2019-06",
+        "return_pct": 6.893
+      },
+      {
+        "month": "2019-07",
+        "return_pct": 1.3128
+      },
+      {
+        "month": "2019-08",
+        "return_pct": -1.8092
+      },
+      {
+        "month": "2019-09",
+        "return_pct": 1.7181
+      },
+      {
+        "month": "2019-10",
+        "return_pct": 2.0432
+      },
+      {
+        "month": "2019-11",
+        "return_pct": 3.4047
+      },
+      {
+        "month": "2019-12",
+        "return_pct": 2.859
+      },
+      {
+        "month": "2020-01",
+        "return_pct": -0.1628
+      },
+      {
+        "month": "2020-02",
+        "return_pct": -8.411
+      },
+      {
+        "month": "2020-03",
+        "return_pct": -12.5119
+      },
+      {
+        "month": "2020-04",
+        "return_pct": 12.6844
+      },
+      {
+        "month": "2020-05",
+        "return_pct": 4.5282
+      },
+      {
+        "month": "2020-06",
+        "return_pct": 1.8388
+      },
+      {
+        "month": "2020-07",
+        "return_pct": 5.5101
+      },
+      {
+        "month": "2020-08",
+        "return_pct": 7.0065
+      },
+      {
+        "month": "2020-09",
+        "return_pct": -3.9228
+      },
+      {
+        "month": "2020-10",
+        "return_pct": -2.7666
+      },
+      {
+        "month": "2020-11",
+        "return_pct": 10.7546
+      },
+      {
+        "month": "2020-12",
+        "return_pct": 3.7121
+      },
+      {
+        "month": "2021-01",
+        "return_pct": -1.1137
+      },
+      {
+        "month": "2021-02",
+        "return_pct": 2.6091
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 4.2439
+      },
+      {
+        "month": "2021-04",
+        "return_pct": 5.2425
+      },
+      {
+        "month": "2021-05",
+        "return_pct": 0.5486
+      },
+      {
+        "month": "2021-06",
+        "return_pct": 2.2214
+      },
+      {
+        "month": "2021-07",
+        "return_pct": 2.2748
+      },
+      {
+        "month": "2021-08",
+        "return_pct": 2.899
+      },
+      {
+        "month": "2021-09",
+        "return_pct": -4.7569
+      },
+      {
+        "month": "2021-10",
+        "return_pct": 6.9144
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -0.8334
+      },
+      {
+        "month": "2021-12",
+        "return_pct": 4.3613
+      },
+      {
+        "month": "2022-01",
+        "return_pct": -5.2585
+      },
+      {
+        "month": "2022-02",
+        "return_pct": -3.136
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 3.5773
+      },
+      {
+        "month": "2022-04",
+        "return_pct": -8.7957
+      },
+      {
+        "month": "2022-05",
+        "return_pct": 0.0053
+      },
+      {
+        "month": "2022-06",
+        "return_pct": -8.392
+      },
+      {
+        "month": "2022-07",
+        "return_pct": 9.1116
+      },
+      {
+        "month": "2022-08",
+        "return_pct": -4.244
+      },
+      {
+        "month": "2022-09",
+        "return_pct": -9.3396
+      },
+      {
+        "month": "2022-10",
+        "return_pct": 7.9863
+      },
+      {
+        "month": "2022-11",
+        "return_pct": 5.3753
+      },
+      {
+        "month": "2022-12",
+        "return_pct": -5.8971
+      },
+      {
+        "month": "2023-01",
+        "return_pct": 6.1753
+      },
+      {
+        "month": "2023-02",
+        "return_pct": -2.6112
+      },
+      {
+        "month": "2023-03",
+        "return_pct": 3.5052
+      },
+      {
+        "month": "2023-04",
+        "return_pct": 1.4642
+      },
+      {
+        "month": "2023-05",
+        "return_pct": 0.2482
+      },
+      {
+        "month": "2023-06",
+        "return_pct": 6.4727
+      },
+      {
+        "month": "2023-07",
+        "return_pct": 3.1139
+      },
+      {
+        "month": "2023-08",
+        "return_pct": -1.7716
+      },
+      {
+        "month": "2023-09",
+        "return_pct": -4.8719
+      },
+      {
+        "month": "2023-10",
+        "return_pct": -2.198
+      },
+      {
+        "month": "2023-11",
+        "return_pct": 8.9179
+      },
+      {
+        "month": "2023-12",
+        "return_pct": 4.4229
+      },
+      {
+        "month": "2024-01",
+        "return_pct": 1.5896
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 5.1721
+      },
+      {
+        "month": "2024-03",
+        "return_pct": 3.1019
+      },
+      {
+        "month": "2024-04",
+        "return_pct": -4.1615
+      },
+      {
+        "month": "2024-05",
+        "return_pct": 4.8021
+      },
+      {
+        "month": "2024-06",
+        "return_pct": 3.467
+      },
+      {
+        "month": "2024-07",
+        "return_pct": 1.1321
+      },
+      {
+        "month": "2024-08",
+        "return_pct": 2.2835
+      },
+      {
+        "month": "2024-09",
+        "return_pct": 2.0197
+      },
+      {
+        "month": "2024-10",
+        "return_pct": -0.9897
+      },
+      {
+        "month": "2024-11",
+        "return_pct": 5.7301
+      },
+      {
+        "month": "2024-12",
+        "return_pct": -2.499
+      },
+      {
+        "month": "2025-01",
+        "return_pct": 2.7016
+      },
+      {
+        "month": "2025-02",
+        "return_pct": -1.4242
+      },
+      {
+        "month": "2025-03",
+        "return_pct": -5.7545
+      },
+      {
+        "month": "2025-04",
+        "return_pct": -0.7625
+      },
+      {
+        "month": "2025-05",
+        "return_pct": 6.1524
+      },
+      {
+        "month": "2025-06",
+        "return_pct": 4.9607
+      },
+      {
+        "month": "2025-07",
+        "return_pct": 2.1667
+      },
+      {
+        "month": "2025-08",
+        "return_pct": 1.9066
+      },
+      {
+        "month": "2025-09",
+        "return_pct": 3.5324
+      },
+      {
+        "month": "2025-10",
+        "return_pct": 2.2687
+      },
+      {
+        "month": "2025-11",
+        "return_pct": 0.13
+      },
+      {
+        "month": "2025-12",
+        "return_pct": -0.0524
+      },
+      {
+        "month": "2026-01",
+        "return_pct": 1.3663
+      },
+      {
+        "month": "2026-02",
+        "return_pct": -0.8668
+      },
+      {
+        "month": "2026-03",
+        "return_pct": -5.0933
+      },
+      {
+        "month": "2026-04",
+        "return_pct": 10.4233
+      },
+      {
+        "month": "2026-05",
+        "return_pct": 5.147
+      },
+      {
+        "month": "2026-06",
+        "return_pct": -1.0646
+      },
+      {
+        "month": "2026-07",
+        "return_pct": -0.1285
       }
     ],
     "btc": [
+      {
+        "month": "2015-02",
+        "return_pct": 16.9219
+      },
+      {
+        "month": "2015-03",
+        "return_pct": -3.9483
+      },
+      {
+        "month": "2015-04",
+        "return_pct": -3.308
+      },
+      {
+        "month": "2015-05",
+        "return_pct": -2.5218
+      },
+      {
+        "month": "2015-06",
+        "return_pct": 14.2847
+      },
+      {
+        "month": "2015-07",
+        "return_pct": 8.2023
+      },
+      {
+        "month": "2015-08",
+        "return_pct": -19.1793
+      },
+      {
+        "month": "2015-09",
+        "return_pct": 2.6098
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 33.0873
+      },
+      {
+        "month": "2015-11",
+        "return_pct": 20.1024
+      },
+      {
+        "month": "2015-12",
+        "return_pct": 14.1116
+      },
+      {
+        "month": "2016-01",
+        "return_pct": -14.3532
+      },
+      {
+        "month": "2016-02",
+        "return_pct": 18.692
+      },
+      {
+        "month": "2016-03",
+        "return_pct": -4.7905
+      },
+      {
+        "month": "2016-04",
+        "return_pct": 7.5802
+      },
+      {
+        "month": "2016-05",
+        "return_pct": 18.5288
+      },
+      {
+        "month": "2016-06",
+        "return_pct": 26.7133
+      },
+      {
+        "month": "2016-07",
+        "return_pct": -7.2261
+      },
+      {
+        "month": "2016-08",
+        "return_pct": -7.8775
+      },
+      {
+        "month": "2016-09",
+        "return_pct": 5.9539
+      },
+      {
+        "month": "2016-10",
+        "return_pct": 14.9634
+      },
+      {
+        "month": "2016-11",
+        "return_pct": 6.3796
+      },
+      {
+        "month": "2016-12",
+        "return_pct": 29.2416
+      },
+      {
+        "month": "2017-01",
+        "return_pct": 0.6911
+      },
+      {
+        "month": "2017-02",
+        "return_pct": 21.5959
+      },
+      {
+        "month": "2017-03",
+        "return_pct": -9.168
+      },
+      {
+        "month": "2017-04",
+        "return_pct": 25.7606
+      },
+      {
+        "month": "2017-05",
+        "return_pct": 69.6288
+      },
+      {
+        "month": "2017-06",
+        "return_pct": 8.5037
+      },
+      {
+        "month": "2017-07",
+        "return_pct": 15.9019
+      },
+      {
+        "month": "2017-08",
+        "return_pct": 63.5768
+      },
+      {
+        "month": "2017-09",
+        "return_pct": -7.7536
+      },
+      {
+        "month": "2017-10",
+        "return_pct": 49.0858
+      },
+      {
+        "month": "2017-11",
+        "return_pct": 58.2091
+      },
+      {
+        "month": "2017-12",
+        "return_pct": 38.3326
+      },
+      {
+        "month": "2018-01",
+        "return_pct": -27.7987
+      },
+      {
+        "month": "2018-02",
+        "return_pct": 1.7298
+      },
+      {
+        "month": "2018-03",
+        "return_pct": -32.9333
+      },
+      {
+        "month": "2018-04",
+        "return_pct": 32.5089
+      },
+      {
+        "month": "2018-05",
+        "return_pct": -18.8991
+      },
+      {
+        "month": "2018-06",
+        "return_pct": -14.5469
+      },
+      {
+        "month": "2018-07",
+        "return_pct": 21.4934
+      },
+      {
+        "month": "2018-08",
+        "return_pct": -9.5478
+      },
+      {
+        "month": "2018-09",
+        "return_pct": -5.8546
+      },
+      {
+        "month": "2018-10",
+        "return_pct": -4.6479
+      },
+      {
+        "month": "2018-11",
+        "return_pct": -36.4116
+      },
+      {
+        "month": "2018-12",
+        "return_pct": -6.8347
+      },
+      {
+        "month": "2019-01",
+        "return_pct": -7.6124
+      },
+      {
+        "month": "2019-02",
+        "return_pct": 11.4811
+      },
+      {
+        "month": "2019-03",
+        "return_pct": 6.5015
+      },
+      {
+        "month": "2019-04",
+        "return_pct": 30.3337
+      },
+      {
+        "month": "2019-05",
+        "return_pct": 60.2493
+      },
+      {
+        "month": "2019-06",
+        "return_pct": 26.1549
+      },
+      {
+        "month": "2019-07",
+        "return_pct": -6.7627
+      },
+      {
+        "month": "2019-08",
+        "return_pct": -4.511
+      },
+      {
+        "month": "2019-09",
+        "return_pct": -13.8806
+      },
+      {
+        "month": "2019-10",
+        "return_pct": 10.9203
+      },
+      {
+        "month": "2019-11",
+        "return_pct": -17.7177
+      },
+      {
+        "month": "2019-12",
+        "return_pct": -4.9676
+      },
+      {
+        "month": "2020-01",
+        "return_pct": 29.984
+      },
+      {
+        "month": "2020-02",
+        "return_pct": -8.0319
+      },
+      {
+        "month": "2020-03",
+        "return_pct": -25.1278
+      },
+      {
+        "month": "2020-04",
+        "return_pct": 34.4779
+      },
+      {
+        "month": "2020-05",
+        "return_pct": 9.2683
+      },
+      {
+        "month": "2020-06",
+        "return_pct": -3.4147
+      },
+      {
+        "month": "2020-07",
+        "return_pct": 23.9163
+      },
+      {
+        "month": "2020-08",
+        "return_pct": 3.1559
+      },
+      {
+        "month": "2020-09",
+        "return_pct": -7.6735
+      },
+      {
+        "month": "2020-10",
+        "return_pct": 27.7853
+      },
+      {
+        "month": "2020-11",
+        "return_pct": 42.4123
+      },
+      {
+        "month": "2020-12",
+        "return_pct": 47.7732
+      },
+      {
+        "month": "2021-01",
+        "return_pct": 14.1807
+      },
+      {
+        "month": "2021-02",
+        "return_pct": 36.3088
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 30.5311
+      },
+      {
+        "month": "2021-04",
+        "return_pct": -1.9835
+      },
+      {
+        "month": "2021-05",
+        "return_pct": -35.3546
+      },
+      {
+        "month": "2021-06",
+        "return_pct": -6.1394
+      },
+      {
+        "month": "2021-07",
+        "return_pct": 18.7934
+      },
+      {
+        "month": "2021-08",
+        "return_pct": 13.3101
+      },
+      {
+        "month": "2021-09",
+        "return_pct": -7.1572
+      },
+      {
+        "month": "2021-10",
+        "return_pct": 40.0267
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -7.0346
+      },
+      {
+        "month": "2021-12",
+        "return_pct": -18.7684
+      },
+      {
+        "month": "2022-01",
+        "return_pct": -16.8947
+      },
+      {
+        "month": "2022-02",
+        "return_pct": 12.2394
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 5.4301
+      },
+      {
+        "month": "2022-04",
+        "return_pct": -17.1806
+      },
+      {
+        "month": "2022-05",
+        "return_pct": -15.7035
+      },
+      {
+        "month": "2022-06",
+        "return_pct": -37.7688
+      },
+      {
+        "month": "2022-07",
+        "return_pct": 17.9541
+      },
+      {
+        "month": "2022-08",
+        "return_pct": -14.0856
+      },
+      {
+        "month": "2022-09",
+        "return_pct": -3.0822
+      },
+      {
+        "month": "2022-10",
+        "return_pct": 5.4755
+      },
+      {
+        "month": "2022-11",
+        "return_pct": -16.2336
+      },
+      {
+        "month": "2022-12",
+        "return_pct": -3.6175
+      },
+      {
+        "month": "2023-01",
+        "return_pct": 39.8356
+      },
+      {
+        "month": "2023-02",
+        "return_pct": 0.0349
+      },
+      {
+        "month": "2023-03",
+        "return_pct": 23.0313
+      },
+      {
+        "month": "2023-04",
+        "return_pct": 2.7752
+      },
+      {
+        "month": "2023-05",
+        "return_pct": -7.0011
+      },
+      {
+        "month": "2023-06",
+        "return_pct": 11.9678
+      },
+      {
+        "month": "2023-07",
+        "return_pct": -4.092
+      },
+      {
+        "month": "2023-08",
+        "return_pct": -11.2851
+      },
+      {
+        "month": "2023-09",
+        "return_pct": 3.9969
+      },
+      {
+        "month": "2023-10",
+        "return_pct": 28.5519
+      },
+      {
+        "month": "2023-11",
+        "return_pct": 8.7833
+      },
+      {
+        "month": "2023-12",
+        "return_pct": 12.0714
+      },
+      {
+        "month": "2024-01",
+        "return_pct": 0.751
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 43.7169
+      },
+      {
+        "month": "2024-03",
+        "return_pct": 16.5613
+      },
+      {
+        "month": "2024-04",
+        "return_pct": -14.9954
+      },
+      {
+        "month": "2024-05",
+        "return_pct": 11.3043
+      },
+      {
+        "month": "2024-06",
+        "return_pct": -7.1315
+      },
+      {
+        "month": "2024-07",
+        "return_pct": 3.0967
+      },
+      {
+        "month": "2024-08",
+        "return_pct": -8.7425
+      },
       {
         "month": "2024-09",
         "return_pct": 7.3929
@@ -197,10 +1668,470 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.7799
+        "return_pct": 1.0798
       }
     ],
     "gold": [
+      {
+        "month": "2015-02",
+        "return_pct": -5.1545
+      },
+      {
+        "month": "2015-03",
+        "return_pct": -2.4328
+      },
+      {
+        "month": "2015-04",
+        "return_pct": -0.0592
+      },
+      {
+        "month": "2015-05",
+        "return_pct": 0.592
+      },
+      {
+        "month": "2015-06",
+        "return_pct": -1.505
+      },
+      {
+        "month": "2015-07",
+        "return_pct": -6.5386
+      },
+      {
+        "month": "2015-08",
+        "return_pct": 3.3519
+      },
+      {
+        "month": "2015-09",
+        "return_pct": -1.4228
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 2.3308
+      },
+      {
+        "month": "2015-11",
+        "return_pct": -6.6316
+      },
+      {
+        "month": "2015-12",
+        "return_pct": -0.516
+      },
+      {
+        "month": "2016-01",
+        "return_pct": 5.291
+      },
+      {
+        "month": "2016-02",
+        "return_pct": 10.5249
+      },
+      {
+        "month": "2016-03",
+        "return_pct": 0.0243
+      },
+      {
+        "month": "2016-04",
+        "return_pct": 4.4563
+      },
+      {
+        "month": "2016-05",
+        "return_pct": -5.771
+      },
+      {
+        "month": "2016-06",
+        "return_pct": 8.5282
+      },
+      {
+        "month": "2016-07",
+        "return_pct": 2.321
+      },
+      {
+        "month": "2016-08",
+        "return_pct": -3.1208
+      },
+      {
+        "month": "2016-09",
+        "return_pct": 0.4897
+      },
+      {
+        "month": "2016-10",
+        "return_pct": -3.1828
+      },
+      {
+        "month": "2016-11",
+        "return_pct": -7.9198
+      },
+      {
+        "month": "2016-12",
+        "return_pct": -1.7766
+      },
+      {
+        "month": "2017-01",
+        "return_pct": 5.0957
+      },
+      {
+        "month": "2017-02",
+        "return_pct": 3.6406
+      },
+      {
+        "month": "2017-03",
+        "return_pct": -0.4231
+      },
+      {
+        "month": "2017-04",
+        "return_pct": 1.5072
+      },
+      {
+        "month": "2017-05",
+        "return_pct": 0.466
+      },
+      {
+        "month": "2017-06",
+        "return_pct": -2.4607
+      },
+      {
+        "month": "2017-07",
+        "return_pct": 2.0875
+      },
+      {
+        "month": "2017-08",
+        "return_pct": 3.916
+      },
+      {
+        "month": "2017-09",
+        "return_pct": -2.6364
+      },
+      {
+        "month": "2017-10",
+        "return_pct": -1.1315
+      },
+      {
+        "month": "2017-11",
+        "return_pct": 0.4893
+      },
+      {
+        "month": "2017-12",
+        "return_pct": 2.5998
+      },
+      {
+        "month": "2018-01",
+        "return_pct": 2.5032
+      },
+      {
+        "month": "2018-02",
+        "return_pct": -1.755
+      },
+      {
+        "month": "2018-03",
+        "return_pct": 0.5549
+      },
+      {
+        "month": "2018-04",
+        "return_pct": -0.4989
+      },
+      {
+        "month": "2018-05",
+        "return_pct": -1.2232
+      },
+      {
+        "month": "2018-06",
+        "return_pct": -3.7536
+      },
+      {
+        "month": "2018-07",
+        "return_pct": -2.2057
+      },
+      {
+        "month": "2018-08",
+        "return_pct": -1.9122
+      },
+      {
+        "month": "2018-09",
+        "return_pct": -0.7332
+      },
+      {
+        "month": "2018-10",
+        "return_pct": 1.7457
+      },
+      {
+        "month": "2018-11",
+        "return_pct": 0.6516
+      },
+      {
+        "month": "2018-12",
+        "return_pct": 4.7615
+      },
+      {
+        "month": "2019-01",
+        "return_pct": 3.2387
+      },
+      {
+        "month": "2019-02",
+        "return_pct": -0.5228
+      },
+      {
+        "month": "2019-03",
+        "return_pct": -1.5082
+      },
+      {
+        "month": "2019-04",
+        "return_pct": -0.7889
+      },
+      {
+        "month": "2019-05",
+        "return_pct": 1.793
+      },
+      {
+        "month": "2019-06",
+        "return_pct": 7.9568
+      },
+      {
+        "month": "2019-07",
+        "return_pct": 1.1634
+      },
+      {
+        "month": "2019-08",
+        "return_pct": 6.5213
+      },
+      {
+        "month": "2019-09",
+        "return_pct": -3.5152
+      },
+      {
+        "month": "2019-10",
+        "return_pct": 3.118
+      },
+      {
+        "month": "2019-11",
+        "return_pct": -3.0303
+      },
+      {
+        "month": "2019-12",
+        "return_pct": 3.6777
+      },
+      {
+        "month": "2020-01",
+        "return_pct": 4.1724
+      },
+      {
+        "month": "2020-02",
+        "return_pct": -1.1877
+      },
+      {
+        "month": "2020-03",
+        "return_pct": 1.2339
+      },
+      {
+        "month": "2020-04",
+        "return_pct": 6.366
+      },
+      {
+        "month": "2020-05",
+        "return_pct": 3.1291
+      },
+      {
+        "month": "2020-06",
+        "return_pct": 3.2299
+      },
+      {
+        "month": "2020-07",
+        "return_pct": 9.4702
+      },
+      {
+        "month": "2020-08",
+        "return_pct": 0.2445
+      },
+      {
+        "month": "2020-09",
+        "return_pct": -4.0709
+      },
+      {
+        "month": "2020-10",
+        "return_pct": -0.5351
+      },
+      {
+        "month": "2020-11",
+        "return_pct": -5.4171
+      },
+      {
+        "month": "2020-12",
+        "return_pct": 6.6115
+      },
+      {
+        "month": "2021-01",
+        "return_pct": -2.4193
+      },
+      {
+        "month": "2021-02",
+        "return_pct": -6.4527
+      },
+      {
+        "month": "2021-03",
+        "return_pct": -0.8275
+      },
+      {
+        "month": "2021-04",
+        "return_pct": 3.1217
+      },
+      {
+        "month": "2021-05",
+        "return_pct": 7.6501
+      },
+      {
+        "month": "2021-06",
+        "return_pct": -6.9225
+      },
+      {
+        "month": "2021-07",
+        "return_pct": 2.3605
+      },
+      {
+        "month": "2021-08",
+        "return_pct": 0.1324
+      },
+      {
+        "month": "2021-09",
+        "return_pct": -3.2893
+      },
+      {
+        "month": "2021-10",
+        "return_pct": 1.5781
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -0.5272
+      },
+      {
+        "month": "2021-12",
+        "return_pct": 3.039
+      },
+      {
+        "month": "2022-01",
+        "return_pct": -1.7784
+      },
+      {
+        "month": "2022-02",
+        "return_pct": 5.8162
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 2.6219
+      },
+      {
+        "month": "2022-04",
+        "return_pct": -2.047
+      },
+      {
+        "month": "2022-05",
+        "return_pct": -3.4882
+      },
+      {
+        "month": "2022-06",
+        "return_pct": -2.0948
+      },
+      {
+        "month": "2022-07",
+        "return_pct": -2.2837
+      },
+      {
+        "month": "2022-08",
+        "return_pct": -2.8419
+      },
+      {
+        "month": "2022-09",
+        "return_pct": -2.9426
+      },
+      {
+        "month": "2022-10",
+        "return_pct": -1.5941
+      },
+      {
+        "month": "2022-11",
+        "return_pct": 6.7302
+      },
+      {
+        "month": "2022-12",
+        "return_pct": 4.2211
+      },
+      {
+        "month": "2023-01",
+        "return_pct": 6.034
+      },
+      {
+        "month": "2023-02",
+        "return_pct": -5.2138
+      },
+      {
+        "month": "2023-03",
+        "return_pct": 7.6603
+      },
+      {
+        "month": "2023-04",
+        "return_pct": 1.0716
+      },
+      {
+        "month": "2023-05",
+        "return_pct": -1.3165
+      },
+      {
+        "month": "2023-06",
+        "return_pct": -2.1793
+      },
+      {
+        "month": "2023-07",
+        "return_pct": 2.5714
+      },
+      {
+        "month": "2023-08",
+        "return_pct": -1.6392
+      },
+      {
+        "month": "2023-09",
+        "return_pct": -4.6486
+      },
+      {
+        "month": "2023-10",
+        "return_pct": 7.4184
+      },
+      {
+        "month": "2023-11",
+        "return_pct": 2.6647
+      },
+      {
+        "month": "2023-12",
+        "return_pct": 1.1923
+      },
+      {
+        "month": "2024-01",
+        "return_pct": -0.6788
+      },
+      {
+        "month": "2024-02",
+        "return_pct": -0.1318
+      },
+      {
+        "month": "2024-03",
+        "return_pct": 8.3932
+      },
+      {
+        "month": "2024-04",
+        "return_pct": 3.3372
+      },
+      {
+        "month": "2024-05",
+        "return_pct": 1.3747
+      },
+      {
+        "month": "2024-06",
+        "return_pct": 0.2066
+      },
+      {
+        "month": "2024-07",
+        "return_pct": 4.2445
+      },
+      {
+        "month": "2024-08",
+        "return_pct": 2.7735
+      },
       {
         "month": "2024-09",
         "return_pct": 5.7062
@@ -295,10 +2226,470 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 1.546
+        "return_pct": 1.3361
       }
     ],
     "dxy": [
+      {
+        "month": "2015-02",
+        "return_pct": 0.4747
+      },
+      {
+        "month": "2015-03",
+        "return_pct": 3.2651
+      },
+      {
+        "month": "2015-04",
+        "return_pct": -3.8227
+      },
+      {
+        "month": "2015-05",
+        "return_pct": 2.4419
+      },
+      {
+        "month": "2015-06",
+        "return_pct": -1.4653
+      },
+      {
+        "month": "2015-07",
+        "return_pct": 1.9688
+      },
+      {
+        "month": "2015-08",
+        "return_pct": -1.4584
+      },
+      {
+        "month": "2015-09",
+        "return_pct": 0.4169
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 0.6227
+      },
+      {
+        "month": "2015-11",
+        "return_pct": 3.3213
+      },
+      {
+        "month": "2015-12",
+        "return_pct": -1.5374
+      },
+      {
+        "month": "2016-01",
+        "return_pct": 0.9936
+      },
+      {
+        "month": "2016-02",
+        "return_pct": -1.4055
+      },
+      {
+        "month": "2016-03",
+        "return_pct": -3.686
+      },
+      {
+        "month": "2016-04",
+        "return_pct": -1.5964
+      },
+      {
+        "month": "2016-05",
+        "return_pct": 3.0189
+      },
+      {
+        "month": "2016-06",
+        "return_pct": 0.2607
+      },
+      {
+        "month": "2016-07",
+        "return_pct": -0.6345
+      },
+      {
+        "month": "2016-08",
+        "return_pct": 0.5129
+      },
+      {
+        "month": "2016-09",
+        "return_pct": -0.5832
+      },
+      {
+        "month": "2016-10",
+        "return_pct": 3.1322
+      },
+      {
+        "month": "2016-11",
+        "return_pct": 3.098
+      },
+      {
+        "month": "2016-12",
+        "return_pct": 0.8768
+      },
+      {
+        "month": "2017-01",
+        "return_pct": -2.8128
+      },
+      {
+        "month": "2017-02",
+        "return_pct": 1.6179
+      },
+      {
+        "month": "2017-03",
+        "return_pct": -0.7615
+      },
+      {
+        "month": "2017-04",
+        "return_pct": -1.2955
+      },
+      {
+        "month": "2017-05",
+        "return_pct": -2.1504
+      },
+      {
+        "month": "2017-06",
+        "return_pct": -1.3
+      },
+      {
+        "month": "2017-07",
+        "return_pct": -2.927
+      },
+      {
+        "month": "2017-08",
+        "return_pct": -0.2046
+      },
+      {
+        "month": "2017-09",
+        "return_pct": 0.4424
+      },
+      {
+        "month": "2017-10",
+        "return_pct": 1.5793
+      },
+      {
+        "month": "2017-11",
+        "return_pct": -1.6288
+      },
+      {
+        "month": "2017-12",
+        "return_pct": -0.9569
+      },
+      {
+        "month": "2018-01",
+        "return_pct": -3.2458
+      },
+      {
+        "month": "2018-02",
+        "return_pct": 1.6605
+      },
+      {
+        "month": "2018-03",
+        "return_pct": -0.5077
+      },
+      {
+        "month": "2018-04",
+        "return_pct": 1.8746
+      },
+      {
+        "month": "2018-05",
+        "return_pct": 2.341
+      },
+      {
+        "month": "2018-06",
+        "return_pct": 0.6809
+      },
+      {
+        "month": "2018-07",
+        "return_pct": -0.1479
+      },
+      {
+        "month": "2018-08",
+        "return_pct": 0.6879
+      },
+      {
+        "month": "2018-09",
+        "return_pct": 0.0526
+      },
+      {
+        "month": "2018-10",
+        "return_pct": 2.038
+      },
+      {
+        "month": "2018-11",
+        "return_pct": 0.1441
+      },
+      {
+        "month": "2018-12",
+        "return_pct": -1.1309
+      },
+      {
+        "month": "2019-01",
+        "return_pct": -0.6135
+      },
+      {
+        "month": "2019-02",
+        "return_pct": 0.6068
+      },
+      {
+        "month": "2019-03",
+        "return_pct": 1.1647
+      },
+      {
+        "month": "2019-04",
+        "return_pct": 0.2056
+      },
+      {
+        "month": "2019-05",
+        "return_pct": 0.277
+      },
+      {
+        "month": "2019-06",
+        "return_pct": -1.6573
+      },
+      {
+        "month": "2019-07",
+        "return_pct": 2.4862
+      },
+      {
+        "month": "2019-08",
+        "return_pct": 0.406
+      },
+      {
+        "month": "2019-09",
+        "return_pct": 0.465
+      },
+      {
+        "month": "2019-10",
+        "return_pct": -2.0427
+      },
+      {
+        "month": "2019-11",
+        "return_pct": 0.945
+      },
+      {
+        "month": "2019-12",
+        "return_pct": -1.9131
+      },
+      {
+        "month": "2020-01",
+        "return_pct": 1.0375
+      },
+      {
+        "month": "2020-02",
+        "return_pct": 0.7598
+      },
+      {
+        "month": "2020-03",
+        "return_pct": 0.9375
+      },
+      {
+        "month": "2020-04",
+        "return_pct": -0.0303
+      },
+      {
+        "month": "2020-05",
+        "return_pct": -0.6867
+      },
+      {
+        "month": "2020-06",
+        "return_pct": -0.966
+      },
+      {
+        "month": "2020-07",
+        "return_pct": -4.0045
+      },
+      {
+        "month": "2020-08",
+        "return_pct": -1.444
+      },
+      {
+        "month": "2020-09",
+        "return_pct": 1.8993
+      },
+      {
+        "month": "2020-10",
+        "return_pct": 0.1598
+      },
+      {
+        "month": "2020-11",
+        "return_pct": -2.3075
+      },
+      {
+        "month": "2020-12",
+        "return_pct": -2.1008
+      },
+      {
+        "month": "2021-01",
+        "return_pct": 0.7116
+      },
+      {
+        "month": "2021-02",
+        "return_pct": 0.3864
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 2.5294
+      },
+      {
+        "month": "2021-04",
+        "return_pct": -2.0916
+      },
+      {
+        "month": "2021-05",
+        "return_pct": -1.3694
+      },
+      {
+        "month": "2021-06",
+        "return_pct": 2.6769
+      },
+      {
+        "month": "2021-07",
+        "return_pct": -0.2921
+      },
+      {
+        "month": "2021-08",
+        "return_pct": 0.4991
+      },
+      {
+        "month": "2021-09",
+        "return_pct": 1.7489
+      },
+      {
+        "month": "2021-10",
+        "return_pct": -0.1379
+      },
+      {
+        "month": "2021-11",
+        "return_pct": 1.9868
+      },
+      {
+        "month": "2021-12",
+        "return_pct": -0.3334
+      },
+      {
+        "month": "2022-01",
+        "return_pct": 0.9094
+      },
+      {
+        "month": "2022-02",
+        "return_pct": 0.1761
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 1.6544
+      },
+      {
+        "month": "2022-04",
+        "return_pct": 4.7299
+      },
+      {
+        "month": "2022-05",
+        "return_pct": -1.1752
+      },
+      {
+        "month": "2022-06",
+        "return_pct": 2.8894
+      },
+      {
+        "month": "2022-07",
+        "return_pct": 1.1558
+      },
+      {
+        "month": "2022-08",
+        "return_pct": 2.644
+      },
+      {
+        "month": "2022-09",
+        "return_pct": 3.1463
+      },
+      {
+        "month": "2022-10",
+        "return_pct": -0.5262
+      },
+      {
+        "month": "2022-11",
+        "return_pct": -5.0031
+      },
+      {
+        "month": "2022-12",
+        "return_pct": -2.2935
+      },
+      {
+        "month": "2023-01",
+        "return_pct": -1.3717
+      },
+      {
+        "month": "2023-02",
+        "return_pct": 2.713
+      },
+      {
+        "month": "2023-03",
+        "return_pct": -2.2504
+      },
+      {
+        "month": "2023-04",
+        "return_pct": -0.8194
+      },
+      {
+        "month": "2023-05",
+        "return_pct": 2.6065
+      },
+      {
+        "month": "2023-06",
+        "return_pct": -1.3516
+      },
+      {
+        "month": "2023-07",
+        "return_pct": -1.0203
+      },
+      {
+        "month": "2023-08",
+        "return_pct": 1.7279
+      },
+      {
+        "month": "2023-09",
+        "return_pct": 2.4609
+      },
+      {
+        "month": "2023-10",
+        "return_pct": 0.4615
+      },
+      {
+        "month": "2023-11",
+        "return_pct": -2.9627
+      },
+      {
+        "month": "2023-12",
+        "return_pct": -2.0966
+      },
+      {
+        "month": "2024-01",
+        "return_pct": 1.9145
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 0.8618
+      },
+      {
+        "month": "2024-03",
+        "return_pct": 0.3744
+      },
+      {
+        "month": "2024-04",
+        "return_pct": 1.5973
+      },
+      {
+        "month": "2024-05",
+        "return_pct": -1.4592
+      },
+      {
+        "month": "2024-06",
+        "return_pct": 1.1465
+      },
+      {
+        "month": "2024-07",
+        "return_pct": -1.6719
+      },
+      {
+        "month": "2024-08",
+        "return_pct": -2.3055
+      },
       {
         "month": "2024-09",
         "return_pct": -0.9046
@@ -393,10 +2784,470 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.1784
+        "return_pct": 0.1984
       }
     ],
     "usdbrl": [
+      {
+        "month": "2015-02",
+        "return_pct": 11.7222
+      },
+      {
+        "month": "2015-03",
+        "return_pct": 9.759
+      },
+      {
+        "month": "2015-04",
+        "return_pct": -5.5637
+      },
+      {
+        "month": "2015-05",
+        "return_pct": 5.4698
+      },
+      {
+        "month": "2015-06",
+        "return_pct": -2.1349
+      },
+      {
+        "month": "2015-07",
+        "return_pct": 8.4556
+      },
+      {
+        "month": "2015-08",
+        "return_pct": 7.3692
+      },
+      {
+        "month": "2015-09",
+        "return_pct": 9.0213
+      },
+      {
+        "month": "2015-10",
+        "return_pct": -2.5597
+      },
+      {
+        "month": "2015-11",
+        "return_pct": -0.0858
+      },
+      {
+        "month": "2015-12",
+        "return_pct": 3.0015
+      },
+      {
+        "month": "2016-01",
+        "return_pct": 2.7877
+      },
+      {
+        "month": "2016-02",
+        "return_pct": -2.5154
+      },
+      {
+        "month": "2016-03",
+        "return_pct": -9.5392
+      },
+      {
+        "month": "2016-04",
+        "return_pct": -2.9778
+      },
+      {
+        "month": "2016-05",
+        "return_pct": 2.9744
+      },
+      {
+        "month": "2016-06",
+        "return_pct": -10.5297
+      },
+      {
+        "month": "2016-07",
+        "return_pct": 1.2571
+      },
+      {
+        "month": "2016-08",
+        "return_pct": -0.6223
+      },
+      {
+        "month": "2016-09",
+        "return_pct": 1.0322
+      },
+      {
+        "month": "2016-10",
+        "return_pct": -1.7243
+      },
+      {
+        "month": "2016-11",
+        "return_pct": 7.8268
+      },
+      {
+        "month": "2016-12",
+        "return_pct": -5.8342
+      },
+      {
+        "month": "2017-01",
+        "return_pct": -3.8988
+      },
+      {
+        "month": "2017-02",
+        "return_pct": -0.6463
+      },
+      {
+        "month": "2017-03",
+        "return_pct": 1.3654
+      },
+      {
+        "month": "2017-04",
+        "return_pct": 0.9022
+      },
+      {
+        "month": "2017-05",
+        "return_pct": 1.5428
+      },
+      {
+        "month": "2017-06",
+        "return_pct": 2.4061
+      },
+      {
+        "month": "2017-07",
+        "return_pct": -5.3562
+      },
+      {
+        "month": "2017-08",
+        "return_pct": 0.6462
+      },
+      {
+        "month": "2017-09",
+        "return_pct": 1.1093
+      },
+      {
+        "month": "2017-10",
+        "return_pct": 3.345
+      },
+      {
+        "month": "2017-11",
+        "return_pct": -1.2929
+      },
+      {
+        "month": "2017-12",
+        "return_pct": 2.0433
+      },
+      {
+        "month": "2018-01",
+        "return_pct": -3.9745
+      },
+      {
+        "month": "2018-02",
+        "return_pct": 2.1702
+      },
+      {
+        "month": "2018-03",
+        "return_pct": 1.6931
+      },
+      {
+        "month": "2018-04",
+        "return_pct": 6.1238
+      },
+      {
+        "month": "2018-05",
+        "return_pct": 6.1669
+      },
+      {
+        "month": "2018-06",
+        "return_pct": 3.6943
+      },
+      {
+        "month": "2018-07",
+        "return_pct": -2.7594
+      },
+      {
+        "month": "2018-08",
+        "return_pct": 10.5409
+      },
+      {
+        "month": "2018-09",
+        "return_pct": -2.3116
+      },
+      {
+        "month": "2018-10",
+        "return_pct": -8.8361
+      },
+      {
+        "month": "2018-11",
+        "return_pct": 4.2332
+      },
+      {
+        "month": "2018-12",
+        "return_pct": 0.6024
+      },
+      {
+        "month": "2019-01",
+        "return_pct": -4.9765
+      },
+      {
+        "month": "2019-02",
+        "return_pct": 1.2468
+      },
+      {
+        "month": "2019-03",
+        "return_pct": 5.237
+      },
+      {
+        "month": "2019-04",
+        "return_pct": -0.1428
+      },
+      {
+        "month": "2019-05",
+        "return_pct": 1.611
+      },
+      {
+        "month": "2019-06",
+        "return_pct": -3.2789
+      },
+      {
+        "month": "2019-07",
+        "return_pct": -0.9819
+      },
+      {
+        "month": "2019-08",
+        "return_pct": 9.3502
+      },
+      {
+        "month": "2019-09",
+        "return_pct": -0.3191
+      },
+      {
+        "month": "2019-10",
+        "return_pct": -4.058
+      },
+      {
+        "month": "2019-11",
+        "return_pct": 5.0625
+      },
+      {
+        "month": "2019-12",
+        "return_pct": -4.1139
+      },
+      {
+        "month": "2020-01",
+        "return_pct": 5.6401
+      },
+      {
+        "month": "2020-02",
+        "return_pct": 5.7187
+      },
+      {
+        "month": "2020-03",
+        "return_pct": 16.0252
+      },
+      {
+        "month": "2020-04",
+        "return_pct": 5.429
+      },
+      {
+        "month": "2020-05",
+        "return_pct": -2.7561
+      },
+      {
+        "month": "2020-06",
+        "return_pct": 2.3787
+      },
+      {
+        "month": "2020-07",
+        "return_pct": -5.6356
+      },
+      {
+        "month": "2020-08",
+        "return_pct": 6.5387
+      },
+      {
+        "month": "2020-09",
+        "return_pct": 2.1399
+      },
+      {
+        "month": "2020-10",
+        "return_pct": 3.0205
+      },
+      {
+        "month": "2020-11",
+        "return_pct": -7.534
+      },
+      {
+        "month": "2020-12",
+        "return_pct": -2.8388
+      },
+      {
+        "month": "2021-01",
+        "return_pct": 4.7613
+      },
+      {
+        "month": "2021-02",
+        "return_pct": 1.6557
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 1.8682
+      },
+      {
+        "month": "2021-04",
+        "return_pct": -5.2368
+      },
+      {
+        "month": "2021-05",
+        "return_pct": -2.245
+      },
+      {
+        "month": "2021-06",
+        "return_pct": -4.7426
+      },
+      {
+        "month": "2021-07",
+        "return_pct": 2.2378
+      },
+      {
+        "month": "2021-08",
+        "return_pct": 1.3562
+      },
+      {
+        "month": "2021-09",
+        "return_pct": 5.6784
+      },
+      {
+        "month": "2021-10",
+        "return_pct": 3.7341
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -0.783
+      },
+      {
+        "month": "2021-12",
+        "return_pct": -0.5446
+      },
+      {
+        "month": "2022-01",
+        "return_pct": -3.727
+      },
+      {
+        "month": "2022-02",
+        "return_pct": -3.7892
+      },
+      {
+        "month": "2022-03",
+        "return_pct": -8.1715
+      },
+      {
+        "month": "2022-04",
+        "return_pct": 4.2214
+      },
+      {
+        "month": "2022-05",
+        "return_pct": -4.2003
+      },
+      {
+        "month": "2022-06",
+        "return_pct": 11.0266
+      },
+      {
+        "month": "2022-07",
+        "return_pct": -1.5385
+      },
+      {
+        "month": "2022-08",
+        "return_pct": 0.203
+      },
+      {
+        "month": "2022-09",
+        "return_pct": 4.1396
+      },
+      {
+        "month": "2022-10",
+        "return_pct": -1.9958
+      },
+      {
+        "month": "2022-11",
+        "return_pct": -0.3839
+      },
+      {
+        "month": "2022-12",
+        "return_pct": 0.3113
+      },
+      {
+        "month": "2023-01",
+        "return_pct": -3.2112
+      },
+      {
+        "month": "2023-02",
+        "return_pct": 1.6579
+      },
+      {
+        "month": "2023-03",
+        "return_pct": -2.0578
+      },
+      {
+        "month": "2023-04",
+        "return_pct": -2.0952
+      },
+      {
+        "month": "2023-05",
+        "return_pct": 1.3799
+      },
+      {
+        "month": "2023-06",
+        "return_pct": -3.9408
+      },
+      {
+        "month": "2023-07",
+        "return_pct": -2.6959
+      },
+      {
+        "month": "2023-08",
+        "return_pct": 4.849
+      },
+      {
+        "month": "2023-09",
+        "return_pct": 1.5947
+      },
+      {
+        "month": "2023-10",
+        "return_pct": 0.2643
+      },
+      {
+        "month": "2023-11",
+        "return_pct": -2.8141
+      },
+      {
+        "month": "2023-12",
+        "return_pct": -1.0991
+      },
+      {
+        "month": "2024-01",
+        "return_pct": 2.0638
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 0.3434
+      },
+      {
+        "month": "2024-03",
+        "return_pct": 0.924
+      },
+      {
+        "month": "2024-04",
+        "return_pct": 3.6045
+      },
+      {
+        "month": "2024-05",
+        "return_pct": 0.1579
+      },
+      {
+        "month": "2024-06",
+        "return_pct": 7.4931
+      },
+      {
+        "month": "2024-07",
+        "return_pct": 1.157
+      },
+      {
+        "month": "2024-08",
+        "return_pct": -0.5109
+      },
       {
         "month": "2024-09",
         "return_pct": -3.1842
@@ -491,7 +3342,1115 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.2225
+        "return_pct": 0.2146
+      }
+    ],
+    "us10y": [
+      {
+        "month": "2015-02",
+        "return_pct": 19.5224
+      },
+      {
+        "month": "2015-03",
+        "return_pct": -3.3966
+      },
+      {
+        "month": "2015-04",
+        "return_pct": 5.7911
+      },
+      {
+        "month": "2015-05",
+        "return_pct": 2.3949
+      },
+      {
+        "month": "2015-06",
+        "return_pct": 11.4558
+      },
+      {
+        "month": "2015-07",
+        "return_pct": -5.5675
+      },
+      {
+        "month": "2015-08",
+        "return_pct": -0.2268
+      },
+      {
+        "month": "2015-09",
+        "return_pct": -6.3636
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 4.4175
+      },
+      {
+        "month": "2015-11",
+        "return_pct": 3.1148
+      },
+      {
+        "month": "2015-12",
+        "return_pct": 2.2994
+      },
+      {
+        "month": "2016-01",
+        "return_pct": -14.8964
+      },
+      {
+        "month": "2016-02",
+        "return_pct": -9.8912
+      },
+      {
+        "month": "2016-03",
+        "return_pct": 2.6437
+      },
+      {
+        "month": "2016-04",
+        "return_pct": 1.8477
+      },
+      {
+        "month": "2016-05",
+        "return_pct": 0.8246
+      },
+      {
+        "month": "2016-06",
+        "return_pct": -18.8659
+      },
+      {
+        "month": "2016-07",
+        "return_pct": -2.0161
+      },
+      {
+        "month": "2016-08",
+        "return_pct": 7.5446
+      },
+      {
+        "month": "2016-09",
+        "return_pct": 2.551
+      },
+      {
+        "month": "2016-10",
+        "return_pct": 14.0547
+      },
+      {
+        "month": "2016-11",
+        "return_pct": 29.1167
+      },
+      {
+        "month": "2016-12",
+        "return_pct": 3.2939
+      },
+      {
+        "month": "2017-01",
+        "return_pct": 0.2044
+      },
+      {
+        "month": "2017-02",
+        "return_pct": -3.7944
+      },
+      {
+        "month": "2017-03",
+        "return_pct": 1.6115
+      },
+      {
+        "month": "2017-04",
+        "return_pct": -4.7579
+      },
+      {
+        "month": "2017-05",
+        "return_pct": -3.7686
+      },
+      {
+        "month": "2017-06",
+        "return_pct": 4.827
+      },
+      {
+        "month": "2017-07",
+        "return_pct": -0.4344
+      },
+      {
+        "month": "2017-08",
+        "return_pct": -7.4607
+      },
+      {
+        "month": "2017-09",
+        "return_pct": 9.6653
+      },
+      {
+        "month": "2017-10",
+        "return_pct": 2.1496
+      },
+      {
+        "month": "2017-11",
+        "return_pct": 1.7256
+      },
+      {
+        "month": "2017-12",
+        "return_pct": -0.4965
+      },
+      {
+        "month": "2018-01",
+        "return_pct": 13.0977
+      },
+      {
+        "month": "2018-02",
+        "return_pct": 5.4412
+      },
+      {
+        "month": "2018-03",
+        "return_pct": -4.4282
+      },
+      {
+        "month": "2018-04",
+        "return_pct": 7.1142
+      },
+      {
+        "month": "2018-05",
+        "return_pct": -3.8828
+      },
+      {
+        "month": "2018-06",
+        "return_pct": 0.9568
+      },
+      {
+        "month": "2018-07",
+        "return_pct": 4.0365
+      },
+      {
+        "month": "2018-08",
+        "return_pct": -3.7449
+      },
+      {
+        "month": "2018-09",
+        "return_pct": 7.1153
+      },
+      {
+        "month": "2018-10",
+        "return_pct": 3.3704
+      },
+      {
+        "month": "2018-11",
+        "return_pct": -4.6217
+      },
+      {
+        "month": "2018-12",
+        "return_pct": -10.853
+      },
+      {
+        "month": "2019-01",
+        "return_pct": -1.8987
+      },
+      {
+        "month": "2019-02",
+        "return_pct": 2.8843
+      },
+      {
+        "month": "2019-03",
+        "return_pct": -10.9554
+      },
+      {
+        "month": "2019-04",
+        "return_pct": 3.9354
+      },
+      {
+        "month": "2019-05",
+        "return_pct": -14.6273
+      },
+      {
+        "month": "2019-06",
+        "return_pct": -6.6293
+      },
+      {
+        "month": "2019-07",
+        "return_pct": 1.05
+      },
+      {
+        "month": "2019-08",
+        "return_pct": -25.4824
+      },
+      {
+        "month": "2019-09",
+        "return_pct": 11.2218
+      },
+      {
+        "month": "2019-10",
+        "return_pct": 0.9552
+      },
+      {
+        "month": "2019-11",
+        "return_pct": 5.0266
+      },
+      {
+        "month": "2019-12",
+        "return_pct": 8.0518
+      },
+      {
+        "month": "2020-01",
+        "return_pct": -20.7921
+      },
+      {
+        "month": "2020-02",
+        "return_pct": -25.8553
+      },
+      {
+        "month": "2020-03",
+        "return_pct": -38.0657
+      },
+      {
+        "month": "2020-04",
+        "return_pct": -10.8883
+      },
+      {
+        "month": "2020-05",
+        "return_pct": 4.1801
+      },
+      {
+        "month": "2020-06",
+        "return_pct": 0.7716
+      },
+      {
+        "month": "2020-07",
+        "return_pct": -17.9173
+      },
+      {
+        "month": "2020-08",
+        "return_pct": 29.291
+      },
+      {
+        "month": "2020-09",
+        "return_pct": -2.3088
+      },
+      {
+        "month": "2020-10",
+        "return_pct": 27.031
+      },
+      {
+        "month": "2020-11",
+        "return_pct": -1.8605
+      },
+      {
+        "month": "2020-12",
+        "return_pct": 8.6493
+      },
+      {
+        "month": "2021-01",
+        "return_pct": 19.193
+      },
+      {
+        "month": "2021-02",
+        "return_pct": 33.5773
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 19.589
+      },
+      {
+        "month": "2021-04",
+        "return_pct": -6.5865
+      },
+      {
+        "month": "2021-05",
+        "return_pct": -3.0656
+      },
+      {
+        "month": "2021-06",
+        "return_pct": -8.7287
+      },
+      {
+        "month": "2021-07",
+        "return_pct": -14.1372
+      },
+      {
+        "month": "2021-08",
+        "return_pct": 5.2462
+      },
+      {
+        "month": "2021-09",
+        "return_pct": 17.2546
+      },
+      {
+        "month": "2021-10",
+        "return_pct": 1.8313
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -7.3218
+      },
+      {
+        "month": "2021-12",
+        "return_pct": 4.7817
+      },
+      {
+        "month": "2022-01",
+        "return_pct": 17.8571
+      },
+      {
+        "month": "2022-02",
+        "return_pct": 3.1987
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 26.5362
+      },
+      {
+        "month": "2022-04",
+        "return_pct": 24.0653
+      },
+      {
+        "month": "2022-05",
+        "return_pct": -1.4894
+      },
+      {
+        "month": "2022-06",
+        "return_pct": 4.5007
+      },
+      {
+        "month": "2022-07",
+        "return_pct": -11.1036
+      },
+      {
+        "month": "2022-08",
+        "return_pct": 18.5844
+      },
+      {
+        "month": "2022-09",
+        "return_pct": 21.4172
+      },
+      {
+        "month": "2022-10",
+        "return_pct": 7.1767
+      },
+      {
+        "month": "2022-11",
+        "return_pct": -9.1734
+      },
+      {
+        "month": "2022-12",
+        "return_pct": 4.7529
+      },
+      {
+        "month": "2023-01",
+        "return_pct": -9.0229
+      },
+      {
+        "month": "2023-02",
+        "return_pct": 10.9663
+      },
+      {
+        "month": "2023-03",
+        "return_pct": -10.7763
+      },
+      {
+        "month": "2023-04",
+        "return_pct": -1.2021
+      },
+      {
+        "month": "2023-05",
+        "return_pct": 5.3592
+      },
+      {
+        "month": "2023-06",
+        "return_pct": 5.0041
+      },
+      {
+        "month": "2023-07",
+        "return_pct": 3.6659
+      },
+      {
+        "month": "2023-08",
+        "return_pct": 3.3847
+      },
+      {
+        "month": "2023-09",
+        "return_pct": 11.7273
+      },
+      {
+        "month": "2023-10",
+        "return_pct": 6.604
+      },
+      {
+        "month": "2023-11",
+        "return_pct": -10.7282
+      },
+      {
+        "month": "2023-12",
+        "return_pct": -11.1673
+      },
+      {
+        "month": "2024-01",
+        "return_pct": 2.6125
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 7.1843
+      },
+      {
+        "month": "2024-03",
+        "return_pct": -1.0818
+      },
+      {
+        "month": "2024-04",
+        "return_pct": 11.4123
+      },
+      {
+        "month": "2024-05",
+        "return_pct": -3.6705
+      },
+      {
+        "month": "2024-06",
+        "return_pct": -3.7882
+      },
+      {
+        "month": "2024-07",
+        "return_pct": -5.388
+      },
+      {
+        "month": "2024-08",
+        "return_pct": -4.8187
+      },
+      {
+        "month": "2024-09",
+        "return_pct": -2.787
+      },
+      {
+        "month": "2024-10",
+        "return_pct": 12.6775
+      },
+      {
+        "month": "2024-11",
+        "return_pct": -2.4743
+      },
+      {
+        "month": "2024-12",
+        "return_pct": 9.4543
+      },
+      {
+        "month": "2025-01",
+        "return_pct": -0.0875
+      },
+      {
+        "month": "2025-02",
+        "return_pct": -7.3977
+      },
+      {
+        "month": "2025-03",
+        "return_pct": 0.3545
+      },
+      {
+        "month": "2025-04",
+        "return_pct": -1.6251
+      },
+      {
+        "month": "2025-05",
+        "return_pct": 5.7218
+      },
+      {
+        "month": "2025-06",
+        "return_pct": -4.212
+      },
+      {
+        "month": "2025-07",
+        "return_pct": 3.0733
+      },
+      {
+        "month": "2025-08",
+        "return_pct": -3.0505
+      },
+      {
+        "month": "2025-09",
+        "return_pct": -1.8689
+      },
+      {
+        "month": "2025-10",
+        "return_pct": -1.1331
+      },
+      {
+        "month": "2025-11",
+        "return_pct": -2.0483
+      },
+      {
+        "month": "2025-12",
+        "return_pct": 3.6346
+      },
+      {
+        "month": "2026-01",
+        "return_pct": 1.8736
+      },
+      {
+        "month": "2026-02",
+        "return_pct": -6.5786
+      },
+      {
+        "month": "2026-03",
+        "return_pct": 8.8087
+      },
+      {
+        "month": "2026-04",
+        "return_pct": 1.8325
+      },
+      {
+        "month": "2026-05",
+        "return_pct": 1.4351
+      },
+      {
+        "month": "2026-06",
+        "return_pct": -0.786
+      },
+      {
+        "month": "2026-07",
+        "return_pct": 7.4015
+      }
+    ],
+    "ewz": [
+      {
+        "month": "2015-02",
+        "return_pct": 3.1186
+      },
+      {
+        "month": "2015-03",
+        "return_pct": -11.3341
+      },
+      {
+        "month": "2015-04",
+        "return_pct": 15.4287
+      },
+      {
+        "month": "2015-05",
+        "return_pct": -10.881
+      },
+      {
+        "month": "2015-06",
+        "return_pct": 1.5494
+      },
+      {
+        "month": "2015-07",
+        "return_pct": -12.4504
+      },
+      {
+        "month": "2015-08",
+        "return_pct": -13.2799
+      },
+      {
+        "month": "2015-09",
+        "return_pct": -11.7765
+      },
+      {
+        "month": "2015-10",
+        "return_pct": 4.1913
+      },
+      {
+        "month": "2015-11",
+        "return_pct": -1.5304
+      },
+      {
+        "month": "2015-12",
+        "return_pct": -8.1705
+      },
+      {
+        "month": "2016-01",
+        "return_pct": -4.1103
+      },
+      {
+        "month": "2016-02",
+        "return_pct": 3.3283
+      },
+      {
+        "month": "2016-03",
+        "return_pct": 28.3553
+      },
+      {
+        "month": "2016-04",
+        "return_pct": 12.2053
+      },
+      {
+        "month": "2016-05",
+        "return_pct": -13.7919
+      },
+      {
+        "month": "2016-06",
+        "return_pct": 18.6321
+      },
+      {
+        "month": "2016-07",
+        "return_pct": 10.1392
+      },
+      {
+        "month": "2016-08",
+        "return_pct": 0.8424
+      },
+      {
+        "month": "2016-09",
+        "return_pct": 0.6265
+      },
+      {
+        "month": "2016-10",
+        "return_pct": 11.9478
+      },
+      {
+        "month": "2016-11",
+        "return_pct": -11.3083
+      },
+      {
+        "month": "2016-12",
+        "return_pct": -0.4479
+      },
+      {
+        "month": "2017-01",
+        "return_pct": 10.5879
+      },
+      {
+        "month": "2017-02",
+        "return_pct": 2.3325
+      },
+      {
+        "month": "2017-03",
+        "return_pct": -0.7156
+      },
+      {
+        "month": "2017-04",
+        "return_pct": -0.7742
+      },
+      {
+        "month": "2017-05",
+        "return_pct": -5.3807
+      },
+      {
+        "month": "2017-06",
+        "return_pct": -2.9286
+      },
+      {
+        "month": "2017-07",
+        "return_pct": 10.7206
+      },
+      {
+        "month": "2017-08",
+        "return_pct": 5.8201
+      },
+      {
+        "month": "2017-09",
+        "return_pct": 4.225
+      },
+      {
+        "month": "2017-10",
+        "return_pct": -3.646
+      },
+      {
+        "month": "2017-11",
+        "return_pct": -3.6594
+      },
+      {
+        "month": "2017-12",
+        "return_pct": 4.522
+      },
+      {
+        "month": "2018-01",
+        "return_pct": 15.1792
+      },
+      {
+        "month": "2018-02",
+        "return_pct": -2.3825
+      },
+      {
+        "month": "2018-03",
+        "return_pct": -1.3193
+      },
+      {
+        "month": "2018-04",
+        "return_pct": -5.7487
+      },
+      {
+        "month": "2018-05",
+        "return_pct": -15.792
+      },
+      {
+        "month": "2018-06",
+        "return_pct": -10.0225
+      },
+      {
+        "month": "2018-07",
+        "return_pct": 12.6365
+      },
+      {
+        "month": "2018-08",
+        "return_pct": -10.1108
+      },
+      {
+        "month": "2018-09",
+        "return_pct": 3.9445
+      },
+      {
+        "month": "2018-10",
+        "return_pct": 19.0335
+      },
+      {
+        "month": "2018-11",
+        "return_pct": -0.8717
+      },
+      {
+        "month": "2018-12",
+        "return_pct": -4.0201
+      },
+      {
+        "month": "2019-01",
+        "return_pct": 18.7696
+      },
+      {
+        "month": "2019-02",
+        "return_pct": -5.2237
+      },
+      {
+        "month": "2019-03",
+        "return_pct": -4.6744
+      },
+      {
+        "month": "2019-04",
+        "return_pct": 0.9758
+      },
+      {
+        "month": "2019-05",
+        "return_pct": 0.6282
+      },
+      {
+        "month": "2019-06",
+        "return_pct": 4.97
+      },
+      {
+        "month": "2019-07",
+        "return_pct": 1.7841
+      },
+      {
+        "month": "2019-08",
+        "return_pct": -7.8876
+      },
+      {
+        "month": "2019-09",
+        "return_pct": 2.7812
+      },
+      {
+        "month": "2019-10",
+        "return_pct": 5.8628
+      },
+      {
+        "month": "2019-11",
+        "return_pct": -4.7758
+      },
+      {
+        "month": "2019-12",
+        "return_pct": 11.7259
+      },
+      {
+        "month": "2020-01",
+        "return_pct": -7.7766
+      },
+      {
+        "month": "2020-02",
+        "return_pct": -12.34
+      },
+      {
+        "month": "2020-03",
+        "return_pct": -38.5819
+      },
+      {
+        "month": "2020-04",
+        "return_pct": 4.7114
+      },
+      {
+        "month": "2020-05",
+        "return_pct": 10.2148
+      },
+      {
+        "month": "2020-06",
+        "return_pct": 5.7742
+      },
+      {
+        "month": "2020-07",
+        "return_pct": 13.1433
+      },
+      {
+        "month": "2020-08",
+        "return_pct": -8.3589
+      },
+      {
+        "month": "2020-09",
+        "return_pct": -7.2435
+      },
+      {
+        "month": "2020-10",
+        "return_pct": -2.8923
+      },
+      {
+        "month": "2020-11",
+        "return_pct": 23.79
+      },
+      {
+        "month": "2020-12",
+        "return_pct": 11.4887
+      },
+      {
+        "month": "2021-01",
+        "return_pct": -7.7691
+      },
+      {
+        "month": "2021-02",
+        "return_pct": -6.6979
+      },
+      {
+        "month": "2021-03",
+        "return_pct": 4.8589
+      },
+      {
+        "month": "2021-04",
+        "return_pct": 6.3079
+      },
+      {
+        "month": "2021-05",
+        "return_pct": 9.4207
+      },
+      {
+        "month": "2021-06",
+        "return_pct": 4.1892
+      },
+      {
+        "month": "2021-07",
+        "return_pct": -7.7454
+      },
+      {
+        "month": "2021-08",
+        "return_pct": -2.6738
+      },
+      {
+        "month": "2021-09",
+        "return_pct": -11.7308
+      },
+      {
+        "month": "2021-10",
+        "return_pct": -8.7457
+      },
+      {
+        "month": "2021-11",
+        "return_pct": -1.1255
+      },
+      {
+        "month": "2021-12",
+        "return_pct": -3.1735
+      },
+      {
+        "month": "2022-01",
+        "return_pct": 12.647
+      },
+      {
+        "month": "2022-02",
+        "return_pct": 4.0164
+      },
+      {
+        "month": "2022-03",
+        "return_pct": 14.959
+      },
+      {
+        "month": "2022-04",
+        "return_pct": -13.3298
+      },
+      {
+        "month": "2022-05",
+        "return_pct": 7.5679
+      },
+      {
+        "month": "2022-06",
+        "return_pct": -22.2979
+      },
+      {
+        "month": "2022-07",
+        "return_pct": 5.9511
+      },
+      {
+        "month": "2022-08",
+        "return_pct": 5.1688
+      },
+      {
+        "month": "2022-09",
+        "return_pct": -2.9161
+      },
+      {
+        "month": "2022-10",
+        "return_pct": 10.2599
+      },
+      {
+        "month": "2022-11",
+        "return_pct": -3.6425
+      },
+      {
+        "month": "2022-12",
+        "return_pct": -11.1499
+      },
+      {
+        "month": "2023-01",
+        "return_pct": 8.4734
+      },
+      {
+        "month": "2023-02",
+        "return_pct": -10.1187
+      },
+      {
+        "month": "2023-03",
+        "return_pct": 0.4034
+      },
+      {
+        "month": "2023-04",
+        "return_pct": 3.2506
+      },
+      {
+        "month": "2023-05",
+        "return_pct": 1.9455
+      },
+      {
+        "month": "2023-06",
+        "return_pct": 12.526
+      },
+      {
+        "month": "2023-07",
+        "return_pct": 4.4403
+      },
+      {
+        "month": "2023-08",
+        "return_pct": -8.9164
+      },
+      {
+        "month": "2023-09",
+        "return_pct": -0.5835
+      },
+      {
+        "month": "2023-10",
+        "return_pct": -2.9345
+      },
+      {
+        "month": "2023-11",
+        "return_pct": 14.2425
+      },
+      {
+        "month": "2023-12",
+        "return_pct": 2.7933
+      },
+      {
+        "month": "2024-01",
+        "return_pct": -5.8352
+      },
+      {
+        "month": "2024-02",
+        "return_pct": 0.2734
+      },
+      {
+        "month": "2024-03",
+        "return_pct": -1.7873
+      },
+      {
+        "month": "2024-04",
+        "return_pct": -4.2875
+      },
+      {
+        "month": "2024-05",
+        "return_pct": -4.6084
+      },
+      {
+        "month": "2024-06",
+        "return_pct": -7.6689
+      },
+      {
+        "month": "2024-07",
+        "return_pct": 1.61
+      },
+      {
+        "month": "2024-08",
+        "return_pct": 7.5621
+      },
+      {
+        "month": "2024-09",
+        "return_pct": -1.2722
+      },
+      {
+        "month": "2024-10",
+        "return_pct": -5.7986
+      },
+      {
+        "month": "2024-11",
+        "return_pct": -8.1354
+      },
+      {
+        "month": "2024-12",
+        "return_pct": -11.7947
+      },
+      {
+        "month": "2025-01",
+        "return_pct": 12.5278
+      },
+      {
+        "month": "2025-02",
+        "return_pct": -4.8164
+      },
+      {
+        "month": "2025-03",
+        "return_pct": 7.2169
+      },
+      {
+        "month": "2025-04",
+        "return_pct": 4.6035
+      },
+      {
+        "month": "2025-05",
+        "return_pct": 0.6287
+      },
+      {
+        "month": "2025-06",
+        "return_pct": 6.0272
+      },
+      {
+        "month": "2025-07",
+        "return_pct": -7.9723
+      },
+      {
+        "month": "2025-08",
+        "return_pct": 11.1111
+      },
+      {
+        "month": "2025-09",
+        "return_pct": 5.0847
+      },
+      {
+        "month": "2025-10",
+        "return_pct": 0.5484
+      },
+      {
+        "month": "2025-11",
+        "return_pct": 7.828
+      },
+      {
+        "month": "2025-12",
+        "return_pct": -5.4746
+      },
+      {
+        "month": "2026-01",
+        "return_pct": 16.588
+      },
+      {
+        "month": "2026-02",
+        "return_pct": 4.5626
+      },
+      {
+        "month": "2026-03",
+        "return_pct": -0.8779
+      },
+      {
+        "month": "2026-04",
+        "return_pct": 3.4124
+      },
+      {
+        "month": "2026-05",
+        "return_pct": -9.5466
+      },
+      {
+        "month": "2026-06",
+        "return_pct": -3.9265
+      },
+      {
+        "month": "2026-07",
+        "return_pct": 6.2319
       }
     ]
   }
