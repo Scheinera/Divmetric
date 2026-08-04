@@ -64,10 +64,10 @@ DEFAULT_FII = [
     "RBRR11.SA",
     "IRDM11.SA",
     "CPTS11.SA",
-    "BCFF11.SA",
+    "RECR11.SA",
     "TGAR11.SA",
     "JSRE11.SA",
-    "GGRC11.SA",
+    "LVBI11.SA",
 ]
 
 

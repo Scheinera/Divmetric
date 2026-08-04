@@ -51,15 +51,15 @@
     },
     "gold": {
       "label": "Ouro (futuro)",
-      "trailing_12m_pct": 21.65,
+      "trailing_12m_pct": 21.67,
       "cagr_since_start_pct": 11.31,
       "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "btc": {
       "label": "Bitcoin",
-      "trailing_12m_pct": -44.89,
-      "cagr_since_start_pct": 58.08,
+      "trailing_12m_pct": -44.87,
+      "cagr_since_start_pct": 58.09,
       "as_of": "2026-08-04",
       "start_used": "2015-01-01"
     },
