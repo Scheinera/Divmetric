@@ -19,6 +19,46 @@
       "note": "Âncora automática; compare com anos em que a Selic esteve em banda semelhante."
     },
     {
+      "id": "selic_near_2015",
+      "title": "Ano 2015: Selic próxima de 14.25%",
+      "year": "2015",
+      "selic_avg_near_pct": 13.97,
+      "months_matched": 9,
+      "ibov_year_return_pct": -7.59,
+      "spx_year_return_pct": 2.45,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2016",
+      "title": "Ano 2016: Selic próxima de 14.25%",
+      "year": "2016",
+      "selic_avg_near_pct": 14.17,
+      "months_matched": 12,
+      "ibov_year_return_pct": 38.93,
+      "spx_year_return_pct": 9.54,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2022",
+      "title": "Ano 2022: Selic próxima de 14.25%",
+      "year": "2022",
+      "selic_avg_near_pct": 13.61,
+      "months_matched": 7,
+      "ibov_year_return_pct": 4.97,
+      "spx_year_return_pct": -19.44,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
+      "id": "selic_near_2023",
+      "title": "Ano 2023: Selic próxima de 14.25%",
+      "year": "2023",
+      "selic_avg_near_pct": 13.69,
+      "months_matched": 8,
+      "ibov_year_return_pct": 21.95,
+      "spx_year_return_pct": 24.23,
+      "note": "Analogia de regime de juro — não implica o mesmo resultado à frente."
+    },
+    {
       "id": "selic_near_2025",
       "title": "Ano 2025: Selic próxima de 14.25%",
       "year": "2025",

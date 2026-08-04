@@ -1,7 +1,7 @@
 {
   "product": "Divmetric",
   "version": 3,
-  "updated_at": "2026-08-04T10:18:07.380442+00:00",
+  "updated_at": "2026-08-04T10:22:29.413802+00:00",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento.",
   "status": "live",
   "analysis_start": "2015-01-01",
@@ -16,7 +16,7 @@
     "benchmarks": 11,
     "elite": 19,
     "gap_attention": 3,
-    "analog_years": 1,
+    "analog_years": 5,
     "dividend_rows": 18
   }
 }

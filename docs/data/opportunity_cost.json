@@ -54,9 +54,9 @@
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -44.89,
-      "trailing_12m_pct": -44.89,
-      "cagr_since_start_pct": 58.08,
+      "annual_rate_pct": -44.84,
+      "trailing_12m_pct": -44.84,
+      "cagr_since_start_pct": 58.09,
       "metric": "retorno ~12m + CAGR desde janela"
     }
   ],
