@@ -33,6 +33,7 @@ def load_window() -> dict[str, Any]:
         "start_date": "2015-01-01",
         "start_year": 2015,
         "b3_elite": None,
+        "b3_fii": None,
         "market_benchmarks": None,
     }
     if not CONFIG.exists() or yaml is None:
@@ -44,6 +45,7 @@ def load_window() -> dict[str, Any]:
         "start_year": analysis.get("start_year") or defaults["start_year"],
         "rationale": analysis.get("rationale") or "",
         "b3_elite": raw.get("b3_elite"),
+        "b3_fii": raw.get("b3_fii"),
         "market_benchmarks": raw.get("market_benchmarks"),
     }
 
@@ -220,10 +222,28 @@ def build_history_monthly(market: dict[str, Any], start_date: str) -> dict[str, 
     }
 
 
-def build_opportunity_cost(official: dict[str, Any], benchmarks: dict[str, Any], start_date: str) -> dict[str, Any]:
+def _median(values: list[float]) -> float | None:
+    vals = sorted(v for v in values if v is not None)
+    if not vals:
+        return None
+    mid = len(vals) // 2
+    if len(vals) % 2:
+        return round(vals[mid], 2)
+    return round((vals[mid - 1] + vals[mid]) / 2.0, 2)
+
+
+def build_opportunity_cost(
+    official: dict[str, Any],
+    benchmarks: dict[str, Any],
+    start_date: str,
+    fii_liq: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     by_id = {i["id"]: i for i in benchmarks.get("items") or []}
     selic = (official.get("selic") or {}).get("annual_rate_pct")
-    return {
+    fii_rows = (fii_liq or {}).get("elite") or []
+    fii_tsr_med = _median([float(r["total_return_12m_pct"]) for r in fii_rows if r.get("total_return_12m_pct") is not None])
+    fii_dy_med = _median([float(r["dividend_yield_pct"]) for r in fii_rows if r.get("dividend_yield_pct") is not None])
+    payload = {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
         "status": "live",
         "analysis_start": start_date,
@@ -234,6 +254,7 @@ def build_opportunity_cost(official: dict[str, Any], benchmarks: dict[str, Any],
             "Quanto rende o mesmo capital na Selic / Tesouro / caixa?",
             "Qual a incerteza (volatilidade e drawdown) da alternativa escolhida?",
             "O prêmio de risco justifica abrir mão da certeza relativa da renda fixa?",
+            "No FII: o DY cobre a Selic? O total return (preço+provento) aguenta liquidez e vacância?",
         ],
         "comparisons": [
             {
@@ -265,6 +286,17 @@ def build_opportunity_cost(official: dict[str, Any], benchmarks: dict[str, Any],
                 "metric": "retorno ~12m + CAGR desde janela",
             },
             {
+                "id": "fii_basket",
+                "label": "FIIs (mediana da cesta líquida)",
+                "certainty": "média",
+                "role": "renda imobiliária listada (provento + preço)",
+                "annual_rate_pct": fii_tsr_med,
+                "total_return_12m_pct_median": fii_tsr_med,
+                "dividend_yield_pct_median": fii_dy_med,
+                "sample_size": len(fii_rows),
+                "metric": "mediana TSR ~12m da cesta FII (Yahoo); DY mediana à parte",
+            },
+            {
                 "id": "gold",
                 "label": "Ouro",
                 "certainty": "média",
@@ -287,9 +319,10 @@ def build_opportunity_cost(official: dict[str, Any], benchmarks: dict[str, Any],
         ],
         "disclaimer": DISCLAIMER,
     }
+    return payload
 
 
-def build_elite(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
+def build_elite(liq: dict[str, Any], start_date: str, fii_liq: dict[str, Any] | None = None) -> dict[str, Any]:
     return {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
         "status": "live",
@@ -297,23 +330,29 @@ def build_elite(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
         "definition": {
             "market_dominators": "Empresas que concentram volume, attendance e tese setorial — líderes de liquidez e influência de preço.",
             "elite": "Subconjunto líquido com histórico desde a janela de análise — não é tip de compra.",
+            "fii": "Fundos imobiliários líquidos da cesta Divmetric — renda via provento + variação de cota (TSR).",
         },
         "filters_educational": [
             "Liquidez diária suficiente",
             "Histórico desde a janela alinhada (2015+)",
             "Governança e divulgação transparentes",
-            "Comparar DY e CAGR sem confundir com sinal",
+            "Comparar DY e total return sem confundir com sinal",
+            "FIIs: vacância, duration do portfólio e liquidez da cota importam tanto quanto o DY",
         ],
         "b3_watch": liq.get("elite") or [],
+        "fii_watch": (fii_liq or {}).get("elite") or [],
         "us_watch": [],
         "source": liq.get("source"),
-        "note": "Ordenado por volume da última sessão; inclui CAGR desde analysis_start quando disponível.",
+        "note": "Ações e FIIs ordenados por volume da última sessão; inclui CAGR/TSR quando disponível.",
         "disclaimer": DISCLAIMER,
     }
 
 
-def build_liquidity(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
+def build_liquidity(liq: dict[str, Any], start_date: str, fii_liq: dict[str, Any] | None = None) -> dict[str, Any]:
     thr = liq.get("gap_threshold_pct", 2.0)
+    watch = list(liq.get("gap_attention") or [])
+    watch.extend((fii_liq or {}).get("gap_attention") or [])
+    watch = sorted(watch, key=lambda x: abs(x.get("open_gap_pct") or 0), reverse=True)
     return {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
         "status": "live",
@@ -324,6 +363,7 @@ def build_liquidity(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
             "Volume atípico sem contexto",
             "Papel fora do radar de elite/líderes sem tese clara",
             "Gap ou explosão sem lastro de fluxo",
+            "FII com cota pouco negociada (DY alto não salva a saída)",
         ],
         "premarket": {
             "example_threshold_pct": thr,
@@ -338,23 +378,21 @@ def build_liquidity(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
                 "Isso altera o custo de oportunidade vs Selic/caixa?",
             ],
         },
-        "watch": liq.get("gap_attention") or [],
+        "watch": watch,
         "source": liq.get("source"),
         "disclaimer": DISCLAIMER,
     }
 
 
-def build_dividends_radar(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
+def _radar_rows(items: list[dict[str, Any]], asset_class: str) -> list[dict[str, Any]]:
     rows = []
-    for e in liq.get("elite") or []:
-        # Inclui papel se tiver DY ou TSR (preço+div); preferir quem paga dividendo no radar
-        if e.get("dividend_yield_pct") is None and e.get("total_return_12m_pct") is None:
-            continue
+    for e in items:
         if e.get("dividend_yield_pct") is None:
             continue
         rows.append(
             {
                 "ticker": e.get("ticker"),
+                "asset_class": asset_class,
                 "dividend_yield_pct": e.get("dividend_yield_pct"),
                 "last": e.get("last"),
                 "volume": e.get("volume"),
@@ -369,8 +407,7 @@ def build_dividends_radar(liq: dict[str, Any], start_date: str) -> dict[str, Any
                 "source": "yahoo_chart_dividends_trailing_12m",
             }
         )
-    # Ordenação padrão: Total Return ~12m (preço + dividendos cash)
-    rows = sorted(
+    return sorted(
         rows,
         key=lambda x: (
             x.get("total_return_12m_pct") is not None,
@@ -378,6 +415,15 @@ def build_dividends_radar(liq: dict[str, Any], start_date: str) -> dict[str, Any
         ),
         reverse=True,
     )
+
+
+def build_dividends_radar(
+    liq: dict[str, Any],
+    start_date: str,
+    fii_liq: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    top_yield = _radar_rows(liq.get("elite") or [], "acao")
+    top_fii = _radar_rows((fii_liq or {}).get("elite") or [], "fii")
     return {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
         "analysis_start": start_date,
@@ -387,19 +433,22 @@ def build_dividends_radar(liq: dict[str, Any], start_date: str) -> dict[str, Any
             "title": "Dividendos e total return",
             "summary": (
                 "Mercados maduros olham total shareholder return (dividendos + recompra + preço). "
-                "DY isolado sem liquidez é armadilha."
+                "DY isolado sem liquidez é armadilha. Em FII, o análogo é provento + variação da cota."
             ),
             "formula": "(preço_final − preço_inicial + dividendos_cash) / preço_inicial  (~365 dias)",
-            "includes": ["variação de preço", "dividendos em dinheiro (eventos Yahoo)"],
-            "excludes": ["recompra de ações (buyback) — ainda sem fonte consolidada gratuita"],
-            "liquidity_note": "Volume da última sessão é mostrado para lembrar: sem liquidez, DY alto não serve.",
+            "includes": ["variação de preço/cota", "dividendos/proventos em dinheiro (eventos Yahoo)"],
+            "excludes": [
+                "recompra de ações (buyback) — ainda sem fonte consolidada gratuita",
+                "índice IFIX oficial (Yahoo não entrega série estável; usamos cesta líquida)",
+            ],
+            "liquidity_note": "Volume da última sessão reforça: sem liquidez, DY alto não serve.",
         },
         "source_note": (
-            "DY = dividendos cash ~365d / último preço. "
-            "Total return (TSR proxy) = preço + dividendos cash no mesmo intervalo. "
-            "Buyback ainda não entra."
+            "Ações e FIIs: DY = cash ~365d / preço; TSR = preço + cash no mesmo intervalo. "
+            "Cesta FII é proxy educacional de fundos líquidos — não o IFIX oficial."
         ),
-        "top_yield": rows,
+        "top_yield": top_yield,
+        "top_fii": top_fii,
         "upcoming_payments": [],
         "status": "live",
     }
@@ -576,7 +625,11 @@ def build_world(market: dict[str, Any], official: dict[str, Any], start_date: st
     }
 
 
-def build_tickers_catalog(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
+def build_tickers_catalog(
+    liq: dict[str, Any],
+    start_date: str,
+    fii_liq: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     tickers = []
     for e in liq.get("elite") or []:
         if not e.get("ticker"):
@@ -590,12 +643,30 @@ def build_tickers_catalog(liq: dict[str, Any], start_date: str) -> dict[str, Any
                 "last": e.get("last"),
                 "volume": e.get("volume"),
                 "dividend_yield_pct": e.get("dividend_yield_pct"),
+                "total_return_12m_pct": e.get("total_return_12m_pct"),
+                "cagr_since_start_pct": e.get("cagr_since_start_pct"),
+                "start_used": e.get("start_used"),
+            }
+        )
+    for e in (fii_liq or {}).get("elite") or []:
+        if not e.get("ticker"):
+            continue
+        tickers.append(
+            {
+                "ticker": e["ticker"],
+                "symbol": e.get("symbol"),
+                "type": "fii",
+                "market": "B3",
+                "last": e.get("last"),
+                "volume": e.get("volume"),
+                "dividend_yield_pct": e.get("dividend_yield_pct"),
+                "total_return_12m_pct": e.get("total_return_12m_pct"),
                 "cagr_since_start_pct": e.get("cagr_since_start_pct"),
                 "start_used": e.get("start_used"),
             }
         )
     return {
-        "version": 2,
+        "version": 3,
         "status": "live",
         "analysis_start": start_date,
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -627,8 +698,8 @@ def build_sources_registry(window: dict[str, Any]) -> dict[str, Any]:
                 "name": "Yahoo Finance chart API",
                 "trust": "operational",
                 "url": "https://finance.yahoo.com/",
-                "fields": ["Ibov", "S&P 500", "BTC", "Ouro", "DXY", "USD/BRL", "US 10Y", "EWZ", "B3 elite", "DY cash events"],
-                "note": "period1/period2 + interval=1d (evita downsample de range=max). DY = eventos div trailing 12m.",
+                "fields": ["Ibov", "S&P 500", "BTC", "Ouro", "DXY", "USD/BRL", "US 10Y", "EWZ", "B3 elite", "FIIs", "DY cash events"],
+                "note": "period1/period2 + interval=1d. DY/TSR = eventos div trailing 12m. FIIs = cesta líquida (não IFIX).",
             },
             {
                 "id": "awesomeapi",
@@ -702,9 +773,19 @@ def main() -> int:
             gap_threshold_pct=2.0,
             tickers=window.get("b3_elite"),
             start_date=start_date,
+            asset_class="acao",
         ),
     )
     print(f"  elite ok_count={liq.get('ok_count')} gaps={len(liq.get('gap_attention') or [])}")
+
+    print("  fetching B3 FIIs…")
+    fii_liq = fetch_b3_liquidity_and_elite(
+        gap_threshold_pct=2.0,
+        tickers=window.get("b3_fii"),
+        start_date=start_date,
+        asset_class="fii",
+    )
+    print(f"  fii ok_count={fii_liq.get('ok_count')} errors={len(fii_liq.get('errors') or [])}")
 
     benchmarks = build_benchmarks(official, market, start_date)
     aligned = build_history_aligned(official, market, start_date)
@@ -712,13 +793,13 @@ def main() -> int:
     write_json("benchmarks.json", benchmarks)
     write_json("history_aligned.json", aligned)
     write_json("history_monthly.json", build_history_monthly(market, start_date))
-    write_json("opportunity_cost.json", build_opportunity_cost(official, benchmarks, start_date))
-    write_json("elite_stocks.json", build_elite(liq, start_date))
-    write_json("liquidity_watch.json", build_liquidity(liq, start_date))
-    write_json("dividends_radar.json", build_dividends_radar(liq, start_date))
+    write_json("opportunity_cost.json", build_opportunity_cost(official, benchmarks, start_date, fii_liq))
+    write_json("elite_stocks.json", build_elite(liq, start_date, fii_liq))
+    write_json("liquidity_watch.json", build_liquidity(liq, start_date, fii_liq))
+    write_json("dividends_radar.json", build_dividends_radar(liq, start_date, fii_liq))
     write_json("historical_analogs.json", build_analogs(official, market, start_date))
     write_json("world_frameworks.json", build_world(market, official, start_date))
-    write_json("tickers_catalog.json", build_tickers_catalog(liq, start_date))
+    write_json("tickers_catalog.json", build_tickers_catalog(liq, start_date, fii_liq))
     write_json("sources_registry.json", build_sources_registry(window))
     write_json("official_macro.json", {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
@@ -732,7 +813,7 @@ def main() -> int:
         "meta.json",
         {
             "product": "Divmetric",
-            "version": 3,
+            "version": 4,
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "disclaimer": DISCLAIMER,
             "status": "live",
@@ -741,15 +822,18 @@ def main() -> int:
             "layers": {
                 "official": "BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX)",
                 "market": "Yahoo chart diário (period1/2) + eventos DY + AwesomeAPI",
+                "fii": "Cesta líquida B3 (proxy; não IFIX oficial)",
                 "aligned_history": f"monthly from {start_date}",
                 "editorial": "Suno / InfoMoney / B3 referência",
             },
             "counts": {
                 "benchmarks": len(benchmarks.get("items") or []),
                 "elite": len(liq.get("elite") or []),
-                "gap_attention": len(liq.get("gap_attention") or []),
+                "fii": len(fii_liq.get("elite") or []),
+                "gap_attention": len(liq.get("gap_attention") or []) + len(fii_liq.get("gap_attention") or []),
                 "analog_years": max(0, len((build_analogs(official, market, start_date).get("analogs") or [])) - 1),
                 "dividend_rows": len([e for e in (liq.get("elite") or []) if e.get("dividend_yield_pct") is not None]),
+                "fii_dividend_rows": len([e for e in (fii_liq.get("elite") or []) if e.get("dividend_yield_pct") is not None]),
             },
         },
     )

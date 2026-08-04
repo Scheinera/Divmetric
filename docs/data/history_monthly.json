@@ -3,7 +3,7 @@
   "status": "live",
   "analysis_start": "2015-01-01",
   "note": "Retornos mensais alinhados à janela — uso educacional.",
-  "updated_at": "2026-08-04T10:28:34.031724+00:00",
+  "updated_at": "2026-08-04T10:39:05.860323+00:00",
   "series": {
     "ibov": [
       {
@@ -1668,7 +1668,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.9586
+        "return_pct": 0.9673
       }
     ],
     "gold": [
@@ -2226,7 +2226,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 1.3015
+        "return_pct": 1.3806
       }
     ],
     "dxy": [
@@ -2784,7 +2784,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.2244
+        "return_pct": 0.2074
       }
     ],
     "usdbrl": [

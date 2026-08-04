@@ -81,7 +81,8 @@
         .map((c) => {
           const rate = c.annual_rate_pct != null ? `${Number(c.annual_rate_pct).toFixed(2)}%` : "—";
           const cagr = c.cagr_since_start_pct != null ? ` · CAGR ${Number(c.cagr_since_start_pct).toFixed(2)}%` : "";
-          return `<div class="stat"><strong>${c.label}</strong><span>${rate}${cagr} · ${c.certainty} · ${c.role}</span></div>`;
+          const dyMed = c.dividend_yield_pct_median != null ? ` · DY med ${Number(c.dividend_yield_pct_median).toFixed(2)}%` : "";
+          return `<div class="stat"><strong>${c.label}</strong><span>${rate}${cagr}${dyMed} · ${c.certainty} · ${c.role}</span></div>`;
         })
         .join("");
 
@@ -91,11 +92,17 @@
       document.getElementById("elite-filters").innerHTML = (elite.filters_educational || [])
         .map((f) => `<li>${f}</li>`).join("");
       const watch = elite.b3_watch || [];
-      document.getElementById("elite-note").innerHTML = watch.length
-        ? `<table style="margin-top:0.75rem"><thead><tr><th>Ticker</th><th>Último</th><th>DY%</th><th>12m%</th><th>CAGR%</th><th>Vol</th></tr></thead><tbody>${
-            watch.slice(0, 12).map((w) => `<tr><td>${w.ticker}</td><td>${w.last}</td><td>${w.dividend_yield_pct ?? "—"}</td><td>${w.trailing_12m_pct ?? "—"}</td><td>${w.cagr_since_start_pct ?? "—"}</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td></tr>`).join("")
-          }</tbody></table><p class="tiny muted">${elite.note || ""}</p>`
-        : (elite.note || "");
+      const fiis = elite.fii_watch || [];
+      document.getElementById("elite-note").innerHTML = `
+        ${watch.length ? `<p class="tiny muted"><strong>Ações</strong></p>
+        <table style="margin-top:0.35rem"><thead><tr><th>Ticker</th><th>Último</th><th>DY%</th><th>TSR%</th><th>Vol</th></tr></thead><tbody>${
+            watch.slice(0, 8).map((w) => `<tr><td>${w.ticker}</td><td>${w.last}</td><td>${w.dividend_yield_pct ?? "—"}</td><td>${w.total_return_12m_pct ?? "—"}</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td></tr>`).join("")
+          }</tbody></table>` : ""}
+        ${fiis.length ? `<p class="tiny muted" style="margin-top:1rem"><strong>FIIs</strong></p>
+        <table style="margin-top:0.35rem"><thead><tr><th>Ticker</th><th>Último</th><th>DY%</th><th>TSR%</th><th>Vol</th></tr></thead><tbody>${
+            fiis.slice(0, 8).map((w) => `<tr><td>${w.ticker}</td><td>${w.last}</td><td>${w.dividend_yield_pct ?? "—"}</td><td>${w.total_return_12m_pct ?? "—"}</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td></tr>`).join("")
+          }</tbody></table>` : ""}
+        <p class="tiny muted">${elite.note || ""}</p>`;
 
       document.getElementById("an-thesis").textContent = analogs.thesis || "";
       document.getElementById("an-method").innerHTML = (analogs.method || [])

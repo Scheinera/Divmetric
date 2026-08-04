@@ -8,7 +8,8 @@
   "questions": [
     "Quanto rende o mesmo capital na Selic / Tesouro / caixa?",
     "Qual a incerteza (volatilidade e drawdown) da alternativa escolhida?",
-    "O prêmio de risco justifica abrir mão da certeza relativa da renda fixa?"
+    "O prêmio de risco justifica abrir mão da certeza relativa da renda fixa?",
+    "No FII: o DY cobre a Selic? O total return (preço+provento) aguenta liquidez e vacância?"
   ],
   "comparisons": [
     {
@@ -40,13 +41,24 @@
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
+      "id": "fii_basket",
+      "label": "FIIs (mediana da cesta líquida)",
+      "certainty": "média",
+      "role": "renda imobiliária listada (provento + preço)",
+      "annual_rate_pct": 11.61,
+      "total_return_12m_pct_median": 11.61,
+      "dividend_yield_pct_median": 10.2,
+      "sample_size": 16,
+      "metric": "mediana TSR ~12m da cesta FII (Yahoo); DY mediana à parte"
+    },
+    {
       "id": "gold",
       "label": "Ouro",
       "certainty": "média",
       "role": "reserva / hedge",
-      "annual_rate_pct": 21.56,
-      "trailing_12m_pct": 21.56,
-      "cagr_since_start_pct": 11.3,
+      "annual_rate_pct": 21.65,
+      "trailing_12m_pct": 21.65,
+      "cagr_since_start_pct": 11.31,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {

@@ -7,7 +7,8 @@
     "Spread amplo / livro fino",
     "Volume atípico sem contexto",
     "Papel fora do radar de elite/líderes sem tese clara",
-    "Gap ou explosão sem lastro de fluxo"
+    "Gap ou explosão sem lastro de fluxo",
+    "FII com cota pouco negociada (DY alto não salva a saída)"
   ],
   "premarket": {
     "example_threshold_pct": 2.0,
@@ -23,6 +24,7 @@
     {
       "ticker": "PRIO3",
       "symbol": "PRIO3.SA",
+      "asset_class": "acao",
       "last": 58.5,
       "volume": 7072400,
       "day_change_pct": -3.86,
@@ -49,6 +51,7 @@
     {
       "ticker": "PETR4",
       "symbol": "PETR4.SA",
+      "asset_class": "acao",
       "last": 43.05,
       "volume": 24400900,
       "day_change_pct": -0.85,
@@ -77,6 +80,7 @@
     {
       "ticker": "RENT3",
       "symbol": "RENT3.SA",
+      "asset_class": "acao",
       "last": 38.1,
       "volume": 4634000,
       "day_change_pct": 1.3,

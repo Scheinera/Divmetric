@@ -37,7 +37,7 @@ Todas as séries oficiais e de mercado, analogias Selic×anos, CAGR e índices 1
 |--------|--------|--------|
 | Macro oficial | BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX) | Canônico BR — calculadora e custo de oportunidade |
 | Mercado | Yahoo chart **diário** (`period1`/`period2`) + AwesomeAPI | Ibov, S&P, BTC, ouro, DXY, USD/BRL, US10Y, EWZ, B3 |
-| Dividendos | Eventos `div` do Yahoo (trailing 12m cash / preço) | Radar DY; Status Invest depois (export autorizado) |
+| Dividendos | Eventos `div` do Yahoo (trailing 12m cash / preço) + cesta FII líquida | Radar DY/TSR ações e FIIs; Status Invest depois (export autorizado) |
 | Referência | B3 | Contexto de listagem/liquidez (sem scrape agressivo) |
 | Editorial | Suno, InfoMoney | Guias e notícias; citação + link |
 

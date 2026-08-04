@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
   "status": "live",
   "analysis_start": "2015-01-01",
-  "updated_at": "2026-08-04T10:28:34.045135+00:00",
+  "updated_at": "2026-08-04T10:39:05.875131+00:00",
   "tickers": [
     {
       "ticker": "ABEV3",
@@ -12,6 +12,7 @@
       "last": 15.99,
       "volume": 38243300,
       "dividend_yield_pct": 4.85,
+      "total_return_12m_pct": 34.55,
       "cagr_since_start_pct": -0.02,
       "start_used": "2015-01-02"
     },
@@ -23,6 +24,7 @@
       "last": 15.62,
       "volume": 30632200,
       "dividend_yield_pct": 4.83,
+      "total_return_12m_pct": 30.06,
       "cagr_since_start_pct": 14.76,
       "start_used": "2015-01-02"
     },
@@ -34,6 +36,7 @@
       "last": 18.43,
       "volume": 25192900,
       "dividend_yield_pct": 8.44,
+      "total_return_12m_pct": 28.69,
       "cagr_since_start_pct": 2.76,
       "start_used": "2015-01-02"
     },
@@ -45,6 +48,7 @@
       "last": 43.05,
       "volume": 24400900,
       "dividend_yield_pct": 6.94,
+      "total_return_12m_pct": 42.93,
       "cagr_since_start_pct": 14.08,
       "start_used": "2015-01-02"
     },
@@ -56,6 +60,7 @@
       "last": 13.88,
       "volume": 19025700,
       "dividend_yield_pct": 9.43,
+      "total_return_12m_pct": 49.83,
       "cagr_since_start_pct": 8.82,
       "start_used": "2015-01-02"
     },
@@ -67,6 +72,7 @@
       "last": 76.28,
       "volume": 17353300,
       "dividend_yield_pct": 7.18,
+      "total_return_12m_pct": 52.93,
       "cagr_since_start_pct": 11.66,
       "start_used": "2015-01-02"
     },
@@ -78,6 +84,7 @@
       "last": 42.89,
       "volume": 10285400,
       "dividend_yield_pct": 8.04,
+      "total_return_12m_pct": 35.75,
       "cagr_since_start_pct": 8.63,
       "start_used": "2015-01-02"
     },
@@ -89,6 +96,7 @@
       "last": 11.34,
       "volume": 9550800,
       "dividend_yield_pct": 11.29,
+      "total_return_12m_pct": 22.18,
       "cagr_since_start_pct": 5.17,
       "start_used": "2015-01-02"
     },
@@ -100,6 +108,7 @@
       "last": 21.27,
       "volume": 8365700,
       "dividend_yield_pct": 2.58,
+      "total_return_12m_pct": 18.91,
       "cagr_since_start_pct": 5.59,
       "start_used": "2015-01-02"
     },
@@ -111,6 +120,7 @@
       "last": 58.5,
       "volume": 7072400,
       "dividend_yield_pct": null,
+      "total_return_12m_pct": 42.72,
       "cagr_since_start_pct": 52.52,
       "start_used": "2015-01-02"
     },
@@ -122,6 +132,7 @@
       "last": 18.48,
       "volume": 6254000,
       "dividend_yield_pct": 2.38,
+      "total_return_12m_pct": 43.27,
       "cagr_since_start_pct": 12.53,
       "start_used": "2015-01-02"
     },
@@ -133,6 +144,7 @@
       "last": 36.13,
       "volume": 5733700,
       "dividend_yield_pct": 4.32,
+      "total_return_12m_pct": 90.42,
       "cagr_since_start_pct": 6.6,
       "start_used": "2018-03-14"
     },
@@ -144,6 +156,7 @@
       "last": 41.36,
       "volume": 5313900,
       "dividend_yield_pct": 11.0,
+      "total_return_12m_pct": 37.29,
       "cagr_since_start_pct": 2.71,
       "start_used": "2015-01-02"
     },
@@ -155,6 +168,7 @@
       "last": 47.2,
       "volume": 5153000,
       "dividend_yield_pct": 4.25,
+      "total_return_12m_pct": 32.6,
       "cagr_since_start_pct": 19.64,
       "start_used": "2015-01-02"
     },
@@ -166,6 +180,7 @@
       "last": 38.1,
       "volume": 4634000,
       "dividend_yield_pct": 5.48,
+      "total_return_12m_pct": 16.93,
       "cagr_since_start_pct": 11.71,
       "start_used": "2015-01-02"
     },
@@ -177,6 +192,7 @@
       "last": 32.63,
       "volume": 4096300,
       "dividend_yield_pct": 7.61,
+      "total_return_12m_pct": 11.54,
       "cagr_since_start_pct": 4.83,
       "start_used": "2015-01-02"
     },
@@ -188,6 +204,7 @@
       "last": 38.66,
       "volume": 3594100,
       "dividend_yield_pct": 4.1,
+      "total_return_12m_pct": 18.12,
       "cagr_since_start_pct": 18.36,
       "start_used": "2015-01-02"
     },
@@ -199,6 +216,7 @@
       "last": 43.32,
       "volume": 3411300,
       "dividend_yield_pct": 2.59,
+      "total_return_12m_pct": -14.78,
       "cagr_since_start_pct": 8.92,
       "start_used": "2017-11-10"
     },
@@ -210,7 +228,200 @@
       "last": 39.66,
       "volume": 1166600,
       "dividend_yield_pct": 8.26,
+      "total_return_12m_pct": 28.7,
       "cagr_since_start_pct": 6.64,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "MXRF11",
+      "symbol": "MXRF11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 9.35,
+      "volume": 4137666,
+      "dividend_yield_pct": 11.7,
+      "total_return_12m_pct": 11.11,
+      "cagr_since_start_pct": 1.49,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "GGRC11",
+      "symbol": "GGRC11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 9.96,
+      "volume": 1490836,
+      "dividend_yield_pct": 11.04,
+      "total_return_12m_pct": 12.74,
+      "cagr_since_start_pct": -1.97,
+      "start_used": "2017-10-09"
+    },
+    {
+      "ticker": "CPTS11",
+      "symbol": "CPTS11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 7.51,
+      "volume": 856783,
+      "dividend_yield_pct": 14.26,
+      "total_return_12m_pct": 16.91,
+      "cagr_since_start_pct": -3.0,
+      "start_used": "2017-10-09"
+    },
+    {
+      "ticker": "KNSC11",
+      "symbol": "KNSC11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 8.98,
+      "volume": 491495,
+      "dividend_yield_pct": 11.56,
+      "total_return_12m_pct": 15.95,
+      "cagr_since_start_pct": -1.42,
+      "start_used": "2022-02-17"
+    },
+    {
+      "ticker": "HGLG11",
+      "symbol": "HGLG11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 147.0,
+      "volume": 192179,
+      "dividend_yield_pct": 8.23,
+      "total_return_12m_pct": 4.53,
+      "cagr_since_start_pct": 2.77,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "PVBI11",
+      "symbol": "PVBI11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 67.05,
+      "volume": 176304,
+      "dividend_yield_pct": 7.08,
+      "total_return_12m_pct": -4.14,
+      "cagr_since_start_pct": -15.9,
+      "start_used": "2024-01-30"
+    },
+    {
+      "ticker": "KNCR11",
+      "symbol": "KNCR11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 108.07,
+      "volume": 159212,
+      "dividend_yield_pct": 13.35,
+      "total_return_12m_pct": 16.68,
+      "cagr_since_start_pct": 0.33,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "XPML11",
+      "symbol": "XPML11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 105.28,
+      "volume": 151195,
+      "dividend_yield_pct": 10.49,
+      "total_return_12m_pct": 13.66,
+      "cagr_since_start_pct": 0.28,
+      "start_used": "2020-06-04"
+    },
+    {
+      "ticker": "BTLG11",
+      "symbol": "BTLG11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 101.0,
+      "volume": 149044,
+      "dividend_yield_pct": 9.46,
+      "total_return_12m_pct": 12.12,
+      "cagr_since_start_pct": 0.92,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "XPLG11",
+      "symbol": "XPLG11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 91.1,
+      "volume": 139272,
+      "dividend_yield_pct": 9.9,
+      "total_return_12m_pct": 2.63,
+      "cagr_since_start_pct": -3.79,
+      "start_used": "2020-06-04"
+    },
+    {
+      "ticker": "TGAR11",
+      "symbol": "TGAR11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 48.96,
+      "volume": 124088,
+      "dividend_yield_pct": 19.02,
+      "total_return_12m_pct": -28.83,
+      "cagr_since_start_pct": -8.6,
+      "start_used": "2017-08-24"
+    },
+    {
+      "ticker": "KNRI11",
+      "symbol": "KNRI11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 152.09,
+      "volume": 76849,
+      "dividend_yield_pct": 7.83,
+      "total_return_12m_pct": 16.31,
+      "cagr_since_start_pct": 3.32,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "RBRR11",
+      "symbol": "RBRR11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 75.37,
+      "volume": 60155,
+      "dividend_yield_pct": 13.18,
+      "total_return_12m_pct": -2.77,
+      "cagr_since_start_pct": -3.46,
+      "start_used": "2018-05-04"
+    },
+    {
+      "ticker": "VISC11",
+      "symbol": "VISC11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 103.9,
+      "volume": 58537,
+      "dividend_yield_pct": 8.75,
+      "total_return_12m_pct": 10.83,
+      "cagr_since_start_pct": 0.25,
+      "start_used": "2017-11-01"
+    },
+    {
+      "ticker": "JSRE11",
+      "symbol": "JSRE11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 58.67,
+      "volume": 50403,
+      "dividend_yield_pct": 9.0,
+      "total_return_12m_pct": 0.9,
+      "cagr_since_start_pct": -3.29,
+      "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "HGRE11",
+      "symbol": "HGRE11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 116.22,
+      "volume": 29011,
+      "dividend_yield_pct": 9.16,
+      "total_return_12m_pct": 17.36,
+      "cagr_since_start_pct": -0.74,
       "start_used": "2015-01-02"
     }
   ]

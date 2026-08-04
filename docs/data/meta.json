@@ -1,7 +1,7 @@
 {
   "product": "Divmetric",
-  "version": 3,
-  "updated_at": "2026-08-04T10:28:34.050076+00:00",
+  "version": 4,
+  "updated_at": "2026-08-04T10:39:05.879386+00:00",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento.",
   "status": "live",
   "analysis_start": "2015-01-01",
@@ -9,14 +9,17 @@
   "layers": {
     "official": "BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX)",
     "market": "Yahoo chart diário (period1/2) + eventos DY + AwesomeAPI",
+    "fii": "Cesta líquida B3 (proxy; não IFIX oficial)",
     "aligned_history": "monthly from 2015-01-01",
     "editorial": "Suno / InfoMoney / B3 referência"
   },
   "counts": {
     "benchmarks": 11,
     "elite": 19,
+    "fii": 16,
     "gap_attention": 3,
     "analog_years": 5,
-    "dividend_rows": 18
+    "dividend_rows": 18,
+    "fii_dividend_rows": 16
   }
 }

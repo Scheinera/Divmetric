@@ -70,35 +70,35 @@
       "description": "Yahoo chart diário BTC-USD desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "BTC-USD",
-      "last_close": 63415.8594,
+      "last_close": 63421.3594,
       "start_used": "2015-01-01"
     },
     {
       "id": "gold",
       "label": "Ouro (futuro)",
       "source_layer": "market",
-      "annual_rate_pct": 21.56,
-      "trailing_12m_pct": 21.56,
-      "cagr_since_start_pct": 11.3,
+      "annual_rate_pct": 21.65,
+      "trailing_12m_pct": 21.65,
+      "cagr_since_start_pct": 11.31,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário GC=F desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "GC=F",
-      "last_close": 4101.7998,
+      "last_close": 4105.0,
       "start_used": "2015-01-02"
     },
     {
       "id": "dxy",
       "label": "DXY",
       "source_layer": "market",
-      "annual_rate_pct": 1.26,
-      "trailing_12m_pct": 1.26,
+      "annual_rate_pct": 1.24,
+      "trailing_12m_pct": 1.24,
       "cagr_since_start_pct": 0.81,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário DX-Y.NYB desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "DX-Y.NYB",
-      "last_close": 100.024,
+      "last_close": 100.007,
       "start_used": "2015-01-02"
     },
     {
@@ -148,5 +148,5 @@
     "official": "BCB SGS",
     "market": "Yahoo Finance chart API (period1/period2 diário) + AwesomeAPI"
   },
-  "fetched_at": "2026-08-04T10:28:34.023157+00:00"
+  "fetched_at": "2026-08-04T10:39:05.847033+00:00"
 }

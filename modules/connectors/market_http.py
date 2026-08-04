@@ -48,6 +48,28 @@ DEFAULT_B3 = [
     "TAEE11.SA",
 ]
 
+# FIIs líquidos frequentes no radar de renda (educacional — não ranking oficial IFIX)
+DEFAULT_FII = [
+    "HGLG11.SA",
+    "XPLG11.SA",
+    "BTLG11.SA",
+    "XPML11.SA",
+    "VISC11.SA",
+    "HGRE11.SA",
+    "KNRI11.SA",
+    "KNCR11.SA",
+    "KNSC11.SA",
+    "MXRF11.SA",
+    "PVBI11.SA",
+    "RBRR11.SA",
+    "IRDM11.SA",
+    "CPTS11.SA",
+    "BCFF11.SA",
+    "TGAR11.SA",
+    "JSRE11.SA",
+    "GGRC11.SA",
+]
+
 
 def _to_unix(date_str: str) -> int:
     dt = datetime.strptime(date_str[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
@@ -363,8 +385,14 @@ def fetch_b3_liquidity_and_elite(
     gap_threshold_pct: float = 2.0,
     tickers: list[str] | None = None,
     start_date: str = "2015-01-01",
+    asset_class: str = "acao",
 ) -> dict[str, Any]:
-    watch = tickers or DEFAULT_B3
+    if tickers is not None:
+        watch = tickers
+    elif asset_class == "fii":
+        watch = DEFAULT_FII
+    else:
+        watch = DEFAULT_B3
     elite = []
     gaps = []
     errors: list[str] = []
@@ -396,6 +424,7 @@ def fetch_b3_liquidity_and_elite(
             row = {
                 "ticker": symbol.replace(".SA", ""),
                 "symbol": symbol,
+                "asset_class": asset_class,
                 "last": round(c1, 4),
                 "volume": int(v1),
                 "day_change_pct": round(day_chg, 2),
@@ -428,6 +457,7 @@ def fetch_b3_liquidity_and_elite(
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "source": "Yahoo chart diário + eventos de dividendos",
         "start_date": start_date,
+        "asset_class": asset_class,
         "elite": elite_sorted,
         "gap_attention": sorted(gaps, key=lambda x: abs(x.get("open_gap_pct") or 0), reverse=True),
         "gap_threshold_pct": gap_threshold_pct,

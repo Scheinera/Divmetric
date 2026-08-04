@@ -38,9 +38,10 @@
         "US 10Y",
         "EWZ",
         "B3 elite",
+        "FIIs",
         "DY cash events"
       ],
-      "note": "period1/period2 + interval=1d (evita downsample de range=max). DY = eventos div trailing 12m."
+      "note": "period1/period2 + interval=1d. DY/TSR = eventos div trailing 12m. FIIs = cesta líquida (não IFIX)."
     },
     {
       "id": "awesomeapi",
