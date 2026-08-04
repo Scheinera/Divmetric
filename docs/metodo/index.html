@@ -66,7 +66,10 @@
       document.getElementById("oc-questions").innerHTML = (oc.questions || [])
         .map((q) => `<li>${q}</li>`).join("");
       document.getElementById("oc-compare").innerHTML = (oc.comparisons || [])
-        .map((c) => `<div class="stat"><strong>${c.label}</strong><span>${c.certainty} · ${c.role}</span></div>`)
+        .map((c) => {
+          const rate = c.annual_rate_pct != null ? `${Number(c.annual_rate_pct).toFixed(2)}% a.a.` : "—";
+          return `<div class="stat"><strong>${c.label}</strong><span>${rate} · ${c.certainty} · ${c.role}</span></div>`;
+        })
         .join("");
 
       document.getElementById("elite-def").innerHTML =
@@ -74,7 +77,12 @@
          <strong>Elite:</strong> ${(elite.definition || {}).elite || ""}`;
       document.getElementById("elite-filters").innerHTML = (elite.filters_educational || [])
         .map((f) => `<li>${f}</li>`).join("");
-      document.getElementById("elite-note").textContent = elite.note || "";
+      const watch = elite.b3_watch || [];
+      document.getElementById("elite-note").innerHTML = watch.length
+        ? `<table style="margin-top:0.75rem"><thead><tr><th>Ticker</th><th>Último</th><th>Dia %</th><th>Volume</th><th>Ref</th></tr></thead><tbody>${
+            watch.slice(0, 10).map((w) => `<tr><td>${w.ticker}</td><td>${w.last}</td><td>${w.day_change_pct}</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td><td>${w.as_of || ""}</td></tr>`).join("")
+          }</tbody></table><p class="tiny muted">${elite.note || ""}</p>`
+        : (elite.note || "");
 
       document.getElementById("an-thesis").textContent = analogs.thesis || "";
       document.getElementById("an-method").innerHTML = (analogs.method || [])

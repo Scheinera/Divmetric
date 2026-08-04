@@ -1,5 +1,87 @@
 {
   "version": 1,
-  "tickers": [],
-  "status": "empty_scaffold"
+  "status": "live",
+  "updated_at": "2026-08-04T00:58:00.051218+00:00",
+  "tickers": [
+    {
+      "ticker": "ABEV3",
+      "symbol": "ABEV3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 15.99,
+      "volume": 38243300
+    },
+    {
+      "ticker": "BBAS3",
+      "symbol": "BBAS3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 21.35,
+      "volume": 28502900
+    },
+    {
+      "ticker": "BBDC4",
+      "symbol": "BBDC4.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 18.43,
+      "volume": 25192900
+    },
+    {
+      "ticker": "PETR4",
+      "symbol": "PETR4.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 43.42,
+      "volume": 24997300
+    },
+    {
+      "ticker": "B3SA3",
+      "symbol": "B3SA3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 15.73,
+      "volume": 24490400
+    },
+    {
+      "ticker": "VALE3",
+      "symbol": "VALE3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 76.28,
+      "volume": 17353300
+    },
+    {
+      "ticker": "ITUB4",
+      "symbol": "ITUB4.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 42.89,
+      "volume": 10285400
+    },
+    {
+      "ticker": "PRIO3",
+      "symbol": "PRIO3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 60.85,
+      "volume": 7178400
+    },
+    {
+      "ticker": "WEGE3",
+      "symbol": "WEGE3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 47.2,
+      "volume": 5153000
+    },
+    {
+      "ticker": "RENT3",
+      "symbol": "RENT3.SA",
+      "type": "acao",
+      "market": "B3",
+      "last": 37.61,
+      "volume": 4718300
+    }
+  ]
 }

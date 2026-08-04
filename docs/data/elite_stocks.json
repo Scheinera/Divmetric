@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-03",
-  "status": "scaffold",
+  "as_of": "2026-08-04",
+  "status": "live",
   "definition": {
     "market_dominators": "Empresas que concentram volume, attendance e tese setorial — líderes de liquidez e influência de preço.",
     "elite": "Subconjunto com histórico de qualidade (margem, ROE, dividendos consistentes ou moat) — não é tip de compra."
@@ -11,8 +11,100 @@
     "Governança e divulgação transparentes",
     "Histórico longo o bastante para estudar ciclos"
   ],
-  "b3_watch": [],
+  "b3_watch": [
+    {
+      "ticker": "ABEV3",
+      "symbol": "ABEV3.SA",
+      "last": 15.99,
+      "volume": 38243300,
+      "day_change_pct": 0.19,
+      "open_gap_pct": 0.88,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "BBAS3",
+      "symbol": "BBAS3.SA",
+      "last": 21.35,
+      "volume": 28502900,
+      "day_change_pct": 0.76,
+      "open_gap_pct": 0.28,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "BBDC4",
+      "symbol": "BBDC4.SA",
+      "last": 18.43,
+      "volume": 25192900,
+      "day_change_pct": 0.22,
+      "open_gap_pct": 0.65,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "PETR4",
+      "symbol": "PETR4.SA",
+      "last": 43.42,
+      "volume": 24997300,
+      "day_change_pct": 1.35,
+      "open_gap_pct": 0.37,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "B3SA3",
+      "symbol": "B3SA3.SA",
+      "last": 15.73,
+      "volume": 24490400,
+      "day_change_pct": 0.64,
+      "open_gap_pct": 1.73,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "VALE3",
+      "symbol": "VALE3.SA",
+      "last": 76.28,
+      "volume": 17353300,
+      "day_change_pct": 0.25,
+      "open_gap_pct": -0.51,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "ITUB4",
+      "symbol": "ITUB4.SA",
+      "last": 42.89,
+      "volume": 10285400,
+      "day_change_pct": 0.35,
+      "open_gap_pct": 1.19,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "PRIO3",
+      "symbol": "PRIO3.SA",
+      "last": 60.85,
+      "volume": 7178400,
+      "day_change_pct": 1.48,
+      "open_gap_pct": 0.0,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "WEGE3",
+      "symbol": "WEGE3.SA",
+      "last": 47.2,
+      "volume": 5153000,
+      "day_change_pct": 0.81,
+      "open_gap_pct": 0.38,
+      "as_of": "2026-07-31"
+    },
+    {
+      "ticker": "RENT3",
+      "symbol": "RENT3.SA",
+      "last": 37.61,
+      "volume": 4718300,
+      "day_change_pct": -1.62,
+      "open_gap_pct": 2.01,
+      "as_of": "2026-07-31"
+    }
+  ],
   "us_watch": [],
-  "note": "Preencher via collector (catálogo + volume). Listas vazias = scaffold.",
+  "source": "Yahoo chart API (B3)",
+  "note": "Lista inicial via Yahoo (.SA). Ordenada por volume da última sessão.",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
 }

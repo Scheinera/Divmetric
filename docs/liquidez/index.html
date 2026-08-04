@@ -40,6 +40,11 @@
       <a class="btn btn-ghost" href="/metodo/#oportunidade">Custo de oportunidade</a>
     </section>
 
+    <section class="card" style="margin-top:1rem">
+      <h2>Atenção agora (gaps ≥ limiar)</h2>
+      <div id="watch"></div>
+    </section>
+
     <p class="tiny muted" id="disc" style="margin-top:1rem"></p>
   </main>
 
@@ -59,6 +64,12 @@
       document.getElementById("pm-th").textContent = pm.example_threshold_pct ?? "2";
       document.getElementById("pm-check").innerHTML = (pm.checklist || [])
         .map((x) => `<li>${x}</li>`).join("");
+      const watch = data.watch || [];
+      document.getElementById("watch").innerHTML = watch.length
+        ? `<table><thead><tr><th>Ticker</th><th>Gap abertura</th><th>Dia</th><th>Volume</th><th>Ref</th></tr></thead><tbody>${
+            watch.map((w) => `<tr><td>${w.ticker || w.symbol}</td><td>${w.open_gap_pct}%</td><td>${w.day_change_pct}%</td><td>${(w.volume || 0).toLocaleString("pt-BR")}</td><td>${w.as_of || ""}</td></tr>`).join("")
+          }</tbody></table>`
+        : `<p class="muted">Nenhum gap ≥ limiar na última sessão do watchlist.</p>`;
       document.getElementById("disc").textContent = data.disclaimer || "";
     })().catch((err) => {
       document.querySelector("main").textContent = err.message || String(err);

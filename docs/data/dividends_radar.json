@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-08-03",
-  "source_layer": "dividends_consolidated",
-  "source_note": "Preencher via export autorizado (ex.: Status Invest). Não usar scrape agressivo.",
+  "as_of": "2026-08-04",
+  "source_layer": "market",
+  "source_note": "DY via Yahoo (quando disponível). Agenda Status Invest entra depois com export autorizado.",
   "top_yield": [],
   "upcoming_payments": [],
-  "status": "empty_scaffold"
+  "status": "live_partial"
 }

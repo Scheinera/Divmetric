@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-03",
-  "status": "scaffold",
+  "as_of": "2026-08-04",
+  "status": "editorial_live_stamp",
   "question": "Como economias mais prósperas tratam certeza, dividendos, liquidez e custo de oportunidade?",
   "themes": [
     {
@@ -25,10 +25,26 @@
     }
   ],
   "regions": [
-    { "id": "us", "label": "Estados Unidos", "notes": [] },
-    { "id": "eu", "label": "Europa", "notes": [] },
-    { "id": "east_asia", "label": "Ásia (ex. JP/KR/SG)", "notes": [] },
-    { "id": "br", "label": "Brasil (contexto local)", "notes": [] }
+    {
+      "id": "us",
+      "label": "Estados Unidos",
+      "notes": []
+    },
+    {
+      "id": "eu",
+      "label": "Europa",
+      "notes": []
+    },
+    {
+      "id": "east_asia",
+      "label": "Ásia (ex. JP/KR/SG)",
+      "notes": []
+    },
+    {
+      "id": "br",
+      "label": "Brasil (contexto local)",
+      "notes": []
+    }
   ],
   "disclaimer": "Conteúdo educacional e comparativo. Não é recomendação."
 }

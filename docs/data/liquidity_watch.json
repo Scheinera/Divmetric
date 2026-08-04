@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-03",
-  "status": "scaffold",
+  "as_of": "2026-08-04",
+  "status": "live",
   "rule": "Avaliar liquidez antes de qualquer ideias de operação. Sem liquidez, o passado e a notícia não salvam a saída.",
   "do_not_operate_when": [
     "Spread amplo / livro fino",
@@ -10,7 +10,7 @@
   ],
   "premarket": {
     "example_threshold_pct": 2.0,
-    "interpretation": "Explosões de ~2% no pré-market são um sinal de atenção (fluxo/notícia) — não um gatilho automático de compra/venda.",
+    "interpretation": "Explosões de ~2% no gap de abertura vs fechamento anterior são um sinal de atenção (fluxo/notícia) — não um gatilho automático de compra/venda. Em B3 usamos gap de abertura como proxy educativo do pré-leilão.",
     "checklist": [
       "Há notícia verificável?",
       "O volume relativo confirma interesse?",
@@ -18,6 +18,20 @@
       "Isso altera o custo de oportunidade vs Selic/caixa?"
     ]
   },
-  "watch": [],
-  "disclaimer": "Conteúdo educacional. Não é sinal de trade."
+  "watch": [
+    {
+      "ticker": "RENT3",
+      "symbol": "RENT3.SA",
+      "last": 37.61,
+      "volume": 4718300,
+      "day_change_pct": -1.62,
+      "open_gap_pct": 2.01,
+      "as_of": "2026-07-31",
+      "signal": "pre_open_gap_attention",
+      "threshold_pct": 2.0,
+      "note": "Gap abertura vs fechamento anterior ≥ limiar — atenção (não é ordem)."
+    }
+  ],
+  "source": "Yahoo chart API (B3)",
+  "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
 }

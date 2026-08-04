@@ -1,18 +1,44 @@
 {
-  "as_of": "2026-08-03",
-  "status": "scaffold",
+  "as_of": "2026-08-04",
+  "status": "live",
   "principle": "Toda escolha de capital tem um custo implícito: o que você deixou de ganhar na melhor alternativa comparável.",
   "primary_benchmark": "selic",
+  "selic_annual_rate_pct": 14.25,
   "questions": [
     "Quanto rende o mesmo capital na Selic / Tesouro / caixa?",
     "Qual a incerteza (volatilidade e drawdown) da alternativa escolhida?",
     "O prêmio de risco justifica abrir mão da certeza relativa da renda fixa?"
   ],
   "comparisons": [
-    { "id": "cash_selic", "label": "Caixa / Selic", "certainty": "alta", "role": "âncora de oportunidade" },
-    { "id": "dividends", "label": "Carteira de dividendos", "certainty": "média", "role": "renda + risco de preço" },
-    { "id": "elite_equity", "label": "Ações de elite / líderes", "certainty": "média-baixa", "role": "crescimento com liquidez" },
-    { "id": "btc", "label": "Bitcoin", "certainty": "baixa", "role": "opção assimétrica (alta vol)" }
+    {
+      "id": "cash_selic",
+      "label": "Caixa / Selic",
+      "certainty": "alta",
+      "role": "âncora de oportunidade",
+      "annual_rate_pct": 14.25
+    },
+    {
+      "id": "dividends",
+      "label": "Carteira de dividendos",
+      "certainty": "média",
+      "role": "renda + risco de preço",
+      "annual_rate_pct": null,
+      "note": "Usar DY consolidado quando radar estiver preenchido"
+    },
+    {
+      "id": "elite_equity",
+      "label": "Ações de elite / líderes",
+      "certainty": "média-baixa",
+      "role": "crescimento com liquidez",
+      "annual_rate_pct": 32.85
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "certainty": "baixa",
+      "role": "opção assimétrica (alta vol)",
+      "annual_rate_pct": -28.28
+    }
   ],
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
 }

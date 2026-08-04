@@ -41,10 +41,15 @@
           return;
         }
         panel.innerHTML = `
-          <h2>Top yield</h2>
-          <pre class="tiny">${JSON.stringify(top, null, 2)}</pre>
-          <h2>Próximos pagamentos</h2>
-          <pre class="tiny">${JSON.stringify(upcoming, null, 2)}</pre>`;
+          <p class="tiny muted">${data.source_note || ""} · ${data.as_of || ""}</p>
+          <h2>Top yield (parcial)</h2>
+          <table>
+            <thead><tr><th>Ticker</th><th>DY %</th><th>Último</th><th>Ref</th></tr></thead>
+            <tbody>
+              ${top.map((r) => `<tr><td>${r.ticker}</td><td>${r.dividend_yield_pct}</td><td>${r.last ?? "—"}</td><td>${r.as_of || ""}</td></tr>`).join("")}
+            </tbody>
+          </table>
+          ${upcoming.length ? `<h2>Próximos pagamentos</h2><pre class="tiny">${JSON.stringify(upcoming, null, 2)}</pre>` : ""}`;
       } catch (err) {
         panel.textContent = err.message || String(err);
       }

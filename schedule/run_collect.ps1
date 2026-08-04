@@ -14,12 +14,17 @@ function Write-Log([string]$Message) {
 
 Set-Location $root
 Write-Log "=== Divmetric collect start ==="
+
+$req = Join-Path $root "requirements.txt"
 $py = Get-Command python -ErrorAction SilentlyContinue
 if (-not $py) { $py = Get-Command py -ErrorAction SilentlyContinue }
 if (-not $py) {
     Write-Log "FAIL: python not found"
     exit 1
 }
+
+Write-Log "ensuring Python deps (quiet)…"
+& $py.Source -m pip install -q -r $req 2>&1 | ForEach-Object { Write-Log "pip: $_" }
 
 & $py.Source (Join-Path $root "modules\collector.py") 2>&1 | ForEach-Object { Write-Log "$_" }
 if ($LASTEXITCODE -ne 0) {

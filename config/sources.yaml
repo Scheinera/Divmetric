@@ -18,9 +18,13 @@ sources:
       role: selic_ipca_macro
       trust: canonical
   market:
-    - id: market_api
-      name: BRAPI / Yahoo Finance (ou provedor B3)
-      role: prices_indices_btc_gold_dxy
+    - id: yahoo_chart
+      name: Yahoo Finance chart API (HTTP)
+      role: prices_indices_btc_gold_dxy_b3
+      trust: operational
+    - id: awesomeapi
+      name: AwesomeAPI USD-BRL
+      role: fx_fallback
       trust: operational
   dividends_consolidated:
     - id: status_invest

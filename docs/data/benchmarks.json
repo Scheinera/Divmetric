@@ -1,55 +1,93 @@
 {
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-04",
   "currency": "BRL",
-  "note": "Valores placeholder para a calculadora stub. Substituir pelo collector (BCB + market API).",
+  "note": "Selic/IPCA = BCB. Demais = retorno ~12 meses (Yahoo) para projeção educativa — não é retorno garantido.",
   "items": [
     {
       "id": "selic",
       "label": "Selic",
       "source_layer": "official",
-      "annual_rate_pct": 14.75,
+      "annual_rate_pct": 14.25,
       "unit": "a.a.",
-      "description": "Taxa Selic (placeholder)"
+      "description": "BCB SGS 432 · ref 05/08/2026",
+      "as_of": "05/08/2026"
     },
     {
       "id": "ipca",
-      "label": "IPCA",
+      "label": "IPCA (12m)",
       "source_layer": "official",
-      "annual_rate_pct": 4.5,
-      "unit": "a.a.",
-      "description": "Inflação IPCA (placeholder)"
+      "annual_rate_pct": 4.64,
+      "unit": "a.a. acum.",
+      "description": "BCB SGS 13522 · ref 01/06/2026",
+      "as_of": "01/06/2026"
     },
     {
       "id": "ibov",
       "label": "Ibovespa",
       "source_layer": "market",
-      "annual_rate_pct": 12.0,
-      "unit": "retorno anual ilustrativo",
-      "description": "Proxy histórico simplificado (placeholder)"
+      "annual_rate_pct": 32.85,
+      "trailing_12m_pct": 32.85,
+      "cagr_approx_pct": 7.57,
+      "unit": "retorno 12m (proxy anual ilustrativo)",
+      "description": "Yahoo chart ^BVSP — retorno ~12m educativo",
+      "as_of": "2026-08-03",
+      "symbol": "^BVSP",
+      "last_close": 178000.2344
     },
     {
       "id": "btc",
       "label": "Bitcoin",
       "source_layer": "market",
-      "annual_rate_pct": 25.0,
-      "unit": "retorno anual ilustrativo",
-      "description": "Alta volatilidade — uso educativo (placeholder)"
+      "annual_rate_pct": -28.28,
+      "trailing_12m_pct": -28.28,
+      "cagr_approx_pct": 9.76,
+      "unit": "retorno 12m (proxy anual ilustrativo)",
+      "description": "Yahoo chart BTC-USD — retorno ~12m educativo",
+      "as_of": "2026-08-04",
+      "symbol": "BTC-USD",
+      "last_close": 63303.6406
     },
     {
       "id": "gold",
-      "label": "Ouro",
+      "label": "Ouro (futuro)",
       "source_layer": "market",
-      "annual_rate_pct": 8.0,
-      "unit": "retorno anual ilustrativo",
-      "description": "Proxy (placeholder)"
+      "annual_rate_pct": 24.85,
+      "trailing_12m_pct": 24.85,
+      "cagr_approx_pct": 17.82,
+      "unit": "retorno 12m (proxy anual ilustrativo)",
+      "description": "Yahoo chart GC=F — retorno ~12m educativo",
+      "as_of": "2026-08-04",
+      "symbol": "GC=F",
+      "last_close": 4111.7002
     },
     {
       "id": "dxy",
-      "label": "DXY (proxy BRL)",
+      "label": "DXY",
       "source_layer": "market",
-      "annual_rate_pct": 5.0,
-      "unit": "retorno anual ilustrativo",
-      "description": "Não é o índice DXY puro — proxy educativo (placeholder)"
+      "annual_rate_pct": -0.05,
+      "trailing_12m_pct": -0.05,
+      "cagr_approx_pct": 1.66,
+      "unit": "retorno 12m (proxy anual ilustrativo)",
+      "description": "Yahoo chart DX-Y.NYB — retorno ~12m educativo",
+      "as_of": "2026-08-04",
+      "symbol": "DX-Y.NYB",
+      "last_close": 99.978
+    },
+    {
+      "id": "usdbrl",
+      "label": "USD/BRL",
+      "source_layer": "market",
+      "annual_rate_pct": -5.77,
+      "unit": "variação ~12m",
+      "description": "Proxy cambial educativo",
+      "as_of": "2026-08-04",
+      "symbol": "USDBRL=X",
+      "last_close": 5.0894
     }
-  ]
+  ],
+  "sources": {
+    "official": "BCB SGS",
+    "market": "Yahoo chart API + AwesomeAPI"
+  },
+  "fetched_at": "2026-08-04T00:58:00.043090+00:00"
 }
