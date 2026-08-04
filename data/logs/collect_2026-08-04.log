@@ -12,3 +12,6 @@
 2026-08-04 07:18:08    elite ok_count=19 gaps=3
 2026-08-04 07:18:08  Divmetric collector: export OK → docs/data/
 2026-08-04 07:18:08  === Divmetric collect done ===
+2026-08-04 07:21:04  === Divmetric collect start ===
+2026-08-04 07:21:04  python: C:\Users\Anderson Scheiner\AppData\Local\Programs\Python\Python313\python.exe
+2026-08-04 07:21:04  deps OK (skip pip)
