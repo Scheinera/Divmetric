@@ -31,8 +31,8 @@ O site consome apenas **nossos JSON** em `docs/data/` (mínimo processamento no 
 | Camada | Fonte | Papel |
 |--------|--------|--------|
 | Macro oficial | BCB SGS (Selic, IPCA…) | Referência da calculadora |
-| Mercado | BRAPI / Yahoo / provedor B3 | Preços e índices (Ibov, S&P), ouro, BTC, DXY |
-| Dividendos BR | Status Invest (export/API autorizada — **sem scrape agressivo**) | DY, agenda, FII, ranking |
+| Mercado | Yahoo chart API + AwesomeAPI | Ibov, BTC, ouro, DXY, USD/BRL, B3 |
+| Dividendos BR | Parcial agora; Status Invest depois (export autorizado) | DY, agenda, FII, ranking |
 | Editorial | Suno, InfoMoney | Guias e notícias; citação + link |
 
 ## Pipelines (alvo)
