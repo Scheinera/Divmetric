@@ -19,6 +19,9 @@ if str(ROOT) not in sys.path:
 
 from modules.connectors.bcb import fetch_official_rates  # noqa: E402
 from modules.connectors.b3_ifix import fetch_ifix_bundle  # noqa: E402
+from modules.connectors.copom import build_copom_bundle  # noqa: E402
+from modules.connectors.news_agenda import fetch_news_and_digest  # noqa: E402
+from modules.connectors.rates_world import fetch_world_rates  # noqa: E402
 from modules.connectors.market_http import (  # noqa: E402
     fetch_b3_liquidity_and_elite,
     fetch_benchmark_market,
@@ -174,17 +177,17 @@ def build_benchmarks(
             }
         )
 
-    for key in ("ibov", "spx", "btc", "gold", "dxy", "usdbrl", "us10y", "ewz"):
-        row = (market.get("items") or {}).get(key) or {}
+    for key, row in (market.get("items") or {}).items():
         if row.get("annual_rate_pct") is None and row.get("error"):
             continue
-        if not row:
+        if not row or row.get("error"):
             continue
         items.append(
             {
                 "id": key,
                 "label": row.get("label") or key,
                 "source_layer": "market",
+                "group": row.get("group"),
                 "annual_rate_pct": row.get("annual_rate_pct"),
                 "trailing_12m_pct": row.get("trailing_12m_pct"),
                 "cagr_since_start_pct": row.get("cagr_since_start_pct"),
@@ -595,21 +598,38 @@ def build_analogs(official: dict[str, Any], market: dict[str, Any], start_date: 
     }
 
 
-def build_world(market: dict[str, Any], official: dict[str, Any], start_date: str) -> dict[str, Any]:
+def build_world(
+    market: dict[str, Any],
+    official: dict[str, Any],
+    start_date: str,
+    rates: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     items = market.get("items") or {}
     selic = (official.get("selic") or {}).get("annual_rate_pct")
     ipca = (official.get("ipca") or {}).get("annual_rate_pct")
     us10y = (items.get("us10y") or {}).get("last_close")
+    eu10 = ((rates or {}).get("items") or {}).get("eu_10y") or {}
 
     def snap(key: str) -> dict[str, Any]:
         row = items.get(key) or {}
         return {
             "label": row.get("label"),
+            "group": row.get("group"),
             "trailing_12m_pct": row.get("trailing_12m_pct"),
             "cagr_since_start_pct": row.get("cagr_since_start_pct"),
+            "last_close": row.get("last_close"),
             "as_of": row.get("as_of"),
             "start_used": row.get("start_used"),
         }
+
+    indices = {
+        k: snap(k)
+        for k in ("ibov", "spx", "dow", "nasdaq", "nikkei", "dax", "ftse", "hang_seng", "ewz")
+        if items.get(k)
+    }
+    commodities = {
+        k: snap(k) for k in ("gold", "brent", "wti", "iron_ore", "btc", "dxy") if items.get(k)
+    }
 
     return {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
@@ -622,7 +642,8 @@ def build_world(market: dict[str, Any], official: dict[str, Any], start_date: st
                 "title": "Busca de certeza",
                 "summary": (
                     f"No Brasil a âncora atual é Selic ~{selic}% a.a. (IPCA 12m ~{ipca}%). "
-                    f"Nos EUA, o yield de 10 anos (~{us10y}% se disponível) é referência de custo de oportunidade em USD."
+                    f"Nos EUA, o yield de 10 anos (~{us10y}%) é referência em USD. "
+                    f"Na zona do euro, IRS 10Y (~{eu10.get('latest')}%) complementa a leitura."
                 ),
             },
             {
@@ -639,45 +660,60 @@ def build_world(market: dict[str, Any], official: dict[str, Any], start_date: st
                 "id": "opportunity_cost",
                 "title": "Custo de oportunidade",
                 "summary": (
-                    f"Desde {start_date}, compare CAGR de S&P 500, Ibovespa, ouro e BTC contra a Selic — "
+                    f"Desde {start_date}, compare CAGR/retorno 12m de bolsas, commodities e IFIX contra a Selic — "
                     "o prêmio de risco precisa compensar a incerteza."
                 ),
+            },
+            {
+                "id": "commodities",
+                "title": "Commodities e risco global",
+                "summary": "Brent/WTI, minério e ouro moldam Brasil (PETR/VALE) e o apetite a risco emergente.",
             },
         ],
         "snapshots": {
             "brazil_selic": selic,
             "brazil_ipca_12m": ipca,
-            "spx": snap("spx"),
-            "ibov": snap("ibov"),
-            "ewz": snap("ewz"),
-            "gold": snap("gold"),
-            "btc": snap("btc"),
-            "dxy": snap("dxy"),
-            "us10y": snap("us10y"),
+            **{k: snap(k) for k in ("spx", "ibov", "dow", "gold", "btc", "brent", "iron_ore", "dxy", "us10y") if items.get(k)},
+            "eu_10y": {
+                "label": eu10.get("label"),
+                "latest": eu10.get("latest"),
+                "as_of": eu10.get("as_of"),
+            },
         },
+        "indices": indices,
+        "commodities": commodities,
         "regions": [
             {
                 "id": "us",
                 "label": "Estados Unidos",
                 "notes": [
-                    "S&P 500 como proxy de equity desenvolvida",
-                    "US 10Y como âncora de juro longo em USD",
+                    "S&P 500, Dow e Nasdaq como mapear equity americana",
+                    "US 10Y / curva curta como âncora de juro em USD",
+                ],
+            },
+            {
+                "id": "europe_asia",
+                "label": "Europa e Ásia",
+                "notes": [
+                    "DAX e FTSE (Europa desenvolvida)",
+                    "Nikkei e Hang Seng (Ásia)",
+                    "Euro 10Y via ECB Data Portal",
                 ],
             },
             {
                 "id": "br",
                 "label": "Brasil",
                 "notes": [
-                    "Selic/CDI/IPCA (BCB) como âncoras locais",
-                    "Ibovespa + EWZ para preço e acesso internacional",
+                    "Selic/CDI/IPCA (BCB) e IFIX (B3) como âncoras locais",
+                    "Ibovespa + EWZ + cesta FII para preço e renda",
                 ],
             },
             {
-                "id": "global_hard",
-                "label": "Reservas globais",
+                "id": "commodities",
+                "label": "Commodities",
                 "notes": [
-                    "Ouro e DXY como leituras de risco/âncora",
-                    "BTC como ativo assimétrico (alta vol) na mesma janela",
+                    "Brent/WTI, minério de ferro e ouro na mesma janela 2015+",
+                    "Leitura conjunta com DXY e risco global",
                 ],
             },
         ],
@@ -741,9 +777,10 @@ def build_sources_registry(window: dict[str, Any]) -> dict[str, Any]:
         "trust_order": [
             "BCB SGS (canônico BR)",
             "B3 IFIX oficial",
+            "ECB Data Portal (juros UE)",
             "Yahoo Finance chart diário + eventos de dividendos",
             "AwesomeAPI (FX fallback)",
-            "Editorial (Suno / InfoMoney / B3 educacionais)",
+            "RSS/notícias (InfoMoney, Money Times, Agência Brasil, BCB)",
         ],
         "sources": [
             {
@@ -868,8 +905,45 @@ def main() -> int:
         print(f"  IFIX FAIL: {exc}")
         ifix = None
 
+    print("  fetching world rates…")
+    rates = fetch_world_rates(
+        start_date=start_date,
+        selic_pct=(official.get("selic") or {}).get("annual_rate_pct"),
+    )
+    print(f"  rates ok_count={rates.get('ok_count')} errors={len(rates.get('errors') or [])}")
+
+    print("  building COPOM calendar/decisions…")
+    selic_points = ((official.get("series") or {}).get("selic") or {}).get("points") or []
+    copom = build_copom_bundle(
+        selic_points,
+        (official.get("selic") or {}).get("annual_rate_pct"),
+        start_date=start_date,
+    )
+    print(
+        f"  COPOM next={((copom.get('next_meeting') or {}).get('decision_date'))} "
+        f"recent_decisions={len(copom.get('recent_decisions') or [])}"
+    )
+
+    print("  fetching news / agenda digest…")
+    agenda = fetch_news_and_digest()
+    print(f"  agenda highlights={len(agenda.get('highlights') or [])} errors={len(agenda.get('errors') or [])}")
+
     benchmarks = build_benchmarks(official, market, start_date, ifix)
     aligned = build_history_aligned(official, market, start_date, ifix)
+
+    # Split market payload helpers
+    market_items = market.get("items") or {}
+    world_indices = {
+        k: v
+        for k, v in market_items.items()
+        if (v.get("group") in ("us", "europe", "asia", "br") or k in ("ibov", "spx", "dow", "nasdaq", "nikkei", "dax", "ftse", "hang_seng", "ewz"))
+        and v.get("annual_rate_pct") is not None
+    }
+    commodities = {
+        k: v
+        for k, v in market_items.items()
+        if v.get("group") in ("commodity", "crypto", "fx") and v.get("annual_rate_pct") is not None
+    }
 
     write_json("benchmarks.json", benchmarks)
     write_json("history_aligned.json", aligned)
@@ -889,19 +963,51 @@ def main() -> int:
                 "disclaimer": DISCLAIMER,
             },
         )
+    write_json(
+        "world_indices.json",
+        {
+            "as_of": datetime.now(timezone.utc).date().isoformat(),
+            "analysis_start": start_date,
+            "status": "live",
+            "items": world_indices,
+            "source": market.get("source"),
+            "disclaimer": DISCLAIMER,
+        },
+    )
+    write_json(
+        "commodities.json",
+        {
+            "as_of": datetime.now(timezone.utc).date().isoformat(),
+            "analysis_start": start_date,
+            "status": "live",
+            "items": commodities,
+            "source": market.get("source"),
+            "disclaimer": DISCLAIMER,
+        },
+    )
+    write_json("rates_world.json", {**rates, "disclaimer": DISCLAIMER})
+    write_json("copom.json", {**copom, "disclaimer": DISCLAIMER})
+    write_json("agenda_digest.json", agenda)
     write_json("opportunity_cost.json", build_opportunity_cost(official, benchmarks, start_date, fii_liq))
     write_json("elite_stocks.json", build_elite(liq, start_date, fii_liq))
     write_json("liquidity_watch.json", build_liquidity(liq, start_date, fii_liq))
     write_json("dividends_radar.json", build_dividends_radar(liq, start_date, fii_liq))
     write_json("historical_analogs.json", build_analogs(official, market, start_date))
-    write_json("world_frameworks.json", build_world(market, official, start_date))
+    write_json("world_frameworks.json", build_world(market, official, start_date, rates))
     write_json("tickers_catalog.json", build_tickers_catalog(liq, start_date, fii_liq))
     write_json("sources_registry.json", build_sources_registry(window))
+
+    # Evitar serializar milhares de pontos Selic no JSON público
+    official_series = {}
+    for key, series in (official.get("series") or {}).items():
+        clean = dict(series)
+        clean.pop("points", None)
+        official_series[key] = clean
     write_json("official_macro.json", {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
         "analysis_start": start_date,
         "source": official.get("source"),
-        "series": official.get("series") or {},
+        "series": official_series,
         "errors": official.get("errors") or [],
         "disclaimer": DISCLAIMER,
     })
@@ -909,7 +1015,7 @@ def main() -> int:
         "meta.json",
         {
             "product": "Divmetric",
-            "version": 5,
+            "version": 6,
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "disclaimer": DISCLAIMER,
             "status": "live",
@@ -917,18 +1023,25 @@ def main() -> int:
             "analysis_year": window.get("start_year"),
             "layers": {
                 "official": "BCB SGS (Selic, CDI, IPCA, IGP-M, PTAX)",
-                "ifix": "B3 IFIX oficial (mensal/anual/carteira)",
-                "market": "Yahoo chart diário (period1/2) + eventos DY + AwesomeAPI",
-                "fii": "Cesta líquida B3 (comparar com IFIX oficial)",
+                "ifix": "B3 IFIX oficial",
+                "market": "Yahoo (bolsas mundiais, commodities, FX) + AwesomeAPI",
+                "rates": "Yahoo US curve + ECB IRS + Selic",
+                "copom": "Calendário BCB + decisões via SGS 432",
+                "agenda": "RSS + notícias BCB",
+                "fii": "Cesta líquida vs IFIX oficial",
                 "aligned_history": f"monthly from {start_date}",
-                "editorial": "Suno / InfoMoney / B3 referência",
             },
             "counts": {
                 "benchmarks": len(benchmarks.get("items") or []),
+                "world_indices": len(world_indices),
+                "commodities": len(commodities),
+                "rates": rates.get("ok_count") or 0,
                 "elite": len(liq.get("elite") or []),
                 "fii": len(fii_liq.get("elite") or []),
                 "ifix_months": len((ifix or {}).get("monthly_levels") or []),
                 "ifix_constituents": ((ifix or {}).get("portfolio") or {}).get("count") or 0,
+                "copom_upcoming": len(copom.get("upcoming_meetings") or []),
+                "agenda_highlights": len(agenda.get("highlights") or []),
                 "gap_attention": len(liq.get("gap_attention") or []) + len(fii_liq.get("gap_attention") or []),
                 "analog_years": max(0, len((build_analogs(official, market, start_date).get("analogs") or [])) - 1),
                 "dividend_rows": len([e for e in (liq.get("elite") or []) if e.get("dividend_yield_pct") is not None]),

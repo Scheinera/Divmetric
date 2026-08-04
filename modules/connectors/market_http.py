@@ -15,15 +15,26 @@ UA = {
 }
 
 DEFAULT_BENCH = {
-    "ibov": {"symbol": "^BVSP", "label": "Ibovespa"},
-    "spx": {"symbol": "^GSPC", "label": "S&P 500"},
-    "btc": {"symbol": "BTC-USD", "label": "Bitcoin"},
-    "gold": {"symbol": "GC=F", "label": "Ouro (futuro)"},
-    "dxy": {"symbol": "DX-Y.NYB", "label": "DXY"},
-    "usdbrl": {"symbol": "USDBRL=X", "label": "USD/BRL"},
-    "us10y": {"symbol": "^TNX", "label": "US 10Y yield"},
-    "ewz": {"symbol": "EWZ", "label": "MSCI Brazil ETF"},
+    "ibov": {"symbol": "^BVSP", "label": "Ibovespa", "group": "br"},
+    "ifix_note": None,  # placeholder removed below
+    "spx": {"symbol": "^GSPC", "label": "S&P 500", "group": "us"},
+    "dow": {"symbol": "^DJI", "label": "Dow Jones", "group": "us"},
+    "nasdaq": {"symbol": "^IXIC", "label": "Nasdaq Composite", "group": "us"},
+    "nikkei": {"symbol": "^N225", "label": "Nikkei 225", "group": "asia"},
+    "dax": {"symbol": "^GDAXI", "label": "DAX", "group": "europe"},
+    "ftse": {"symbol": "^FTSE", "label": "FTSE 100", "group": "europe"},
+    "hang_seng": {"symbol": "^HSI", "label": "Hang Seng", "group": "asia"},
+    "btc": {"symbol": "BTC-USD", "label": "Bitcoin", "group": "crypto"},
+    "gold": {"symbol": "GC=F", "label": "Ouro (futuro)", "group": "commodity"},
+    "brent": {"symbol": "BZ=F", "label": "Brent", "group": "commodity"},
+    "wti": {"symbol": "CL=F", "label": "WTI", "group": "commodity"},
+    "iron_ore": {"symbol": "TIO=F", "label": "Minério de ferro (futuro)", "group": "commodity"},
+    "dxy": {"symbol": "DX-Y.NYB", "label": "DXY", "group": "fx"},
+    "usdbrl": {"symbol": "USDBRL=X", "label": "USD/BRL", "group": "fx"},
+    "us10y": {"symbol": "^TNX", "label": "US 10Y yield", "group": "rates"},
+    "ewz": {"symbol": "EWZ", "label": "MSCI Brazil ETF", "group": "br"},
 }
+DEFAULT_BENCH.pop("ifix_note", None)
 
 DEFAULT_B3 = [
     "PETR4.SA",
@@ -290,7 +301,7 @@ def fetch_benchmark_market(
                 rows = raw_rows
             # Yield indices (^TNX): use level, not price-return as "rate"
             t12, cagr, last_px, last_date = _trailing_and_cagr(rows)
-            if key == "us10y":
+            if key == "us10y" or meta.get("group") == "rates":
                 annual = last_px  # already a % yield level
                 unit = "% a.a. (nível do título)"
                 desc = f"Yahoo chart {symbol} — nível do yield (não retorno de preço)"
@@ -303,6 +314,7 @@ def fetch_benchmark_market(
                 "id": key,
                 "label": meta["label"],
                 "symbol": symbol,
+                "group": meta.get("group") or "market",
                 "source_layer": "market",
                 "annual_rate_pct": round(float(annual), 2) if annual is not None else None,
                 "trailing_12m_pct": round(float(t12), 2) if t12 is not None else None,

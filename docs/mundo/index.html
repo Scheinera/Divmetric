@@ -3,64 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Economias prósperas — Divmetric</title>
-  <meta name="description" content="Como economias maduras tratam certeza, dividendos, liquidez e custo de oportunidade.">
+  <title>Economias, bolsas e commodities — Divmetric</title>
+  <meta name="description" content="Índices mundiais, commodities, juros e o que economias maduras ensinam.">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <div id="site-nav" class="site-nav"></div>
   <header class="page-header">
-    <p class="section-kicker">Comparativo mundial · educacional</p>
-    <h1>O que economias <span>prósperas</span> ensinam</h1>
-    <p class="tagline">Olhar o debate brasileiro de dividendos e alocação sob o prisma de mercados maduros — sem copiar cegamente.</p>
+    <p class="section-kicker">Mundo · bolsas · commodities · juros</p>
+    <h1>Visão <span>global</span></h1>
+    <p class="tagline">Bolsas, Brent/minério/ouro, curva de juros e o método de economias prósperas — janela desde 2015.</p>
   </header>
 
   <main class="wrap">
     <p class="muted" id="q" style="margin:0 0 1rem"></p>
-    <div class="grid-2" id="themes"></div>
+    <section class="card">
+      <h2>Índices e bolsas</h2>
+      <div class="stat-row" id="indices"></div>
+    </section>
     <section class="card" style="margin-top:1rem">
-      <h2>Regiões (notas)</h2>
+      <h2>Commodities e FX</h2>
+      <div class="stat-row" id="commodities"></div>
+    </section>
+    <section class="card" style="margin-top:1rem">
+      <h2>Juros</h2>
+      <div class="stat-row" id="rates"></div>
+    </section>
+    <div class="grid-2" id="themes" style="margin-top:1rem"></div>
+    <section class="card" style="margin-top:1rem">
+      <h2>Regiões</h2>
       <div id="regions" class="muted"></div>
     </section>
     <p class="tiny muted" id="disc" style="margin-top:1rem"></p>
   </main>
 
   <footer class="site-footer">
-    · <a href="/">Início</a> · <a href="/metodo/">Método</a> · <a href="/liquidez/">Liquidez</a>
+    · <a href="/">Início</a> · <a href="/agenda/">Agenda</a> · <a href="/metodo/">Método</a>
   </footer>
   <script src="/assets/site.js"></script>
   <script>
     const { loadJSON } = window.DivmetricSite;
+    const fmt = (v) => (v == null || Number.isNaN(Number(v)) ? "—" : Number(v).toFixed(2));
+
+    function cardsFromMap(obj) {
+      return Object.entries(obj || {})
+        .map(([k, s]) => {
+          const label = s.label || k;
+          const t12 = s.trailing_12m_pct;
+          const cagr = s.cagr_since_start_pct;
+          const lvl = s.latest != null ? s.latest : s.last_close;
+          return `<div class="stat"><strong>${label}</strong><span>12m ${fmt(t12)}% · CAGR ${fmt(cagr)}%${lvl != null ? ` · ${fmt(lvl)}` : ""}</span></div>`;
+        })
+        .join("");
+    }
+
     (async () => {
-      const data = await loadJSON("/data/world_frameworks.json");
-      document.getElementById("q").textContent = data.question || "";
-      if (data.analysis_start) {
+      const [world, indices, commodities, rates] = await Promise.all([
+        loadJSON("/data/world_frameworks.json"),
+        loadJSON("/data/world_indices.json"),
+        loadJSON("/data/commodities.json"),
+        loadJSON("/data/rates_world.json"),
+      ]);
+      document.getElementById("q").textContent = world.question || "";
+      if (world.analysis_start) {
         document.getElementById("q").insertAdjacentHTML(
           "afterend",
-          `<p class="tiny muted">Séries comparadas desde ${data.analysis_start}.</p>`
+          `<p class="tiny muted">Séries comparadas desde ${world.analysis_start}.</p>`
         );
       }
-      const snap = data.snapshots || {};
-      const snapHtml = ["spx","ibov","gold","btc","us10y"].map((k) => {
-        const s = snap[k] || {};
-        if (!s.label && s.cagr_since_start_pct == null) return "";
-        return `<div class="stat"><strong>${s.label || k}</strong><span>CAGR ${s.cagr_since_start_pct ?? "—"}% · 12m ${s.trailing_12m_pct ?? "—"}%</span></div>`;
-      }).join("");
-      if (snapHtml) {
-        document.getElementById("themes").insertAdjacentHTML("beforebegin", `<div class="stat-row">${snapHtml}</div>`);
-      }
-      document.getElementById("themes").innerHTML = (data.themes || [])
+      document.getElementById("indices").innerHTML = cardsFromMap(indices.items || world.indices);
+      document.getElementById("commodities").innerHTML = cardsFromMap(commodities.items || world.commodities);
+      const rateCards = Object.values(rates.items || {})
+        .map((r) => `<div class="stat"><strong>${r.label || r.id}</strong><span>${fmt(r.latest)} ${r.unit || ""} · ${r.as_of || ""}</span></div>`)
+        .join("");
+      document.getElementById("rates").innerHTML = rateCards || "<p class='muted'>—</p>";
+      document.getElementById("themes").innerHTML = (world.themes || [])
         .map((t) => `<article class="card"><h3>${t.title}</h3><p class="muted">${t.summary}</p></article>`)
         .join("");
-      document.getElementById("regions").innerHTML = (data.regions || [])
+      document.getElementById("regions").innerHTML = (world.regions || [])
         .map((r) => {
           const notes = (r.notes || []).length
             ? `<ul class="check">${r.notes.map((n) => `<li>${n}</li>`).join("")}</ul>`
-            : `<p class="tiny muted">Notas a preencher com o collector editorial.</p>`;
+            : "";
           return `<div style="margin-bottom:0.85rem"><strong>${r.label}</strong>${notes}</div>`;
         })
         .join("");
-      document.getElementById("disc").textContent = data.disclaimer || "";
+      document.getElementById("disc").textContent = world.disclaimer || "";
     })().catch((err) => {
       document.querySelector("main").textContent = err.message || String(err);
     });

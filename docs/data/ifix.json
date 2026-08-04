@@ -3,7 +3,7 @@
   "analysis_start": "2015-01-01",
   "status": "live",
   "trust": "canonical",
-  "fetched_at": "2026-08-04T12:07:54.705133+00:00",
+  "fetched_at": "2026-08-04T12:19:18.762697+00:00",
   "source": "B3 indexStatisticsProxy + indexProxy (IFIX oficial)",
   "source_urls": {
     "stats": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/monthly-evolution/IFIX?language=pt-br",

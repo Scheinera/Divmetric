@@ -7,7 +7,7 @@
     {
       "id": "certainty",
       "title": "Busca de certeza",
-      "summary": "No Brasil a âncora atual é Selic ~14.25% a.a. (IPCA 12m ~4.64%). Nos EUA, o yield de 10 anos (~4.745% se disponível) é referência de custo de oportunidade em USD."
+      "summary": "No Brasil a âncora atual é Selic ~14.25% a.a. (IPCA 12m ~4.64%). Nos EUA, o yield de 10 anos (~4.686%) é referência em USD. Na zona do euro, IRS 10Y (~3.36%) complementa a leitura."
     },
     {
       "id": "dividends",
@@ -22,7 +22,12 @@
     {
       "id": "opportunity_cost",
       "title": "Custo de oportunidade",
-      "summary": "Desde 2015-01-01, compare CAGR de S&P 500, Ibovespa, ouro e BTC contra a Selic — o prêmio de risco precisa compensar a incerteza."
+      "summary": "Desde 2015-01-01, compare CAGR/retorno 12m de bolsas, commodities e IFIX contra a Selic — o prêmio de risco precisa compensar a incerteza."
+    },
+    {
+      "id": "commodities",
+      "title": "Commodities e risco global",
+      "summary": "Brent/WTI, minério e ouro moldam Brasil (PETR/VALE) e o apetite a risco emergente."
     }
   ],
   "snapshots": {
@@ -30,51 +35,227 @@
     "brazil_ipca_12m": 4.64,
     "spx": {
       "label": "S&P 500",
-      "trailing_12m_pct": 18.15,
-      "cagr_since_start_pct": 11.81,
-      "as_of": "2026-07-31",
+      "group": "us",
+      "trailing_12m_pct": 21.84,
+      "cagr_since_start_pct": 11.94,
+      "last_close": 7600.5,
+      "as_of": "2026-08-03",
       "start_used": "2015-01-02"
     },
     "ibov": {
       "label": "Ibovespa",
-      "trailing_12m_pct": 33.76,
-      "cagr_since_start_pct": 11.89,
-      "as_of": "2026-07-31",
+      "group": "br",
+      "trailing_12m_pct": 34.4,
+      "cagr_since_start_pct": 11.88,
+      "last_close": 178000.0,
+      "as_of": "2026-08-03",
       "start_used": "2015-01-02"
     },
-    "ewz": {
-      "label": "MSCI Brazil ETF",
-      "trailing_12m_pct": 36.66,
-      "cagr_since_start_pct": 0.26,
+    "dow": {
+      "label": "Dow Jones",
+      "group": "us",
+      "trailing_12m_pct": 22.0,
+      "cagr_since_start_pct": 9.89,
+      "last_close": 53178.4102,
       "as_of": "2026-08-03",
       "start_used": "2015-01-02"
     },
     "gold": {
       "label": "Ouro (futuro)",
-      "trailing_12m_pct": 22.36,
-      "cagr_since_start_pct": 11.37,
+      "group": "commodity",
+      "trailing_12m_pct": 22.1,
+      "cagr_since_start_pct": 11.35,
+      "last_close": 4120.1001,
       "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "btc": {
       "label": "Bitcoin",
-      "trailing_12m_pct": -44.55,
-      "cagr_since_start_pct": 58.17,
+      "group": "crypto",
+      "trailing_12m_pct": -44.6,
+      "cagr_since_start_pct": 58.15,
+      "last_close": 63751.1484,
       "as_of": "2026-08-04",
       "start_used": "2015-01-01"
     },
+    "brent": {
+      "label": "Brent",
+      "group": "commodity",
+      "trailing_12m_pct": 18.86,
+      "cagr_since_start_pct": 3.25,
+      "last_close": 81.73,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "iron_ore": {
+      "label": "Minério de ferro (futuro)",
+      "group": "commodity",
+      "trailing_12m_pct": -5.94,
+      "cagr_since_start_pct": 2.54,
+      "last_close": 93.66,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
     "dxy": {
       "label": "DXY",
-      "trailing_12m_pct": 1.15,
+      "group": "fx",
+      "trailing_12m_pct": 1.17,
       "cagr_since_start_pct": 0.8,
+      "last_close": 99.931,
       "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "us10y": {
       "label": "US 10Y yield",
-      "trailing_12m_pct": 8.83,
-      "cagr_since_start_pct": 7.19,
-      "as_of": "2026-07-31",
+      "group": "rates",
+      "trailing_12m_pct": 11.04,
+      "cagr_since_start_pct": 7.07,
+      "last_close": 4.686,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
+    "eu_10y": {
+      "label": "Euro area 10Y (ECB IRS)",
+      "latest": 3.36,
+      "as_of": "2026-06"
+    }
+  },
+  "indices": {
+    "ibov": {
+      "label": "Ibovespa",
+      "group": "br",
+      "trailing_12m_pct": 34.4,
+      "cagr_since_start_pct": 11.88,
+      "last_close": 178000.0,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
+    "spx": {
+      "label": "S&P 500",
+      "group": "us",
+      "trailing_12m_pct": 21.84,
+      "cagr_since_start_pct": 11.94,
+      "last_close": 7600.5,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
+    "dow": {
+      "label": "Dow Jones",
+      "group": "us",
+      "trailing_12m_pct": 22.0,
+      "cagr_since_start_pct": 9.89,
+      "last_close": 53178.4102,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
+    "nasdaq": {
+      "label": "Nasdaq Composite",
+      "group": "us",
+      "trailing_12m_pct": 25.49,
+      "cagr_since_start_pct": 15.82,
+      "last_close": 25913.9004,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
+    "nikkei": {
+      "label": "Nikkei 225",
+      "group": "asia",
+      "trailing_12m_pct": 58.74,
+      "cagr_since_start_pct": 11.89,
+      "last_close": 63957.5312,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-05"
+    },
+    "dax": {
+      "label": "DAX",
+      "group": "europe",
+      "trailing_12m_pct": 10.38,
+      "cagr_since_start_pct": 8.9,
+      "last_close": 26224.0391,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "ftse": {
+      "label": "FTSE 100",
+      "group": "europe",
+      "trailing_12m_pct": 19.52,
+      "cagr_since_start_pct": 4.5,
+      "last_close": 10909.71,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "hang_seng": {
+      "label": "Hang Seng",
+      "group": "asia",
+      "trailing_12m_pct": 4.53,
+      "cagr_since_start_pct": 0.75,
+      "last_close": 25852.9199,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "ewz": {
+      "label": "MSCI Brazil ETF",
+      "group": "br",
+      "trailing_12m_pct": 36.66,
+      "cagr_since_start_pct": 0.26,
+      "last_close": 36.42,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    }
+  },
+  "commodities": {
+    "gold": {
+      "label": "Ouro (futuro)",
+      "group": "commodity",
+      "trailing_12m_pct": 22.1,
+      "cagr_since_start_pct": 11.35,
+      "last_close": 4120.1001,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "brent": {
+      "label": "Brent",
+      "group": "commodity",
+      "trailing_12m_pct": 18.86,
+      "cagr_since_start_pct": 3.25,
+      "last_close": 81.73,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "wti": {
+      "label": "WTI",
+      "group": "commodity",
+      "trailing_12m_pct": 17.2,
+      "cagr_since_start_pct": 3.41,
+      "last_close": 77.69,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-02"
+    },
+    "iron_ore": {
+      "label": "Minério de ferro (futuro)",
+      "group": "commodity",
+      "trailing_12m_pct": -5.94,
+      "cagr_since_start_pct": 2.54,
+      "last_close": 93.66,
+      "as_of": "2026-08-03",
+      "start_used": "2015-01-02"
+    },
+    "btc": {
+      "label": "Bitcoin",
+      "group": "crypto",
+      "trailing_12m_pct": -44.6,
+      "cagr_since_start_pct": 58.15,
+      "last_close": 63751.1484,
+      "as_of": "2026-08-04",
+      "start_used": "2015-01-01"
+    },
+    "dxy": {
+      "label": "DXY",
+      "group": "fx",
+      "trailing_12m_pct": 1.17,
+      "cagr_since_start_pct": 0.8,
+      "last_close": 99.931,
+      "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     }
   },
@@ -83,24 +264,33 @@
       "id": "us",
       "label": "Estados Unidos",
       "notes": [
-        "S&P 500 como proxy de equity desenvolvida",
-        "US 10Y como âncora de juro longo em USD"
+        "S&P 500, Dow e Nasdaq como mapear equity americana",
+        "US 10Y / curva curta como âncora de juro em USD"
+      ]
+    },
+    {
+      "id": "europe_asia",
+      "label": "Europa e Ásia",
+      "notes": [
+        "DAX e FTSE (Europa desenvolvida)",
+        "Nikkei e Hang Seng (Ásia)",
+        "Euro 10Y via ECB Data Portal"
       ]
     },
     {
       "id": "br",
       "label": "Brasil",
       "notes": [
-        "Selic/CDI/IPCA (BCB) como âncoras locais",
-        "Ibovespa + EWZ para preço e acesso internacional"
+        "Selic/CDI/IPCA (BCB) e IFIX (B3) como âncoras locais",
+        "Ibovespa + EWZ + cesta FII para preço e renda"
       ]
     },
     {
-      "id": "global_hard",
-      "label": "Reservas globais",
+      "id": "commodities",
+      "label": "Commodities",
       "notes": [
-        "Ouro e DXY como leituras de risco/âncora",
-        "BTC como ativo assimétrico (alta vol) na mesma janela"
+        "Brent/WTI, minério de ferro e ouro na mesma janela 2015+",
+        "Leitura conjunta com DXY e risco global"
       ]
     }
   ],

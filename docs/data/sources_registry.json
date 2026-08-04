@@ -4,9 +4,10 @@
   "trust_order": [
     "BCB SGS (canônico BR)",
     "B3 IFIX oficial",
+    "ECB Data Portal (juros UE)",
     "Yahoo Finance chart diário + eventos de dividendos",
     "AwesomeAPI (FX fallback)",
-    "Editorial (Suno / InfoMoney / B3 educacionais)"
+    "RSS/notícias (InfoMoney, Money Times, Agência Brasil, BCB)"
   ],
   "sources": [
     {

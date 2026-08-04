@@ -1,0 +1,439 @@
+{
+  "fetched_at": "2026-08-04T12:19:22.680961+00:00",
+  "as_of": "2026-08-04",
+  "analysis_start": "2015-01-01",
+  "selic_latest_pct": 14.25,
+  "next_meeting": {
+    "id": "copom_2026_08",
+    "year": 2026,
+    "dates": [
+      "2026-08-04",
+      "2026-08-05"
+    ],
+    "decision_date": "2026-08-05",
+    "label": "COPOM agosto/2026",
+    "status": "upcoming"
+  },
+  "upcoming_meetings": [
+    {
+      "id": "copom_2026_08",
+      "year": 2026,
+      "dates": [
+        "2026-08-04",
+        "2026-08-05"
+      ],
+      "decision_date": "2026-08-05",
+      "label": "COPOM agosto/2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "copom_2026_09",
+      "year": 2026,
+      "dates": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "decision_date": "2026-09-16",
+      "label": "COPOM setembro/2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "copom_2026_11",
+      "year": 2026,
+      "dates": [
+        "2026-11-03",
+        "2026-11-04"
+      ],
+      "decision_date": "2026-11-04",
+      "label": "COPOM novembro/2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "copom_2026_12",
+      "year": 2026,
+      "dates": [
+        "2026-12-08",
+        "2026-12-09"
+      ],
+      "decision_date": "2026-12-09",
+      "label": "COPOM dezembro/2026",
+      "status": "upcoming"
+    }
+  ],
+  "recent_decisions": [
+    {
+      "date": "2026-06-18",
+      "selic_pct": 14.25,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2026-04-30",
+      "selic_pct": 14.5,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2026-03-19",
+      "selic_pct": 14.75,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-06-19",
+      "selic_pct": 15.0,
+      "change_pp": 0.25,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-05-08",
+      "selic_pct": 14.75,
+      "change_pp": 0.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-03-20",
+      "selic_pct": 14.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-01-30",
+      "selic_pct": 13.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-12-12",
+      "selic_pct": 12.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-11-07",
+      "selic_pct": 11.25,
+      "change_pp": 0.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-09-19",
+      "selic_pct": 10.75,
+      "change_pp": 0.25,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-05-09",
+      "selic_pct": 10.5,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-03-21",
+      "selic_pct": 10.75,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    }
+  ],
+  "decisions_since_start": [
+    {
+      "date": "2018-02-08",
+      "selic_pct": 6.75,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2018-03-22",
+      "selic_pct": 6.5,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2019-08-01",
+      "selic_pct": 6.0,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2019-09-19",
+      "selic_pct": 5.5,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2019-10-31",
+      "selic_pct": 5.0,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2019-12-12",
+      "selic_pct": 4.5,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2020-02-06",
+      "selic_pct": 4.25,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2020-03-19",
+      "selic_pct": 3.75,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2020-05-07",
+      "selic_pct": 3.0,
+      "change_pp": -0.75,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2020-06-18",
+      "selic_pct": 2.25,
+      "change_pp": -0.75,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2020-08-06",
+      "selic_pct": 2.0,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-03-18",
+      "selic_pct": 2.75,
+      "change_pp": 0.75,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-05-06",
+      "selic_pct": 3.5,
+      "change_pp": 0.75,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-06-17",
+      "selic_pct": 4.25,
+      "change_pp": 0.75,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-08-05",
+      "selic_pct": 5.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-09-23",
+      "selic_pct": 6.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-10-28",
+      "selic_pct": 7.75,
+      "change_pp": 1.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2021-12-09",
+      "selic_pct": 9.25,
+      "change_pp": 1.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2022-02-03",
+      "selic_pct": 10.75,
+      "change_pp": 1.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2022-03-17",
+      "selic_pct": 11.75,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2022-05-05",
+      "selic_pct": 12.75,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2022-06-16",
+      "selic_pct": 13.25,
+      "change_pp": 0.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2022-08-04",
+      "selic_pct": 13.75,
+      "change_pp": 0.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2023-08-03",
+      "selic_pct": 13.25,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2023-09-21",
+      "selic_pct": 12.75,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2023-11-02",
+      "selic_pct": 12.25,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2023-12-14",
+      "selic_pct": 11.75,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-02-01",
+      "selic_pct": 11.25,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-03-21",
+      "selic_pct": 10.75,
+      "change_pp": -0.5,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-05-09",
+      "selic_pct": 10.5,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-09-19",
+      "selic_pct": 10.75,
+      "change_pp": 0.25,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-11-07",
+      "selic_pct": 11.25,
+      "change_pp": 0.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2024-12-12",
+      "selic_pct": 12.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-01-30",
+      "selic_pct": 13.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-03-20",
+      "selic_pct": 14.25,
+      "change_pp": 1.0,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-05-08",
+      "selic_pct": 14.75,
+      "change_pp": 0.5,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2025-06-19",
+      "selic_pct": 15.0,
+      "change_pp": 0.25,
+      "action": "hike",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2026-03-19",
+      "selic_pct": 14.75,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2026-04-30",
+      "selic_pct": 14.5,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2026-06-18",
+      "selic_pct": 14.25,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    }
+  ],
+  "notes": [
+    "Calendário futuro: comunicado BCB (embed em config/copom_calendar.yaml).",
+    "Histórico de decisões: mudanças da Selic meta (SGS 432).",
+    "Ata: tipicamente terça seguinte à decisão, 8h (Brasília)."
+  ],
+  "source": "BCB (calendário publicado + SGS 432)",
+  "status": "live",
+  "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
+}

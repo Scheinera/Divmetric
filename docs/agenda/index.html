@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda e destaques — Divmetric</title>
+  <meta name="description" content="COPOM, notícias, balanços e destaques do dia — digest educacional Divmetric.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="page-header">
+    <p class="section-kicker">Agenda · COPOM · notícias</p>
+    <h1>Destaques do <span>dia</span></h1>
+    <p class="tagline">Calendário COPOM, decisões de Selic, balanços e manchetes relevantes — seleado automaticamente.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="copom">
+      <p class="muted">Carregando COPOM…</p>
+    </section>
+    <section class="card" style="margin-top:1rem" id="highlights">
+      <p class="muted">Carregando agenda…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    · <a href="/">Início</a> · <a href="/mundo/">Economias</a> · <a href="/radar/">Radar</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+  <script>
+    const { loadJSON } = window.DivmetricSite;
+
+    function linkItem(it) {
+      const title = it.title || "—";
+      const href = it.url ? `<a href="${it.url}" rel="noopener" target="_blank">${title}</a>` : title;
+      const src = it.source_label || it.source_id || "";
+      const when = it.published_at ? String(it.published_at).slice(0, 16).replace("T", " ") : "";
+      return `<li>${href} <span class="tiny muted">· ${src}${when ? " · " + when : ""}</span></li>`;
+    }
+
+    (async () => {
+      const [copom, agenda] = await Promise.all([
+        loadJSON("/data/copom.json"),
+        loadJSON("/data/agenda_digest.json"),
+      ]);
+
+      const next = copom.next_meeting;
+      const upcoming = copom.upcoming_meetings || [];
+      const decisions = copom.recent_decisions || [];
+      document.getElementById("copom").innerHTML = `
+        <h2>COPOM</h2>
+        <p class="muted">Selic atual: <strong>${copom.selic_latest_pct ?? "—"}%</strong></p>
+        ${next ? `<p class="muted">Próxima decisão: <strong>${next.decision_date}</strong> (${next.label || ""})</p>` : ""}
+        <div class="stat-row">
+          ${upcoming.slice(0, 4).map((m) => `<div class="stat"><strong>${m.decision_date}</strong><span>${m.label || "Reunião"}</span></div>`).join("")}
+        </div>
+        <h3 style="margin-top:1rem">Decisões recentes (via Selic meta)</h3>
+        <ul class="check muted">
+          ${decisions.slice(0, 8).map((d) => `<li>${d.date}: ${d.selic_pct}% (${d.change_pp > 0 ? "+" : ""}${d.change_pp} pp)</li>`).join("")}
+        </ul>
+        <p class="tiny muted">${(copom.notes || []).join(" ")}</p>`;
+
+      document.getElementById("highlights").innerHTML = `
+        <h2>Destaques</h2>
+        <p class="tiny muted">${agenda.source || ""} · ${agenda.as_of || ""}</p>
+        <h3>Manchetes</h3>
+        <ul class="check muted">${(agenda.highlights || []).slice(0, 10).map(linkItem).join("")}</ul>
+        <h3 style="margin-top:1rem">COPOM / BC</h3>
+        <ul class="check muted">${(agenda.copom_related || []).slice(0, 6).map(linkItem).join("") || "<li class='muted'>Sem itens tagged nesta coleta.</li>"}</ul>
+        <h3 style="margin-top:1rem">Balanços / resultados</h3>
+        <ul class="check muted">${(agenda.earnings || []).slice(0, 8).map(linkItem).join("") || "<li class='muted'>Sem itens tagged nesta coleta.</li>"}</ul>
+        <h3 style="margin-top:1rem">Mercados</h3>
+        <ul class="check muted">${(agenda.markets || []).slice(0, 8).map(linkItem).join("") || "<li class='muted'>Sem itens tagged nesta coleta.</li>"}</ul>
+        <p class="tiny muted" style="margin-top:1rem">${agenda.disclaimer || ""}</p>`;
+    })().catch((err) => {
+      document.querySelector("main").textContent = err.message || String(err);
+    });
+  </script>
+</body>
+</html>

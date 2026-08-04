@@ -1,0 +1,246 @@
+{
+  "fetched_at": "2026-08-04T12:19:27.797888+00:00",
+  "as_of": "2026-08-04",
+  "status": "live",
+  "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
+  "feeds": [
+    {
+      "id": "infomoney",
+      "label": "InfoMoney",
+      "url": "https://www.infomoney.com.br/feed/"
+    },
+    {
+      "id": "moneytimes",
+      "label": "Money Times",
+      "url": "https://www.moneytimes.com.br/feed/"
+    },
+    {
+      "id": "agenciabrasil",
+      "label": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Ex-chefe de gabinete de Lula admite empréstimo de lobista ligada ao Careca do INSS",
+      "url": "https://www.infomoney.com.br/politica/ex-chefe-de-gabinete-de-lula-admite-emprestimo-de-lobista-ligada-ao-careca-do-inss/",
+      "summary": "Marco Aurélio Santana Ribeiro afirma que recebeu recursos de Roberta Luchsinger em operação pessoal já quitada The post Ex-chefe de gabinete de Lula admite empréstimo de lobista ligada ao Careca do INSS appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:18:57+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Trump critica lucros de petroleiras com a guerra que ele próprio iniciou",
+      "url": "https://www.infomoney.com.br/mundo/trump-critica-lucros-de-petroleiras-com-a-guerra-que-ele-proprio-iniciou/",
+      "summary": "Presidente diz que Exxon e Chevron 'estão ganhando dinheiro demais' e solicita que 'devolvam parte à população' dos EUA para compensar ganhos com alta do barril no mercado The post Trump critica lucros de petroleiras com a guerra que ele próprio iniciou appeared first on InfoMone",
+      "published_at": "2026-08-04T12:18:26+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Ibovespa Futuro sobe com temporada de resultados e dados em foco",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-com-temporada-de-resultados-e-dados-em-foco/",
+      "summary": "No exterior, as ações avançavam, mas a alta dos preços do petróleo evidenciava o ceticismo quanto a uma resolução do conflito no Oriente Médio The post Ibovespa Futuro sobe com temporada de resultados e dados em foco appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:16:02+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br",
+        "markets"
+      ]
+    },
+    {
+      "title": "Ibovespa futuro sobe aos 179 mil pontos com produção industrial e exterior; dólar cai a R$ 5,07",
+      "url": "https://www.moneytimes.com.br/ibovespa-futuro-4-8-26-apsa/",
+      "summary": "O Ibovespa futuro (INDFUT) subiu 0,34%, aos 179.255 pontos após a abertura, às 9h (horário de Brasília), com o dado mais fraco do que o esperado pelo mercado da produção industrial de junho, enquanto as bolsas no exterior operam positivas. Já o dólar à vista abriu em queda ante o",
+      "published_at": "2026-08-04T12:16:00+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Prejuízo da Eve recua 47,1% no 2º trimestre na comparação anual",
+      "url": "https://www.moneytimes.com.br/prejuizo-da-eve-recua-471-no-2o-trimestre-na-comparacao-anual-lmrs/",
+      "summary": "A Eve, subsidiária da Embraer (EMBJ3), encerrou o segundo trimestre de 2026 com prejuízo líquido de US$ 34,2 milhões ante perdas de US$ 64,7 milhões no mesmo período de 2025. A empresa atribuiu a redução principalmente a menores despesas de pesquisa e desenvolvimento (R&D), que s",
+      "published_at": "2026-08-04T12:15:51+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "XP avança para 4º lugar em ranking das melhores casas de research do Brasil",
+      "url": "https://www.infomoney.com.br/business/xp-avanca-para-4o-lugar-em-ranking-das-melhores-casas-de-research-do-brasil/",
+      "summary": "Instituição aparece entre as líderes e se destaca em diferentes categorias do ranking internacional The post XP avança para 4º lugar em ranking das melhores casas de research do Brasil appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:15:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Produção industrial no Brasil cai 1,8% em junho e frustra projeções do mercado",
+      "url": "https://www.infomoney.com.br/economia/producao-industrial-no-brasil-cai-18-em-junho-e-frustra-projecoes-do-mercado/",
+      "summary": "Pesquisa Reuters apontava recuo de 0,8% na variação mensal The post Produção industrial no Brasil cai 1,8% em junho e frustra projeções do mercado appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:14:15+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Passageiros relatam frustração em meio à greve na CPTM",
+      "url": "https://www.infomoney.com.br/brasil/passageiros-relatam-frustracao-em-meio-a-greve-na-cptm/",
+      "summary": "Passageiros reclamam de atendimento parcial e tumulto em estações em meio à greve The post Passageiros relatam frustração em meio à greve na CPTM appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:11:03+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Smart Fit (SMFT3) conclui aquisição da rede de academias Evolve; veja detalhes da operação",
+      "url": "https://www.moneytimes.com.br/smart-fit-smft3-conclui-aquisicao-da-rede-de-academias-evolve-veja-detalhes-da-operacao-lmrs/",
+      "summary": "A Smart Fit (SMFT3) anunciou ao mercado nesta terça-feira (4) que concluiu na véspera a aquisição do controle da rede de academias Evolve. A operação ocorreu mediante a aquisição de ações ordinárias representativas de 60% do capital social total da empresa. O contrato, celebrado ",
+      "published_at": "2026-08-04T12:10:01+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Fertilizantes: preço da ureia nos portos brasileiros subiu 19% em 5 semanas",
+      "url": "https://www.infomoney.com.br/esportes/fertilizantes-preco-da-ureia-nos-portos-brasileiros-subiu-19-em-5-semanas/",
+      "summary": "Além do período crucial de preparação para a próxima safra brasileira, o que aumenta a demanda por nitrogenados, a Índia lançou uma nova licitação de compra nos últimos dias, mantendo o mercado em alta The post Fertilizantes: preço da ureia nos portos brasileiros subiu 19% em 5 s",
+      "published_at": "2026-08-04T12:09:12+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Subsidiária da Petrobras (PETR4) aprova concurso público; salários iniciais podem chegar a R$ 15 mil e inscrições abrem neste mês",
+      "url": "https://www.moneytimes.com.br/subsidiaria-petrobras-petr4-concurso-publico-salarios-iniciais-r-15-mil-mlem/",
+      "summary": "Subsidiária de transporte e armazenamento da Petrobras (PETR4), a Transpetro anunciou a aprovação da abertura de concurso público para contratações nos quadros de terra e de mar. Entre os quatro editais, estarão disponíveis 281 vagas imediatas com salários iniciais de até R$ 15 m",
+      "published_at": "2026-08-04T12:08:12+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04082026/",
+      "summary": "Índices futuros dos EUA avançam com valorização de ações de tecnologia The post Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:06:37+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "markets"
+      ]
+    }
+  ],
+  "copom_related": [
+    {
+      "title": "Copom inicia reunião que definirá taxa básica de juros",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-reuniao-que-definira-taxa-basica-de-juros",
+      "summary": "Começa nesta terça-feira (4) a quinta reunião de 2026 do Comitê de Política Monetária (Copom) do Banco Central (BC). As expectativas são de que a decisão sobre a Taxa Selic seja anunciada dia 5 de agosto, após os dois dias de discussões do grupo sobre o cenário econômico nacional",
+      "published_at": "2026-08-04T09:40:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "copom"
+      ]
+    }
+  ],
+  "earnings": [
+    {
+      "title": "Trump critica lucros de petroleiras com a guerra que ele próprio iniciou",
+      "url": "https://www.infomoney.com.br/mundo/trump-critica-lucros-de-petroleiras-com-a-guerra-que-ele-proprio-iniciou/",
+      "summary": "Presidente diz que Exxon e Chevron 'estão ganhando dinheiro demais' e solicita que 'devolvam parte à população' dos EUA para compensar ganhos com alta do barril no mercado The post Trump critica lucros de petroleiras com a guerra que ele próprio iniciou appeared first on InfoMone",
+      "published_at": "2026-08-04T12:18:26+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Ibovespa Futuro sobe com temporada de resultados e dados em foco",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-com-temporada-de-resultados-e-dados-em-foco/",
+      "summary": "No exterior, as ações avançavam, mas a alta dos preços do petróleo evidenciava o ceticismo quanto a uma resolução do conflito no Oriente Médio The post Ibovespa Futuro sobe com temporada de resultados e dados em foco appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:16:02+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br",
+        "markets"
+      ]
+    }
+  ],
+  "markets": [
+    {
+      "title": "Ibovespa Futuro sobe com temporada de resultados e dados em foco",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-com-temporada-de-resultados-e-dados-em-foco/",
+      "summary": "No exterior, as ações avançavam, mas a alta dos preços do petróleo evidenciava o ceticismo quanto a uma resolução do conflito no Oriente Médio The post Ibovespa Futuro sobe com temporada de resultados e dados em foco appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:16:02+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br",
+        "markets"
+      ]
+    },
+    {
+      "title": "Ibovespa futuro sobe aos 179 mil pontos com produção industrial e exterior; dólar cai a R$ 5,07",
+      "url": "https://www.moneytimes.com.br/ibovespa-futuro-4-8-26-apsa/",
+      "summary": "O Ibovespa futuro (INDFUT) subiu 0,34%, aos 179.255 pontos após a abertura, às 9h (horário de Brasília), com o dado mais fraco do que o esperado pelo mercado da produção industrial de junho, enquanto as bolsas no exterior operam positivas. Já o dólar à vista abriu em queda ante o",
+      "published_at": "2026-08-04T12:16:00+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04082026/",
+      "summary": "Índices futuros dos EUA avançam com valorização de ações de tecnologia The post Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça appeared first on InfoMoney .",
+      "published_at": "2026-08-04T12:06:37+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Fundo imobiliário amplia contrato com M. Dias Branco e reduz vacância do portfólio; IFIX recua",
+      "url": "https://www.moneytimes.com.br/fundo-imobiliario-amplia-contrato-com-m-dias-branco-e-reduz-vacancia-do-portfolio-ifix-recua-igdl/",
+      "summary": "O fundo imobiliário Bresco Logística (BRCO11) anunciou, por meio de fato relevante, a ampliação do contrato de locação com a M. Dias Branco (MDIA3) para o empreendimento “Bresco Canoas“, um condomínio logístico localizado no Rio Grande do Sul. Segundo o comunicado divulgado ao me",
+      "published_at": "2026-08-04T11:06:37+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    }
+  ],
+  "all_count": 130,
+  "errors": [],
+  "disclaimer": "Seleção automática por palavras-chave. Editorial — não é recomendação."
+}

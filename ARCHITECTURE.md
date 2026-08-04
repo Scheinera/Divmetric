@@ -42,17 +42,17 @@ Todas as séries oficiais e de mercado, analogias Selic×anos, CAGR e índices 1
 | Referência | B3 | Contexto de listagem/liquidez |
 | Editorial | Suno, InfoMoney | Guias e notícias; citação + link |
 
-### Roadmap de enriquecimento (próximas fontes)
+### Roadmap de enriquecimento
 
-| Tema | Fonte preferida | Status |
-|------|-----------------|--------|
-| Minério de ferro | Yahoo `TIO=F` / Fastmarkets proxy | Pendente |
-| Dow Jones | Yahoo `^DJI` | Pendente (S&P já no ar) |
-| Bolsas mundiais | Yahoo `^N225`, `^GDAXI`, `^FTSE`, `^HSI`… | Pendente |
-| Brent / WTI | Yahoo `BZ=F`, `CL=F` | Pendente |
-| Juros países | FRED (DGS10 etc.) + BCB / banks sites | Pendente (US10Y já proxy Yahoo) |
-| COPOM | BCB agenda + atas (HTML/RSS) | Pendente |
-| Notícias / agenda / balanços | RSS InfoMoney/Valor + calendar B3/earnings | Pendente (editorial leve; digest estilo Velumetric) |
+| Tema | Fonte | Status |
+|------|-------|--------|
+| IFIX oficial | B3 | ✅ |
+| Dow / Nasdaq / Nikkei / DAX / FTSE / Hang Seng | Yahoo | ✅ |
+| Brent / WTI / Minério | Yahoo | ✅ |
+| Juros (US curve + Euro 10Y + Selic) | Yahoo + ECB + BCB | ✅ |
+| COPOM calendário + decisões | BCB + SGS 432 | ✅ |
+| Agenda / notícias / balanços | RSS + BCB notícias | ✅ |
+| Página `/agenda/` e `/mundo/` enriquecida | site | ✅ |
 
 ## Pipelines (alvo)
 

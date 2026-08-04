@@ -149,6 +149,9 @@ def fetch_official_bundle(start_date: str = "2015-01-01") -> dict[str, Any]:
                 "points_count": len(points),
                 "monthly": monthly,
             }
+            if key == "selic":
+                series_out[key]["points"] = points  # histórico diário para decisões COPOM
+
         except Exception as exc:  # noqa: BLE001
             errors.append(f"{key}/{meta['code']}: {exc}")
             series_out[key] = {**meta, "series_code": meta["code"], "error": str(exc)}

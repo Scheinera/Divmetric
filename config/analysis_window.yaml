@@ -35,14 +35,23 @@ official_series:
     unit: "% m/m"
 
 market_benchmarks:
-  ibov: { symbol: "^BVSP", label: Ibovespa }
-  spx: { symbol: "^GSPC", label: "S&P 500" }
-  btc: { symbol: "BTC-USD", label: Bitcoin }
-  gold: { symbol: "GC=F", label: "Ouro (futuro)" }
-  dxy: { symbol: "DX-Y.NYB", label: DXY }
-  usdbrl: { symbol: "USDBRL=X", label: "USD/BRL" }
-  us10y: { symbol: "^TNX", label: "US 10Y yield" }
-  ewz: { symbol: "EWZ", label: "MSCI Brazil ETF" }
+  ibov: { symbol: "^BVSP", label: Ibovespa, group: br }
+  spx: { symbol: "^GSPC", label: "S&P 500", group: us }
+  dow: { symbol: "^DJI", label: "Dow Jones", group: us }
+  nasdaq: { symbol: "^IXIC", label: "Nasdaq Composite", group: us }
+  nikkei: { symbol: "^N225", label: "Nikkei 225", group: asia }
+  dax: { symbol: "^GDAXI", label: DAX, group: europe }
+  ftse: { symbol: "^FTSE", label: "FTSE 100", group: europe }
+  hang_seng: { symbol: "^HSI", label: "Hang Seng", group: asia }
+  btc: { symbol: "BTC-USD", label: Bitcoin, group: crypto }
+  gold: { symbol: "GC=F", label: "Ouro (futuro)", group: commodity }
+  brent: { symbol: "BZ=F", label: Brent, group: commodity }
+  wti: { symbol: "CL=F", label: WTI, group: commodity }
+  iron_ore: { symbol: "TIO=F", label: "Minério de ferro (futuro)", group: commodity }
+  dxy: { symbol: "DX-Y.NYB", label: DXY, group: fx }
+  usdbrl: { symbol: "USDBRL=X", label: "USD/BRL", group: fx }
+  us10y: { symbol: "^TNX", label: "US 10Y yield", group: rates }
+  ewz: { symbol: "EWZ", label: "MSCI Brazil ETF", group: br }
 
 b3_elite:
   - PETR4.SA
