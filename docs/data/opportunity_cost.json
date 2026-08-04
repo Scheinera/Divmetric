@@ -44,8 +44,8 @@
       "label": "Ouro",
       "certainty": "média",
       "role": "reserva / hedge",
-      "annual_rate_pct": 21.6,
-      "trailing_12m_pct": 21.6,
+      "annual_rate_pct": 21.62,
+      "trailing_12m_pct": 21.62,
       "cagr_since_start_pct": 11.31,
       "metric": "retorno ~12m + CAGR desde janela"
     },
@@ -54,9 +54,9 @@
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -44.82,
-      "trailing_12m_pct": -44.82,
-      "cagr_since_start_pct": 58.1,
+      "annual_rate_pct": -44.89,
+      "trailing_12m_pct": -44.89,
+      "cagr_since_start_pct": 58.08,
       "metric": "retorno ~12m + CAGR desde janela"
     }
   ],

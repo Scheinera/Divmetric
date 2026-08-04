@@ -1,0 +1,14 @@
+﻿2026-08-04 05:45:02  === Divmetric collect start ===
+2026-08-04 05:45:02  ensuring Python deps (quiet)…
+2026-08-04 07:15:47  === Divmetric collect start ===
+2026-08-04 07:15:47  python: C:\Users\Anderson Scheiner\AppData\Local\Programs\Python\Python313\python.exe
+2026-08-04 07:15:47  deps OK (skip pip)
+2026-08-04 07:18:07  Divmetric collector: analysis window from 2015-01-01
+2026-08-04 07:18:07    fetching BCB bundle…
+2026-08-04 07:18:07    Selic=14.25% (2026-08-04) IPCA12m=4.64% (2026-06-01) series_ok=6
+2026-08-04 07:18:07    fetching market benchmarks…
+2026-08-04 07:18:07    market ok_count=8 errors=0
+2026-08-04 07:18:07    fetching B3 elite/liquidity…
+2026-08-04 07:18:08    elite ok_count=19 gaps=3
+2026-08-04 07:18:08  Divmetric collector: export OK → docs/data/
+2026-08-04 07:18:08  === Divmetric collect done ===

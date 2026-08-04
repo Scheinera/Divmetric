@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 import requests
@@ -68,7 +68,8 @@ def fetch_series(
         url = f"{SGS_BASE.format(code=code)}/ultimos/{last_n}?formato=json"
         return _rows_to_points(_fetch_raw(url), None, None)
 
-    # BCB limita janelas longas (máx. ~10 anos em séries diárias). Buscamos em fatias.
+    # BCB limita janelas longas (máx. ~10 anos em séries diárias). Fatias de ~8 anos.
+    # Nunca usar /ultimos/N no histórico: isso corta a janela alinhada (ex.: só 2025+).
     if not start_date:
         start_date = "2015-01-01"
     if not end_date:
@@ -78,12 +79,11 @@ def fetch_series(
     end = datetime.strptime(end_date, "%Y-%m-%d").date()
     points: list[dict[str, Any]] = []
     cursor = start
+    # ~8 anos civis; margem abaixo do teto ~10 anos do SGS
+    max_span = timedelta(days=365 * 8 + 2)
+
     while cursor <= end:
-        # fatia de até 9 anos para margem de segurança
-        chunk_end_year = min(cursor.year + 9, end.year)
-        chunk_end = datetime(chunk_end_year, 12, 31).date()
-        if chunk_end > end:
-            chunk_end = end
+        chunk_end = min(cursor + max_span, end)
         url = (
             f"{SGS_BASE.format(code=code)}?formato=json"
             f"&dataInicial={cursor.strftime('%d/%m/%Y')}"
@@ -92,20 +92,23 @@ def fetch_series(
         try:
             chunk = _rows_to_points(_fetch_raw(url), start_date, end_date)
             points.extend(chunk)
-        except Exception:
-            # fallback: últimos valores (séries curtas)
-            try:
-                chunk = _rows_to_points(
-                    _fetch_raw(f"{SGS_BASE.format(code=code)}/ultimos/200?formato=json"),
-                    start_date,
-                    end_date,
+        except Exception as exc:
+            # Retry com metade da janela (evita 406 / timeout)
+            mid_date = cursor + timedelta(days=max((chunk_end - cursor).days // 2, 30))
+            if mid_date >= chunk_end:
+                raise RuntimeError(f"BCB {code} falhou em {cursor}..{chunk_end}: {exc}") from exc
+            for sub_start, sub_end in ((cursor, mid_date), (mid_date + timedelta(days=1), chunk_end)):
+                if sub_start > sub_end:
+                    continue
+                sub_url = (
+                    f"{SGS_BASE.format(code=code)}?formato=json"
+                    f"&dataInicial={sub_start.strftime('%d/%m/%Y')}"
+                    f"&dataFinal={sub_end.strftime('%d/%m/%Y')}"
                 )
-                points.extend(chunk)
-            except Exception:
-                pass
+                points.extend(_rows_to_points(_fetch_raw(sub_url), start_date, end_date))
         if chunk_end >= end:
             break
-        cursor = datetime(chunk_end.year + 1, 1, 1).date()
+        cursor = chunk_end + timedelta(days=1)
 
     # dedupe by date
     by_date = {p["date"]: p for p in points}

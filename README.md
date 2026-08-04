@@ -27,8 +27,8 @@ npx wrangler pages dev docs --port 8788
 
 ## Rotina / agenda
 
-- `Divmetric_Daily_Collect` @ 05:45 — atualiza `docs/data` (collector)
-- `GitHub_Daily_Publish` — já inclui este repo (commit/push diário)
-- Hub cron 09:15 UTC — republica no Cloudflare Pages
+- `Divmetric_Daily_Collect` @ 05:45 — atualiza `docs/data` (collector; sem `pip` diário)
+- `GitHub_Daily_Publish` @ 23:00 — roda o collector de novo e faz commit/push se houver mudança
+- Hub Cloudflare — republica Pages após push (e cron/dispatch no Velumetric)
 
 Conteúdo educacional. Não é recomendação de investimento.
