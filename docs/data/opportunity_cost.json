@@ -45,10 +45,10 @@
       "label": "FIIs (mediana da cesta líquida)",
       "certainty": "média",
       "role": "renda imobiliária listada (provento + preço)",
-      "annual_rate_pct": 10.83,
-      "total_return_12m_pct_median": 10.83,
-      "dividend_yield_pct_median": 9.9,
-      "sample_size": 17,
+      "annual_rate_pct": 8.95,
+      "total_return_12m_pct_median": 8.95,
+      "dividend_yield_pct_median": 10.2,
+      "sample_size": 18,
       "metric": "mediana TSR ~12m da cesta FII (Yahoo); DY mediana à parte"
     },
     {
@@ -56,8 +56,8 @@
       "label": "Ouro",
       "certainty": "média",
       "role": "reserva / hedge",
-      "annual_rate_pct": 21.67,
-      "trailing_12m_pct": 21.67,
+      "annual_rate_pct": 21.68,
+      "trailing_12m_pct": 21.68,
       "cagr_since_start_pct": 11.31,
       "metric": "retorno ~12m + CAGR desde janela"
     },
@@ -66,8 +66,8 @@
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -44.87,
-      "trailing_12m_pct": -44.87,
+      "annual_rate_pct": -44.84,
+      "trailing_12m_pct": -44.84,
       "cagr_since_start_pct": 58.09,
       "metric": "retorno ~12m + CAGR desde janela"
     }

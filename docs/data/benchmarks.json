@@ -63,28 +63,28 @@
       "id": "btc",
       "label": "Bitcoin",
       "source_layer": "market",
-      "annual_rate_pct": -44.87,
-      "trailing_12m_pct": -44.87,
+      "annual_rate_pct": -44.84,
+      "trailing_12m_pct": -44.84,
       "cagr_since_start_pct": 58.09,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário BTC-USD desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "BTC-USD",
-      "last_close": 63440.0391,
+      "last_close": 63472.9414,
       "start_used": "2015-01-01"
     },
     {
       "id": "gold",
       "label": "Ouro (futuro)",
       "source_layer": "market",
-      "annual_rate_pct": 21.67,
-      "trailing_12m_pct": 21.67,
+      "annual_rate_pct": 21.68,
+      "trailing_12m_pct": 21.68,
       "cagr_since_start_pct": 11.31,
       "unit": "retorno ~12m calendário (proxy) · CAGR na janela",
       "description": "Yahoo chart diário GC=F desde 2015-01-01",
       "as_of": "2026-08-04",
       "symbol": "GC=F",
-      "last_close": 4105.7998,
+      "last_close": 4105.8999,
       "start_used": "2015-01-02"
     },
     {
@@ -148,5 +148,5 @@
     "official": "BCB SGS",
     "market": "Yahoo Finance chart API (period1/period2 diário) + AwesomeAPI"
   },
-  "fetched_at": "2026-08-04T10:40:57.819081+00:00"
+  "fetched_at": "2026-08-04T10:42:27.794300+00:00"
 }

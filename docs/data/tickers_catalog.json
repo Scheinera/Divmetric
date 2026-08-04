@@ -2,7 +2,7 @@
   "version": 3,
   "status": "live",
   "analysis_start": "2015-01-01",
-  "updated_at": "2026-08-04T10:40:57.835828+00:00",
+  "updated_at": "2026-08-04T10:42:27.810923+00:00",
   "tickers": [
     {
       "ticker": "ABEV3",
@@ -435,6 +435,18 @@
       "total_return_12m_pct": 17.36,
       "cagr_since_start_pct": -0.74,
       "start_used": "2015-01-02"
+    },
+    {
+      "ticker": "VGIP11",
+      "symbol": "VGIP11.SA",
+      "type": "fii",
+      "market": "B3",
+      "last": 77.5,
+      "volume": 19913,
+      "dividend_yield_pct": 12.9,
+      "total_return_12m_pct": 7.07,
+      "cagr_since_start_pct": -0.19,
+      "start_used": "2020-03-20"
     }
   ]
 }

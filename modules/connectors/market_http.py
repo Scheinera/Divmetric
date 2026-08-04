@@ -62,7 +62,7 @@ DEFAULT_FII = [
     "MXRF11.SA",
     "PVBI11.SA",
     "RBRR11.SA",
-    "IRDM11.SA",
+    "VGIP11.SA",
     "CPTS11.SA",
     "RECR11.SA",
     "TGAR11.SA",
