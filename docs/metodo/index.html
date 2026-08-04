@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Método — Divmetric</title>
+  <meta name="description" content="Custo de oportunidade, ações de elite, busca de certeza e analogias históricas.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="page-header">
+    <p class="section-kicker">Pilares · educacional</p>
+    <h1>Método <span>Divmetric</span></h1>
+    <p class="tagline">Custo de oportunidade, líderes de mercado, certeza relativa e o que o passado rima com o hoje.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="oportunidade">
+      <h2>Custo de oportunidade</h2>
+      <p class="muted" id="oc-principle">—</p>
+      <ul class="check muted" id="oc-questions"></ul>
+      <div class="stat-row" id="oc-compare"></div>
+    </section>
+
+    <section class="card" style="margin-top:1rem" id="elite">
+      <h2>Ações que dominam · elite</h2>
+      <p class="muted" id="elite-def">—</p>
+      <ul class="check muted" id="elite-filters"></ul>
+      <p class="tiny muted" id="elite-note"></p>
+    </section>
+
+    <section class="card" style="margin-top:1rem" id="certeza">
+      <h2>Buscar certeza no investimento</h2>
+      <p class="muted">
+        Certeza absoluta não existe em equity. O método é tornar a <strong>incerteza mensurável</strong>:
+        âncora de caixa/Selic, qualidade/liquidez dos papéis e honestidade sobre o prêmio de risco.
+        A Divmetric separa <em>renda e patrimônio</em> de <em>operação</em> — operação sem liquidez fica fora.
+      </p>
+      <a class="btn btn-ghost" href="/liquidez/">Ver filtro de liquidez</a>
+      <a class="btn btn-ghost" href="/calculadora/">Comparar na calculadora</a>
+    </section>
+
+    <section class="card" style="margin-top:1rem" id="analogias">
+      <h2>Histórico × comportamento de hoje</h2>
+      <p class="muted" id="an-thesis">—</p>
+      <ol class="muted" id="an-method"></ol>
+      <p class="tiny muted" id="an-note"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Conteúdo educacional. Não é recomendação de investimento.
+    · <a href="/">Início</a> · <a href="/mundo/">Economias</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+  <script>
+    const { loadJSON } = window.DivmetricSite;
+    (async () => {
+      const [oc, elite, analogs] = await Promise.all([
+        loadJSON("/data/opportunity_cost.json"),
+        loadJSON("/data/elite_stocks.json"),
+        loadJSON("/data/historical_analogs.json"),
+      ]);
+      document.getElementById("oc-principle").textContent = oc.principle || "";
+      document.getElementById("oc-questions").innerHTML = (oc.questions || [])
+        .map((q) => `<li>${q}</li>`).join("");
+      document.getElementById("oc-compare").innerHTML = (oc.comparisons || [])
+        .map((c) => `<div class="stat"><strong>${c.label}</strong><span>${c.certainty} · ${c.role}</span></div>`)
+        .join("");
+
+      document.getElementById("elite-def").innerHTML =
+        `<strong>Dominantes:</strong> ${(elite.definition || {}).market_dominators || ""}<br>
+         <strong>Elite:</strong> ${(elite.definition || {}).elite || ""}`;
+      document.getElementById("elite-filters").innerHTML = (elite.filters_educational || [])
+        .map((f) => `<li>${f}</li>`).join("");
+      document.getElementById("elite-note").textContent = elite.note || "";
+
+      document.getElementById("an-thesis").textContent = analogs.thesis || "";
+      document.getElementById("an-method").innerHTML = (analogs.method || [])
+        .map((m) => `<li>${m}</li>`).join("");
+      document.getElementById("an-note").textContent = analogs.note || "";
+    })().catch((err) => {
+      document.querySelector("main").insertAdjacentHTML("afterbegin", `<p class="muted">${err.message}</p>`);
+    });
+  </script>
+</body>
+</html>

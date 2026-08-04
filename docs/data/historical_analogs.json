@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-08-03",
+  "status": "scaffold",
+  "thesis": "Mercados rimam: regimes de juro, liquidez e narrativas se repetem com variações. Estudar o passado não prevê o futuro — reduz surpresa.",
+  "method": [
+    "Isolar o regime (Selic alta/baixa, dólar, risco global)",
+    "Mapear o comportamento de preços e volumes na época análoga",
+    "Espelhar com notícias e fluxo de hoje (sem forçar narrativa)",
+    "Perguntar: o que foi liquidez vs o que foi thesis?"
+  ],
+  "analogs": [],
+  "note": "Cada analogia deve citar janela histórica, ativos observados e diferenças críticas vs hoje.",
+  "disclaimer": "Conteúdo educacional. Analogia ≠ previsão."
+}

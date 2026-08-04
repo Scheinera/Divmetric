@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economias prósperas — Divmetric</title>
+  <meta name="description" content="Como economias maduras tratam certeza, dividendos, liquidez e custo de oportunidade.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="page-header">
+    <p class="section-kicker">Comparativo mundial · educacional</p>
+    <h1>O que economias <span>prósperas</span> ensinam</h1>
+    <p class="tagline">Olhar o debate brasileiro de dividendos e alocação sob o prisma de mercados maduros — sem copiar cegamente.</p>
+  </header>
+
+  <main class="wrap">
+    <p class="muted" id="q" style="margin:0 0 1rem"></p>
+    <div class="grid-2" id="themes"></div>
+    <section class="card" style="margin-top:1rem">
+      <h2>Regiões (notas)</h2>
+      <div id="regions" class="muted"></div>
+    </section>
+    <p class="tiny muted" id="disc" style="margin-top:1rem"></p>
+  </main>
+
+  <footer class="site-footer">
+    · <a href="/">Início</a> · <a href="/metodo/">Método</a> · <a href="/liquidez/">Liquidez</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+  <script>
+    const { loadJSON } = window.DivmetricSite;
+    (async () => {
+      const data = await loadJSON("/data/world_frameworks.json");
+      document.getElementById("q").textContent = data.question || "";
+      document.getElementById("themes").innerHTML = (data.themes || [])
+        .map((t) => `<article class="card"><h3>${t.title}</h3><p class="muted">${t.summary}</p></article>`)
+        .join("");
+      document.getElementById("regions").innerHTML = (data.regions || [])
+        .map((r) => {
+          const notes = (r.notes || []).length
+            ? `<ul class="check">${r.notes.map((n) => `<li>${n}</li>`).join("")}</ul>`
+            : `<p class="tiny muted">Notas a preencher com o collector editorial.</p>`;
+          return `<div style="margin-bottom:0.85rem"><strong>${r.label}</strong>${notes}</div>`;
+        })
+        .join("");
+      document.getElementById("disc").textContent = data.disclaimer || "";
+    })().catch((err) => {
+      document.querySelector("main").textContent = err.message || String(err);
+    });
+  </script>
+</body>
+</html>

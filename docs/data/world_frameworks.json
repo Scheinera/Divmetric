@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-08-03",
+  "status": "scaffold",
+  "question": "Como economias mais prósperas tratam certeza, dividendos, liquidez e custo de oportunidade?",
+  "themes": [
+    {
+      "id": "certainty",
+      "title": "Busca de certeza",
+      "summary": "Mercados maduros precificam risco com Treasuries/bonds como âncora; equity exige prêmio explícito."
+    },
+    {
+      "id": "dividends",
+      "title": "Dividendos e buybacks",
+      "summary": "EUA enfatizam total shareholder return (dividendos + recompra); Europa e mercados emergentes variam por fiscal e ciclo."
+    },
+    {
+      "id": "liquidity",
+      "title": "Liquidez primeiro",
+      "summary": "Institucionais evitam ativos em que não conseguem entrar/sair sem mover o preço — princípio universal."
+    },
+    {
+      "id": "opportunity_cost",
+      "title": "Custo de oportunidade",
+      "summary": "Com juro alto, o cash compete forte com equity; com juro baixo, o prêmio de risco fica mais atrativo — padrão visto em vários ciclos (EUA, Europa, Brasil)."
+    }
+  ],
+  "regions": [
+    { "id": "us", "label": "Estados Unidos", "notes": [] },
+    { "id": "eu", "label": "Europa", "notes": [] },
+    { "id": "east_asia", "label": "Ásia (ex. JP/KR/SG)", "notes": [] },
+    { "id": "br", "label": "Brasil (contexto local)", "notes": [] }
+  ],
+  "disclaimer": "Conteúdo educacional e comparativo. Não é recomendação."
+}

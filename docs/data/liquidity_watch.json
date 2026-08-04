@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-08-03",
+  "status": "scaffold",
+  "rule": "Avaliar liquidez antes de qualquer ideias de operação. Sem liquidez, o passado e a notícia não salvam a saída.",
+  "do_not_operate_when": [
+    "Spread amplo / livro fino",
+    "Volume atípico sem contexto",
+    "Papel fora do radar de elite/líderes sem tese clara",
+    "Gap ou explosão sem lastro de fluxo"
+  ],
+  "premarket": {
+    "example_threshold_pct": 2.0,
+    "interpretation": "Explosões de ~2% no pré-market são um sinal de atenção (fluxo/notícia) — não um gatilho automático de compra/venda.",
+    "checklist": [
+      "Há notícia verificável?",
+      "O volume relativo confirma interesse?",
+      "O papel é líquido o bastante no pregão regular?",
+      "Isso altera o custo de oportunidade vs Selic/caixa?"
+    ]
+  },
+  "watch": [],
+  "disclaimer": "Conteúdo educacional. Não é sinal de trade."
+}

@@ -2,7 +2,14 @@ product:
   name: Divmetric
   tagline: Dividendos, renda e projeção em reais
   sister: Velumetric
-  site_base: https://divmetric.pages.dev  # placeholder até o primeiro deploy
+  site_base: https://divmetric.pages.dev
+
+pillars:
+  - opportunity_cost
+  - elite_stocks
+  - historical_analogs
+  - liquidity_first
+  - world_frameworks
 
 sources:
   official:
@@ -39,5 +46,10 @@ export:
     - dividends_radar.json
     - tickers_catalog.json
     - history_monthly.json
+    - opportunity_cost.json
+    - elite_stocks.json
+    - historical_analogs.json
+    - liquidity_watch.json
+    - world_frameworks.json
 
 disclaimer: Conteúdo educacional. Não é recomendação de investimento.

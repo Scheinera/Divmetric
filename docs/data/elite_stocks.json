@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-08-03",
+  "status": "scaffold",
+  "definition": {
+    "market_dominators": "Empresas que concentram volume, attendance e tese setorial — líderes de liquidez e influência de preço.",
+    "elite": "Subconjunto com histórico de qualidade (margem, ROE, dividendos consistentes ou moat) — não é tip de compra."
+  },
+  "filters_educational": [
+    "Liquidez diária suficiente (evitar papel ilíquido)",
+    "Participação relevante no índice ou no setor",
+    "Governança e divulgação transparentes",
+    "Histórico longo o bastante para estudar ciclos"
+  ],
+  "b3_watch": [],
+  "us_watch": [],
+  "note": "Preencher via collector (catálogo + volume). Listas vazias = scaffold.",
+  "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
+}

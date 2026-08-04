@@ -1,17 +1,30 @@
 # Divmetric — modelagem de dados
 
 Marca irmã da [Velumetric](https://velumetric.pages.dev/) (cripto).  
-Divmetric = **dividendos, renda e projeção em reais** — produto e schema separados.
+Divmetric = **dividendos, renda, método e liquidez** — produto e schema separados da Velumetric (cripto).
 
 ## Princípio
 
 Separar três camadas:
 
 1. **Oficial / API** → números canônicos (histórico + benchmarks)
-2. **Mercado consolidado** → yields, agenda, ranking (cópia diária no nosso banco)
-3. **Editorial** → educação e contexto (links/citações, não ledger)
+2. **Mercado consolidado** → yields, agenda, ranking, liquidez/pré-market (cópia diária)
+3. **Editorial / método** → custo de oportunidade, elite, analogias, economias prósperas
 
 O site consome apenas **nossos JSON** em `docs/data/` (mínimo processamento no browser).
+
+## Pilares de produto (MVP editorial)
+
+| Pilar | Página | Dados |
+|-------|--------|-------|
+| Custo de oportunidade | `/metodo/#oportunidade` | `opportunity_cost.json` |
+| Ações dominantes / elite | `/metodo/#elite` | `elite_stocks.json` |
+| Certeza mensurável | `/metodo/#certeza` | (texto + âncora Selic) |
+| Histórico × hoje | `/metodo/#analogias` | `historical_analogs.json` |
+| Liquidez / não operar | `/liquidez/` | `liquidity_watch.json` (ex.: pré-market ~2%) |
+| Economias prósperas | `/mundo/` | `world_frameworks.json` |
+
+**Regra de ouro:** liquidez primeiro. Explosões de ~2% no pré-market são *sinal de atenção* (fluxo/notícia), não ordem automática.
 
 ## Fontes
 
@@ -40,6 +53,11 @@ collector (Python, cron)
 | `dividends_radar.json` | top yields + próximos pagamentos (cópia consolidada) |
 | `tickers_catalog.json` | cadastro ticker/setor/tipo (ação, FII) |
 | `history_monthly.json` | retornos mensais agregados para projeções |
+| `opportunity_cost.json` | âncoras de custo de oportunidade |
+| `elite_stocks.json` | filtros e listas de líderes/elite |
+| `historical_analogs.json` | método + analogias regime passado×hoje |
+| `liquidity_watch.json` | regras de liquidez + pré-market |
+| `world_frameworks.json` | comparativo economias prósperas |
 
 ## Calculadora
 
@@ -60,6 +78,7 @@ Link cruzado no footer/nav apenas — **sem misturar payloads**.
 ## Roadmap curto
 
 1. Scaffold Pages + data contract + calculadora stub ✅
-2. Collector BCB + benchmarks
-3. Radar dividendos (import consolidado)
-4. Deploy Pages + link na Velumetric
+2. Pilares Método / Liquidez / Mundo ✅
+3. Collector BCB + benchmarks + liquidez/pré-market
+4. Preencher elite_stocks e analogias com histórico real
+5. Radar dividendos (import consolidado)

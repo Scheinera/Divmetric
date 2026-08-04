@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquidez — Divmetric</title>
+  <meta name="description" content="Liquidez primeiro: não operar no escuro. Pré-market, volume e espelho com o passado.">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div id="site-nav" class="site-nav"></div>
+  <header class="page-header">
+    <p class="section-kicker">Filtro operacional · educacional</p>
+    <h1>Liquidez <span>antes de tudo</span></h1>
+    <p class="tagline">Sem saída confortável, ideia boa vira risco ruim. Passado + notícia de hoje só valem se o papel for líquido.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Regra</h2>
+      <p class="muted" id="rule">—</p>
+      <h3>Não operar quando</h3>
+      <ul class="check muted" id="dont"></ul>
+    </section>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>Pré-market · exemplo de sinal</h2>
+      <p class="muted" id="pm-interp">—</p>
+      <p class="tiny muted">Limiar ilustrativo: <strong id="pm-th">—</strong>% no pré-market = atenção, não ordem automática.</p>
+      <ol class="muted" id="pm-check"></ol>
+    </section>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>Espelhar passado × hoje</h2>
+      <p class="muted">
+        Volume, gaps e narrativas se repetem em regimes parecidos. O checklist é:
+        (1) regime análogo, (2) liquidez atual, (3) notícia verificável, (4) custo de oportunidade vs caixa/Selic.
+      </p>
+      <a class="btn btn-ghost" href="/metodo/#analogias">Ir às analogias</a>
+      <a class="btn btn-ghost" href="/metodo/#oportunidade">Custo de oportunidade</a>
+    </section>
+
+    <p class="tiny muted" id="disc" style="margin-top:1rem"></p>
+  </main>
+
+  <footer class="site-footer">
+    · <a href="/">Início</a> · <a href="/metodo/">Método</a> · <a href="/mundo/">Economias</a>
+  </footer>
+  <script src="/assets/site.js"></script>
+  <script>
+    const { loadJSON } = window.DivmetricSite;
+    (async () => {
+      const data = await loadJSON("/data/liquidity_watch.json");
+      document.getElementById("rule").textContent = data.rule || "";
+      document.getElementById("dont").innerHTML = (data.do_not_operate_when || [])
+        .map((x) => `<li>${x}</li>`).join("");
+      const pm = data.premarket || {};
+      document.getElementById("pm-interp").textContent = pm.interpretation || "";
+      document.getElementById("pm-th").textContent = pm.example_threshold_pct ?? "2";
+      document.getElementById("pm-check").innerHTML = (pm.checklist || [])
+        .map((x) => `<li>${x}</li>`).join("");
+      document.getElementById("disc").textContent = data.disclaimer || "";
+    })().catch((err) => {
+      document.querySelector("main").textContent = err.message || String(err);
+    });
+  </script>
+</body>
+</html>

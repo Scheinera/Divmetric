@@ -14,6 +14,9 @@
       { href: "/", label: "Início" },
       { href: "/calculadora/", label: "Calculadora" },
       { href: "/radar/", label: "Radar" },
+      { href: "/metodo/", label: "Método" },
+      { href: "/liquidez/", label: "Liquidez" },
+      { href: "/mundo/", label: "Economias" },
     ];
     host.innerHTML = `
       <a class="brand" href="/">Div<em>metric</em></a>
