@@ -51,21 +51,21 @@
     },
     "gold": {
       "label": "Ouro (futuro)",
-      "trailing_12m_pct": 21.62,
-      "cagr_since_start_pct": 11.31,
+      "trailing_12m_pct": 21.56,
+      "cagr_since_start_pct": 11.3,
       "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "btc": {
       "label": "Bitcoin",
-      "trailing_12m_pct": -44.84,
-      "cagr_since_start_pct": 58.09,
+      "trailing_12m_pct": -44.89,
+      "cagr_since_start_pct": 58.08,
       "as_of": "2026-08-04",
       "start_used": "2015-01-01"
     },
     "dxy": {
       "label": "DXY",
-      "trailing_12m_pct": 1.24,
+      "trailing_12m_pct": 1.26,
       "cagr_since_start_pct": 0.81,
       "as_of": "2026-08-04",
       "start_used": "2015-01-02"

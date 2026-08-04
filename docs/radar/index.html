@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Radar de dividendos — Divmetric</title>
-  <meta name="description" content="Radar de yields e agenda — alimentado por cópia consolidada diária.">
+  <meta name="description" content="Radar de DY e total return (preço + dividendos) — elite B3 líquida.">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <div id="site-nav" class="site-nav"></div>
   <header class="page-header">
-    <p class="section-kicker">Dividendos · consolidado</p>
+    <p class="section-kicker">Dividendos · total return</p>
     <h1>Radar de <span>dividendos</span></h1>
-    <p class="tagline">Yields trailing ~12m a partir dos eventos de dividendos (Yahoo) nos papéis líquidos da elite B3 — janela alinhada desde 2015.</p>
+    <p class="tagline">DY e total return ~12m (preço + dividendos). Ordenado pelo retorno total — DY isolado sem liquidez é armadilha.</p>
   </header>
 
   <main class="wrap">
@@ -22,33 +22,82 @@
   </main>
 
   <footer class="site-footer">
-    · <a href="/">Início</a> · <a href="/calculadora/">Calculadora</a> · <a href="https://velumetric.pages.dev/">Velumetric</a>
+    · <a href="/">Início</a> · <a href="/calculadora/">Calculadora</a> · <a href="/mundo/">Economias</a> · <a href="https://velumetric.pages.dev/">Velumetric</a>
   </footer>
   <script src="/assets/site.js"></script>
   <script>
     const { loadJSON } = window.DivmetricSite;
+
+    function fmt(v, digits = 2) {
+      if (v == null || Number.isNaN(Number(v))) return "—";
+      return Number(v).toFixed(digits);
+    }
+
+    function fmtVol(v) {
+      if (v == null) return "—";
+      return Number(v).toLocaleString("pt-BR");
+    }
+
     (async () => {
       const panel = document.getElementById("panel");
       try {
         const data = await loadJSON("/data/dividends_radar.json");
         const top = data.top_yield || [];
         const upcoming = data.upcoming_payments || [];
+        const method = data.method || {};
         if (!top.length && !upcoming.length) {
           panel.innerHTML = `
-            <strong>Scaffold pronto</strong>
-            <p class="muted">${data.source_note || "Aguardando collector."}</p>
+            <strong>Aguardando collector</strong>
+            <p class="muted">${data.source_note || ""}</p>
             <p class="tiny muted">Status: ${data.status || "—"} · as_of ${data.as_of || "—"}</p>`;
           return;
         }
+
+        const methodBlock = `
+          <h2>${method.title || "Dividendos e total return"}</h2>
+          <p class="muted">${method.summary || ""}</p>
+          <p class="tiny muted"><strong>Fórmula:</strong> ${method.formula || ""}</p>
+          <ul class="check muted">
+            ${(method.includes || []).map((x) => `<li>Inclui: ${x}</li>`).join("")}
+            ${(method.excludes || []).map((x) => `<li>Ainda fora: ${x}</li>`).join("")}
+          </ul>
+          <p class="tiny muted">${method.liquidity_note || ""}</p>`;
+
         panel.innerHTML = `
-          <p class="tiny muted">${data.source_note || ""} · ${data.as_of || ""}</p>
-          <h2>Top yield (parcial)</h2>
+          ${methodBlock}
+          <p class="tiny muted" style="margin-top:1rem">${data.source_note || ""} · ${data.as_of || ""} · ordenado por TSR</p>
+          <div style="overflow-x:auto">
           <table>
-            <thead><tr><th>Ticker</th><th>DY %</th><th>Último</th><th>12m %</th><th>CAGR %</th><th>Ref</th></tr></thead>
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>DY %</th>
+                <th title="(preço final − inicial + dividendos) / inicial">TSR ~12m %</th>
+                <th>Preço ~12m %</th>
+                <th>Div. contrib. %</th>
+                <th>Último</th>
+                <th>Volume</th>
+                <th>CAGR %</th>
+              </tr>
+            </thead>
             <tbody>
-              ${top.map((r) => `<tr><td>${r.ticker}</td><td>${r.dividend_yield_pct}</td><td>${r.last ?? "—"}</td><td>${r.trailing_12m_pct ?? "—"}</td><td>${r.cagr_since_start_pct ?? "—"}</td><td>${r.as_of || ""}</td></tr>`).join("")}
+              ${top.map((r) => `<tr>
+                <td>${r.ticker}</td>
+                <td>${fmt(r.dividend_yield_pct)}</td>
+                <td><strong>${fmt(r.total_return_12m_pct)}</strong></td>
+                <td>${fmt(r.price_return_12m_pct ?? r.trailing_12m_pct)}</td>
+                <td>${fmt(r.dividend_contribution_12m_pct)}</td>
+                <td>${fmt(r.last, 2)}</td>
+                <td>${fmtVol(r.volume)}</td>
+                <td>${fmt(r.cagr_since_start_pct)}</td>
+              </tr>`).join("")}
             </tbody>
           </table>
+          </div>
+          <p class="tiny muted" style="margin-top:0.75rem">
+            TSR = total shareholder return proxy. Buyback não incluso nesta versão.
+            ${data.analysis_start ? `Janela alinhada desde ${data.analysis_start}.` : ""}
+          </p>
           ${upcoming.length ? `<h2>Próximos pagamentos</h2><pre class="tiny">${JSON.stringify(upcoming, null, 2)}</pre>` : ""}`;
       } catch (err) {
         panel.textContent = err.message || String(err);

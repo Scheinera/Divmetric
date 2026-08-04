@@ -26,7 +26,17 @@
       "as_of": "2026-07-31",
       "bars": 2872,
       "dividend_yield_pct": 4.85,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 34.55,
+      "price_return_12m_pct": 28.33,
+      "dividend_contribution_12m_pct": 6.22,
+      "dividends_cash_12m": 0.7751,
+      "dividends_count_12m": 2,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 12.46,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "B3SA3",
@@ -41,7 +51,17 @@
       "as_of": "2026-08-03",
       "bars": 2872,
       "dividend_yield_pct": 4.83,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 30.06,
+      "price_return_12m_pct": 24.07,
+      "dividend_contribution_12m_pct": 5.99,
+      "dividends_cash_12m": 0.7543,
+      "dividends_count_12m": 4,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 12.59,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "BBDC4",
@@ -56,7 +76,17 @@
       "as_of": "2026-07-31",
       "bars": 2870,
       "dividend_yield_pct": 8.44,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 28.69,
+      "price_return_12m_pct": 18.67,
+      "dividend_contribution_12m_pct": 10.02,
+      "dividends_cash_12m": 1.5554,
+      "dividends_count_12m": 16,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 15.53,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "PETR4",
@@ -71,7 +101,17 @@
       "as_of": "2026-08-03",
       "bars": 2873,
       "dividend_yield_pct": 6.94,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 42.93,
+      "price_return_12m_pct": 33.65,
+      "dividend_contribution_12m_pct": 9.28,
+      "dividends_cash_12m": 2.9881,
+      "dividends_count_12m": 4,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 32.21,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "ITSA4",
@@ -86,7 +126,17 @@
       "as_of": "2026-08-03",
       "bars": 2873,
       "dividend_yield_pct": 9.43,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 49.83,
+      "price_return_12m_pct": 36.92,
+      "dividend_contribution_12m_pct": 12.91,
+      "dividends_cash_12m": 1.3089,
+      "dividends_count_12m": 8,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 10.1373,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "VALE3",
@@ -101,7 +151,17 @@
       "as_of": "2026-07-31",
       "bars": 2871,
       "dividend_yield_pct": 7.18,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 52.93,
+      "price_return_12m_pct": 42.69,
+      "dividend_contribution_12m_pct": 10.25,
+      "dividends_cash_12m": 5.4772,
+      "dividends_count_12m": 2,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 53.46,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "ITUB4",
@@ -116,7 +176,17 @@
       "as_of": "2026-07-31",
       "bars": 2871,
       "dividend_yield_pct": 8.04,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 35.75,
+      "price_return_12m_pct": 25.64,
+      "dividend_contribution_12m_pct": 10.1,
+      "dividends_cash_12m": 3.4493,
+      "dividends_count_12m": 16,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 34.1359,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "CMIG4",
@@ -131,7 +201,17 @@
       "as_of": "2026-07-31",
       "bars": 2870,
       "dividend_yield_pct": 11.29,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 22.18,
+      "price_return_12m_pct": 9.78,
+      "dividend_contribution_12m_pct": 12.4,
+      "dividends_cash_12m": 1.2808,
+      "dividends_count_12m": 6,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 10.33,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "BBAS3",
@@ -146,7 +226,17 @@
       "as_of": "2026-08-03",
       "bars": 2870,
       "dividend_yield_pct": 2.58,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 18.91,
+      "price_return_12m_pct": 15.91,
+      "dividend_contribution_12m_pct": 3.0,
+      "dividends_cash_12m": 0.5497,
+      "dividends_count_12m": 5,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 18.35,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "PRIO3",
@@ -159,7 +249,17 @@
       "cagr_since_start_pct": 52.52,
       "start_used": "2015-01-02",
       "as_of": "2026-08-03",
-      "bars": 2871
+      "bars": 2871,
+      "total_return_12m_pct": 42.72,
+      "price_return_12m_pct": 42.72,
+      "dividend_contribution_12m_pct": 0.0,
+      "dividends_cash_12m": 0.0,
+      "dividends_count_12m": 0,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 40.99,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "RADL3",
@@ -174,7 +274,17 @@
       "as_of": "2026-07-31",
       "bars": 2872,
       "dividend_yield_pct": 2.38,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 43.27,
+      "price_return_12m_pct": 39.94,
+      "dividend_contribution_12m_pct": 3.33,
+      "dividends_cash_12m": 0.4397,
+      "dividends_count_12m": 4,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 13.2059,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "VBBR3",
@@ -189,7 +299,17 @@
       "as_of": "2026-08-03",
       "bars": 2085,
       "dividend_yield_pct": 4.32,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 90.42,
+      "price_return_12m_pct": 82.54,
+      "dividend_contribution_12m_pct": 7.88,
+      "dividends_cash_12m": 1.5601,
+      "dividends_count_12m": 3,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 19.7927,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "BBSE3",
@@ -204,7 +324,17 @@
       "as_of": "2026-08-03",
       "bars": 2873,
       "dividend_yield_pct": 11.0,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 37.29,
+      "price_return_12m_pct": 23.68,
+      "dividend_contribution_12m_pct": 13.6,
+      "dividends_cash_12m": 4.5489,
+      "dividends_count_12m": 2,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 33.44,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "WEGE3",
@@ -219,7 +349,17 @@
       "as_of": "2026-07-31",
       "bars": 2871,
       "dividend_yield_pct": 4.25,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 32.6,
+      "price_return_12m_pct": 27.19,
+      "dividend_contribution_12m_pct": 5.41,
+      "dividends_cash_12m": 2.0063,
+      "dividends_count_12m": 5,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 37.11,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "RENT3",
@@ -234,7 +374,17 @@
       "as_of": "2026-08-03",
       "bars": 2873,
       "dividend_yield_pct": 5.48,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 16.93,
+      "price_return_12m_pct": 10.85,
+      "dividend_contribution_12m_pct": 6.08,
+      "dividends_cash_12m": 2.0881,
+      "dividends_count_12m": 4,
+      "tsr_start_date": "2025-08-01",
+      "tsr_start_price": 34.37,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "VIVT3",
@@ -249,7 +399,17 @@
       "as_of": "2026-07-31",
       "bars": 2870,
       "dividend_yield_pct": 7.61,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 11.54,
+      "price_return_12m_pct": 3.65,
+      "dividend_contribution_12m_pct": 7.89,
+      "dividends_cash_12m": 2.4836,
+      "dividends_count_12m": 12,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 31.48,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "EQTL3",
@@ -264,7 +424,17 @@
       "as_of": "2026-07-31",
       "bars": 2872,
       "dividend_yield_pct": 4.1,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 18.12,
+      "price_return_12m_pct": 13.47,
+      "dividend_contribution_12m_pct": 4.65,
+      "dividends_cash_12m": 1.5833,
+      "dividends_count_12m": 2,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 34.07,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "SUZB3",
@@ -279,7 +449,17 @@
       "as_of": "2026-07-31",
       "bars": 2164,
       "dividend_yield_pct": 2.59,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": -14.78,
+      "price_return_12m_pct": -16.93,
+      "dividend_contribution_12m_pct": 2.15,
+      "dividends_cash_12m": 1.1211,
+      "dividends_count_12m": 2,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 52.15,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     },
     {
       "ticker": "TAEE11",
@@ -294,7 +474,17 @@
       "as_of": "2026-07-31",
       "bars": 2871,
       "dividend_yield_pct": 8.26,
-      "dividend_yield_method": "yahoo_events_trailing_12m_cash"
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 28.7,
+      "price_return_12m_pct": 18.88,
+      "dividend_contribution_12m_pct": 9.82,
+      "dividends_cash_12m": 3.2754,
+      "dividends_count_12m": 4,
+      "tsr_start_date": "2025-07-31",
+      "tsr_start_price": 33.36,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão."
     }
   ],
   "us_watch": [],

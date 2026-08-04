@@ -136,18 +136,20 @@ def _trailing_and_cagr(rows: list[dict[str, Any]]) -> tuple[float | None, float 
     return t12, cagr, last_px, last["date"]
 
 
-def _trailing_dividend_yield_pct(events: dict[str, Any], last_close: float, as_of: str) -> float | None:
-    """Sum cash dividends in trailing ~365d / last close — Yahoo events (no crumb)."""
-    if last_close <= 0:
-        return None
+def _trailing_cash_dividends(
+    events: dict[str, Any],
+    as_of: str,
+    lookback_days: int = 365,
+) -> tuple[float, int]:
+    """Soma cash dividends (eventos Yahoo) no intervalo trailing. Retorna (total, n)."""
     divs = (events or {}).get("dividends") or {}
     if not divs:
-        return None
+        return 0.0, 0
     try:
         end = datetime.strptime(as_of[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
     except Exception:
         end = datetime.now(timezone.utc)
-    start_ts = int((end - timedelta(days=365)).timestamp())
+    start_ts = int((end - timedelta(days=lookback_days)).timestamp())
     end_ts = int(end.timestamp()) + 86400
     total = 0.0
     n = 0
@@ -157,9 +159,61 @@ def _trailing_dividend_yield_pct(events: dict[str, Any], last_close: float, as_o
         if start_ts <= ts <= end_ts and amt > 0:
             total += amt
             n += 1
+    return total, n
+
+
+def _trailing_dividend_yield_pct(events: dict[str, Any], last_close: float, as_of: str) -> float | None:
+    """Sum cash dividends in trailing ~365d / last close — Yahoo events (no crumb)."""
+    if last_close <= 0:
+        return None
+    total, n = _trailing_cash_dividends(events, as_of)
     if n == 0 or total <= 0:
         return None
     return round(100.0 * total / last_close, 2)
+
+
+def _total_shareholder_return_12m(
+    rows: list[dict[str, Any]],
+    events: dict[str, Any],
+) -> dict[str, Any] | None:
+    """
+    Proxy educacional de TSR ~12m:
+      (preço_final - preço_inicial + dividendos_cash) / preço_inicial
+
+    Não inclui recompra de ações (buyback) — dado ainda não consolidado de fonte gratuita confiável.
+    """
+    if len(rows) < 2:
+        return None
+    last = rows[-1]
+    last_px = float(last["close"])
+    if last_px <= 0:
+        return None
+    d1 = datetime.strptime(last["date"], "%Y-%m-%d")
+    cut = (d1 - timedelta(days=365)).strftime("%Y-%m-%d")
+    past = [r for r in rows if r["date"] <= cut]
+    if not past or past[-1]["close"] <= 0:
+        return None
+    start_px = float(past[-1]["close"])
+    start_date = past[-1]["date"]
+    div_cash, div_n = _trailing_cash_dividends(events, last["date"])
+    price_ret = ((last_px / start_px) - 1.0) * 100.0
+    div_contrib = (div_cash / start_px) * 100.0
+    tsr = ((last_px - start_px + div_cash) / start_px) * 100.0
+    return {
+        "total_return_12m_pct": round(tsr, 2),
+        "price_return_12m_pct": round(price_ret, 2),
+        "dividend_contribution_12m_pct": round(div_contrib, 2),
+        "dividends_cash_12m": round(div_cash, 4),
+        "dividends_count_12m": div_n,
+        "tsr_start_date": start_date,
+        "tsr_start_price": round(start_px, 4),
+        "buyback_included": False,
+        "tsr_method": "price_plus_cash_dividends_trailing_365d",
+        "tsr_note": (
+            "Total return ≈ variação de preço + dividendos em dinheiro no período. "
+            "Recompra (buyback) ainda não entra nesta versão."
+        ),
+    }
 
 
 def _monthly_levels(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -338,6 +392,7 @@ def fetch_b3_liquidity_and_elite(
 
             t12, cagr, _, _ = _trailing_and_cagr(use_rows)
             dy = _trailing_dividend_yield_pct(events, c1, last["date"])
+            tsr = _total_shareholder_return_12m(use_rows, events)
             row = {
                 "ticker": symbol.replace(".SA", ""),
                 "symbol": symbol,
@@ -354,6 +409,8 @@ def fetch_b3_liquidity_and_elite(
             if dy is not None:
                 row["dividend_yield_pct"] = dy
                 row["dividend_yield_method"] = "yahoo_events_trailing_12m_cash"
+            if tsr:
+                row.update(tsr)
             elite.append(row)
             if v1 > 0 and o1 > 0 and abs(gap_pct) >= gap_threshold_pct:
                 gaps.append(

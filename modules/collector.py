@@ -347,6 +347,9 @@ def build_liquidity(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
 def build_dividends_radar(liq: dict[str, Any], start_date: str) -> dict[str, Any]:
     rows = []
     for e in liq.get("elite") or []:
+        # Inclui papel se tiver DY ou TSR (preço+div); preferir quem paga dividendo no radar
+        if e.get("dividend_yield_pct") is None and e.get("total_return_12m_pct") is None:
+            continue
         if e.get("dividend_yield_pct") is None:
             continue
         rows.append(
@@ -354,20 +357,47 @@ def build_dividends_radar(liq: dict[str, Any], start_date: str) -> dict[str, Any
                 "ticker": e.get("ticker"),
                 "dividend_yield_pct": e.get("dividend_yield_pct"),
                 "last": e.get("last"),
+                "volume": e.get("volume"),
                 "cagr_since_start_pct": e.get("cagr_since_start_pct"),
                 "trailing_12m_pct": e.get("trailing_12m_pct"),
+                "price_return_12m_pct": e.get("price_return_12m_pct"),
+                "dividend_contribution_12m_pct": e.get("dividend_contribution_12m_pct"),
+                "total_return_12m_pct": e.get("total_return_12m_pct"),
+                "buyback_included": e.get("buyback_included", False),
+                "tsr_method": e.get("tsr_method"),
                 "as_of": e.get("as_of"),
                 "source": "yahoo_chart_dividends_trailing_12m",
             }
         )
-    rows = sorted(rows, key=lambda x: x.get("dividend_yield_pct") or 0, reverse=True)
+    # Ordenação padrão: Total Return ~12m (preço + dividendos cash)
+    rows = sorted(
+        rows,
+        key=lambda x: (
+            x.get("total_return_12m_pct") is not None,
+            x.get("total_return_12m_pct") if x.get("total_return_12m_pct") is not None else -10**9,
+        ),
+        reverse=True,
+    )
     return {
         "as_of": datetime.now(timezone.utc).date().isoformat(),
         "analysis_start": start_date,
         "source_layer": "market",
+        "sort": "total_return_12m_pct_desc",
+        "method": {
+            "title": "Dividendos e total return",
+            "summary": (
+                "Mercados maduros olham total shareholder return (dividendos + recompra + preço). "
+                "DY isolado sem liquidez é armadilha."
+            ),
+            "formula": "(preço_final − preço_inicial + dividendos_cash) / preço_inicial  (~365 dias)",
+            "includes": ["variação de preço", "dividendos em dinheiro (eventos Yahoo)"],
+            "excludes": ["recompra de ações (buyback) — ainda sem fonte consolidada gratuita"],
+            "liquidity_note": "Volume da última sessão é mostrado para lembrar: sem liquidez, DY alto não serve.",
+        },
         "source_note": (
-            "DY = soma dos dividendos em dinheiro (eventos Yahoo chart) nos últimos ~365 dias "
-            "dividida pelo último preço. Agenda B3/Status Invest pode enriquecer com export autorizado."
+            "DY = dividendos cash ~365d / último preço. "
+            "Total return (TSR proxy) = preço + dividendos cash no mesmo intervalo. "
+            "Buyback ainda não entra."
         ),
         "top_yield": rows,
         "upcoming_payments": [],
