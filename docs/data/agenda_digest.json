@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-04T12:19:27.797888+00:00",
-  "as_of": "2026-08-04",
+  "fetched_at": "2026-08-05T02:02:41.704134+00:00",
+  "as_of": "2026-08-05",
   "status": "live",
   "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
   "feeds": [
@@ -22,158 +22,54 @@
   ],
   "highlights": [
     {
-      "title": "Ex-chefe de gabinete de Lula admite empréstimo de lobista ligada ao Careca do INSS",
-      "url": "https://www.infomoney.com.br/politica/ex-chefe-de-gabinete-de-lula-admite-emprestimo-de-lobista-ligada-ao-careca-do-inss/",
-      "summary": "Marco Aurélio Santana Ribeiro afirma que recebeu recursos de Roberta Luchsinger em operação pessoal já quitada The post Ex-chefe de gabinete de Lula admite empréstimo de lobista ligada ao Careca do INSS appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:18:57+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Trump critica lucros de petroleiras com a guerra que ele próprio iniciou",
-      "url": "https://www.infomoney.com.br/mundo/trump-critica-lucros-de-petroleiras-com-a-guerra-que-ele-proprio-iniciou/",
-      "summary": "Presidente diz que Exxon e Chevron 'estão ganhando dinheiro demais' e solicita que 'devolvam parte à população' dos EUA para compensar ganhos com alta do barril no mercado The post Trump critica lucros de petroleiras com a guerra que ele próprio iniciou appeared first on InfoMone",
-      "published_at": "2026-08-04T12:18:26+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Ibovespa Futuro sobe com temporada de resultados e dados em foco",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-com-temporada-de-resultados-e-dados-em-foco/",
-      "summary": "No exterior, as ações avançavam, mas a alta dos preços do petróleo evidenciava o ceticismo quanto a uma resolução do conflito no Oriente Médio The post Ibovespa Futuro sobe com temporada de resultados e dados em foco appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:16:02+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br",
-        "markets"
-      ]
-    },
-    {
-      "title": "Ibovespa futuro sobe aos 179 mil pontos com produção industrial e exterior; dólar cai a R$ 5,07",
-      "url": "https://www.moneytimes.com.br/ibovespa-futuro-4-8-26-apsa/",
-      "summary": "O Ibovespa futuro (INDFUT) subiu 0,34%, aos 179.255 pontos após a abertura, às 9h (horário de Brasília), com o dado mais fraco do que o esperado pelo mercado da produção industrial de junho, enquanto as bolsas no exterior operam positivas. Já o dólar à vista abriu em queda ante o",
-      "published_at": "2026-08-04T12:16:00+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "title": "Prejuízo da Eve recua 47,1% no 2º trimestre na comparação anual",
-      "url": "https://www.moneytimes.com.br/prejuizo-da-eve-recua-471-no-2o-trimestre-na-comparacao-anual-lmrs/",
-      "summary": "A Eve, subsidiária da Embraer (EMBJ3), encerrou o segundo trimestre de 2026 com prejuízo líquido de US$ 34,2 milhões ante perdas de US$ 64,7 milhões no mesmo período de 2025. A empresa atribuiu a redução principalmente a menores despesas de pesquisa e desenvolvimento (R&D), que s",
-      "published_at": "2026-08-04T12:15:51+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "XP avança para 4º lugar em ranking das melhores casas de research do Brasil",
-      "url": "https://www.infomoney.com.br/business/xp-avanca-para-4o-lugar-em-ranking-das-melhores-casas-de-research-do-brasil/",
-      "summary": "Instituição aparece entre as líderes e se destaca em diferentes categorias do ranking internacional The post XP avança para 4º lugar em ranking das melhores casas de research do Brasil appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:15:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Produção industrial no Brasil cai 1,8% em junho e frustra projeções do mercado",
-      "url": "https://www.infomoney.com.br/economia/producao-industrial-no-brasil-cai-18-em-junho-e-frustra-projecoes-do-mercado/",
-      "summary": "Pesquisa Reuters apontava recuo de 0,8% na variação mensal The post Produção industrial no Brasil cai 1,8% em junho e frustra projeções do mercado appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:14:15+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Passageiros relatam frustração em meio à greve na CPTM",
-      "url": "https://www.infomoney.com.br/brasil/passageiros-relatam-frustracao-em-meio-a-greve-na-cptm/",
-      "summary": "Passageiros reclamam de atendimento parcial e tumulto em estações em meio à greve The post Passageiros relatam frustração em meio à greve na CPTM appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:11:03+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Smart Fit (SMFT3) conclui aquisição da rede de academias Evolve; veja detalhes da operação",
-      "url": "https://www.moneytimes.com.br/smart-fit-smft3-conclui-aquisicao-da-rede-de-academias-evolve-veja-detalhes-da-operacao-lmrs/",
-      "summary": "A Smart Fit (SMFT3) anunciou ao mercado nesta terça-feira (4) que concluiu na véspera a aquisição do controle da rede de academias Evolve. A operação ocorreu mediante a aquisição de ações ordinárias representativas de 60% do capital social total da empresa. O contrato, celebrado ",
-      "published_at": "2026-08-04T12:10:01+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Fertilizantes: preço da ureia nos portos brasileiros subiu 19% em 5 semanas",
-      "url": "https://www.infomoney.com.br/esportes/fertilizantes-preco-da-ureia-nos-portos-brasileiros-subiu-19-em-5-semanas/",
-      "summary": "Além do período crucial de preparação para a próxima safra brasileira, o que aumenta a demanda por nitrogenados, a Índia lançou uma nova licitação de compra nos últimos dias, mantendo o mercado em alta The post Fertilizantes: preço da ureia nos portos brasileiros subiu 19% em 5 s",
-      "published_at": "2026-08-04T12:09:12+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Subsidiária da Petrobras (PETR4) aprova concurso público; salários iniciais podem chegar a R$ 15 mil e inscrições abrem neste mês",
-      "url": "https://www.moneytimes.com.br/subsidiaria-petrobras-petr4-concurso-publico-salarios-iniciais-r-15-mil-mlem/",
-      "summary": "Subsidiária de transporte e armazenamento da Petrobras (PETR4), a Transpetro anunciou a aprovação da abertura de concurso público para contratações nos quadros de terra e de mar. Entre os quatro editais, estarão disponíveis 281 vagas imediatas com salários iniciais de até R$ 15 m",
-      "published_at": "2026-08-04T12:08:12+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04082026/",
-      "summary": "Índices futuros dos EUA avançam com valorização de ações de tecnologia The post Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:06:37+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "markets"
-      ]
-    }
-  ],
-  "copom_related": [
-    {
-      "title": "Copom inicia reunião que definirá taxa básica de juros",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-reuniao-que-definira-taxa-basica-de-juros",
-      "summary": "Começa nesta terça-feira (4) a quinta reunião de 2026 do Comitê de Política Monetária (Copom) do Banco Central (BC). As expectativas são de que a decisão sobre a Taxa Selic seja anunciada dia 5 de agosto, após os dois dias de discussões do grupo sobre o cenário econômico nacional",
-      "published_at": "2026-08-04T09:40:00+00:00",
+      "title": "Mega-Sena não tem ganhador e prêmio sobe para R$ 150 milhões",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-150-milhoes",
+      "summary": "Nenhum apostador acertou as seis dezenas do Concurso 3.040 da Mega-Sena, realizado nesta terça-feira (4). O prêmio acumulou e está estimado em R$ 150 milhões para o próximo sorteio, que será realizado na quinta-feira (6). As dezenas sorteadas foram: 03 - 16 - 24 - 30 - 49 - 54 - ",
+      "published_at": "2026-08-05T00:49:00+00:00",
       "source_id": "agenciabrasil",
       "source_label": "Agência Brasil",
       "tags": [
-        "copom"
+        "geral"
       ]
-    }
-  ],
-  "earnings": [
+    },
     {
-      "title": "Trump critica lucros de petroleiras com a guerra que ele próprio iniciou",
-      "url": "https://www.infomoney.com.br/mundo/trump-critica-lucros-de-petroleiras-com-a-guerra-que-ele-proprio-iniciou/",
-      "summary": "Presidente diz que Exxon e Chevron 'estão ganhando dinheiro demais' e solicita que 'devolvam parte à população' dos EUA para compensar ganhos com alta do barril no mercado The post Trump critica lucros de petroleiras com a guerra que ele próprio iniciou appeared first on InfoMone",
-      "published_at": "2026-08-04T12:18:26+00:00",
+      "title": "Embaixador brasileiro não voltará à Argentina após novos ataques de Milei a Lula",
+      "url": "https://www.infomoney.com.br/politica/embaixador-brasileiro-nao-voltara-a-argentina-apos-novos-ataques-de-milei-a-lula/",
+      "summary": "Decisão foi tomada depois que Milei voltou a ofender Lula, em entrevista ao jornal La Nación The post Embaixador brasileiro não voltará à Argentina após novos ataques de Milei a Lula appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:37:26+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Decisão dos EUA sobre visto de embaixadora se dá por razões ideológicas, diz Planalto",
+      "url": "https://www.infomoney.com.br/politica/decisao-dos-eua-sobre-visto-de-embaixadora-se-da-por-razoes-ideologicas-diz-planalto/",
+      "summary": "\"A decisão de hoje não é um fato isolado\", afirma em nota The post Decisão dos EUA sobre visto de embaixadora se dá por razões ideológicas, diz Planalto appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:31:54+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Brasil repudia revogação de visto de embaixadora nos EUA",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/brasil-repudia-revogacao-de-visto-de-embaixadora-nos-eua",
+      "summary": "O governo brasileiro repudiou a revogação do visto da embaixadora nos Estados Unidos, Maria Luiza Ribeiro Viotti, anunciada nesta terça-feira (4). O país norte-americano justificou a medida pela demora do Brasil na resposta à concessão de aprovação diplomática do indicado do gove",
+      "published_at": "2026-08-05T00:14:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7083-confira-o-resultado-sorteado-nesta-terca-4/",
+      "summary": "Os números sorteados foram: 26 - 73 - 45 - 15 - 77 The post Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:12:47+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -181,65 +77,175 @@
       ]
     },
     {
-      "title": "Ibovespa Futuro sobe com temporada de resultados e dados em foco",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-com-temporada-de-resultados-e-dados-em-foco/",
-      "summary": "No exterior, as ações avançavam, mas a alta dos preços do petróleo evidenciava o ceticismo quanto a uma resolução do conflito no Oriente Médio The post Ibovespa Futuro sobe com temporada de resultados e dados em foco appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:16:02+00:00",
+      "title": "Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3753-confira-o-resultado-sorteado-nesta-terca-4/",
+      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:09:25+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
-        "earnings_br",
-        "markets"
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4)",
+      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3040-confira-o-resultado-sorteado-nesta-terca-4/",
+      "summary": "O prêmio principal para este concurso é de R$ 133.232.979,58 The post Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:04:56+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri",
+      "url": "https://www.infomoney.com.br/mercados/cba-cbav3-resultados-segundo-trimestre-2026/",
+      "summary": "Trimestre tem preço médio recorde para alumínio The post CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri appeared first on InfoMoney .",
+      "published_at": "2026-08-04T23:58:57+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "SP: ferroviários mantém greve por falta de garantia de empregos",
+      "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/sp-ferroviarios-mantem-greve-por-falta-de-garantia-de-empregos",
+      "summary": "Está mantida a greve dos trabalhadores da Companhia Paulista de Trens Metropolitanos (CPTM) que atendem as linhas 11, 12 e 13, na capital e região metropolitana. A decisão foi tomada em assembleia, que se encerrou por volta das 19h30, na sede da Central Única dos Trabalhadores (C",
+      "published_at": "2026-08-04T23:52:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4%",
+      "url": "https://www.infomoney.com.br/mercados/iguatemi-igti11-resultados-segundo-trimestre-2026/",
+      "summary": "A administradora de shoppings de alto padrão teve um resultado operacional medido pelo Ebitda de R$ 292,2 milhões The post Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4% appeared first on InfoMoney .",
+      "published_at": "2026-08-04T23:50:43+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Edital de R$ 4 milhões contempla projetos de comunicação climática",
+      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/edital-de-r-4-milhoes-contempla-projetos-de-comunicacao-climatica",
+      "summary": "O Instituto Clima e Sociedade (iCS) abriu nesta segunda-feira (3) as inscrições para um edital que vai destinar R$ 4 milhões a projetos voltados à comunicação sobre mudanças climáticas. A iniciativa pretende apoiar propostas capazes de ampliar o alcance de informações sobre o tem",
+      "published_at": "2026-08-04T23:45:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "TCU envia à Justiça Eleitoral lista de gestores com contas rejeitadas",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/tcu-envia-justica-eleitoral-lista-de-gestores-com-contas-rejeitadas",
+      "summary": "O Tribunal de Contas da União (TCU) entregou nesta terça-feira (4) à Justiça Eleitoral uma lista com os nomes de 6,1 mil pessoas que tiveram contas julgadas irregulares nos últimos oito anos. A entrega foi feita pelo presidente do TCU, Vital do Rêgo, ao presidente do Tribunal Sup",
+      "published_at": "2026-08-04T23:35:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
       ]
     }
   ],
-  "markets": [
+  "copom_related": [],
+  "earnings": [
     {
-      "title": "Ibovespa Futuro sobe com temporada de resultados e dados em foco",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-com-temporada-de-resultados-e-dados-em-foco/",
-      "summary": "No exterior, as ações avançavam, mas a alta dos preços do petróleo evidenciava o ceticismo quanto a uma resolução do conflito no Oriente Médio The post Ibovespa Futuro sobe com temporada de resultados e dados em foco appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:16:02+00:00",
+      "title": "Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7083-confira-o-resultado-sorteado-nesta-terca-4/",
+      "summary": "Os números sorteados foram: 26 - 73 - 45 - 15 - 77 The post Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:12:47+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
-        "earnings_br",
-        "markets"
+        "earnings_br"
       ]
     },
     {
-      "title": "Ibovespa futuro sobe aos 179 mil pontos com produção industrial e exterior; dólar cai a R$ 5,07",
-      "url": "https://www.moneytimes.com.br/ibovespa-futuro-4-8-26-apsa/",
-      "summary": "O Ibovespa futuro (INDFUT) subiu 0,34%, aos 179.255 pontos após a abertura, às 9h (horário de Brasília), com o dado mais fraco do que o esperado pelo mercado da produção industrial de junho, enquanto as bolsas no exterior operam positivas. Já o dólar à vista abriu em queda ante o",
-      "published_at": "2026-08-04T12:16:00+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "title": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04082026/",
-      "summary": "Índices futuros dos EUA avançam com valorização de ações de tecnologia The post Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça appeared first on InfoMoney .",
-      "published_at": "2026-08-04T12:06:37+00:00",
+      "title": "Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3753-confira-o-resultado-sorteado-nesta-terca-4/",
+      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:09:25+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
-        "markets"
+        "earnings_br"
       ]
     },
     {
-      "title": "Fundo imobiliário amplia contrato com M. Dias Branco e reduz vacância do portfólio; IFIX recua",
-      "url": "https://www.moneytimes.com.br/fundo-imobiliario-amplia-contrato-com-m-dias-branco-e-reduz-vacancia-do-portfolio-ifix-recua-igdl/",
-      "summary": "O fundo imobiliário Bresco Logística (BRCO11) anunciou, por meio de fato relevante, a ampliação do contrato de locação com a M. Dias Branco (MDIA3) para o empreendimento “Bresco Canoas“, um condomínio logístico localizado no Rio Grande do Sul. Segundo o comunicado divulgado ao me",
-      "published_at": "2026-08-04T11:06:37+00:00",
+      "title": "Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4)",
+      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3040-confira-o-resultado-sorteado-nesta-terca-4/",
+      "summary": "O prêmio principal para este concurso é de R$ 133.232.979,58 The post Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
+      "published_at": "2026-08-05T00:04:56+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri",
+      "url": "https://www.infomoney.com.br/mercados/cba-cbav3-resultados-segundo-trimestre-2026/",
+      "summary": "Trimestre tem preço médio recorde para alumínio The post CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri appeared first on InfoMoney .",
+      "published_at": "2026-08-04T23:58:57+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4%",
+      "url": "https://www.infomoney.com.br/mercados/iguatemi-igti11-resultados-segundo-trimestre-2026/",
+      "summary": "A administradora de shoppings de alto padrão teve um resultado operacional medido pelo Ebitda de R$ 292,2 milhões The post Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4% appeared first on InfoMoney .",
+      "published_at": "2026-08-04T23:50:43+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Vulcabras (VULC3) tem lucro recorrente de R$ 143,7 mi no 2º tri",
+      "url": "https://www.moneytimes.com.br/vulcabras-tem-lucro-recorrente-de-r1437-mi-no-2o-tri-vtra/",
+      "summary": "A Vulcabras (VULC3) anunciou nesta terça-feira (4) lucro líquido recorrente de R$143,7 milhões no segundo trimestre, praticamente estável sobre o desempenho de um ano antes, segundo balanço divulgado pela companhia. O resultado operacional medido pelo lucro antes de juros, impost",
+      "published_at": "2026-08-04T22:52:43+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
-        "markets"
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "CBA (CBAV3) reverte prejuízo e lucra R$ 410 milhões no 2T26",
+      "url": "https://www.moneytimes.com.br/cba-cbav3-reverte-prejuizo-e-lucra-r-410-milhoes-no-2t26-vtra/",
+      "summary": "A CBA (CBAV3), Companhia Brasileira de Alumínio, encerrou o segundo trimestre de 2026 com lucro líquido de R$ 410 milhões, revertendo o prejuízo de R$ 73 milhões registrado no mesmo período do ano passado. Na comparação com o primeiro trimestre, quando o lucro foi de R$ 341 milhõ",
+      "published_at": "2026-08-04T22:28:42+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Primeiro balanço após IPO mostra avanço da SpaceX, mas investimentos em IA seguem no radar dos investidores",
+      "url": "https://www.moneytimes.com.br/primeiro-balanco-apos-ipo-mostra-avanco-da-spacex-mas-investimentos-em-ia-seguem-no-radar-dos-investidores/",
+      "summary": "A SpaceX apresentou nesta terça-feira (4) seu primeiro balanço trimestral desde a abertura de capital, com receita e Ebitda acima das expectativas de Wall Street, mas os prejuízos nas operações espaciais e de inteligência artificial seguiram pressionando o humor dos investidores.",
+      "published_at": "2026-08-04T22:18:32+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "earnings_br"
       ]
     }
   ],
+  "markets": [],
   "all_count": 130,
   "errors": [],
   "disclaimer": "Seleção automática por palavras-chave. Editorial — não é recomendação."

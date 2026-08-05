@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04",
+  "as_of": "2026-08-05",
   "analysis_start": "2015-01-01",
   "source": "BCB SGS",
   "series": {
@@ -10,8 +10,8 @@
       "series_code": 432,
       "latest": 14.25,
       "raw_latest": 14.25,
-      "as_of": "2026-08-04",
-      "points_count": 4234,
+      "as_of": "2026-08-05",
+      "points_count": 4235,
       "monthly": [
         {
           "month": "2015-01",
@@ -2280,10 +2280,10 @@
       "label": "Dólar PTAX (venda)",
       "unit": "BRL",
       "series_code": 1,
-      "latest": 5.0723,
-      "raw_latest": 5.0723,
-      "as_of": "2026-08-03",
-      "points_count": 2906,
+      "latest": 5.1053,
+      "raw_latest": 5.1053,
+      "as_of": "2026-08-04",
+      "points_count": 2907,
       "monthly": [
         {
           "month": "2015-01",
@@ -2843,7 +2843,7 @@
         },
         {
           "month": "2026-08",
-          "value": 5.0723
+          "value": 5.1053
         }
       ]
     },

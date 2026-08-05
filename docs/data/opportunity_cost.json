@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04",
+  "as_of": "2026-08-05",
   "status": "live",
   "analysis_start": "2015-01-01",
   "principle": "Toda escolha de capital tem um custo implícito: o que você deixou de ganhar na melhor alternativa comparável.",
@@ -25,9 +25,9 @@
       "label": "S&P 500",
       "certainty": "média",
       "role": "equity mercados desenvolvidos",
-      "annual_rate_pct": 21.84,
-      "trailing_12m_pct": 21.84,
-      "cagr_since_start_pct": 11.94,
+      "annual_rate_pct": 22.22,
+      "trailing_12m_pct": 22.22,
+      "cagr_since_start_pct": 12.11,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -35,9 +35,9 @@
       "label": "Ibovespa / líderes",
       "certainty": "média-baixa",
       "role": "crescimento com liquidez BR",
-      "annual_rate_pct": 34.4,
-      "trailing_12m_pct": 34.4,
-      "cagr_since_start_pct": 11.88,
+      "annual_rate_pct": 33.78,
+      "trailing_12m_pct": 33.78,
+      "cagr_since_start_pct": 11.87,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -45,8 +45,8 @@
       "label": "IFIX (B3 oficial)",
       "certainty": "média",
       "role": "índice oficial de FIIs",
-      "annual_rate_pct": 8.89,
-      "trailing_12m_pct": 8.89,
+      "annual_rate_pct": 8.86,
+      "trailing_12m_pct": 8.86,
       "cagr_since_start_pct": 9.16,
       "metric": "B3 oficial — retorno ~12m + CAGR desde janela"
     },
@@ -66,9 +66,9 @@
       "label": "Ouro",
       "certainty": "média",
       "role": "reserva / hedge",
-      "annual_rate_pct": 22.1,
-      "trailing_12m_pct": 22.1,
-      "cagr_since_start_pct": 11.35,
+      "annual_rate_pct": 22.7,
+      "trailing_12m_pct": 22.7,
+      "cagr_since_start_pct": 11.41,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -76,9 +76,9 @@
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -44.6,
-      "trailing_12m_pct": -44.6,
-      "cagr_since_start_pct": 58.15,
+      "annual_rate_pct": -43.64,
+      "trailing_12m_pct": -43.64,
+      "cagr_since_start_pct": 58.26,
       "metric": "retorno ~12m + CAGR desde janela"
     }
   ],

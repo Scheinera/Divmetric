@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T12:19:22.676434+00:00",
+  "fetched_at": "2026-08-05T02:02:37.875452+00:00",
   "start_date": "2015-01-01",
   "source": "Yahoo yields + ECB Data Portal + BCB Selic",
   "items": {
@@ -9,7 +9,7 @@
       "source_layer": "official",
       "latest": 14.25,
       "unit": "% a.a.",
-      "as_of": "2026-08-04",
+      "as_of": "2026-08-05",
       "trust": "canonical"
     },
     "us_3m": {
@@ -17,10 +17,10 @@
       "label": "US 3M T-Bill",
       "symbol": "^IRX",
       "source_layer": "market",
-      "latest": 3.7,
-      "trailing_12m_change_pct": -11.53,
+      "latest": 3.73,
+      "trailing_12m_change_pct": -10.19,
       "unit": "% a.a. (nível)",
-      "as_of": "2026-08-03",
+      "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "us_5y": {
@@ -28,10 +28,10 @@
       "label": "US 5Y yield",
       "symbol": "^FVX",
       "source_layer": "market",
-      "latest": 4.4,
-      "trailing_12m_change_pct": 16.68,
+      "latest": 4.333,
+      "trailing_12m_change_pct": 15.76,
       "unit": "% a.a. (nível)",
-      "as_of": "2026-08-03",
+      "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "us_10y": {
@@ -39,10 +39,10 @@
       "label": "US 10Y yield",
       "symbol": "^TNX",
       "source_layer": "market",
-      "latest": 4.686,
-      "trailing_12m_change_pct": 11.04,
+      "latest": 4.627,
+      "trailing_12m_change_pct": 10.17,
       "unit": "% a.a. (nível)",
-      "as_of": "2026-08-03",
+      "as_of": "2026-08-04",
       "start_used": "2015-01-02"
     },
     "eu_10y": {
@@ -616,7 +616,7 @@
       },
       {
         "month": "2026-08",
-        "value": 3.7
+        "value": 3.73
       }
     ],
     "us_5y": [
@@ -1178,7 +1178,7 @@
       },
       {
         "month": "2026-08",
-        "value": 4.4
+        "value": 4.333
       }
     ],
     "us_10y": [
@@ -1740,7 +1740,7 @@
       },
       {
         "month": "2026-08",
-        "value": 4.686
+        "value": 4.627
       }
     ],
     "eu_10y": [
