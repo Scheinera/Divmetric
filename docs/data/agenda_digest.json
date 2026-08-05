@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T02:02:41.704134+00:00",
+  "fetched_at": "2026-08-05T08:48:50.870893+00:00",
   "as_of": "2026-08-05",
   "status": "live",
   "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
@@ -22,21 +22,10 @@
   ],
   "highlights": [
     {
-      "title": "Mega-Sena não tem ganhador e prêmio sobe para R$ 150 milhões",
-      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-150-milhoes",
-      "summary": "Nenhum apostador acertou as seis dezenas do Concurso 3.040 da Mega-Sena, realizado nesta terça-feira (4). O prêmio acumulou e está estimado em R$ 150 milhões para o próximo sorteio, que será realizado na quinta-feira (6). As dezenas sorteadas foram: 03 - 16 - 24 - 30 - 49 - 54 - ",
-      "published_at": "2026-08-05T00:49:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Embaixador brasileiro não voltará à Argentina após novos ataques de Milei a Lula",
-      "url": "https://www.infomoney.com.br/politica/embaixador-brasileiro-nao-voltara-a-argentina-apos-novos-ataques-de-milei-a-lula/",
-      "summary": "Decisão foi tomada depois que Milei voltou a ofender Lula, em entrevista ao jornal La Nación The post Embaixador brasileiro não voltará à Argentina após novos ataques de Milei a Lula appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:37:26+00:00",
+      "title": "Dow Jones Futuro sobe com esperança de acordo entre EUA e Irã e otimismo com IA",
+      "url": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-com-esperanca-de-acordo-entre-eua-e-ira-e-otimismo-com-ia/",
+      "summary": "O foco dos investidores também está voltado para o relatório de empregos do setor privado dos EUA, medido pela ADP, referente a julho The post Dow Jones Futuro sobe com esperança de acordo entre EUA e Irã e otimismo com IA appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:43:44+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -44,10 +33,43 @@
       ]
     },
     {
-      "title": "Decisão dos EUA sobre visto de embaixadora se dá por razões ideológicas, diz Planalto",
-      "url": "https://www.infomoney.com.br/politica/decisao-dos-eua-sobre-visto-de-embaixadora-se-da-por-razoes-ideologicas-diz-planalto/",
-      "summary": "\"A decisão de hoje não é um fato isolado\", afirma em nota The post Decisão dos EUA sobre visto de embaixadora se dá por razões ideológicas, diz Planalto appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:31:54+00:00",
+      "title": "Petróleo sobe enquanto investidores aguardam desfecho das negociações entre EUA e Irã",
+      "url": "https://www.moneytimes.com.br/petroleo-sobe-enquanto-investidores-aguardam-desfecho-das-negociacoes-entre-eua-e-ira-fets/",
+      "summary": "Os preços do petróleo sobem nesta quarta-feira (5) em dia de volatilidade nas negociações, enquanto os investidores aguardam para ver se os esforços para encerrar a guerra com o Irã e restabelecer o tráfego pelo bloqueado Estreito de Ormuz estavam avançando. Os contratos futuros ",
+      "published_at": "2026-08-05T08:41:59+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Embaixador brasileiro não voltará à Argentina após novos ataques de Milei a Lula; Brasil rebaixa representação Argentina no país",
+      "url": "https://www.moneytimes.com.br/embaixador-brasileiro-nao-voltara-a-argentina-apos-novos-ataques-de-milei-a-lula-brasil-rebaixa-representacao-argentina-no-pais-fets/",
+      "summary": "O embaixador do Brasil na Argentina, Julio Bitelli, não voltará mais a Buenos Aires enquanto o presidente do país, Javier Milei, mantiver os ataques ao presidente Luiz Inácio Lula da Silva, disse à Reuters uma fonte do governo brasileiro. O embaixador da Argentina em Brasília, Da",
+      "published_at": "2026-08-05T08:08:27+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Como o mercado deve reagir à decisão do Copom desta 4ª?",
+      "url": "https://www.infomoney.com.br/mercados/como-o-mercado-deve-reagir-a-decisao-do-copom-desta-4a/",
+      "summary": "Novamente, os olhares se voltarão para o comunicado que acompanha a decisão The post Como o mercado deve reagir à decisão do Copom desta 4ª? appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "“Riqueza não é dinheiro”: o alerta de Ray Dalio sobre a bolha de IA",
+      "url": "https://www.infomoney.com.br/business/global/riqueza-nao-e-dinheiro-o-alerta-de-ray-dalio-sobre-a-bolha-de-ia/",
+      "summary": "Bilionário compara momento atual a 1929 e 2000 e diz que investidores estão confundindo patrimônio de papel com capacidade real de gasto The post “Riqueza não é dinheiro”: o alerta de Ray Dalio sobre a bolha de IA appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -55,21 +77,54 @@
       ]
     },
     {
-      "title": "Brasil repudia revogação de visto de embaixadora nos EUA",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/brasil-repudia-revogacao-de-visto-de-embaixadora-nos-eua",
-      "summary": "O governo brasileiro repudiou a revogação do visto da embaixadora nos Estados Unidos, Maria Luiza Ribeiro Viotti, anunciada nesta terça-feira (4). O país norte-americano justificou a medida pela demora do Brasil na resposta à concessão de aprovação diplomática do indicado do gove",
-      "published_at": "2026-08-05T00:14:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
+      "title": "Como uma teoria obscura de 130 anos explica apetite por dívida de US$ 40 tri dos EUA",
+      "url": "https://www.infomoney.com.br/business/global/como-uma-teoria-obscura-de-130-anos-explica-apetite-por-divida-de-us-40-tri-dos-eua/",
+      "summary": "Conceito do economista sueco Knut Wicksell ressurge para mostrar que força da economia americana e boom de IA compensam riscos fiscais The post Como uma teoria obscura de 130 anos explica apetite por dívida de US$ 40 tri dos EUA appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
       "tags": [
         "geral"
       ]
     },
     {
-      "title": "Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4)",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7083-confira-o-resultado-sorteado-nesta-terca-4/",
-      "summary": "Os números sorteados foram: 26 - 73 - 45 - 15 - 77 The post Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:12:47+00:00",
+      "title": "Kevin Warsh queria uma “mudança de regime”; os mercados exigem um recomeço",
+      "url": "https://www.infomoney.com.br/business/global/kevin-warsh-queria-uma-mudanca-de-regime-os-mercados-exigem-um-recomeco/",
+      "summary": "Após sua última aparição pública desencadear um período de volatilidade, o novo presidente do Fed está sob pressão para esclarecer os sinais contraditórios sobre seu compromisso em reduzir a inflação The post Kevin Warsh queria uma “mudança de regime”; os mercados exigem um recom",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em setembro",
+      "url": "https://www.infomoney.com.br/economia/comunicado-do-copom-deve-guiar-mercado-com-pistas-sobre-mais-um-corte-em-setembro/",
+      "summary": "Expectativa majoritária é de que a Selic sofra mais um corte nesta quarta, de 0,25 ponto percentual, indo a 14%; mercado deve ler comunicado com lupa em busca de alguma sinalização de novos cortes The post Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em s",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "‘Swing voters’ ou indecisos: eleitorado neutro poderá definir o próximo presidente",
+      "url": "https://www.infomoney.com.br/politica/swing-voters-ou-indecisos-eleitorado-neutro-podera-definir-o-proximo-presidente/",
+      "summary": "Com rejeição elevada dos principais candidatos e cenário estável nas pesquisas, analistas avaliam que os votos ainda em disputa serão decisivos em outubro The post ‘Swing voters’ ou indecisos: eleitorado neutro poderá definir o próximo presidente appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T?",
+      "url": "https://www.infomoney.com.br/mercados/bradesco-bbdc3-sera-o-vencedor-entre-os-balancos-dos-bancos-no-2t/",
+      "summary": "O banco divulga seus dados do 2º trimestre na noite desta quarta-feira (5) The post Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T? appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -77,134 +132,58 @@
       ]
     },
     {
-      "title": "Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4)",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3753-confira-o-resultado-sorteado-nesta-terca-4/",
-      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:09:25+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4)",
-      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3040-confira-o-resultado-sorteado-nesta-terca-4/",
-      "summary": "O prêmio principal para este concurso é de R$ 133.232.979,58 The post Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:04:56+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri",
-      "url": "https://www.infomoney.com.br/mercados/cba-cbav3-resultados-segundo-trimestre-2026/",
-      "summary": "Trimestre tem preço médio recorde para alumínio The post CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri appeared first on InfoMoney .",
-      "published_at": "2026-08-04T23:58:57+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "SP: ferroviários mantém greve por falta de garantia de empregos",
-      "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/sp-ferroviarios-mantem-greve-por-falta-de-garantia-de-empregos",
-      "summary": "Está mantida a greve dos trabalhadores da Companhia Paulista de Trens Metropolitanos (CPTM) que atendem as linhas 11, 12 e 13, na capital e região metropolitana. A decisão foi tomada em assembleia, que se encerrou por volta das 19h30, na sede da Central Única dos Trabalhadores (C",
-      "published_at": "2026-08-04T23:52:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
+      "title": "Nova lei cria filtros para recursos e deve reduzir ações no STJ",
+      "url": "https://www.moneytimes.com.br/nova-lei-cria-filtros-para-recursos-e-deve-reduzir-acoes-no-stj-fets/",
+      "summary": "Recursos ao Superior Tribunal de Justiça (STJ) passarão a depender da demonstração de relevância econômica, política, social ou jurídica que ultrapasse os interesses das partes envolvidas. A medida regulamenta um mecanismo previsto na Constituição e busca reduzir o volume de proc",
+      "published_at": "2026-08-05T07:39:34+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
       "tags": [
         "geral"
       ]
     },
     {
-      "title": "Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4%",
-      "url": "https://www.infomoney.com.br/mercados/iguatemi-igti11-resultados-segundo-trimestre-2026/",
-      "summary": "A administradora de shoppings de alto padrão teve um resultado operacional medido pelo Ebitda de R$ 292,2 milhões The post Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4% appeared first on InfoMoney .",
-      "published_at": "2026-08-04T23:50:43+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Edital de R$ 4 milhões contempla projetos de comunicação climática",
-      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/edital-de-r-4-milhoes-contempla-projetos-de-comunicacao-climatica",
-      "summary": "O Instituto Clima e Sociedade (iCS) abriu nesta segunda-feira (3) as inscrições para um edital que vai destinar R$ 4 milhões a projetos voltados à comunicação sobre mudanças climáticas. A iniciativa pretende apoiar propostas capazes de ampliar o alcance de informações sobre o tem",
-      "published_at": "2026-08-04T23:45:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "TCU envia à Justiça Eleitoral lista de gestores com contas rejeitadas",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/tcu-envia-justica-eleitoral-lista-de-gestores-com-contas-rejeitadas",
-      "summary": "O Tribunal de Contas da União (TCU) entregou nesta terça-feira (4) à Justiça Eleitoral uma lista com os nomes de 6,1 mil pessoas que tiveram contas julgadas irregulares nos últimos oito anos. A entrega foi feita pelo presidente do TCU, Vital do Rêgo, ao presidente do Tribunal Sup",
-      "published_at": "2026-08-04T23:35:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
+      "title": "Venda de veículos salta 15% em julho ante mesmo mês de 2025, diz Fenabrave",
+      "url": "https://www.moneytimes.com.br/venda-de-veiculos-salta-15-em-julho-ante-mesmo-mes-de-2025-diz-fenabrave-fets/",
+      "summary": "Os emplacamentos de carros, comerciais leves, caminhões e ônibus no Brasil em julho somaram 279,6 mil unidades, alta de cerca de 15% sobre o mesmo mês do ano passado e crescimento de 2,6% na comparação mensal, segundo dados divulgados nesta terça-feira (4) pela Federação Nacional",
+      "published_at": "2026-08-05T07:18:00+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
       "tags": [
         "geral"
       ]
     }
   ],
-  "copom_related": [],
+  "copom_related": [
+    {
+      "title": "Como o mercado deve reagir à decisão do Copom desta 4ª?",
+      "url": "https://www.infomoney.com.br/mercados/como-o-mercado-deve-reagir-a-decisao-do-copom-desta-4a/",
+      "summary": "Novamente, os olhares se voltarão para o comunicado que acompanha a decisão The post Como o mercado deve reagir à decisão do Copom desta 4ª? appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em setembro",
+      "url": "https://www.infomoney.com.br/economia/comunicado-do-copom-deve-guiar-mercado-com-pistas-sobre-mais-um-corte-em-setembro/",
+      "summary": "Expectativa majoritária é de que a Selic sofra mais um corte nesta quarta, de 0,25 ponto percentual, indo a 14%; mercado deve ler comunicado com lupa em busca de alguma sinalização de novos cortes The post Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em s",
+      "published_at": "2026-08-05T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    }
+  ],
   "earnings": [
     {
-      "title": "Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4)",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7083-confira-o-resultado-sorteado-nesta-terca-4/",
-      "summary": "Os números sorteados foram: 26 - 73 - 45 - 15 - 77 The post Quina hoje, concurso 7083: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:12:47+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4)",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3753-confira-o-resultado-sorteado-nesta-terca-4/",
-      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3753: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:09:25+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4)",
-      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3040-confira-o-resultado-sorteado-nesta-terca-4/",
-      "summary": "O prêmio principal para este concurso é de R$ 133.232.979,58 The post Mega-Sena hoje, concurso 3040: confira o resultado sorteado nesta terça (4) appeared first on InfoMoney .",
-      "published_at": "2026-08-05T00:04:56+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri",
-      "url": "https://www.infomoney.com.br/mercados/cba-cbav3-resultados-segundo-trimestre-2026/",
-      "summary": "Trimestre tem preço médio recorde para alumínio The post CBA (CBAV3) reverte prejuízo e tem lucro líquido de R$ 410 mi no 2º tri appeared first on InfoMoney .",
-      "published_at": "2026-08-04T23:58:57+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4%",
-      "url": "https://www.infomoney.com.br/mercados/iguatemi-igti11-resultados-segundo-trimestre-2026/",
-      "summary": "A administradora de shoppings de alto padrão teve um resultado operacional medido pelo Ebitda de R$ 292,2 milhões The post Iguatemi (IGTI11) tem lucro líquido de R$ 135,1 mi no 2º tri, queda anual de 35,4% appeared first on InfoMoney .",
-      "published_at": "2026-08-04T23:50:43+00:00",
+      "title": "Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T?",
+      "url": "https://www.infomoney.com.br/mercados/bradesco-bbdc3-sera-o-vencedor-entre-os-balancos-dos-bancos-no-2t/",
+      "summary": "O banco divulga seus dados do 2º trimestre na noite desta quarta-feira (5) The post Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T? appeared first on InfoMoney .",
+      "published_at": "2026-08-05T08:00:00+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -243,10 +222,33 @@
       "tags": [
         "earnings_br"
       ]
+    },
+    {
+      "title": "MJ detalha operação para desarticular ataques a Brasília",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/mj-detalha-operacao-para-desarticular-ataques-brasilia",
+      "summary": "O Ministério da Justiça e Segurança Pública (MJSP) detalhou os resultados da Operação Rede Interrompida , deflagrada nesta terça-feira (4) pela Polícia Civil do Distrito Federal (PCDF). A investigação começou a partir de um relatório produzido pelo Laboratório de Operações Cibern",
+      "published_at": "2026-08-04T22:09:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "earnings_br"
+      ]
     }
   ],
-  "markets": [],
-  "all_count": 130,
+  "markets": [
+    {
+      "title": "Petróleo sobe enquanto investidores aguardam desfecho das negociações entre EUA e Irã",
+      "url": "https://www.moneytimes.com.br/petroleo-sobe-enquanto-investidores-aguardam-desfecho-das-negociacoes-entre-eua-e-ira-fets/",
+      "summary": "Os preços do petróleo sobem nesta quarta-feira (5) em dia de volatilidade nas negociações, enquanto os investidores aguardam para ver se os esforços para encerrar a guerra com o Irã e restabelecer o tráfego pelo bloqueado Estreito de Ormuz estavam avançando. Os contratos futuros ",
+      "published_at": "2026-08-05T08:41:59+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    }
+  ],
+  "all_count": 129,
   "errors": [],
   "disclaimer": "Seleção automática por palavras-chave. Editorial — não é recomendação."
 }

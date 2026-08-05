@@ -3,7 +3,7 @@
   "status": "live",
   "analysis_start": "2015-01-01",
   "note": "Retornos mensais alinhados à janela — uso educacional.",
-  "updated_at": "2026-08-05T02:02:41.718746+00:00",
+  "updated_at": "2026-08-05T08:48:50.887536+00:00",
   "series": {
     "ibov": [
       {
@@ -2792,7 +2792,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 2.5222
+        "return_pct": 3.0117
       }
     ],
     "dax": [
@@ -3350,7 +3350,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 1.4517
+        "return_pct": 2.3657
       }
     ],
     "ftse": [
@@ -3908,7 +3908,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -0.0957
+        "return_pct": 0.2684
       }
     ],
     "hang_seng": [
@@ -4466,7 +4466,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -0.5682
+        "return_pct": 0.1213
       }
     ],
     "btc": [
@@ -5024,7 +5024,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 2.4077
+        "return_pct": 1.9978
       }
     ],
     "gold": [
@@ -5582,7 +5582,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 2.482
+        "return_pct": 4.3195
       }
     ],
     "brent": [
@@ -6140,7 +6140,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -11.6067
+        "return_pct": -10.9077
       }
     ],
     "wti": [
@@ -6698,7 +6698,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -10.3815
+        "return_pct": -10.098
       }
     ],
     "iron_ore": [
@@ -7256,7 +7256,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -4.4286
+        "return_pct": -4.3878
       }
     ],
     "dxy": [
@@ -7814,7 +7814,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.0942
+        "return_pct": 0.018
       }
     ],
     "usdbrl": [
@@ -8372,7 +8372,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.4884
+        "return_pct": 1.3548
       }
     ],
     "us10y": [

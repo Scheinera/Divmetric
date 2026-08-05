@@ -3,7 +3,7 @@
   "analysis_start": "2015-01-01",
   "status": "live",
   "trust": "canonical",
-  "fetched_at": "2026-08-05T02:02:33.018209+00:00",
+  "fetched_at": "2026-08-05T08:48:35.285388+00:00",
   "source": "B3 indexStatisticsProxy + indexProxy (IFIX oficial)",
   "source_urls": {
     "stats": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/monthly-evolution/IFIX?language=pt-br",
@@ -1784,7 +1784,7 @@
     }
   ],
   "portfolio": {
-    "as_of": "2026-08-04",
+    "as_of": "2026-08-05",
     "header": {
       "reductor": "40.298.273,58786111",
       "theorical_qty_total": "5.540.822.748",
@@ -1794,103 +1794,103 @@
       {
         "ticker": "KNCR11",
         "name": "FII KINEA RI",
-        "part_pct": 7.443,
+        "part_pct": 7.506,
         "theorical_qty": null
       },
       {
         "ticker": "KNIP11",
         "name": "FII KINEA IP",
-        "part_pct": 4.709,
+        "part_pct": 4.751,
         "theorical_qty": null
       },
       {
         "ticker": "BTLG11",
         "name": "FII BTLG",
-        "part_pct": 4.563,
+        "part_pct": 4.542,
         "theorical_qty": null
       },
       {
         "ticker": "XPML11",
         "name": "FII XP MALLS",
-        "part_pct": 4.438,
+        "part_pct": 4.394,
         "theorical_qty": null
       },
       {
         "ticker": "HGLG11",
         "name": "FII HGLG PAX",
-        "part_pct": 4.086,
+        "part_pct": 4.104,
         "theorical_qty": null
       },
       {
         "ticker": "TRXF11",
         "name": "FII TRX REAL",
-        "part_pct": 3.658,
+        "part_pct": 3.661,
         "theorical_qty": null
       },
       {
         "ticker": "MXRF11",
         "name": "FII MAXI REN",
-        "part_pct": 3.475,
+        "part_pct": 3.514,
         "theorical_qty": null
       },
       {
         "ticker": "XPLG11",
         "name": "FII XP LOG",
-        "part_pct": 3.069,
+        "part_pct": 3.081,
         "theorical_qty": null
       },
       {
         "ticker": "KNRI11",
         "name": "FII KINEA",
-        "part_pct": 2.812,
+        "part_pct": 2.813,
         "theorical_qty": null
       },
       {
         "ticker": "HGRU11",
         "name": "FII HGRU PAX",
-        "part_pct": 2.805,
+        "part_pct": 2.797,
         "theorical_qty": null
       },
       {
         "ticker": "KNHY11",
         "name": "FII KINEA HY",
-        "part_pct": 2.021,
+        "part_pct": 2.024,
         "theorical_qty": null
       },
       {
         "ticker": "VISC11",
         "name": "FII VINCI SC",
-        "part_pct": 1.963,
+        "part_pct": 1.968,
         "theorical_qty": null
       },
       {
         "ticker": "CPTS11",
         "name": "FII CAPI SEC",
-        "part_pct": 1.79,
+        "part_pct": 1.785,
         "theorical_qty": null
       },
       {
         "ticker": "HGBS11",
         "name": "FII HEDGEBS",
-        "part_pct": 1.608,
+        "part_pct": 1.609,
         "theorical_qty": null
       },
       {
         "ticker": "GARE11",
         "name": "FII GUARDIAN",
-        "part_pct": 1.543,
+        "part_pct": 1.545,
         "theorical_qty": null
       },
       {
         "ticker": "IRIM11",
         "name": "FII IRIM",
-        "part_pct": 1.503,
+        "part_pct": 1.515,
         "theorical_qty": null
       },
       {
         "ticker": "KNUQ11",
         "name": "FII KINEA UN",
-        "part_pct": 1.466,
+        "part_pct": 1.473,
         "theorical_qty": null
       },
       {
@@ -1902,43 +1902,43 @@
       {
         "ticker": "RECR11",
         "name": "FII REC RECE",
-        "part_pct": 1.386,
+        "part_pct": 1.384,
         "theorical_qty": null
       },
       {
         "ticker": "GGRC11",
         "name": "FII GGR ZAG",
-        "part_pct": 1.385,
+        "part_pct": 1.373,
         "theorical_qty": null
       },
       {
         "ticker": "BRCO11",
         "name": "FII BRESCO",
-        "part_pct": 1.329,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "KNHF11",
-        "name": "FII KINEA HF",
-        "part_pct": 1.205,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "BTHF11",
-        "name": "FII BTHF",
-        "part_pct": 1.193,
+        "part_pct": 1.33,
         "theorical_qty": null
       },
       {
         "ticker": "PVBI11",
         "name": "FII PVBI VBI",
-        "part_pct": 1.192,
+        "part_pct": 1.201,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "BTHF11",
+        "name": "FII BTHF",
+        "part_pct": 1.196,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "KNHF11",
+        "name": "FII KINEA HF",
+        "part_pct": 1.193,
         "theorical_qty": null
       },
       {
         "ticker": "HSML11",
         "name": "FII HSI MALL",
-        "part_pct": 1.174,
+        "part_pct": 1.168,
         "theorical_qty": null
       },
       {
@@ -1948,93 +1948,93 @@
         "theorical_qty": null
       },
       {
-        "ticker": "LVBI11",
-        "name": "FII LVBI VBI",
-        "part_pct": 1.06,
+        "ticker": "RZTR11",
+        "name": "FII RIZA TX",
+        "part_pct": 1.071,
         "theorical_qty": null
       },
       {
-        "ticker": "RZTR11",
-        "name": "FII RIZA TX",
-        "part_pct": 1.059,
+        "ticker": "LVBI11",
+        "name": "FII LVBI VBI",
+        "part_pct": 1.067,
         "theorical_qty": null
       },
       {
         "ticker": "MCCI11",
         "name": "FII MAUA",
-        "part_pct": 1.03,
+        "part_pct": 1.032,
         "theorical_qty": null
       },
       {
         "ticker": "TVRI11",
         "name": "FII TIVIO RI",
-        "part_pct": 0.949,
+        "part_pct": 0.94,
         "theorical_qty": null
       },
       {
         "ticker": "HFOF11",
         "name": "FII HTOPFOF3",
-        "part_pct": 0.931,
+        "part_pct": 0.927,
         "theorical_qty": null
       },
       {
         "ticker": "PMLL11",
         "name": "FII PMLL PAX",
-        "part_pct": 0.926,
+        "part_pct": 0.925,
         "theorical_qty": null
       },
       {
         "ticker": "HGCR11",
         "name": "FII HGCR PAX",
-        "part_pct": 0.925,
+        "part_pct": 0.915,
         "theorical_qty": null
       },
       {
         "ticker": "VGIR11",
         "name": "FII VALREIII",
-        "part_pct": 0.907,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "RBVA11",
-        "name": "FII RIOB VA",
-        "part_pct": 0.902,
+        "part_pct": 0.911,
         "theorical_qty": null
       },
       {
         "ticker": "HGRE11",
         "name": "FII HGRE PAX",
-        "part_pct": 0.9,
+        "part_pct": 0.906,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "RBVA11",
+        "name": "FII RIOB VA",
+        "part_pct": 0.897,
         "theorical_qty": null
       },
       {
         "ticker": "VILG11",
         "name": "FII VINCI LG",
-        "part_pct": 0.89,
+        "part_pct": 0.895,
         "theorical_qty": null
       },
       {
         "ticker": "PCIP11",
         "name": "FII PCIP PAX",
-        "part_pct": 0.836,
+        "part_pct": 0.835,
         "theorical_qty": null
       },
       {
         "ticker": "RBRR11",
         "name": "FII RBRR PAX",
-        "part_pct": 0.805,
+        "part_pct": 0.81,
         "theorical_qty": null
       },
       {
         "ticker": "JSRE11",
         "name": "FII JS REAL",
-        "part_pct": 0.799,
+        "part_pct": 0.787,
         "theorical_qty": null
       },
       {
         "ticker": "TGAR11",
         "name": "FII TG ATIVO",
-        "part_pct": 0.756,
+        "part_pct": 0.745,
         "theorical_qty": null
       },
       {
@@ -2046,13 +2046,13 @@
       {
         "ticker": "VRTA11",
         "name": "FII FATOR VE",
-        "part_pct": 0.739,
+        "part_pct": 0.735,
         "theorical_qty": null
       },
       {
         "ticker": "RBRX11",
         "name": "FII RBRX PAX",
-        "part_pct": 0.737,
+        "part_pct": 0.734,
         "theorical_qty": null
       },
       {
@@ -2070,13 +2070,19 @@
       {
         "ticker": "VCJR11",
         "name": "FII VECTIS",
-        "part_pct": 0.664,
+        "part_pct": 0.666,
         "theorical_qty": null
       },
       {
         "ticker": "PSEC11",
         "name": "FII PSEC PAX",
-        "part_pct": 0.644,
+        "part_pct": 0.642,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "MCRE11",
+        "name": "FII MAUA RE",
+        "part_pct": 0.635,
         "theorical_qty": null
       },
       {
@@ -2086,129 +2092,123 @@
         "theorical_qty": null
       },
       {
-        "ticker": "MCRE11",
-        "name": "FII MAUA RE",
-        "part_pct": 0.626,
+        "ticker": "BTCI11",
+        "name": "FII BTG CRI",
+        "part_pct": 0.597,
         "theorical_qty": null
       },
       {
         "ticker": "SNEL11",
         "name": "FII SUNO EL",
-        "part_pct": 0.602,
+        "part_pct": 0.597,
         "theorical_qty": null
       },
       {
         "ticker": "VGIP11",
         "name": "FII VALORAIP",
-        "part_pct": 0.599,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "BTCI11",
-        "name": "FII BTG CRI",
-        "part_pct": 0.594,
+        "part_pct": 0.597,
         "theorical_qty": null
       },
       {
         "ticker": "GZIT11",
         "name": "FII GAZIT",
-        "part_pct": 0.581,
+        "part_pct": 0.572,
         "theorical_qty": null
       },
       {
         "ticker": "VGHF11",
         "name": "FII VALOR HE",
-        "part_pct": 0.574,
+        "part_pct": 0.557,
         "theorical_qty": null
       },
       {
         "ticker": "CPSH11",
         "name": "FII CPSH",
-        "part_pct": 0.508,
+        "part_pct": 0.51,
         "theorical_qty": null
       },
       {
         "ticker": "XPCI11",
         "name": "FII XP CRED",
-        "part_pct": 0.467,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "BROF11",
-        "name": "FII BROF",
-        "part_pct": 0.46,
+        "part_pct": 0.462,
         "theorical_qty": null
       },
       {
         "ticker": "RZAK11",
         "name": "FII RIZA AKN",
-        "part_pct": 0.456,
+        "part_pct": 0.453,
         "theorical_qty": null
       },
       {
-        "ticker": "KORE11",
-        "name": "FII KORE",
-        "part_pct": 0.416,
+        "ticker": "BROF11",
+        "name": "FII BROF",
+        "part_pct": 0.445,
         "theorical_qty": null
       },
       {
         "ticker": "BPML11",
         "name": "FII BTG SHOP",
-        "part_pct": 0.415,
+        "part_pct": 0.414,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "KORE11",
+        "name": "FII KORE",
+        "part_pct": 0.41,
         "theorical_qty": null
       },
       {
         "ticker": "HABT11",
         "name": "FII HABIT II",
-        "part_pct": 0.375,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "RBRP11",
-        "name": "FII RBRP PAX",
-        "part_pct": 0.364,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "JSAF11",
-        "name": "FII JS A FIN",
-        "part_pct": 0.359,
+        "part_pct": 0.373,
         "theorical_qty": null
       },
       {
         "ticker": "KFOF11",
         "name": "FII KINEAFOF",
-        "part_pct": 0.357,
+        "part_pct": 0.355,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "JSAF11",
+        "name": "FII JS A FIN",
+        "part_pct": 0.353,
         "theorical_qty": null
       },
       {
         "ticker": "AFHI11",
         "name": "FII AFHI CRI",
-        "part_pct": 0.347,
+        "part_pct": 0.348,
         "theorical_qty": null
       },
       {
-        "ticker": "BBIG11",
-        "name": "FII BBIG",
-        "part_pct": 0.333,
+        "ticker": "RBRP11",
+        "name": "FII RBRP PAX",
+        "part_pct": 0.339,
         "theorical_qty": null
       },
       {
         "ticker": "BTAL11",
         "name": "FII BTG AGRO",
-        "part_pct": 0.332,
+        "part_pct": 0.331,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "BBIG11",
+        "name": "FII BBIG",
+        "part_pct": 0.329,
         "theorical_qty": null
       },
       {
         "ticker": "RCRB11",
         "name": "FII RIOB RC",
-        "part_pct": 0.326,
+        "part_pct": 0.328,
         "theorical_qty": null
       },
       {
         "ticker": "RBRL11",
         "name": "FII RBRL PAX",
-        "part_pct": 0.313,
+        "part_pct": 0.312,
         "theorical_qty": null
       },
       {
@@ -2218,15 +2218,15 @@
         "theorical_qty": null
       },
       {
-        "ticker": "TRBL11",
-        "name": "FII SDI LOG",
-        "part_pct": 0.278,
-        "theorical_qty": null
-      },
-      {
         "ticker": "FATN11",
         "name": "FII ATHENA I",
         "part_pct": 0.271,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "TRBL11",
+        "name": "FII SDI LOG",
+        "part_pct": 0.269,
         "theorical_qty": null
       },
       {
@@ -2236,39 +2236,39 @@
         "theorical_qty": null
       },
       {
-        "ticker": "RZAT11",
-        "name": "FII ARCTIUM",
-        "part_pct": 0.255,
-        "theorical_qty": null
-      },
-      {
         "ticker": "CLIN11",
         "name": "FII CLAVE IN",
-        "part_pct": 0.252,
+        "part_pct": 0.253,
         "theorical_qty": null
       },
       {
-        "ticker": "VINO11",
-        "name": "FII VINCI OF",
-        "part_pct": 0.243,
+        "ticker": "RZAT11",
+        "name": "FII ARCTIUM",
+        "part_pct": 0.252,
         "theorical_qty": null
       },
       {
         "ticker": "BCRI11",
         "name": "FII BEES CRI",
-        "part_pct": 0.242,
+        "part_pct": 0.246,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "VINO11",
+        "name": "FII VINCI OF",
+        "part_pct": 0.241,
         "theorical_qty": null
       },
       {
         "ticker": "HCTR11",
         "name": "FII HECTARE",
-        "part_pct": 0.238,
+        "part_pct": 0.235,
         "theorical_qty": null
       },
       {
         "ticker": "SNCI11",
         "name": "FII SUNO CRI",
-        "part_pct": 0.233,
+        "part_pct": 0.234,
         "theorical_qty": null
       },
       {
@@ -2280,37 +2280,37 @@
       {
         "ticker": "MANA11",
         "name": "FII MANATI",
-        "part_pct": 0.223,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "BCIA11",
-        "name": "FII BCIA",
-        "part_pct": 0.213,
+        "part_pct": 0.224,
         "theorical_qty": null
       },
       {
         "ticker": "TEPP11",
         "name": "FII TEL PROP",
-        "part_pct": 0.213,
+        "part_pct": 0.215,
         "theorical_qty": null
       },
       {
-        "ticker": "CYCR11",
-        "name": "FII CYRELA",
-        "part_pct": 0.205,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "KCRE11",
-        "name": "FII KINEA CR",
-        "part_pct": 0.205,
+        "ticker": "BCIA11",
+        "name": "FII BCIA",
+        "part_pct": 0.214,
         "theorical_qty": null
       },
       {
         "ticker": "VRTM11",
         "name": "FII VRTM",
-        "part_pct": 0.205,
+        "part_pct": 0.206,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "CYCR11",
+        "name": "FII CYRELA",
+        "part_pct": 0.204,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "KCRE11",
+        "name": "FII KINEA CR",
+        "part_pct": 0.204,
         "theorical_qty": null
       },
       {
@@ -2322,7 +2322,7 @@
       {
         "ticker": "PORD11",
         "name": "FII POLO CRI",
-        "part_pct": 0.2,
+        "part_pct": 0.203,
         "theorical_qty": null
       },
       {
@@ -2340,25 +2340,25 @@
       {
         "ticker": "KISU11",
         "name": "FII KILIMA",
-        "part_pct": 0.186,
-        "theorical_qty": null
-      },
-      {
-        "ticker": "WHGR11",
-        "name": "FII WHG REAL",
-        "part_pct": 0.181,
+        "part_pct": 0.183,
         "theorical_qty": null
       },
       {
         "ticker": "LIFE11",
         "name": "FII LIFE",
-        "part_pct": 0.178,
+        "part_pct": 0.183,
+        "theorical_qty": null
+      },
+      {
+        "ticker": "WHGR11",
+        "name": "FII WHG REAL",
+        "part_pct": 0.18,
         "theorical_qty": null
       },
       {
         "ticker": "DEVA11",
         "name": "FII DEVANT",
-        "part_pct": 0.175,
+        "part_pct": 0.172,
         "theorical_qty": null
       },
       {
@@ -2370,25 +2370,25 @@
       {
         "ticker": "RPRI11",
         "name": "FII RBR PR",
-        "part_pct": 0.167,
+        "part_pct": 0.17,
         "theorical_qty": null
       },
       {
         "ticker": "OUJP11",
         "name": "FII OURI JPP",
-        "part_pct": 0.152,
+        "part_pct": 0.151,
         "theorical_qty": null
       },
       {
         "ticker": "URPR11",
         "name": "FII URCA REN",
-        "part_pct": 0.146,
+        "part_pct": 0.144,
         "theorical_qty": null
       },
       {
         "ticker": "MFII11",
         "name": "FII MERITO I",
-        "part_pct": 0.128,
+        "part_pct": 0.137,
         "theorical_qty": null
       },
       {
@@ -2406,25 +2406,25 @@
       {
         "ticker": "VGRI11",
         "name": "FII VGRI",
-        "part_pct": 0.125,
+        "part_pct": 0.124,
         "theorical_qty": null
       },
       {
         "ticker": "SPXS11",
         "name": "FII SPX SYN",
-        "part_pct": 0.103,
+        "part_pct": 0.102,
         "theorical_qty": null
       },
       {
         "ticker": "KIVO11",
         "name": "FII KIVO",
-        "part_pct": 0.081,
+        "part_pct": 0.08,
         "theorical_qty": null
       },
       {
         "ticker": "CACR11",
         "name": "CARTESIA FII",
-        "part_pct": 0.046,
+        "part_pct": 0.042,
         "theorical_qty": null
       }
     ],
