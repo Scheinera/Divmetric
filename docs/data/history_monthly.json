@@ -3,7 +3,7 @@
   "status": "live",
   "analysis_start": "2015-01-01",
   "note": "Retornos mensais alinhados à janela — uso educacional.",
-  "updated_at": "2026-08-06T02:02:34.422217+00:00",
+  "updated_at": "2026-08-06T08:48:06.616521+00:00",
   "series": {
     "ibov": [
       {
@@ -560,7 +560,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -0.1533
+        "return_pct": -0.1534
       }
     ],
     "spx": [
@@ -2792,7 +2792,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.992
+        "return_pct": 2.0528
       }
     ],
     "dax": [
@@ -3350,7 +3350,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 1.9394
+        "return_pct": 2.021
       }
     ],
     "ftse": [
@@ -3908,7 +3908,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.1859
+        "return_pct": 0.336
       }
     ],
     "hang_seng": [
@@ -4466,7 +4466,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -1.5536
+        "return_pct": -1.3682
       }
     ],
     "btc": [
@@ -5024,7 +5024,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 2.7025
+        "return_pct": 3.1958
       }
     ],
     "gold": [
@@ -5582,7 +5582,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 7.5893
+        "return_pct": 7.009
       }
     ],
     "brent": [
@@ -6140,7 +6140,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -11.285
+        "return_pct": -11.8509
       }
     ],
     "wti": [
@@ -6698,7 +6698,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -10.5586
+        "return_pct": -11.3499
       }
     ],
     "iron_ore": [
@@ -7256,7 +7256,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -4.3878
+        "return_pct": -4.1735
       }
     ],
     "dxy": [
@@ -7814,7 +7814,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -0.1403
+        "return_pct": -0.0401
       }
     ],
     "usdbrl": [
@@ -8372,7 +8372,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.8566
+        "return_pct": 1.0417
       }
     ],
     "us10y": [

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-06T02:02:34.411034+00:00",
+  "fetched_at": "2026-08-06T08:48:06.520476+00:00",
   "as_of": "2026-08-06",
   "status": "live",
   "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
@@ -22,9 +22,87 @@
   ],
   "highlights": [
     {
+      "title": "Futuros de NY operam mistos à espera de acordo entre EUA e Irã e do payroll",
+      "url": "https://www.infomoney.com.br/mercados/futuros-de-ny-operam-mistos-a-espera-de-acordo-entre-eua-e-ira-e-do-payroll/",
+      "summary": "Mercado acompanha negociações entre Washington e Teerã e aguarda o relatório de emprego dos EUA, que pode influenciar as expectativas para os juros do Fed The post Futuros de NY operam mistos à espera de acordo entre EUA e Irã e do payroll appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:42:53+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Petróleo sobe com investidores cautelosos sobre avanço das negociações entre Irã e Omã",
+      "url": "https://www.moneytimes.com.br/petroleo-sobe-com-investidores-cautelosos-sobre-avanco-das-negociacoes-entre-ira-e-oma-fets/",
+      "summary": "Os preços do petróleo sobem nesta quinta-feira (6), à medida que os investidores permaneceram cautelosos em relação ao resultado das negociações entre Irã e Omã e se elas levarão ao restabelecimento do fluxo de embarcações pelo Estreito de Ormuz, enquanto relatos de ataques contr",
+      "published_at": "2026-08-06T08:22:17+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "earnings_br",
+        "markets"
+      ]
+    },
+    {
+      "title": "Como os mercados vão receber a decisão do Copom nesta 5ª?",
+      "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-receber-a-decisao-do-copom-nesta-5a/",
+      "summary": "O Copom realizou novo corte de 0,25 p.p. na taxa de juros, levando a Selic para 14% a.a. The post Como os mercados vão receber a decisão do Copom nesta 5ª? appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14%",
+      "url": "https://www.infomoney.com.br/onde-investir/ipca-2032-prefixados-e-debentures-onde-investir-na-renda-fixa-com-a-selic-a-14/",
+      "summary": "Mesmo com retorno menor nos pós-fixados, especialistas alertam que “não é hora de reposicionar a carteira inteira” The post IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14% appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais",
+      "url": "https://www.infomoney.com.br/onde-investir/quanto-r-10-mil-rendem-com-selic-em-14-compare-poupanca-tesouro-cdb-e-mais/",
+      "summary": "Simulação compara instrumentos de renda fixa em seis prazos, de três meses a cinco anos The post Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Lula sanciona MP do Frete e veta ‘jabuti’ que anistiava caminhoneiros bolsonarista",
+      "url": "https://www.moneytimes.com.br/lula-sanciona-mp-do-frete-e-veta-jabuti-que-anistiava-caminhoneiros-bolsonarista-fets/",
+      "summary": "O presidente Luiz Inácio Lula da Silva (PT) sancionou a Medida Provisória (MP) do Frete, em cerimônia com lideranças da categoria no Palácio do Planalto. Em discurso nesta quarta-feira (5), Lula disse que é preciso que os beneficiados façam fiscalizações para que as mudanças vigo",
+      "published_at": "2026-08-06T07:43:00+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades patronais e de trabalhadores",
+      "url": "https://www.moneytimes.com.br/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades-patronais-e-de-trabalhadores-fets/",
+      "summary": "O quarto corte consecutivo na Taxa Selic, definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a Fe",
+      "published_at": "2026-08-06T07:19:00+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
       "title": "Maiores campeões, Cruzeiro e Grêmio vão às quartas da Copa do Brasil",
       "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-08/maiores-campeoes-cruzeiro-e-gremio-vao-quartas-da-copa-do-brasil",
-      "summary": "Dois dos três maiores vencedores da Copa do Brasil seguem na briga pelo título da edição deste ano. Nesta quarta-feira (5), Cruzeiro e Grêmio se classificaram às quartas de final ao eliminarem Mirassol e Chapecoense, respectivamente. Os confrontos da próxima fase serão sorteados ",
+      "summary": "Dois dos três maiores vencedores da Copa do Brasil seguem na briga pelo título da edição deste ano. Nesta quarta-feira (5), Cruzeiro e Grêmio se classificaram às quartas de final ao eliminarem Chapecoense e Mirassol, respectivamente. Os confrontos da próxima fase serão sorteados ",
       "published_at": "2026-08-06T00:54:00+00:00",
       "source_id": "agenciabrasil",
       "source_label": "Agência Brasil",
@@ -75,88 +153,53 @@
       "tags": [
         "copom"
       ]
-    },
-    {
-      "title": "Rio Grande do Sul terá chuva intensa e ventos de até 100 km/h",
-      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/rio-grande-do-sul-tera-chuva-intensa-e-ventos-de-ate-100-kmh",
-      "summary": "O Instituto Nacional de Meteorologia (Inmet) emitiu um alerta vermelho para grande parte do Rio Grande do Sul em razão de tempestades que poderão atingir todo o estado na quinta-feira (6) e sexta-feira (7), com exceção das áreas norte e nordeste. O alerta vermelho é o grau máximo",
-      "published_at": "2026-08-05T23:34:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
-      "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
-      "summary": "Com a decisão do Comitê de Política Monetária (Copom) de reduzir a Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano, já assimilada pelos mercados, os investidores tentam antecipar como o Ibovespa deve se comportar no pregão desta quinta-feira (6). Lá fora, o índice EW",
-      "published_at": "2026-08-05T23:18:43+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom",
-        "markets"
-      ]
-    },
-    {
-      "title": "CBF reforça paralisação das competições durante Copa Feminina em 2027",
-      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-08/cbf-reforca-paralisacao-das-competicoes-durante-copa-feminina-em-2027",
-      "summary": "A Confederação Brasileira de Futebol (CBF) ratificou aos clubes, por meio de ofício, que competições profissionais organizadas pela entidade serão paralisadas durante a Copa do Mundo Feminina do ano que vem, no Brasil. A pausa contempla os torneios femininos e as Séries A e B do ",
-      "published_at": "2026-08-05T23:17:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Selic",
-      "url": "https://www.infomoney.com.br/economia/copom-petroleo-juros-nos-eua-e-inflacao-vao-ditar-se-havera-mais-cortes-na-selic/",
-      "summary": "Comitê do Banco Central reduz juros em 0,25 p.p. de forma unânime, mas retira sinalizações futuras; pressão inflacionária e risco fiscal dividem analistas entre pausa e novos recuos em 2026 The post Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Seli",
-      "published_at": "2026-08-05T23:14:37+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom",
-        "markets"
-      ]
-    },
-    {
-      "title": "Riachuelo (RIAA3) registra recorde para um 2º tri ao lucrar R$ 168 mi, alta de 36%",
-      "url": "https://www.infomoney.com.br/mercados/riachuelo-riaa3-resultados-segundo-trimestre-2026/",
-      "summary": "A receita líquida consolidada somou R$ 2,69 bilhões entre abril e junho, avanço de 3,3% sobre os R$ 2,60 bilhões registrados um ano antes The post Riachuelo (RIAA3) registra recorde para um 2º tri ao lucrar R$ 168 mi, alta de 36% appeared first on InfoMoney .",
-      "published_at": "2026-08-05T23:11:48+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Lei garante frete mínimo no transporte de cargas; saiba o que muda",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/lei-garante-frete-minimo-no-transporte-de-cargas-saiba-o-que-muda",
-      "summary": "Lei sancionada nesta quarta-feira (5) traz garantias ao pagamento do piso mínimo do frete a motoristas no transporte rodoviário de cargas. O texto aumenta a fiscalização sobre o pagamento do frete e combate o comércio ilegal de mercadorias. A lei obriga a apresentação do Código I",
-      "published_at": "2026-08-05T23:05:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Radar das Eleições: Flávio Bolsonaro estanca queda e reforça polarização com Lula, enquanto terceira via segue sem tração",
-      "url": "https://www.moneytimes.com.br/radar-das-eleicoes-polarizacao-entre-lula-e-flavio-bolsonaro-continua-com-terceira-sem-tracao-gaep/",
-      "summary": "O avanço do senador Flávio Bolsonaro (PL) na última rodada da pesquisa BTG Pactual/Nexus foi o tema do segundo episódio do “Radar das Eleições“, podcast do Money Times. O levantamento trouxe o filho do ex-presidente Jair Bolsonaro apenas 1 ponto percentual atrás do presidente Lui",
-      "published_at": "2026-08-05T23:03:57+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "geral"
-      ]
     }
   ],
   "copom_related": [
+    {
+      "title": "Como os mercados vão receber a decisão do Copom nesta 5ª?",
+      "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-receber-a-decisao-do-copom-nesta-5a/",
+      "summary": "O Copom realizou novo corte de 0,25 p.p. na taxa de juros, levando a Selic para 14% a.a. The post Como os mercados vão receber a decisão do Copom nesta 5ª? appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14%",
+      "url": "https://www.infomoney.com.br/onde-investir/ipca-2032-prefixados-e-debentures-onde-investir-na-renda-fixa-com-a-selic-a-14/",
+      "summary": "Mesmo com retorno menor nos pós-fixados, especialistas alertam que “não é hora de reposicionar a carteira inteira” The post IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14% appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais",
+      "url": "https://www.infomoney.com.br/onde-investir/quanto-r-10-mil-rendem-com-selic-em-14-compare-poupanca-tesouro-cdb-e-mais/",
+      "summary": "Simulação compara instrumentos de renda fixa em seis prazos, de três meses a cinco anos The post Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais appeared first on InfoMoney .",
+      "published_at": "2026-08-06T08:00:00+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades patronais e de trabalhadores",
+      "url": "https://www.moneytimes.com.br/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades-patronais-e-de-trabalhadores-fets/",
+      "summary": "O quarto corte consecutivo na Taxa Selic, definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a Fe",
+      "published_at": "2026-08-06T07:19:00+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom"
+      ]
+    },
     {
       "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades",
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
@@ -202,54 +245,21 @@
       "tags": [
         "copom"
       ]
-    },
-    {
-      "title": "Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?",
-      "url": "https://www.moneytimes.com.br/copom-corta-selic-mas-evita-se-comprometer-com-novos-cortes-o-que-vem-a-seguir/",
-      "summary": "O Comitê de Política Monetária (Copom) do Banco Central reduziu nesta quarta-feira (5) a taxa Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano. A decisão veio em linha com a expectativa do mercado e marca a continuidade do ciclo de flexibilização iniciado em junho. No",
-      "published_at": "2026-08-05T22:44:48+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Entidades da indústria acham corte da Selic acertado, mas reclamam de juro ainda alto",
-      "url": "https://www.infomoney.com.br/economia/entidades-da-industria-acham-corte-da-selic-acertado-mas-reclamam-de-juro-ainda-alto/",
-      "summary": "CNI diz que juros altos vão seguir asfixiando empresas e famílias; Firjan e Fiemg defendem credibilidade fiscal e reformas para ajudar na flexibilização da taxa básica do país The post Entidades da indústria acham corte da Selic acertado, mas reclamam de juro ainda alto appeared ",
-      "published_at": "2026-08-05T22:28:05+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Selic a 14%: Quanto rendem R$ 10 mil na poupança, CDB, LCA, LCI e Tesouro?",
-      "url": "https://www.moneytimes.com.br/selic-a-14-quanto-rendem-r-10-mil-na-poupanca-cdb-lca-lci-e-tesouro/",
-      "summary": "O Comitê de Política Monetária (Copom) anunciou, nesta quarta-feira (5), mais um corte de 0,25 ponto percentual na taxa básica de juros. Os diretores do Banco Central (BC) optaram mais uma vez por ajustar a taxas Selic, ficando agora em 14% ao ano. Os juros, ainda em patamares ba",
-      "published_at": "2026-08-05T22:21:13+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "EWZ sobe após corte da Selic em dia de volatilidade nos mercados acionários",
-      "url": "https://www.moneytimes.com.br/ewz-sobe-apos-corte-da-selic-em-dia-de-volatilidade-nos-mercados-acionarios-lils/",
-      "summary": "O iShares MSCI Brazil (EWZ), que é um fundo de índice (ETF, na sigla em inglês) negociado na Bolsa de Nova York (NYSE) que replica o desempenho do mercado acionário brasileiro — e que também opera influenciado por fatores externos –, subia 0,30%, a US$ 36,22, por volta das 19h (h",
-      "published_at": "2026-08-05T22:08:44+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom",
-        "markets"
-      ]
     }
   ],
   "earnings": [
+    {
+      "title": "Petróleo sobe com investidores cautelosos sobre avanço das negociações entre Irã e Omã",
+      "url": "https://www.moneytimes.com.br/petroleo-sobe-com-investidores-cautelosos-sobre-avanco-das-negociacoes-entre-ira-e-oma-fets/",
+      "summary": "Os preços do petróleo sobem nesta quinta-feira (6), à medida que os investidores permaneceram cautelosos em relação ao resultado das negociações entre Irã e Omã e se elas levarão ao restabelecimento do fluxo de embarcações pelo Estreito de Ormuz, enquanto relatos de ataques contr",
+      "published_at": "2026-08-06T08:22:17+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "earnings_br",
+        "markets"
+      ]
+    },
     {
       "title": "Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5)",
       "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3754-confira-o-resultado-sorteado-nesta-quarta-5/",
@@ -295,17 +305,6 @@
       ]
     },
     {
-      "title": "Vivara (VIVA3) tem lucro líquido de R$ 156,7 mi no 2T, alta de 0,9% na base anual",
-      "url": "https://www.infomoney.com.br/mercados/vivara-viva3-resultados-segundo-trimestre-2026/",
-      "summary": "A receita operacional líquida da companhia totalizou R$ 833,1 milhões no trimestre, um crescimento de 9,5% ante o segundo trimestre de 2025 The post Vivara (VIVA3) tem lucro líquido de R$ 156,7 mi no 2T, alta de 0,9% na base anual appeared first on InfoMoney .",
-      "published_at": "2026-08-05T22:31:41+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
       "title": "Axia Energia (AXIA3) lucra R$ 1,6 bilhão no 2T26, alta de 9,5% no ano",
       "url": "https://www.moneytimes.com.br/axia-energia-axia3-lucra-r-16-bilhao-no-2t26-alta-de-95-no-ano-vtra/",
       "summary": "A Axia Energia (AXIA3) encerrou o segundo trimestre de 2026 com lucro líquido ajustado de R$ 1,608 bilhão, alta de 9,5% em relação ao mesmo período do ano passado. Segundo a companhia, o desempenho foi impulsionado pela melhora operacional dos negócios de geração e transmissão, p",
@@ -315,20 +314,21 @@
       "tags": [
         "earnings_br"
       ]
-    },
-    {
-      "title": "Smart Fit (SMFT3) tem alta de 8% no lucro recorrente do 2º tri, para R$ 204 milhões",
-      "url": "https://www.infomoney.com.br/mercados/smart-fit-smft3-resultados-segundo-trimestre-2026/",
-      "summary": "A receita saltou 22%, a R$ 2,18 bilhões, enquanto o número de academias subiu 19%, para 2.170, das quais 1.746 unidades próprias The post Smart Fit (SMFT3) tem alta de 8% no lucro recorrente do 2º tri, para R$ 204 milhões appeared first on InfoMoney .",
-      "published_at": "2026-08-05T22:13:11+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
     }
   ],
   "markets": [
+    {
+      "title": "Petróleo sobe com investidores cautelosos sobre avanço das negociações entre Irã e Omã",
+      "url": "https://www.moneytimes.com.br/petroleo-sobe-com-investidores-cautelosos-sobre-avanco-das-negociacoes-entre-ira-e-oma-fets/",
+      "summary": "Os preços do petróleo sobem nesta quinta-feira (6), à medida que os investidores permaneceram cautelosos em relação ao resultado das negociações entre Irã e Omã e se elas levarão ao restabelecimento do fluxo de embarcações pelo Estreito de Ormuz, enquanto relatos de ataques contr",
+      "published_at": "2026-08-06T08:22:17+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "earnings_br",
+        "markets"
+      ]
+    },
     {
       "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
       "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
@@ -348,18 +348,6 @@
       "published_at": "2026-08-05T23:14:37+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
-      "tags": [
-        "copom",
-        "markets"
-      ]
-    },
-    {
-      "title": "EWZ sobe após corte da Selic em dia de volatilidade nos mercados acionários",
-      "url": "https://www.moneytimes.com.br/ewz-sobe-apos-corte-da-selic-em-dia-de-volatilidade-nos-mercados-acionarios-lils/",
-      "summary": "O iShares MSCI Brazil (EWZ), que é um fundo de índice (ETF, na sigla em inglês) negociado na Bolsa de Nova York (NYSE) que replica o desempenho do mercado acionário brasileiro — e que também opera influenciado por fatores externos –, subia 0,30%, a US$ 36,22, por volta das 19h (h",
-      "published_at": "2026-08-05T22:08:44+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
       "tags": [
         "copom",
         "markets"
