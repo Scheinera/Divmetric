@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-08-05",
+  "as_of": "2026-08-06",
   "status": "live",
   "analysis_start": "2015-01-01",
   "principle": "Toda escolha de capital tem um custo implícito: o que você deixou de ganhar na melhor alternativa comparável.",
   "primary_benchmark": "selic",
-  "selic_annual_rate_pct": 14.25,
+  "selic_annual_rate_pct": 14.0,
   "questions": [
     "Quanto rende o mesmo capital na Selic / Tesouro / caixa?",
     "Qual a incerteza (volatilidade e drawdown) da alternativa escolhida?",
@@ -17,7 +17,7 @@
       "label": "Caixa / Selic",
       "certainty": "alta",
       "role": "âncora de oportunidade",
-      "annual_rate_pct": 14.25,
+      "annual_rate_pct": 14.0,
       "metric": "taxa oficial a.a."
     },
     {
@@ -25,9 +25,9 @@
       "label": "S&P 500",
       "certainty": "média",
       "role": "equity mercados desenvolvidos",
-      "annual_rate_pct": 22.22,
-      "trailing_12m_pct": 22.22,
-      "cagr_since_start_pct": 12.11,
+      "annual_rate_pct": 22.61,
+      "trailing_12m_pct": 22.61,
+      "cagr_since_start_pct": 12.09,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -35,9 +35,9 @@
       "label": "Ibovespa / líderes",
       "certainty": "média-baixa",
       "role": "crescimento com liquidez BR",
-      "annual_rate_pct": 33.78,
-      "trailing_12m_pct": 33.78,
-      "cagr_since_start_pct": 11.87,
+      "annual_rate_pct": 33.48,
+      "trailing_12m_pct": 33.48,
+      "cagr_since_start_pct": 11.86,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -45,9 +45,9 @@
       "label": "IFIX (B3 oficial)",
       "certainty": "média",
       "role": "índice oficial de FIIs",
-      "annual_rate_pct": 8.86,
-      "trailing_12m_pct": 8.86,
-      "cagr_since_start_pct": 9.16,
+      "annual_rate_pct": 8.79,
+      "trailing_12m_pct": 8.79,
+      "cagr_since_start_pct": 9.15,
       "metric": "B3 oficial — retorno ~12m + CAGR desde janela"
     },
     {
@@ -55,9 +55,9 @@
       "label": "FIIs (mediana da cesta líquida)",
       "certainty": "média",
       "role": "amostra líquida vs IFIX",
-      "annual_rate_pct": 8.95,
-      "total_return_12m_pct_median": 8.95,
-      "dividend_yield_pct_median": 10.2,
+      "annual_rate_pct": 10.07,
+      "total_return_12m_pct_median": 10.07,
+      "dividend_yield_pct_median": 10.68,
       "sample_size": 18,
       "metric": "mediana TSR ~12m da cesta FII (Yahoo); comparar com IFIX oficial"
     },
@@ -66,9 +66,9 @@
       "label": "Ouro",
       "certainty": "média",
       "role": "reserva / hedge",
-      "annual_rate_pct": 24.9,
-      "trailing_12m_pct": 24.9,
-      "cagr_since_start_pct": 11.58,
+      "annual_rate_pct": 28.89,
+      "trailing_12m_pct": 28.89,
+      "cagr_since_start_pct": 11.88,
       "metric": "retorno ~12m + CAGR desde janela"
     },
     {
@@ -76,9 +76,9 @@
       "label": "Bitcoin",
       "certainty": "baixa",
       "role": "opção assimétrica (alta vol)",
-      "annual_rate_pct": -43.87,
-      "trailing_12m_pct": -43.87,
-      "cagr_since_start_pct": 58.2,
+      "annual_rate_pct": -43.92,
+      "trailing_12m_pct": -43.92,
+      "cagr_since_start_pct": 58.28,
       "metric": "retorno ~12m + CAGR desde janela"
     }
   ],

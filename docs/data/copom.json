@@ -1,31 +1,20 @@
 {
-  "fetched_at": "2026-08-05T08:48:43.823466+00:00",
-  "as_of": "2026-08-05",
+  "fetched_at": "2026-08-06T02:02:30.784764+00:00",
+  "as_of": "2026-08-06",
   "analysis_start": "2015-01-01",
-  "selic_latest_pct": 14.25,
+  "selic_latest_pct": 14.0,
   "next_meeting": {
-    "id": "copom_2026_08",
+    "id": "copom_2026_09",
     "year": 2026,
     "dates": [
-      "2026-08-04",
-      "2026-08-05"
+      "2026-09-15",
+      "2026-09-16"
     ],
-    "decision_date": "2026-08-05",
-    "label": "COPOM agosto/2026",
+    "decision_date": "2026-09-16",
+    "label": "COPOM setembro/2026",
     "status": "upcoming"
   },
   "upcoming_meetings": [
-    {
-      "id": "copom_2026_08",
-      "year": 2026,
-      "dates": [
-        "2026-08-04",
-        "2026-08-05"
-      ],
-      "decision_date": "2026-08-05",
-      "label": "COPOM agosto/2026",
-      "status": "upcoming"
-    },
     {
       "id": "copom_2026_09",
       "year": 2026,
@@ -61,6 +50,13 @@
     }
   ],
   "recent_decisions": [
+    {
+      "date": "2026-08-06",
+      "selic_pct": 14.0,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
     {
       "date": "2026-06-18",
       "selic_pct": 14.25,
@@ -137,23 +133,9 @@
       "change_pp": -0.25,
       "action": "cut",
       "source": "BCB SGS 432 (mudança de meta)"
-    },
-    {
-      "date": "2024-03-21",
-      "selic_pct": 10.75,
-      "change_pp": -0.5,
-      "action": "cut",
-      "source": "BCB SGS 432 (mudança de meta)"
     }
   ],
   "decisions_since_start": [
-    {
-      "date": "2018-02-08",
-      "selic_pct": 6.75,
-      "change_pp": -0.25,
-      "action": "cut",
-      "source": "BCB SGS 432 (mudança de meta)"
-    },
     {
       "date": "2018-03-22",
       "selic_pct": 6.5,
@@ -423,6 +405,13 @@
     {
       "date": "2026-06-18",
       "selic_pct": 14.25,
+      "change_pp": -0.25,
+      "action": "cut",
+      "source": "BCB SGS 432 (mudança de meta)"
+    },
+    {
+      "date": "2026-08-06",
+      "selic_pct": 14.0,
       "change_pp": -0.25,
       "action": "cut",
       "source": "BCB SGS 432 (mudança de meta)"

@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-05T08:48:50.870893+00:00",
-  "as_of": "2026-08-05",
+  "fetched_at": "2026-08-06T02:02:34.411034+00:00",
+  "as_of": "2026-08-06",
   "status": "live",
   "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
   "feeds": [
@@ -22,109 +22,32 @@
   ],
   "highlights": [
     {
-      "title": "Dow Jones Futuro sobe com esperança de acordo entre EUA e Irã e otimismo com IA",
-      "url": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-com-esperanca-de-acordo-entre-eua-e-ira-e-otimismo-com-ia/",
-      "summary": "O foco dos investidores também está voltado para o relatório de empregos do setor privado dos EUA, medido pela ADP, referente a julho The post Dow Jones Futuro sobe com esperança de acordo entre EUA e Irã e otimismo com IA appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:43:44+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
+      "title": "Maiores campeões, Cruzeiro e Grêmio vão às quartas da Copa do Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-08/maiores-campeoes-cruzeiro-e-gremio-vao-quartas-da-copa-do-brasil",
+      "summary": "Dois dos três maiores vencedores da Copa do Brasil seguem na briga pelo título da edição deste ano. Nesta quarta-feira (5), Cruzeiro e Grêmio se classificaram às quartas de final ao eliminarem Mirassol e Chapecoense, respectivamente. Os confrontos da próxima fase serão sorteados ",
+      "published_at": "2026-08-06T00:54:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
       "tags": [
         "geral"
       ]
     },
     {
-      "title": "Petróleo sobe enquanto investidores aguardam desfecho das negociações entre EUA e Irã",
-      "url": "https://www.moneytimes.com.br/petroleo-sobe-enquanto-investidores-aguardam-desfecho-das-negociacoes-entre-eua-e-ira-fets/",
-      "summary": "Os preços do petróleo sobem nesta quarta-feira (5) em dia de volatilidade nas negociações, enquanto os investidores aguardam para ver se os esforços para encerrar a guerra com o Irã e restabelecer o tráfego pelo bloqueado Estreito de Ormuz estavam avançando. Os contratos futuros ",
-      "published_at": "2026-08-05T08:41:59+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "title": "Embaixador brasileiro não voltará à Argentina após novos ataques de Milei a Lula; Brasil rebaixa representação Argentina no país",
-      "url": "https://www.moneytimes.com.br/embaixador-brasileiro-nao-voltara-a-argentina-apos-novos-ataques-de-milei-a-lula-brasil-rebaixa-representacao-argentina-no-pais-fets/",
-      "summary": "O embaixador do Brasil na Argentina, Julio Bitelli, não voltará mais a Buenos Aires enquanto o presidente do país, Javier Milei, mantiver os ataques ao presidente Luiz Inácio Lula da Silva, disse à Reuters uma fonte do governo brasileiro. O embaixador da Argentina em Brasília, Da",
-      "published_at": "2026-08-05T08:08:27+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
+      "title": "Ideb mostra avanço da educação básica no país",
+      "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-08/ideb-mostra-avanco-da-educacao-basica-no-pais",
+      "summary": "O Índice de Desenvolvimento da Educação Básica (Ideb) 2025 registrou a maior evolução acumulada em 20 anos. As três etapas do ensino avaliadas (anos iniciais e finais do ensino fundamental e o ensino médio) atingiram em 2025 o maior valor de toda a série histórica, iniciada em 20",
+      "published_at": "2026-08-06T00:40:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
       "tags": [
         "geral"
       ]
     },
     {
-      "title": "Como o mercado deve reagir à decisão do Copom desta 4ª?",
-      "url": "https://www.infomoney.com.br/mercados/como-o-mercado-deve-reagir-a-decisao-do-copom-desta-4a/",
-      "summary": "Novamente, os olhares se voltarão para o comunicado que acompanha a decisão The post Como o mercado deve reagir à decisão do Copom desta 4ª? appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "“Riqueza não é dinheiro”: o alerta de Ray Dalio sobre a bolha de IA",
-      "url": "https://www.infomoney.com.br/business/global/riqueza-nao-e-dinheiro-o-alerta-de-ray-dalio-sobre-a-bolha-de-ia/",
-      "summary": "Bilionário compara momento atual a 1929 e 2000 e diz que investidores estão confundindo patrimônio de papel com capacidade real de gasto The post “Riqueza não é dinheiro”: o alerta de Ray Dalio sobre a bolha de IA appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Como uma teoria obscura de 130 anos explica apetite por dívida de US$ 40 tri dos EUA",
-      "url": "https://www.infomoney.com.br/business/global/como-uma-teoria-obscura-de-130-anos-explica-apetite-por-divida-de-us-40-tri-dos-eua/",
-      "summary": "Conceito do economista sueco Knut Wicksell ressurge para mostrar que força da economia americana e boom de IA compensam riscos fiscais The post Como uma teoria obscura de 130 anos explica apetite por dívida de US$ 40 tri dos EUA appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Kevin Warsh queria uma “mudança de regime”; os mercados exigem um recomeço",
-      "url": "https://www.infomoney.com.br/business/global/kevin-warsh-queria-uma-mudanca-de-regime-os-mercados-exigem-um-recomeco/",
-      "summary": "Após sua última aparição pública desencadear um período de volatilidade, o novo presidente do Fed está sob pressão para esclarecer os sinais contraditórios sobre seu compromisso em reduzir a inflação The post Kevin Warsh queria uma “mudança de regime”; os mercados exigem um recom",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em setembro",
-      "url": "https://www.infomoney.com.br/economia/comunicado-do-copom-deve-guiar-mercado-com-pistas-sobre-mais-um-corte-em-setembro/",
-      "summary": "Expectativa majoritária é de que a Selic sofra mais um corte nesta quarta, de 0,25 ponto percentual, indo a 14%; mercado deve ler comunicado com lupa em busca de alguma sinalização de novos cortes The post Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em s",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "‘Swing voters’ ou indecisos: eleitorado neutro poderá definir o próximo presidente",
-      "url": "https://www.infomoney.com.br/politica/swing-voters-ou-indecisos-eleitorado-neutro-podera-definir-o-proximo-presidente/",
-      "summary": "Com rejeição elevada dos principais candidatos e cenário estável nas pesquisas, analistas avaliam que os votos ainda em disputa serão decisivos em outubro The post ‘Swing voters’ ou indecisos: eleitorado neutro poderá definir o próximo presidente appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T?",
-      "url": "https://www.infomoney.com.br/mercados/bradesco-bbdc3-sera-o-vencedor-entre-os-balancos-dos-bancos-no-2t/",
-      "summary": "O banco divulga seus dados do 2º trimestre na noite desta quarta-feira (5) The post Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T? appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
+      "title": "Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3754-confira-o-resultado-sorteado-nesta-quarta-5/",
+      "summary": "O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
+      "published_at": "2026-08-06T00:09:53+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -132,21 +55,100 @@
       ]
     },
     {
-      "title": "Nova lei cria filtros para recursos e deve reduzir ações no STJ",
-      "url": "https://www.moneytimes.com.br/nova-lei-cria-filtros-para-recursos-e-deve-reduzir-acoes-no-stj-fets/",
-      "summary": "Recursos ao Superior Tribunal de Justiça (STJ) passarão a depender da demonstração de relevância econômica, política, social ou jurídica que ultrapasse os interesses das partes envolvidas. A medida regulamenta um mecanismo previsto na Constituição e busca reduzir o volume de proc",
-      "published_at": "2026-08-05T07:39:34+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
+      "title": "Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7084-confira-o-resultado-sorteado-nesta-quarta-5/",
+      "summary": "Os números sorteados foram: 17 - 63 - 54 - 22 - 36 The post Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
+      "published_at": "2026-08-06T00:05:43+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
+      "summary": "O quarto corte consecutivo na Taxa Selic , definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a F",
+      "published_at": "2026-08-05T23:38:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Rio Grande do Sul terá chuva intensa e ventos de até 100 km/h",
+      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/rio-grande-do-sul-tera-chuva-intensa-e-ventos-de-ate-100-kmh",
+      "summary": "O Instituto Nacional de Meteorologia (Inmet) emitiu um alerta vermelho para grande parte do Rio Grande do Sul em razão de tempestades que poderão atingir todo o estado na quinta-feira (6) e sexta-feira (7), com exceção das áreas norte e nordeste. O alerta vermelho é o grau máximo",
+      "published_at": "2026-08-05T23:34:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
       "tags": [
         "geral"
       ]
     },
     {
-      "title": "Venda de veículos salta 15% em julho ante mesmo mês de 2025, diz Fenabrave",
-      "url": "https://www.moneytimes.com.br/venda-de-veiculos-salta-15-em-julho-ante-mesmo-mes-de-2025-diz-fenabrave-fets/",
-      "summary": "Os emplacamentos de carros, comerciais leves, caminhões e ônibus no Brasil em julho somaram 279,6 mil unidades, alta de cerca de 15% sobre o mesmo mês do ano passado e crescimento de 2,6% na comparação mensal, segundo dados divulgados nesta terça-feira (4) pela Federação Nacional",
-      "published_at": "2026-08-05T07:18:00+00:00",
+      "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
+      "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
+      "summary": "Com a decisão do Comitê de Política Monetária (Copom) de reduzir a Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano, já assimilada pelos mercados, os investidores tentam antecipar como o Ibovespa deve se comportar no pregão desta quinta-feira (6). Lá fora, o índice EW",
+      "published_at": "2026-08-05T23:18:43+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom",
+        "markets"
+      ]
+    },
+    {
+      "title": "CBF reforça paralisação das competições durante Copa Feminina em 2027",
+      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-08/cbf-reforca-paralisacao-das-competicoes-durante-copa-feminina-em-2027",
+      "summary": "A Confederação Brasileira de Futebol (CBF) ratificou aos clubes, por meio de ofício, que competições profissionais organizadas pela entidade serão paralisadas durante a Copa do Mundo Feminina do ano que vem, no Brasil. A pausa contempla os torneios femininos e as Séries A e B do ",
+      "published_at": "2026-08-05T23:17:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Selic",
+      "url": "https://www.infomoney.com.br/economia/copom-petroleo-juros-nos-eua-e-inflacao-vao-ditar-se-havera-mais-cortes-na-selic/",
+      "summary": "Comitê do Banco Central reduz juros em 0,25 p.p. de forma unânime, mas retira sinalizações futuras; pressão inflacionária e risco fiscal dividem analistas entre pausa e novos recuos em 2026 The post Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Seli",
+      "published_at": "2026-08-05T23:14:37+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom",
+        "markets"
+      ]
+    },
+    {
+      "title": "Riachuelo (RIAA3) registra recorde para um 2º tri ao lucrar R$ 168 mi, alta de 36%",
+      "url": "https://www.infomoney.com.br/mercados/riachuelo-riaa3-resultados-segundo-trimestre-2026/",
+      "summary": "A receita líquida consolidada somou R$ 2,69 bilhões entre abril e junho, avanço de 3,3% sobre os R$ 2,60 bilhões registrados um ano antes The post Riachuelo (RIAA3) registra recorde para um 2º tri ao lucrar R$ 168 mi, alta de 36% appeared first on InfoMoney .",
+      "published_at": "2026-08-05T23:11:48+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Lei garante frete mínimo no transporte de cargas; saiba o que muda",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/lei-garante-frete-minimo-no-transporte-de-cargas-saiba-o-que-muda",
+      "summary": "Lei sancionada nesta quarta-feira (5) traz garantias ao pagamento do piso mínimo do frete a motoristas no transporte rodoviário de cargas. O texto aumenta a fiscalização sobre o pagamento do frete e combate o comércio ilegal de mercadorias. A lei obriga a apresentação do Código I",
+      "published_at": "2026-08-05T23:05:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Radar das Eleições: Flávio Bolsonaro estanca queda e reforça polarização com Lula, enquanto terceira via segue sem tração",
+      "url": "https://www.moneytimes.com.br/radar-das-eleicoes-polarizacao-entre-lula-e-flavio-bolsonaro-continua-com-terceira-sem-tracao-gaep/",
+      "summary": "O avanço do senador Flávio Bolsonaro (PL) na última rodada da pesquisa BTG Pactual/Nexus foi o tema do segundo episódio do “Radar das Eleições“, podcast do Money Times. O levantamento trouxe o filho do ex-presidente Jair Bolsonaro apenas 1 ponto percentual atrás do presidente Lui",
+      "published_at": "2026-08-05T23:03:57+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
@@ -156,10 +158,67 @@
   ],
   "copom_related": [
     {
-      "title": "Como o mercado deve reagir à decisão do Copom desta 4ª?",
-      "url": "https://www.infomoney.com.br/mercados/como-o-mercado-deve-reagir-a-decisao-do-copom-desta-4a/",
-      "summary": "Novamente, os olhares se voltarão para o comunicado que acompanha a decisão The post Como o mercado deve reagir à decisão do Copom desta 4ª? appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
+      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
+      "summary": "O quarto corte consecutivo na Taxa Selic , definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a F",
+      "published_at": "2026-08-05T23:38:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
+      "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
+      "summary": "Com a decisão do Comitê de Política Monetária (Copom) de reduzir a Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano, já assimilada pelos mercados, os investidores tentam antecipar como o Ibovespa deve se comportar no pregão desta quinta-feira (6). Lá fora, o índice EW",
+      "published_at": "2026-08-05T23:18:43+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom",
+        "markets"
+      ]
+    },
+    {
+      "title": "Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Selic",
+      "url": "https://www.infomoney.com.br/economia/copom-petroleo-juros-nos-eua-e-inflacao-vao-ditar-se-havera-mais-cortes-na-selic/",
+      "summary": "Comitê do Banco Central reduz juros em 0,25 p.p. de forma unânime, mas retira sinalizações futuras; pressão inflacionária e risco fiscal dividem analistas entre pausa e novos recuos em 2026 The post Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Seli",
+      "published_at": "2026-08-05T23:14:37+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom",
+        "markets"
+      ]
+    },
+    {
+      "title": "Copom deixa porta aberta para novo corte em setembro, mas com espaço menor, diz economista-chefe da G5 Partners",
+      "url": "https://www.moneytimes.com.br/copom-deixa-porta-aberta-para-novo-corte-em-setembro-mas-com-espaco-menor-diz-economista-chefe-da-g5-partners-lils/",
+      "summary": "Como esperado pelo mercado, o Comitê de Política Monetária (Copom) reduziu a taxa básica de juros de 14,25% para 14% ao ano e, na avaliação do economista-chefe da G5 Partners, Luis Otávio Leal, os diretores do Banco Central “deixaram aberta” a possibilidade de um novo corte na Se",
+      "published_at": "2026-08-05T22:50:37+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?",
+      "url": "https://www.moneytimes.com.br/copom-corta-selic-mas-evita-se-comprometer-com-novos-cortes-o-que-vem-a-seguir/",
+      "summary": "O Comitê de Política Monetária (Copom) do Banco Central reduziu nesta quarta-feira (5) a taxa Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano. A decisão veio em linha com a expectativa do mercado e marca a continuidade do ciclo de flexibilização iniciado em junho. No",
+      "published_at": "2026-08-05T22:44:48+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom"
+      ]
+    },
+    {
+      "title": "Entidades da indústria acham corte da Selic acertado, mas reclamam de juro ainda alto",
+      "url": "https://www.infomoney.com.br/economia/entidades-da-industria-acham-corte-da-selic-acertado-mas-reclamam-de-juro-ainda-alto/",
+      "summary": "CNI diz que juros altos vão seguir asfixiando empresas e famílias; Firjan e Fiemg defendem credibilidade fiscal e reformas para ajudar na flexibilização da taxa básica do país The post Entidades da indústria acham corte da Selic acertado, mas reclamam de juro ainda alto appeared ",
+      "published_at": "2026-08-05T22:28:05+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -167,23 +226,35 @@
       ]
     },
     {
-      "title": "Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em setembro",
-      "url": "https://www.infomoney.com.br/economia/comunicado-do-copom-deve-guiar-mercado-com-pistas-sobre-mais-um-corte-em-setembro/",
-      "summary": "Expectativa majoritária é de que a Selic sofra mais um corte nesta quarta, de 0,25 ponto percentual, indo a 14%; mercado deve ler comunicado com lupa em busca de alguma sinalização de novos cortes The post Comunicado do Copom deve guiar mercado com pistas sobre mais um corte em s",
-      "published_at": "2026-08-05T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
+      "title": "Selic a 14%: Quanto rendem R$ 10 mil na poupança, CDB, LCA, LCI e Tesouro?",
+      "url": "https://www.moneytimes.com.br/selic-a-14-quanto-rendem-r-10-mil-na-poupanca-cdb-lca-lci-e-tesouro/",
+      "summary": "O Comitê de Política Monetária (Copom) anunciou, nesta quarta-feira (5), mais um corte de 0,25 ponto percentual na taxa básica de juros. Os diretores do Banco Central (BC) optaram mais uma vez por ajustar a taxas Selic, ficando agora em 14% ao ano. Os juros, ainda em patamares ba",
+      "published_at": "2026-08-05T22:21:13+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
       "tags": [
         "copom"
+      ]
+    },
+    {
+      "title": "EWZ sobe após corte da Selic em dia de volatilidade nos mercados acionários",
+      "url": "https://www.moneytimes.com.br/ewz-sobe-apos-corte-da-selic-em-dia-de-volatilidade-nos-mercados-acionarios-lils/",
+      "summary": "O iShares MSCI Brazil (EWZ), que é um fundo de índice (ETF, na sigla em inglês) negociado na Bolsa de Nova York (NYSE) que replica o desempenho do mercado acionário brasileiro — e que também opera influenciado por fatores externos –, subia 0,30%, a US$ 36,22, por volta das 19h (h",
+      "published_at": "2026-08-05T22:08:44+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom",
+        "markets"
       ]
     }
   ],
   "earnings": [
     {
-      "title": "Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T?",
-      "url": "https://www.infomoney.com.br/mercados/bradesco-bbdc3-sera-o-vencedor-entre-os-balancos-dos-bancos-no-2t/",
-      "summary": "O banco divulga seus dados do 2º trimestre na noite desta quarta-feira (5) The post Bradesco (BBDC3) será o vencedor entre os balanços dos bancos no 2T? appeared first on InfoMoney .",
-      "published_at": "2026-08-05T08:00:00+00:00",
+      "title": "Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3754-confira-o-resultado-sorteado-nesta-quarta-5/",
+      "summary": "O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
+      "published_at": "2026-08-06T00:09:53+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -191,10 +262,32 @@
       ]
     },
     {
-      "title": "Vulcabras (VULC3) tem lucro recorrente de R$ 143,7 mi no 2º tri",
-      "url": "https://www.moneytimes.com.br/vulcabras-tem-lucro-recorrente-de-r1437-mi-no-2o-tri-vtra/",
-      "summary": "A Vulcabras (VULC3) anunciou nesta terça-feira (4) lucro líquido recorrente de R$143,7 milhões no segundo trimestre, praticamente estável sobre o desempenho de um ano antes, segundo balanço divulgado pela companhia. O resultado operacional medido pelo lucro antes de juros, impost",
-      "published_at": "2026-08-04T22:52:43+00:00",
+      "title": "Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7084-confira-o-resultado-sorteado-nesta-quarta-5/",
+      "summary": "Os números sorteados foram: 17 - 63 - 54 - 22 - 36 The post Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
+      "published_at": "2026-08-06T00:05:43+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Méliuz tem lucro ajustado de R$ 9,7 mi, aprova recompra e amplia aposta em bitcoin",
+      "url": "https://www.infomoney.com.br/mercados/meliuz-cash3-resultados-segundo-trimestre-2026-recompra-estrategia-bitcoin/",
+      "summary": "A receita líquida consolidada somou R$ 115,7 milhões entre abril e junho, avanço de 18% em relação aos R$ 97,8 milhões registrados no mesmo período de 2025 The post Méliuz tem lucro ajustado de R$ 9,7 mi, aprova recompra e amplia aposta em bitcoin appeared first on InfoMoney .",
+      "published_at": "2026-08-05T22:48:02+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Vivara (VIVA3) tem lucro líquido de R$ 156,7 milhões no 2º trimestre, alta de 0,9% na comparação anual",
+      "url": "https://www.moneytimes.com.br/vivara-tem-lucro-liquido-de-r-1567-milhoes-no-2o-trimestre-alta-de-09-na-comparacao-anual/",
+      "summary": "A Vivara (VIVA3) registrou lucro líquido de R$ 156,7 milhões no segundo trimestre deste ano, o que representa uma leve alta de 0,9% ante igual período do ano passado. Por sua vez, o Ebitda apresentou avanço de 4,9% na mesma comparação, para R$ 205,4 milhões. Já o Ebitda ajustado ",
+      "published_at": "2026-08-05T22:41:42+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
@@ -202,10 +295,21 @@
       ]
     },
     {
-      "title": "CBA (CBAV3) reverte prejuízo e lucra R$ 410 milhões no 2T26",
-      "url": "https://www.moneytimes.com.br/cba-cbav3-reverte-prejuizo-e-lucra-r-410-milhoes-no-2t26-vtra/",
-      "summary": "A CBA (CBAV3), Companhia Brasileira de Alumínio, encerrou o segundo trimestre de 2026 com lucro líquido de R$ 410 milhões, revertendo o prejuízo de R$ 73 milhões registrado no mesmo período do ano passado. Na comparação com o primeiro trimestre, quando o lucro foi de R$ 341 milhõ",
-      "published_at": "2026-08-04T22:28:42+00:00",
+      "title": "Vivara (VIVA3) tem lucro líquido de R$ 156,7 mi no 2T, alta de 0,9% na base anual",
+      "url": "https://www.infomoney.com.br/mercados/vivara-viva3-resultados-segundo-trimestre-2026/",
+      "summary": "A receita operacional líquida da companhia totalizou R$ 833,1 milhões no trimestre, um crescimento de 9,5% ante o segundo trimestre de 2025 The post Vivara (VIVA3) tem lucro líquido de R$ 156,7 mi no 2T, alta de 0,9% na base anual appeared first on InfoMoney .",
+      "published_at": "2026-08-05T22:31:41+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Axia Energia (AXIA3) lucra R$ 1,6 bilhão no 2T26, alta de 9,5% no ano",
+      "url": "https://www.moneytimes.com.br/axia-energia-axia3-lucra-r-16-bilhao-no-2t26-alta-de-95-no-ano-vtra/",
+      "summary": "A Axia Energia (AXIA3) encerrou o segundo trimestre de 2026 com lucro líquido ajustado de R$ 1,608 bilhão, alta de 9,5% em relação ao mesmo período do ano passado. Segundo a companhia, o desempenho foi impulsionado pela melhora operacional dos negócios de geração e transmissão, p",
+      "published_at": "2026-08-05T22:22:10+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
@@ -213,23 +317,12 @@
       ]
     },
     {
-      "title": "Primeiro balanço após IPO mostra avanço da SpaceX, mas investimentos em IA seguem no radar dos investidores",
-      "url": "https://www.moneytimes.com.br/primeiro-balanco-apos-ipo-mostra-avanco-da-spacex-mas-investimentos-em-ia-seguem-no-radar-dos-investidores/",
-      "summary": "A SpaceX apresentou nesta terça-feira (4) seu primeiro balanço trimestral desde a abertura de capital, com receita e Ebitda acima das expectativas de Wall Street, mas os prejuízos nas operações espaciais e de inteligência artificial seguiram pressionando o humor dos investidores.",
-      "published_at": "2026-08-04T22:18:32+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "MJ detalha operação para desarticular ataques a Brasília",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/mj-detalha-operacao-para-desarticular-ataques-brasilia",
-      "summary": "O Ministério da Justiça e Segurança Pública (MJSP) detalhou os resultados da Operação Rede Interrompida , deflagrada nesta terça-feira (4) pela Polícia Civil do Distrito Federal (PCDF). A investigação começou a partir de um relatório produzido pelo Laboratório de Operações Cibern",
-      "published_at": "2026-08-04T22:09:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
+      "title": "Smart Fit (SMFT3) tem alta de 8% no lucro recorrente do 2º tri, para R$ 204 milhões",
+      "url": "https://www.infomoney.com.br/mercados/smart-fit-smft3-resultados-segundo-trimestre-2026/",
+      "summary": "A receita saltou 22%, a R$ 2,18 bilhões, enquanto o número de academias subiu 19%, para 2.170, das quais 1.746 unidades próprias The post Smart Fit (SMFT3) tem alta de 8% no lucro recorrente do 2º tri, para R$ 204 milhões appeared first on InfoMoney .",
+      "published_at": "2026-08-05T22:13:11+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
       "tags": [
         "earnings_br"
       ]
@@ -237,18 +330,43 @@
   ],
   "markets": [
     {
-      "title": "Petróleo sobe enquanto investidores aguardam desfecho das negociações entre EUA e Irã",
-      "url": "https://www.moneytimes.com.br/petroleo-sobe-enquanto-investidores-aguardam-desfecho-das-negociacoes-entre-eua-e-ira-fets/",
-      "summary": "Os preços do petróleo sobem nesta quarta-feira (5) em dia de volatilidade nas negociações, enquanto os investidores aguardam para ver se os esforços para encerrar a guerra com o Irã e restabelecer o tráfego pelo bloqueado Estreito de Ormuz estavam avançando. Os contratos futuros ",
-      "published_at": "2026-08-05T08:41:59+00:00",
+      "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
+      "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
+      "summary": "Com a decisão do Comitê de Política Monetária (Copom) de reduzir a Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano, já assimilada pelos mercados, os investidores tentam antecipar como o Ibovespa deve se comportar no pregão desta quinta-feira (6). Lá fora, o índice EW",
+      "published_at": "2026-08-05T23:18:43+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
+        "copom",
+        "markets"
+      ]
+    },
+    {
+      "title": "Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Selic",
+      "url": "https://www.infomoney.com.br/economia/copom-petroleo-juros-nos-eua-e-inflacao-vao-ditar-se-havera-mais-cortes-na-selic/",
+      "summary": "Comitê do Banco Central reduz juros em 0,25 p.p. de forma unânime, mas retira sinalizações futuras; pressão inflacionária e risco fiscal dividem analistas entre pausa e novos recuos em 2026 The post Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Seli",
+      "published_at": "2026-08-05T23:14:37+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "copom",
+        "markets"
+      ]
+    },
+    {
+      "title": "EWZ sobe após corte da Selic em dia de volatilidade nos mercados acionários",
+      "url": "https://www.moneytimes.com.br/ewz-sobe-apos-corte-da-selic-em-dia-de-volatilidade-nos-mercados-acionarios-lils/",
+      "summary": "O iShares MSCI Brazil (EWZ), que é um fundo de índice (ETF, na sigla em inglês) negociado na Bolsa de Nova York (NYSE) que replica o desempenho do mercado acionário brasileiro — e que também opera influenciado por fatores externos –, subia 0,30%, a US$ 36,22, por volta das 19h (h",
+      "published_at": "2026-08-05T22:08:44+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "copom",
         "markets"
       ]
     }
   ],
-  "all_count": 129,
+  "all_count": 130,
   "errors": [],
   "disclaimer": "Seleção automática por palavras-chave. Editorial — não é recomendação."
 }

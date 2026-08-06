@@ -1,7 +1,7 @@
 {
   "product": "Divmetric",
   "version": 6,
-  "updated_at": "2026-08-05T08:48:50.916692+00:00",
+  "updated_at": "2026-08-06T02:02:34.439067+00:00",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento.",
   "status": "live",
   "analysis_start": "2015-01-01",
@@ -25,10 +25,10 @@
     "fii": 18,
     "ifix_months": 140,
     "ifix_constituents": 106,
-    "copom_upcoming": 4,
+    "copom_upcoming": 3,
     "agenda_highlights": 12,
-    "gap_attention": 3,
-    "analog_years": 5,
+    "gap_attention": 4,
+    "analog_years": 6,
     "dividend_rows": 18,
     "fii_dividend_rows": 18
   }

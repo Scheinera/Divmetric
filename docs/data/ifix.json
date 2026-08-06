@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-08-05",
+  "as_of": "2026-08-06",
   "analysis_start": "2015-01-01",
   "status": "live",
   "trust": "canonical",
-  "fetched_at": "2026-08-05T08:48:35.285388+00:00",
+  "fetched_at": "2026-08-06T02:02:26.179524+00:00",
   "source": "B3 indexStatisticsProxy + indexProxy (IFIX oficial)",
   "source_urls": {
     "stats": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/monthly-evolution/IFIX?language=pt-br",
     "b3_page": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-estatisticas-historicas.htm"
   },
   "start_date": "2015-01-01",
-  "latest": 3784.38,
+  "latest": 3781.99,
   "as_of_month": "2026-08",
-  "trailing_12m_pct": 8.86,
-  "cagr_since_start_pct": 9.16,
+  "trailing_12m_pct": 8.79,
+  "cagr_since_start_pct": 9.15,
   "monthly_levels": [
     {
       "month": "2015-01",
@@ -573,7 +573,7 @@
     },
     {
       "month": "2026-08",
-      "value": 3784.38
+      "value": 3781.99
     }
   ],
   "monthly_returns": [
@@ -1131,7 +1131,7 @@
     },
     {
       "month": "2026-08",
-      "return_pct": -0.8941
+      "return_pct": -0.9567
     }
   ],
   "indexed_100": [
@@ -1693,7 +1693,7 @@
     },
     {
       "month": "2026-08",
-      "value": 275.8174
+      "value": 275.6432
     }
   ],
   "yearly": [
@@ -1779,8 +1779,8 @@
     },
     {
       "year": 2026,
-      "closing_index": 3784.38,
-      "annual_variation_pct": 0.24
+      "closing_index": 3781.99,
+      "annual_variation_pct": 0.18
     }
   ],
   "portfolio": {

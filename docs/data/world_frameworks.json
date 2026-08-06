@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05",
+  "as_of": "2026-08-06",
   "status": "live",
   "analysis_start": "2015-01-01",
   "question": "Como economias mais prósperas tratam certeza, dividendos, liquidez e custo de oportunidade?",
@@ -7,7 +7,7 @@
     {
       "id": "certainty",
       "title": "Busca de certeza",
-      "summary": "No Brasil a âncora atual é Selic ~14.25% a.a. (IPCA 12m ~4.64%). Nos EUA, o yield de 10 anos (~4.627%) é referência em USD. Na zona do euro, IRS 10Y (~3.36%) complementa a leitura."
+      "summary": "No Brasil a âncora atual é Selic ~14.0% a.a. (IPCA 12m ~4.64%). Nos EUA, o yield de 10 anos (~4.617%) é referência em USD. Na zona do euro, IRS 10Y (~3.36%) complementa a leitura."
     },
     {
       "id": "dividends",
@@ -31,60 +31,60 @@
     }
   ],
   "snapshots": {
-    "brazil_selic": 14.25,
+    "brazil_selic": 14.0,
     "brazil_ipca_12m": 4.64,
     "spx": {
       "label": "S&P 500",
       "group": "us",
-      "trailing_12m_pct": 22.22,
-      "cagr_since_start_pct": 12.11,
-      "last_close": 7736.52,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 22.61,
+      "cagr_since_start_pct": 12.09,
+      "last_close": 7723.5498,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "ibov": {
       "label": "Ibovespa",
       "group": "br",
-      "trailing_12m_pct": 33.78,
-      "cagr_since_start_pct": 11.87,
-      "last_close": 177895.0,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 33.48,
+      "cagr_since_start_pct": 11.86,
+      "last_close": 177726.1719,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "dow": {
       "label": "Dow Jones",
       "group": "us",
-      "trailing_12m_pct": 22.44,
-      "cagr_since_start_pct": 10.05,
-      "last_close": 54085.8789,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 23.21,
+      "cagr_since_start_pct": 10.09,
+      "last_close": 54349.1211,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "gold": {
       "label": "Ouro (futuro)",
       "group": "commodity",
-      "trailing_12m_pct": 24.9,
-      "cagr_since_start_pct": 11.58,
-      "last_close": 4224.0,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 28.89,
+      "cagr_since_start_pct": 11.88,
+      "last_close": 4356.3999,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "btc": {
       "label": "Bitcoin",
       "group": "crypto",
-      "trailing_12m_pct": -43.87,
-      "cagr_since_start_pct": 58.2,
-      "last_close": 64068.6094,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": -43.92,
+      "cagr_since_start_pct": 58.28,
+      "last_close": 64511.2617,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-01"
     },
     "brent": {
       "label": "Brent",
       "group": "commodity",
-      "trailing_12m_pct": 18.7,
-      "cagr_since_start_pct": 3.09,
-      "last_close": 80.29,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 19.52,
+      "cagr_since_start_pct": 3.05,
+      "last_close": 79.95,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "iron_ore": {
@@ -99,19 +99,19 @@
     "dxy": {
       "label": "DXY",
       "group": "fx",
-      "trailing_12m_pct": 1.05,
-      "cagr_since_start_pct": 0.79,
-      "last_close": 99.818,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 1.51,
+      "cagr_since_start_pct": 0.78,
+      "last_close": 99.66,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "us10y": {
       "label": "US 10Y yield",
       "group": "rates",
-      "trailing_12m_pct": 10.17,
-      "cagr_since_start_pct": 6.96,
-      "last_close": 4.627,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 10.03,
+      "cagr_since_start_pct": 6.93,
+      "last_close": 4.617,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "eu_10y": {
@@ -124,82 +124,82 @@
     "ibov": {
       "label": "Ibovespa",
       "group": "br",
-      "trailing_12m_pct": 33.78,
-      "cagr_since_start_pct": 11.87,
-      "last_close": 177895.0,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 33.48,
+      "cagr_since_start_pct": 11.86,
+      "last_close": 177726.1719,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "spx": {
       "label": "S&P 500",
       "group": "us",
-      "trailing_12m_pct": 22.22,
-      "cagr_since_start_pct": 12.11,
-      "last_close": 7736.52,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 22.61,
+      "cagr_since_start_pct": 12.09,
+      "last_close": 7723.5498,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "dow": {
       "label": "Dow Jones",
       "group": "us",
-      "trailing_12m_pct": 22.44,
-      "cagr_since_start_pct": 10.05,
-      "last_close": 54085.8789,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 23.21,
+      "cagr_since_start_pct": 10.09,
+      "last_close": 54349.1211,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "nasdaq": {
       "label": "Nasdaq Composite",
       "group": "us",
-      "trailing_12m_pct": 26.27,
-      "cagr_since_start_pct": 16.07,
-      "last_close": 26584.9902,
-      "as_of": "2026-08-04",
+      "trailing_12m_pct": 26.04,
+      "cagr_since_start_pct": 15.99,
+      "last_close": 26363.4395,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "nikkei": {
       "label": "Nikkei 225",
       "group": "asia",
-      "trailing_12m_pct": 63.5,
-      "cagr_since_start_pct": 12.24,
-      "last_close": 66300.4375,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 59.33,
+      "cagr_since_start_pct": 12.04,
+      "last_close": 65000.4883,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-05"
     },
     "dax": {
       "label": "DAX",
       "group": "europe",
-      "trailing_12m_pct": 10.02,
-      "cagr_since_start_pct": 8.9,
-      "last_close": 26235.5391,
+      "trailing_12m_pct": 9.56,
+      "cagr_since_start_pct": 8.86,
+      "last_close": 26126.3008,
       "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "ftse": {
       "label": "FTSE 100",
       "group": "europe",
-      "trailing_12m_pct": 19.19,
+      "trailing_12m_pct": 19.09,
       "cagr_since_start_pct": 4.49,
-      "last_close": 10897.2695,
+      "last_close": 10888.2998,
       "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     },
     "hang_seng": {
       "label": "Hang Seng",
       "group": "asia",
-      "trailing_12m_pct": 4.07,
-      "cagr_since_start_pct": 0.77,
-      "last_close": 25915.8203,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 2.29,
+      "cagr_since_start_pct": 0.62,
+      "last_close": 25482.2793,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "ewz": {
       "label": "MSCI Brazil ETF",
       "group": "br",
-      "trailing_12m_pct": 34.01,
+      "trailing_12m_pct": 33.64,
       "cagr_since_start_pct": 0.18,
-      "last_close": 36.09,
-      "as_of": "2026-08-04",
+      "last_close": 36.11,
+      "as_of": "2026-08-05",
       "start_used": "2015-01-02"
     }
   },
@@ -207,28 +207,28 @@
     "gold": {
       "label": "Ouro (futuro)",
       "group": "commodity",
-      "trailing_12m_pct": 24.9,
-      "cagr_since_start_pct": 11.58,
-      "last_close": 4224.0,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 28.89,
+      "cagr_since_start_pct": 11.88,
+      "last_close": 4356.3999,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "brent": {
       "label": "Brent",
       "group": "commodity",
-      "trailing_12m_pct": 18.7,
-      "cagr_since_start_pct": 3.09,
-      "last_close": 80.29,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 19.52,
+      "cagr_since_start_pct": 3.05,
+      "last_close": 79.95,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "wti": {
       "label": "WTI",
       "group": "commodity",
-      "trailing_12m_pct": 16.82,
-      "cagr_since_start_pct": 3.23,
-      "last_close": 76.12,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 17.68,
+      "cagr_since_start_pct": 3.18,
+      "last_close": 75.73,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     },
     "iron_ore": {
@@ -243,19 +243,19 @@
     "btc": {
       "label": "Bitcoin",
       "group": "crypto",
-      "trailing_12m_pct": -43.87,
-      "cagr_since_start_pct": 58.2,
-      "last_close": 64068.6094,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": -43.92,
+      "cagr_since_start_pct": 58.28,
+      "last_close": 64511.2617,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-01"
     },
     "dxy": {
       "label": "DXY",
       "group": "fx",
-      "trailing_12m_pct": 1.05,
-      "cagr_since_start_pct": 0.79,
-      "last_close": 99.818,
-      "as_of": "2026-08-05",
+      "trailing_12m_pct": 1.51,
+      "cagr_since_start_pct": 0.78,
+      "last_close": 99.66,
+      "as_of": "2026-08-06",
       "start_used": "2015-01-02"
     }
   },

@@ -3,7 +3,7 @@
   "status": "live",
   "analysis_start": "2015-01-01",
   "note": "Retornos mensais alinhados à janela — uso educacional.",
-  "updated_at": "2026-08-05T08:48:50.887536+00:00",
+  "updated_at": "2026-08-06T02:02:34.422217+00:00",
   "series": {
     "ibov": [
       {
@@ -560,7 +560,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -0.0584
+        "return_pct": -0.1533
       }
     ],
     "spx": [
@@ -1118,7 +1118,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 3.2952
+        "return_pct": 3.122
       }
     ],
     "dow": [
@@ -1676,7 +1676,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 3.0501
+        "return_pct": 3.5517
       }
     ],
     "nasdaq": [
@@ -2234,7 +2234,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 4.7732
+        "return_pct": 3.9
       }
     ],
     "nikkei": [
@@ -2792,7 +2792,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 3.0117
+        "return_pct": 0.992
       }
     ],
     "dax": [
@@ -3350,7 +3350,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 2.3657
+        "return_pct": 1.9394
       }
     ],
     "ftse": [
@@ -3908,7 +3908,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.2684
+        "return_pct": 0.1859
       }
     ],
     "hang_seng": [
@@ -4466,7 +4466,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.1213
+        "return_pct": -1.5536
       }
     ],
     "btc": [
@@ -5024,7 +5024,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 1.9978
+        "return_pct": 2.7025
       }
     ],
     "gold": [
@@ -5582,7 +5582,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 4.3195
+        "return_pct": 7.5893
       }
     ],
     "brent": [
@@ -6140,7 +6140,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -10.9077
+        "return_pct": -11.285
       }
     ],
     "wti": [
@@ -6698,7 +6698,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -10.098
+        "return_pct": -10.5586
       }
     ],
     "iron_ore": [
@@ -7814,7 +7814,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 0.018
+        "return_pct": -0.1403
       }
     ],
     "usdbrl": [
@@ -8372,7 +8372,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": 1.3548
+        "return_pct": 0.8566
       }
     ],
     "us10y": [
@@ -8930,7 +8930,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -2.4868
+        "return_pct": -2.6976
       }
     ],
     "ewz": [
@@ -9488,7 +9488,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -1.528
+        "return_pct": -1.4734
       }
     ],
     "ifix": [
@@ -10046,7 +10046,7 @@
       },
       {
         "month": "2026-08",
-        "return_pct": -0.8941
+        "return_pct": -0.9567
       }
     ]
   }
