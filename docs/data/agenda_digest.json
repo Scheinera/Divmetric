@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-06T08:48:06.520476+00:00",
-  "as_of": "2026-08-06",
+  "fetched_at": "2026-08-07T02:04:29.355052+00:00",
+  "as_of": "2026-08-07",
   "status": "live",
   "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
   "feeds": [
@@ -22,88 +22,43 @@
   ],
   "highlights": [
     {
-      "title": "Futuros de NY operam mistos à espera de acordo entre EUA e Irã e do payroll",
-      "url": "https://www.infomoney.com.br/mercados/futuros-de-ny-operam-mistos-a-espera-de-acordo-entre-eua-e-ira-e-do-payroll/",
-      "summary": "Mercado acompanha negociações entre Washington e Teerã e aguarda o relatório de emprego dos EUA, que pode influenciar as expectativas para os juros do Fed The post Futuros de NY operam mistos à espera de acordo entre EUA e Irã e do payroll appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:42:53+00:00",
+      "title": "Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo",
+      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-vamos-acabar-com-taxa-de-12-para-exportacao-de-petroleo/",
+      "summary": "Em julho, o Comitê de Gestão da Câmara de Comércio Exterior decidiu manter o imposto sobre óleo bruto de petróleo The post Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo appeared first on InfoMoney .",
+      "published_at": "2026-08-07T01:01:23+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Petróleo sobe com investidores cautelosos sobre avanço das negociações entre Irã e Omã",
-      "url": "https://www.moneytimes.com.br/petroleo-sobe-com-investidores-cautelosos-sobre-avanco-das-negociacoes-entre-ira-e-oma-fets/",
-      "summary": "Os preços do petróleo sobem nesta quinta-feira (6), à medida que os investidores permaneceram cautelosos em relação ao resultado das negociações entre Irã e Omã e se elas levarão ao restabelecimento do fluxo de embarcações pelo Estreito de Ormuz, enquanto relatos de ataques contr",
-      "published_at": "2026-08-06T08:22:17+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "earnings_br",
         "markets"
       ]
     },
     {
-      "title": "Como os mercados vão receber a decisão do Copom nesta 5ª?",
-      "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-receber-a-decisao-do-copom-nesta-5a/",
-      "summary": "O Copom realizou novo corte de 0,25 p.p. na taxa de juros, levando a Selic para 14% a.a. The post Como os mercados vão receber a decisão do Copom nesta 5ª? appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:00:00+00:00",
+      "title": "Governo Trump estuda decreto sobre autismo e vacinas, diz fonte",
+      "url": "https://www.infomoney.com.br/mundo/governo-trump-estuda-decreto-sobre-autismo-e-vacinas-diz-fonte/",
+      "summary": "Governo Trump estuda decreto sobre autismo e vacinas, diz fonte The post Governo Trump estuda decreto sobre autismo e vacinas, diz fonte appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:58:34+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14%",
-      "url": "https://www.infomoney.com.br/onde-investir/ipca-2032-prefixados-e-debentures-onde-investir-na-renda-fixa-com-a-selic-a-14/",
-      "summary": "Mesmo com retorno menor nos pós-fixados, especialistas alertam que “não é hora de reposicionar a carteira inteira” The post IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14% appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais",
-      "url": "https://www.infomoney.com.br/onde-investir/quanto-r-10-mil-rendem-com-selic-em-14-compare-poupanca-tesouro-cdb-e-mais/",
-      "summary": "Simulação compara instrumentos de renda fixa em seis prazos, de três meses a cinco anos The post Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Lula sanciona MP do Frete e veta ‘jabuti’ que anistiava caminhoneiros bolsonarista",
-      "url": "https://www.moneytimes.com.br/lula-sanciona-mp-do-frete-e-veta-jabuti-que-anistiava-caminhoneiros-bolsonarista-fets/",
-      "summary": "O presidente Luiz Inácio Lula da Silva (PT) sancionou a Medida Provisória (MP) do Frete, em cerimônia com lideranças da categoria no Palácio do Planalto. Em discurso nesta quarta-feira (5), Lula disse que é preciso que os beneficiados façam fiscalizações para que as mudanças vigo",
-      "published_at": "2026-08-06T07:43:00+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
       "tags": [
         "geral"
       ]
     },
     {
-      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades patronais e de trabalhadores",
-      "url": "https://www.moneytimes.com.br/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades-patronais-e-de-trabalhadores-fets/",
-      "summary": "O quarto corte consecutivo na Taxa Selic, definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a Fe",
-      "published_at": "2026-08-06T07:19:00+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
+      "title": "Durigan nega ‘inércia’ da União para salvar BRB e cobra plano de negócios",
+      "url": "https://www.infomoney.com.br/politica/durigan-nega-inercia-da-uniao-para-salvar-brb-e-cobra-plano-de-negocios/",
+      "summary": "Ministro da Fazenda criticou acusações feitas pelo governo do Distrito Federal sobre ações da União The post Durigan nega ‘inércia’ da União para salvar BRB e cobra plano de negócios appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:55:35+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
       "tags": [
-        "copom"
+        "geral"
       ]
     },
     {
-      "title": "Maiores campeões, Cruzeiro e Grêmio vão às quartas da Copa do Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-08/maiores-campeoes-cruzeiro-e-gremio-vao-quartas-da-copa-do-brasil",
-      "summary": "Dois dos três maiores vencedores da Copa do Brasil seguem na briga pelo título da edição deste ano. Nesta quarta-feira (5), Cruzeiro e Grêmio se classificaram às quartas de final ao eliminarem Chapecoense e Mirassol, respectivamente. Os confrontos da próxima fase serão sorteados ",
-      "published_at": "2026-08-06T00:54:00+00:00",
+      "title": "Ninguém acerta Mega-Sena; prêmio acumula para R$ 165 milhões",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ninguem-acerta-mega-sena-premio-acumula-para-r-165-milhoes",
+      "summary": "Nenhum apostador acertou as seis dezenas do Concurso 3.041 da Mega-Sena, realizado nesta quinta-feira (6). O prêmio acumulou e está estimado em R$ 165 milhões para o próximo sorteio. As dezenas sorteadas foram: 16 - 21 - 24 - 31 - 43 - 54 - 88 apostas acertaram a quina e irão rec",
+      "published_at": "2026-08-07T00:49:00+00:00",
       "source_id": "agenciabrasil",
       "source_label": "Agência Brasil",
       "tags": [
@@ -111,10 +66,10 @@
       ]
     },
     {
-      "title": "Ideb mostra avanço da educação básica no país",
-      "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-08/ideb-mostra-avanco-da-educacao-basica-no-pais",
-      "summary": "O Índice de Desenvolvimento da Educação Básica (Ideb) 2025 registrou a maior evolução acumulada em 20 anos. As três etapas do ensino avaliadas (anos iniciais e finais do ensino fundamental e o ensino médio) atingiram em 2025 o maior valor de toda a série histórica, iniciada em 20",
-      "published_at": "2026-08-06T00:40:00+00:00",
+      "title": "Pix amplia participação nos pagamentos em bares e restaurantes",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-amplia-participacao-nos-pagamentos-em-bares-e-restaurantes",
+      "summary": "O Pix respondeu por 20,5% das vendas presenciais em bares e restaurantes do país, segundo pesquisa da Associação Brasileira de Bares e Restaurantes (Abrasel) . Embora o cartão de crédito permaneça como principal meio de pagamento, o sistema de transferência instantânea ganhou esp",
+      "published_at": "2026-08-07T00:35:00+00:00",
       "source_id": "agenciabrasil",
       "source_label": "Agência Brasil",
       "tags": [
@@ -122,10 +77,21 @@
       ]
     },
     {
-      "title": "Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5)",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3754-confira-o-resultado-sorteado-nesta-quarta-5/",
-      "summary": "O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
-      "published_at": "2026-08-06T00:09:53+00:00",
+      "title": "Petrobras tem lucro líquido de R$ 52,4 bi no segundo trimestre",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
+      "summary": "A Petrobras teve lucro líquido de R$ 52,4 bilhões (US$ 10,4 bilhões) no segundo trimestre de 2026, 97% a mais em comparação ao mesmo período de 2025 . Esse é um dos maiores resultados trimestrais da série histórica. Segundo a empresa, o resultado foi marcado por recordes na produ",
+      "published_at": "2026-08-07T00:27:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7085-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio deste concurso era de R$ 10.121.903,51 The post Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:15:15+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -133,10 +99,10 @@
       ]
     },
     {
-      "title": "Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5)",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7084-confira-o-resultado-sorteado-nesta-quarta-5/",
-      "summary": "Os números sorteados foram: 17 - 63 - 54 - 22 - 36 The post Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
-      "published_at": "2026-08-06T00:05:43+00:00",
+      "title": "Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3755-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:10:18+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -144,127 +110,68 @@
       ]
     },
     {
-      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
-      "summary": "O quarto corte consecutivo na Taxa Selic , definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a F",
-      "published_at": "2026-08-05T23:38:00+00:00",
+      "title": "Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3041-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio principal para este concurso é de R$ 147.541.286,47 The post Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:04:10+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Rio: ex-padre é condenado a 48 anos de prisão por tortura de enteados",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/rio-ex-padre-e-condenado-48-anos-de-prisao-por-tortura-de-enteados",
+      "summary": "A Justiça do Rio de Janeiro condenou o ex-padre Eric Araujo Siqueira Pereira a pena de 48 anos, 1 mês e 10 dias de reclusão pelos crimes de tortura, instigação ao suicídio, fornecimento de material pornográfico a criança para fins libidinosos e estupro de vulnerável praticados co",
+      "published_at": "2026-08-06T23:46:00+00:00",
       "source_id": "agenciabrasil",
       "source_label": "Agência Brasil",
       "tags": [
-        "copom"
+        "geral"
       ]
-    }
-  ],
-  "copom_related": [
+    },
     {
-      "title": "Como os mercados vão receber a decisão do Copom nesta 5ª?",
-      "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-receber-a-decisao-do-copom-nesta-5a/",
-      "summary": "O Copom realizou novo corte de 0,25 p.p. na taxa de juros, levando a Selic para 14% a.a. The post Como os mercados vão receber a decisão do Copom nesta 5ª? appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:00:00+00:00",
+      "title": "Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6%",
+      "url": "https://www.infomoney.com.br/mercados/alupar-alup11-resultados-segundo-trimestre-2026/",
+      "summary": "A receita líquida regulatória consolidada atingiu R$ 946,1 milhões entre abril e junho, avanço de 10,3% na comparação anual The post Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6% appeared first on InfoMoney .",
+      "published_at": "2026-08-06T23:44:05+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
-        "copom"
+        "earnings_br"
       ]
     },
     {
-      "title": "IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14%",
-      "url": "https://www.infomoney.com.br/onde-investir/ipca-2032-prefixados-e-debentures-onde-investir-na-renda-fixa-com-a-selic-a-14/",
-      "summary": "Mesmo com retorno menor nos pós-fixados, especialistas alertam que “não é hora de reposicionar a carteira inteira” The post IPCA+ 2032, prefixados e debêntures: onde investir na renda fixa com a Selic a 14% appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais",
-      "url": "https://www.infomoney.com.br/onde-investir/quanto-r-10-mil-rendem-com-selic-em-14-compare-poupanca-tesouro-cdb-e-mais/",
-      "summary": "Simulação compara instrumentos de renda fixa em seis prazos, de três meses a cinco anos The post Quanto R$ 10 mil rendem com Selic em 14%? Compare poupança, Tesouro, CDB e mais appeared first on InfoMoney .",
-      "published_at": "2026-08-06T08:00:00+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades patronais e de trabalhadores",
-      "url": "https://www.moneytimes.com.br/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades-patronais-e-de-trabalhadores-fets/",
-      "summary": "O quarto corte consecutivo na Taxa Selic, definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a Fe",
-      "published_at": "2026-08-06T07:19:00+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Redução da taxa de juros ainda é insuficiente, avaliam entidades",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
-      "summary": "O quarto corte consecutivo na Taxa Selic , definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente e restritivo para a expansão do setor industrial. Em nota, a F",
-      "published_at": "2026-08-05T23:38:00+00:00",
+      "title": "Polícia Federal indicia 16 pessoas por queda de avião da Voepass",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/policia-federal-indicia-16-pessoas-por-queda-de-aviao-da-voepass",
+      "summary": "A Polícia Federal (PF) indiciou nesta quinta-feira (6) 16 pessoas por envolvimento na queda da aeronave da Voepass Linhas Aéreas em Vinhedo (SP) , em agosto de 2024, após concluir a investigação. Todos os indiciados são ligados à companhia, inclusive o presidente da empresa, José",
+      "published_at": "2026-08-06T23:42:00+00:00",
       "source_id": "agenciabrasil",
       "source_label": "Agência Brasil",
       "tags": [
-        "copom"
-      ]
-    },
-    {
-      "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
-      "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
-      "summary": "Com a decisão do Comitê de Política Monetária (Copom) de reduzir a Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano, já assimilada pelos mercados, os investidores tentam antecipar como o Ibovespa deve se comportar no pregão desta quinta-feira (6). Lá fora, o índice EW",
-      "published_at": "2026-08-05T23:18:43+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom",
-        "markets"
-      ]
-    },
-    {
-      "title": "Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Selic",
-      "url": "https://www.infomoney.com.br/economia/copom-petroleo-juros-nos-eua-e-inflacao-vao-ditar-se-havera-mais-cortes-na-selic/",
-      "summary": "Comitê do Banco Central reduz juros em 0,25 p.p. de forma unânime, mas retira sinalizações futuras; pressão inflacionária e risco fiscal dividem analistas entre pausa e novos recuos em 2026 The post Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Seli",
-      "published_at": "2026-08-05T23:14:37+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom",
-        "markets"
-      ]
-    },
-    {
-      "title": "Copom deixa porta aberta para novo corte em setembro, mas com espaço menor, diz economista-chefe da G5 Partners",
-      "url": "https://www.moneytimes.com.br/copom-deixa-porta-aberta-para-novo-corte-em-setembro-mas-com-espaco-menor-diz-economista-chefe-da-g5-partners-lils/",
-      "summary": "Como esperado pelo mercado, o Comitê de Política Monetária (Copom) reduziu a taxa básica de juros de 14,25% para 14% ao ano e, na avaliação do economista-chefe da G5 Partners, Luis Otávio Leal, os diretores do Banco Central “deixaram aberta” a possibilidade de um novo corte na Se",
-      "published_at": "2026-08-05T22:50:37+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom"
+        "geral"
       ]
     }
   ],
+  "copom_related": [],
   "earnings": [
     {
-      "title": "Petróleo sobe com investidores cautelosos sobre avanço das negociações entre Irã e Omã",
-      "url": "https://www.moneytimes.com.br/petroleo-sobe-com-investidores-cautelosos-sobre-avanco-das-negociacoes-entre-ira-e-oma-fets/",
-      "summary": "Os preços do petróleo sobem nesta quinta-feira (6), à medida que os investidores permaneceram cautelosos em relação ao resultado das negociações entre Irã e Omã e se elas levarão ao restabelecimento do fluxo de embarcações pelo Estreito de Ormuz, enquanto relatos de ataques contr",
-      "published_at": "2026-08-06T08:22:17+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
+      "title": "Petrobras tem lucro líquido de R$ 52,4 bi no segundo trimestre",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
+      "summary": "A Petrobras teve lucro líquido de R$ 52,4 bilhões (US$ 10,4 bilhões) no segundo trimestre de 2026, 97% a mais em comparação ao mesmo período de 2025 . Esse é um dos maiores resultados trimestrais da série histórica. Segundo a empresa, o resultado foi marcado por recordes na produ",
+      "published_at": "2026-08-07T00:27:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
       "tags": [
-        "earnings_br",
-        "markets"
+        "earnings_br"
       ]
     },
     {
-      "title": "Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5)",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3754-confira-o-resultado-sorteado-nesta-quarta-5/",
-      "summary": "O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso 3754: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
-      "published_at": "2026-08-06T00:09:53+00:00",
+      "title": "Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7085-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio deste concurso era de R$ 10.121.903,51 The post Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:15:15+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -272,10 +179,10 @@
       ]
     },
     {
-      "title": "Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5)",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7084-confira-o-resultado-sorteado-nesta-quarta-5/",
-      "summary": "Os números sorteados foram: 17 - 63 - 54 - 22 - 36 The post Quina hoje, concurso 7084: confira o resultado sorteado nesta quarta (5) appeared first on InfoMoney .",
-      "published_at": "2026-08-06T00:05:43+00:00",
+      "title": "Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3755-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:10:18+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -283,10 +190,10 @@
       ]
     },
     {
-      "title": "Méliuz tem lucro ajustado de R$ 9,7 mi, aprova recompra e amplia aposta em bitcoin",
-      "url": "https://www.infomoney.com.br/mercados/meliuz-cash3-resultados-segundo-trimestre-2026-recompra-estrategia-bitcoin/",
-      "summary": "A receita líquida consolidada somou R$ 115,7 milhões entre abril e junho, avanço de 18% em relação aos R$ 97,8 milhões registrados no mesmo período de 2025 The post Méliuz tem lucro ajustado de R$ 9,7 mi, aprova recompra e amplia aposta em bitcoin appeared first on InfoMoney .",
-      "published_at": "2026-08-05T22:48:02+00:00",
+      "title": "Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3041-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio principal para este concurso é de R$ 147.541.286,47 The post Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-07T00:04:10+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -294,23 +201,45 @@
       ]
     },
     {
-      "title": "Vivara (VIVA3) tem lucro líquido de R$ 156,7 milhões no 2º trimestre, alta de 0,9% na comparação anual",
-      "url": "https://www.moneytimes.com.br/vivara-tem-lucro-liquido-de-r-1567-milhoes-no-2o-trimestre-alta-de-09-na-comparacao-anual/",
-      "summary": "A Vivara (VIVA3) registrou lucro líquido de R$ 156,7 milhões no segundo trimestre deste ano, o que representa uma leve alta de 0,9% ante igual período do ano passado. Por sua vez, o Ebitda apresentou avanço de 4,9% na mesma comparação, para R$ 205,4 milhões. Já o Ebitda ajustado ",
-      "published_at": "2026-08-05T22:41:42+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
+      "title": "Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6%",
+      "url": "https://www.infomoney.com.br/mercados/alupar-alup11-resultados-segundo-trimestre-2026/",
+      "summary": "A receita líquida regulatória consolidada atingiu R$ 946,1 milhões entre abril e junho, avanço de 10,3% na comparação anual The post Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6% appeared first on InfoMoney .",
+      "published_at": "2026-08-06T23:44:05+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
       "tags": [
         "earnings_br"
       ]
     },
     {
-      "title": "Axia Energia (AXIA3) lucra R$ 1,6 bilhão no 2T26, alta de 9,5% no ano",
-      "url": "https://www.moneytimes.com.br/axia-energia-axia3-lucra-r-16-bilhao-no-2t26-alta-de-95-no-ano-vtra/",
-      "summary": "A Axia Energia (AXIA3) encerrou o segundo trimestre de 2026 com lucro líquido ajustado de R$ 1,608 bilhão, alta de 9,5% em relação ao mesmo período do ano passado. Segundo a companhia, o desempenho foi impulsionado pela melhora operacional dos negócios de geração e transmissão, p",
-      "published_at": "2026-08-05T22:22:10+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
+      "title": "Energisa reverte lucro e registra prejuízo líquido consolidado de R$ 40 mi no 2º tri",
+      "url": "https://www.infomoney.com.br/mercados/energisa-engi11-resultados-segundo-trimestre-2026/",
+      "summary": "O lucro líquido ajustado recorrente ficou em R$ 88 milhões, queda de 80% na mesma base de comparação, pressionado pelo aumento das despesas financeiras líquidas The post Energisa reverte lucro e registra prejuízo líquido consolidado de R$ 40 mi no 2º tri appeared first on InfoMon",
+      "published_at": "2026-08-06T23:29:19+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Alpargatas (ALPA4) tem salto de 95% do lucro no 2T, que vai a R$ 170 milhões",
+      "url": "https://www.infomoney.com.br/mercados/alpargatas-alpa4-resultados-segundo-trimestre-2026/",
+      "summary": "A receita líquida subiu 11,3% na base anual, para R$ 1,22 ‌bilhão, e o custo ​dos produtos vendidos subiu 7,4%, a R$ 536 milhões The post Alpargatas (ALPA4) tem salto de 95% do lucro no 2T, que vai a R$ 170 milhões appeared first on InfoMoney .",
+      "published_at": "2026-08-06T23:17:14+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Grupo Panvel (PNVL3) tem alta de quase 40% no lucro do 2º tri, a R$ 38,9 milhões",
+      "url": "https://www.infomoney.com.br/mercados/grupo-panvel-pnvl3-resultados-segundo-trimestre-2026/",
+      "summary": "A receita bruta do ⁠varejo ​somou R$ 1,63 ​bilhão, alta de 15,8% na comparação com o segundo ⁠trimestre de 2025 The post Grupo Panvel (PNVL3) tem alta de quase 40% no lucro do 2º tri, a R$ 38,9 milhões appeared first on InfoMoney .",
+      "published_at": "2026-08-06T23:04:48+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
       "tags": [
         "earnings_br"
       ]
@@ -318,38 +247,25 @@
   ],
   "markets": [
     {
-      "title": "Petróleo sobe com investidores cautelosos sobre avanço das negociações entre Irã e Omã",
-      "url": "https://www.moneytimes.com.br/petroleo-sobe-com-investidores-cautelosos-sobre-avanco-das-negociacoes-entre-ira-e-oma-fets/",
-      "summary": "Os preços do petróleo sobem nesta quinta-feira (6), à medida que os investidores permaneceram cautelosos em relação ao resultado das negociações entre Irã e Omã e se elas levarão ao restabelecimento do fluxo de embarcações pelo Estreito de Ormuz, enquanto relatos de ataques contr",
-      "published_at": "2026-08-06T08:22:17+00:00",
+      "title": "Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo",
+      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-vamos-acabar-com-taxa-de-12-para-exportacao-de-petroleo/",
+      "summary": "Em julho, o Comitê de Gestão da Câmara de Comércio Exterior decidiu manter o imposto sobre óleo bruto de petróleo The post Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo appeared first on InfoMoney .",
+      "published_at": "2026-08-07T01:01:23+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Petrobras (PETR4) lucra R$ 52,4 bilhões no 2T26 e supera consenso",
+      "url": "https://www.moneytimes.com.br/petrobras-petr4-lucra-r-524-bilhoes-no-2t26-e-supera-consenso/",
+      "summary": "A Petrobras (PETR4) reportou lucro líquido de R$ 52,4 bilhões no segundo trimestre de 2026 (2T26), resultado acima da expectativa do mercado, que projetava R$ 50,8 bilhões. Segundo a companhia, o desempenho foi impulsionado pela produção recorde de petróleo e derivados, pelos pre",
+      "published_at": "2026-08-06T22:51:31+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
         "earnings_br",
-        "markets"
-      ]
-    },
-    {
-      "title": "Selic a 14%: Como o Ibovespa, os juros futuros e o dólar devem reagir ao Copom",
-      "url": "https://www.moneytimes.com.br/selic-a-14-como-o-ibovespa-os-juros-futuros-e-o-dolar-devem-reagir-ao-copom-lils/",
-      "summary": "Com a decisão do Comitê de Política Monetária (Copom) de reduzir a Selic em 0,25 ponto percentual, de 14,25% para 14,00% ao ano, já assimilada pelos mercados, os investidores tentam antecipar como o Ibovespa deve se comportar no pregão desta quinta-feira (6). Lá fora, o índice EW",
-      "published_at": "2026-08-05T23:18:43+00:00",
-      "source_id": "moneytimes",
-      "source_label": "Money Times",
-      "tags": [
-        "copom",
-        "markets"
-      ]
-    },
-    {
-      "title": "Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Selic",
-      "url": "https://www.infomoney.com.br/economia/copom-petroleo-juros-nos-eua-e-inflacao-vao-ditar-se-havera-mais-cortes-na-selic/",
-      "summary": "Comitê do Banco Central reduz juros em 0,25 p.p. de forma unânime, mas retira sinalizações futuras; pressão inflacionária e risco fiscal dividem analistas entre pausa e novos recuos em 2026 The post Copom: Petróleo, juros nos EUA e inflação vão ditar se haverá mais cortes na Seli",
-      "published_at": "2026-08-05T23:14:37+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "copom",
         "markets"
       ]
     }
