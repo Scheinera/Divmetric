@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-07T02:04:29.355052+00:00",
-  "as_of": "2026-08-07",
+  "fetched_at": "2026-08-08T02:04:15.629399+00:00",
+  "as_of": "2026-08-08",
   "status": "live",
   "source": "RSS InfoMoney/Money Times/Agência Brasil + API notícias BCB",
   "feeds": [
@@ -22,10 +22,120 @@
   ],
   "highlights": [
     {
-      "title": "Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo",
-      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-vamos-acabar-com-taxa-de-12-para-exportacao-de-petroleo/",
-      "summary": "Em julho, o Comitê de Gestão da Câmara de Comércio Exterior decidiu manter o imposto sobre óleo bruto de petróleo The post Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo appeared first on InfoMoney .",
-      "published_at": "2026-08-07T01:01:23+00:00",
+      "title": "Amazônia tem menor área sob alerta de desmatamento em 10 anos",
+      "url": "https://www.infomoney.com.br/brasil/amazonia-tem-menor-area-sob-alerta-de-desmatamento-em-10-anos/",
+      "summary": "Dados do Inpe mostram 2.874 km² sob alerta entre agosto de 2025 e julho de 2026, queda de 36,9% ante o ciclo anterior The post Amazônia tem menor área sob alerta de desmatamento em 10 anos appeared first on InfoMoney .",
+      "published_at": "2026-08-08T02:03:59+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Espanha impõe controles a voos e navios da Itália em disputa migratória",
+      "url": "https://www.infomoney.com.br/mundo/espanha-impoe-controles-a-voos-e-navios-da-italia-em-disputa-migratoria/",
+      "summary": "Medida começa à meia-noite de sábado e vale até 7 de setembro; Roma havia anunciado controles para viajantes vindos da Espanha até pelo menos 15 de agosto The post Espanha impõe controles a voos e navios da Itália em disputa migratória appeared first on InfoMoney .",
+      "published_at": "2026-08-08T02:01:29+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "João Fonseca bate Ruud novamente e avança às oitavas do Masters de Montreal",
+      "url": "https://www.infomoney.com.br/esportes/joao-fonseca-bate-ruud-novamente-e-avanca-as-oitavas-do-masters-de-montreal/",
+      "summary": "Brasileiro vence o norueguês por 2 sets a 0 e encara o americano Ben Shelton, número 10 do mundo, na próxima rodada The post João Fonseca bate Ruud novamente e avança às oitavas do Masters de Montreal appeared first on InfoMoney .",
+      "published_at": "2026-08-08T01:58:30+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Bia Haddad decide pausar carreira no tênis: “É um até breve”",
+      "url": "https://www.infomoney.com.br/esportes/bia-haddad-decide-pausar-carreira-no-tenis-e-um-ate-breve/",
+      "summary": "Aos 30 anos, brasileira afirma que vem enfrentando a decisão há meses e que precisa de um período para lidar com questões internas The post Bia Haddad decide pausar carreira no tênis: “É um até breve” appeared first on InfoMoney .",
+      "published_at": "2026-08-08T01:55:51+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Abelardo De La Espriella, de direita, assume Presidência da Colômbia",
+      "url": "https://www.infomoney.com.br/mundo/abelardo-de-la-espriella-de-direita-assume-presidencia-da-colombia/",
+      "summary": "Novo presidente reforçou compromisso com combate ao crime The post Abelardo De La Espriella, de direita, assume Presidência da Colômbia appeared first on InfoMoney .",
+      "published_at": "2026-08-08T00:14:48+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Quina hoje, concurso 7086: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7086-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio deste concurso era de R$ 637.702,32 The post Quina hoje, concurso 7086: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-08T00:10:31+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Lotofácil hoje, concurso 3756: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3756-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso 3756: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-08T00:06:24+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "earnings_br"
+      ]
+    },
+    {
+      "title": "Houthis atacam Marib novamente; ONU alerta que Iêmen está à beira de conflito maior",
+      "url": "https://www.infomoney.com.br/mundo/houthis-atacam-marib-novamente-onu-alerta-que-iemen-esta-a-beira-de-conflito-maior/",
+      "summary": "Houthis afirmaram ter atacado, com mísseis e drones, forças apoiadas pela Arábia Saudita, depósitos, veículos e equipamentos militares The post Houthis atacam Marib novamente; ONU alerta que Iêmen está à beira de conflito maior appeared first on InfoMoney .",
+      "published_at": "2026-08-07T23:24:29+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Hertz Dias registra candidatura à Presidência sem declarar nenhum bem",
+      "url": "https://www.infomoney.com.br/politica/hertz-dias-registra-candidatura-a-presidencia-sem-declarar-nenhum-bem/",
+      "summary": "Candidato socialista não declarou nenhum bem, tornando-se o primeiro do pleito a não possuir nada The post Hertz Dias registra candidatura à Presidência sem declarar nenhum bem appeared first on InfoMoney .",
+      "published_at": "2026-08-07T22:58:57+00:00",
+      "source_id": "infomoney",
+      "source_label": "InfoMoney",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Familiares celebram legado de primeira medalha paralímpica do Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-08/familiares-celebram-legado-de-primeira-medalha-paralimpica-do-brasil",
+      "summary": "O Brasil encerrou a Paralimpíada de Paris (França), em 2024, entre as cinco potências do esporte adaptado pela primeira vez. O país já foi 462 vezes no pódio no maior evento paradesportivo do planeta. A trajetória começou há 50 anos, quando Robson Sampaio de Almeida e Luiz Carlos",
+      "published_at": "2026-08-07T22:50:00+00:00",
+      "source_id": "agenciabrasil",
+      "source_label": "Agência Brasil",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "title": "Senado dos EUA aprova projeto de lei bipartidário de sanções contra a Rússia",
+      "url": "https://www.infomoney.com.br/mundo/senado-dos-eua-aprova-projeto-de-lei-bipartidario-de-sancoes-contra-a-russia/",
+      "summary": "Legislação penaliza países que continuem comprando petróleo, gás e outros produtos de exportação russos The post Senado dos EUA aprova projeto de lei bipartidário de sanções contra a Rússia appeared first on InfoMoney .",
+      "published_at": "2026-08-07T22:40:29+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -33,122 +143,12 @@
       ]
     },
     {
-      "title": "Governo Trump estuda decreto sobre autismo e vacinas, diz fonte",
-      "url": "https://www.infomoney.com.br/mundo/governo-trump-estuda-decreto-sobre-autismo-e-vacinas-diz-fonte/",
-      "summary": "Governo Trump estuda decreto sobre autismo e vacinas, diz fonte The post Governo Trump estuda decreto sobre autismo e vacinas, diz fonte appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:58:34+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Durigan nega ‘inércia’ da União para salvar BRB e cobra plano de negócios",
-      "url": "https://www.infomoney.com.br/politica/durigan-nega-inercia-da-uniao-para-salvar-brb-e-cobra-plano-de-negocios/",
-      "summary": "Ministro da Fazenda criticou acusações feitas pelo governo do Distrito Federal sobre ações da União The post Durigan nega ‘inércia’ da União para salvar BRB e cobra plano de negócios appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:55:35+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Ninguém acerta Mega-Sena; prêmio acumula para R$ 165 milhões",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ninguem-acerta-mega-sena-premio-acumula-para-r-165-milhoes",
-      "summary": "Nenhum apostador acertou as seis dezenas do Concurso 3.041 da Mega-Sena, realizado nesta quinta-feira (6). O prêmio acumulou e está estimado em R$ 165 milhões para o próximo sorteio. As dezenas sorteadas foram: 16 - 21 - 24 - 31 - 43 - 54 - 88 apostas acertaram a quina e irão rec",
-      "published_at": "2026-08-07T00:49:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Pix amplia participação nos pagamentos em bares e restaurantes",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-amplia-participacao-nos-pagamentos-em-bares-e-restaurantes",
-      "summary": "O Pix respondeu por 20,5% das vendas presenciais em bares e restaurantes do país, segundo pesquisa da Associação Brasileira de Bares e Restaurantes (Abrasel) . Embora o cartão de crédito permaneça como principal meio de pagamento, o sistema de transferência instantânea ganhou esp",
-      "published_at": "2026-08-07T00:35:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Petrobras tem lucro líquido de R$ 52,4 bi no segundo trimestre",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
-      "summary": "A Petrobras teve lucro líquido de R$ 52,4 bilhões (US$ 10,4 bilhões) no segundo trimestre de 2026, 97% a mais em comparação ao mesmo período de 2025 . Esse é um dos maiores resultados trimestrais da série histórica. Segundo a empresa, o resultado foi marcado por recordes na produ",
-      "published_at": "2026-08-07T00:27:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6)",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7085-confira-o-resultado-sorteado-nesta-quinta-6/",
-      "summary": "O prêmio deste concurso era de R$ 10.121.903,51 The post Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:15:15+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6)",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3755-confira-o-resultado-sorteado-nesta-quinta-6/",
-      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:10:18+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6)",
-      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3041-confira-o-resultado-sorteado-nesta-quinta-6/",
-      "summary": "O prêmio principal para este concurso é de R$ 147.541.286,47 The post Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:04:10+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Rio: ex-padre é condenado a 48 anos de prisão por tortura de enteados",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/rio-ex-padre-e-condenado-48-anos-de-prisao-por-tortura-de-enteados",
-      "summary": "A Justiça do Rio de Janeiro condenou o ex-padre Eric Araujo Siqueira Pereira a pena de 48 anos, 1 mês e 10 dias de reclusão pelos crimes de tortura, instigação ao suicídio, fornecimento de material pornográfico a criança para fins libidinosos e estupro de vulnerável praticados co",
-      "published_at": "2026-08-06T23:46:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "geral"
-      ]
-    },
-    {
-      "title": "Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6%",
-      "url": "https://www.infomoney.com.br/mercados/alupar-alup11-resultados-segundo-trimestre-2026/",
-      "summary": "A receita líquida regulatória consolidada atingiu R$ 946,1 milhões entre abril e junho, avanço de 10,3% na comparação anual The post Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6% appeared first on InfoMoney .",
-      "published_at": "2026-08-06T23:44:05+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Polícia Federal indicia 16 pessoas por queda de avião da Voepass",
-      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/policia-federal-indicia-16-pessoas-por-queda-de-aviao-da-voepass",
-      "summary": "A Polícia Federal (PF) indiciou nesta quinta-feira (6) 16 pessoas por envolvimento na queda da aeronave da Voepass Linhas Aéreas em Vinhedo (SP) , em agosto de 2024, após concluir a investigação. Todos os indiciados são ligados à companhia, inclusive o presidente da empresa, José",
-      "published_at": "2026-08-06T23:42:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
+      "title": "Desmatamento na Amazônia registra maior recuo da década",
+      "url": "https://www.moneytimes.com.br/desmatamento-na-amazonia-registra-maior-recuo-da-decada-pads/",
+      "summary": "O Brasil registrou entre agosto de 2025 e julho de 2026 a menor área sob alerta de desmatamento na Amazônia nos últimos dez anos, desde que foi iniciada a série histórica, em 2016. Segundo dados do Sistema de Detecção de Desmatamentos em Tempo Real (Deter) do Instituto Nacional d",
+      "published_at": "2026-08-07T22:31:07+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
       "tags": [
         "geral"
       ]
@@ -157,21 +157,10 @@
   "copom_related": [],
   "earnings": [
     {
-      "title": "Petrobras tem lucro líquido de R$ 52,4 bi no segundo trimestre",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
-      "summary": "A Petrobras teve lucro líquido de R$ 52,4 bilhões (US$ 10,4 bilhões) no segundo trimestre de 2026, 97% a mais em comparação ao mesmo período de 2025 . Esse é um dos maiores resultados trimestrais da série histórica. Segundo a empresa, o resultado foi marcado por recordes na produ",
-      "published_at": "2026-08-07T00:27:00+00:00",
-      "source_id": "agenciabrasil",
-      "source_label": "Agência Brasil",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6)",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7085-confira-o-resultado-sorteado-nesta-quinta-6/",
-      "summary": "O prêmio deste concurso era de R$ 10.121.903,51 The post Quina hoje, concurso 7085: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:15:15+00:00",
+      "title": "Quina hoje, concurso 7086: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7086-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio deste concurso era de R$ 637.702,32 The post Quina hoje, concurso 7086: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-08T00:10:31+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -179,65 +168,10 @@
       ]
     },
     {
-      "title": "Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6)",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3755-confira-o-resultado-sorteado-nesta-quinta-6/",
-      "summary": "O prêmio estimado para este concurso era de R$ 5 milhões The post Lotofácil hoje, concurso 3755: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:10:18+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6)",
-      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3041-confira-o-resultado-sorteado-nesta-quinta-6/",
-      "summary": "O prêmio principal para este concurso é de R$ 147.541.286,47 The post Mega-Sena hoje, concurso 3041: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
-      "published_at": "2026-08-07T00:04:10+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6%",
-      "url": "https://www.infomoney.com.br/mercados/alupar-alup11-resultados-segundo-trimestre-2026/",
-      "summary": "A receita líquida regulatória consolidada atingiu R$ 946,1 milhões entre abril e junho, avanço de 10,3% na comparação anual The post Alupar (ALUP11) tem lucro regulatório de R$ 159 milhões no 2T, queda anual de 14,6% appeared first on InfoMoney .",
-      "published_at": "2026-08-06T23:44:05+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Energisa reverte lucro e registra prejuízo líquido consolidado de R$ 40 mi no 2º tri",
-      "url": "https://www.infomoney.com.br/mercados/energisa-engi11-resultados-segundo-trimestre-2026/",
-      "summary": "O lucro líquido ajustado recorrente ficou em R$ 88 milhões, queda de 80% na mesma base de comparação, pressionado pelo aumento das despesas financeiras líquidas The post Energisa reverte lucro e registra prejuízo líquido consolidado de R$ 40 mi no 2º tri appeared first on InfoMon",
-      "published_at": "2026-08-06T23:29:19+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Alpargatas (ALPA4) tem salto de 95% do lucro no 2T, que vai a R$ 170 milhões",
-      "url": "https://www.infomoney.com.br/mercados/alpargatas-alpa4-resultados-segundo-trimestre-2026/",
-      "summary": "A receita líquida subiu 11,3% na base anual, para R$ 1,22 ‌bilhão, e o custo ​dos produtos vendidos subiu 7,4%, a R$ 536 milhões The post Alpargatas (ALPA4) tem salto de 95% do lucro no 2T, que vai a R$ 170 milhões appeared first on InfoMoney .",
-      "published_at": "2026-08-06T23:17:14+00:00",
-      "source_id": "infomoney",
-      "source_label": "InfoMoney",
-      "tags": [
-        "earnings_br"
-      ]
-    },
-    {
-      "title": "Grupo Panvel (PNVL3) tem alta de quase 40% no lucro do 2º tri, a R$ 38,9 milhões",
-      "url": "https://www.infomoney.com.br/mercados/grupo-panvel-pnvl3-resultados-segundo-trimestre-2026/",
-      "summary": "A receita bruta do ⁠varejo ​somou R$ 1,63 ​bilhão, alta de 15,8% na comparação com o segundo ⁠trimestre de 2025 The post Grupo Panvel (PNVL3) tem alta de quase 40% no lucro do 2º tri, a R$ 38,9 milhões appeared first on InfoMoney .",
-      "published_at": "2026-08-06T23:04:48+00:00",
+      "title": "Lotofácil hoje, concurso 3756: confira o resultado sorteado nesta quinta (6)",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3756-confira-o-resultado-sorteado-nesta-quinta-6/",
+      "summary": "O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso 3756: confira o resultado sorteado nesta quinta (6) appeared first on InfoMoney .",
+      "published_at": "2026-08-08T00:06:24+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -247,10 +181,10 @@
   ],
   "markets": [
     {
-      "title": "Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo",
-      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-vamos-acabar-com-taxa-de-12-para-exportacao-de-petroleo/",
-      "summary": "Em julho, o Comitê de Gestão da Câmara de Comércio Exterior decidiu manter o imposto sobre óleo bruto de petróleo The post Flávio Bolsonaro: Vamos acabar com taxa de 12% para exportação de petróleo appeared first on InfoMoney .",
-      "published_at": "2026-08-07T01:01:23+00:00",
+      "title": "Senado dos EUA aprova projeto de lei bipartidário de sanções contra a Rússia",
+      "url": "https://www.infomoney.com.br/mundo/senado-dos-eua-aprova-projeto-de-lei-bipartidario-de-sancoes-contra-a-russia/",
+      "summary": "Legislação penaliza países que continuem comprando petróleo, gás e outros produtos de exportação russos The post Senado dos EUA aprova projeto de lei bipartidário de sanções contra a Rússia appeared first on InfoMoney .",
+      "published_at": "2026-08-07T22:40:29+00:00",
       "source_id": "infomoney",
       "source_label": "InfoMoney",
       "tags": [
@@ -258,14 +192,68 @@
       ]
     },
     {
-      "title": "Petrobras (PETR4) lucra R$ 52,4 bilhões no 2T26 e supera consenso",
-      "url": "https://www.moneytimes.com.br/petrobras-petr4-lucra-r-524-bilhoes-no-2t26-e-supera-consenso/",
-      "summary": "A Petrobras (PETR4) reportou lucro líquido de R$ 52,4 bilhões no segundo trimestre de 2026 (2T26), resultado acima da expectativa do mercado, que projetava R$ 50,8 bilhões. Segundo a companhia, o desempenho foi impulsionado pela produção recorde de petróleo e derivados, pelos pre",
-      "published_at": "2026-08-06T22:51:31+00:00",
+      "title": "B3 lança índice Small Cap Smart Rebal B3",
+      "url": "https://www.moneytimes.com.br/b3-lanca-indice-small-cap-smart-rebal-b3-pads/",
+      "summary": "A B3 anunciou o lançamento do Índice Small Cap Smart Rebal B3 (SCSR), que acompanha o desempenho médio das cotações das ações de empresas de menor valor de mercado listadas na bolsa paulista, segundo comunicado divulgado nesta sexta-feira. O novo indicador faz ajustes da carteira",
+      "published_at": "2026-08-07T22:13:27+00:00",
       "source_id": "moneytimes",
       "source_label": "Money Times",
       "tags": [
-        "earnings_br",
+        "markets"
+      ]
+    },
+    {
+      "title": "Iguatemi (IGTI11) embolsa R$ 876 milhões com venda de ativos para fundo imobiliário; veja detalhes",
+      "url": "https://www.moneytimes.com.br/iguatemi-igti11-embolsa-r-876-milhoes-com-venda-de-ativos-para-fundo-imobiliario-veja-detalhes-rnda/",
+      "summary": "A Iguatemi (IGTI11) está embolsando R$ 876 milhões com a venda de cinco ativos imobiliários para o TRX Real Estate (TRXF11), mostra documento enviado ao mercado nesta sexta-feira (7). Os ativos incluem: O preço será pago da seguinte forma: Mesmo com a venda, a Iguatemi manterá a ",
+      "published_at": "2026-08-07T21:57:18+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Trigo se recupera em Chicago enquanto mercado avalia ataques no Mar Negro",
+      "url": "https://www.moneytimes.com.br/trigo-se-recupera-em-chicago-enquanto-mercado-avalia-ataques-no-mar-negro-pads/",
+      "summary": "Os contratos futuros de trigo negociados na bolsa de Chicago se recuperaram de uma mínima de quatro semanas nesta sexta-feira (7), impulsionados pela desvalorização do dólar norte-americano e enquanto os operadores avaliavam relatos de novos ataques na zona de exportação do Mar N",
+      "published_at": "2026-08-07T21:44:36+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Agricultores argentinos retêm safra de trigo de olho em preços mais altos",
+      "url": "https://www.moneytimes.com.br/agricultores-argentinos-retem-safra-de-trigo-de-olho-em-precos-mais-altos-pads/",
+      "summary": "Os agricultores argentinos ainda têm cerca de 30% da safra de trigo desta temporada para vender, informou a bolsa de grãos de Rosário nesta sexta-feira, já que expectativa de preços ainda mais altos incentivam os produtores a reterem os grãos. Até o momento, os agricultores vende",
+      "published_at": "2026-08-07T21:37:38+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Zema propõe saída dos Brics, privatizações e R$ 1 mil para cada brasileiro ao nascer",
+      "url": "https://www.moneytimes.com.br/zema-propoe-saida-dos-brics-privatizacoes-e-r-1-mil-para-cada-brasileiro-ao-nascer-pads/",
+      "summary": "O candidato do Novo à Presidência da República, Romeu Zema, propõe privatizar todas as empresas estatais, depositar R$ 1 mil para cada brasileiro que nascer e pagar um prêmio de R$ 5 mil a famílias que conseguirem deixar o Bolsa Família. As medidas fazem parte do chamado “Plano I",
+      "published_at": "2026-08-07T21:20:25+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "title": "Essa construtora derreteu na bolsa — e agora quer recomprar 10% dos papéis em circulação",
+      "url": "https://www.moneytimes.com.br/essa-construtora-derreteu-na-bolsa-e-agora-quer-recomprar-10-dos-papeis-em-circulacao/",
+      "summary": "A Lavvi (LAVV3) irá recomprar até 7,4 milhões de ações, ou até 10% das ações em circulação, mostra documento enviado ao mercado nesta sexta-feira (7). Segundo o comunicado, o programa terá prazo de vigência de 18 meses, que será iniciado em 10 de agosto. A companhia diz que o pro",
+      "published_at": "2026-08-07T20:52:01+00:00",
+      "source_id": "moneytimes",
+      "source_label": "Money Times",
+      "tags": [
         "markets"
       ]
     }

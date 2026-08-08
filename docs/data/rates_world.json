@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T02:04:22.796886+00:00",
+  "fetched_at": "2026-08-08T02:04:11.402739+00:00",
   "start_date": "2015-01-01",
   "source": "Yahoo yields + ECB Data Portal + BCB Selic",
   "items": {
@@ -9,7 +9,7 @@
       "source_layer": "official",
       "latest": 14.0,
       "unit": "% a.a.",
-      "as_of": "2026-08-07",
+      "as_of": "2026-08-08",
       "trust": "canonical"
     },
     "us_3m": {
@@ -17,10 +17,10 @@
       "label": "US 3M T-Bill",
       "symbol": "^IRX",
       "source_layer": "market",
-      "latest": 3.732,
-      "trailing_12m_change_pct": -9.7,
+      "latest": 3.71,
+      "trailing_12m_change_pct": -10.34,
       "unit": "% a.a. (nível)",
-      "as_of": "2026-08-06",
+      "as_of": "2026-08-07",
       "start_used": "2015-01-02"
     },
     "us_5y": {
@@ -28,10 +28,10 @@
       "label": "US 5Y yield",
       "symbol": "^FVX",
       "source_layer": "market",
-      "latest": 4.389,
-      "trailing_12m_change_pct": 16.6,
+      "latest": 4.362,
+      "trailing_12m_change_pct": 15.09,
       "unit": "% a.a. (nível)",
-      "as_of": "2026-08-06",
+      "as_of": "2026-08-07",
       "start_used": "2015-01-02"
     },
     "us_10y": {
@@ -39,10 +39,10 @@
       "label": "US 10Y yield",
       "symbol": "^TNX",
       "source_layer": "market",
-      "latest": 4.67,
-      "trailing_12m_change_pct": 10.66,
+      "latest": 4.66,
+      "trailing_12m_change_pct": 9.8,
       "unit": "% a.a. (nível)",
-      "as_of": "2026-08-06",
+      "as_of": "2026-08-07",
       "start_used": "2015-01-02"
     },
     "eu_10y": {
@@ -616,7 +616,7 @@
       },
       {
         "month": "2026-08",
-        "value": 3.732
+        "value": 3.71
       }
     ],
     "us_5y": [
@@ -1178,7 +1178,7 @@
       },
       {
         "month": "2026-08",
-        "value": 4.389
+        "value": 4.362
       }
     ],
     "us_10y": [
@@ -1740,7 +1740,7 @@
       },
       {
         "month": "2026-08",
-        "value": 4.67
+        "value": 4.66
       }
     ],
     "eu_10y": [

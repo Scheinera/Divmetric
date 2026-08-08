@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07",
+  "as_of": "2026-08-08",
   "analysis_start": "2015-01-01",
   "source": "BCB SGS",
   "series": {
@@ -10,8 +10,8 @@
       "series_code": 432,
       "latest": 14.0,
       "raw_latest": 14.0,
-      "as_of": "2026-08-07",
-      "points_count": 4237,
+      "as_of": "2026-08-08",
+      "points_count": 4238,
       "monthly": [
         {
           "month": "2015-01",
@@ -580,10 +580,10 @@
       "label": "CDI (% a.d.)",
       "unit": "% a.a. (approx 252)",
       "series_code": 12,
-      "latest": 14.15,
-      "raw_latest": 0.052531,
-      "as_of": "2026-08-05",
-      "points_count": 2908,
+      "latest": 13.9,
+      "raw_latest": 0.05166,
+      "as_of": "2026-08-06",
+      "points_count": 2909,
       "monthly": [
         {
           "month": "2015-01",
@@ -1143,7 +1143,7 @@
         },
         {
           "month": "2026-08",
-          "value": 0.052531
+          "value": 0.05166
         }
       ]
     },
@@ -2280,10 +2280,10 @@
       "label": "Dólar PTAX (venda)",
       "unit": "BRL",
       "series_code": 1,
-      "latest": 5.1017,
-      "raw_latest": 5.1017,
-      "as_of": "2026-08-06",
-      "points_count": 2909,
+      "latest": 5.0908,
+      "raw_latest": 5.0908,
+      "as_of": "2026-08-07",
+      "points_count": 2910,
       "monthly": [
         {
           "month": "2015-01",
@@ -2843,7 +2843,7 @@
         },
         {
           "month": "2026-08",
-          "value": 5.1017
+          "value": 5.0908
         }
       ]
     },

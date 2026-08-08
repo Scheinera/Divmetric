@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07",
+  "as_of": "2026-08-08",
   "status": "live",
   "analysis_start": "2015-01-01",
   "rule": "Avaliar liquidez antes de qualquer ideia de operação. Sem liquidez, o passado e a notícia não salvam a saída.",
@@ -20,7 +20,37 @@
       "Isso altera o custo de oportunidade vs Selic/caixa?"
     ]
   },
-  "watch": [],
+  "watch": [
+    {
+      "ticker": "BBSE3",
+      "symbol": "BBSE3.SA",
+      "asset_class": "acao",
+      "last": 38.38,
+      "volume": 8335100,
+      "day_change_pct": -6.3,
+      "open_gap_pct": -5.52,
+      "trailing_12m_pct": 11.38,
+      "cagr_since_start_pct": 2.05,
+      "start_used": "2015-01-02",
+      "as_of": "2026-08-07",
+      "bars": 2877,
+      "dividend_yield_pct": 17.02,
+      "dividend_yield_method": "yahoo_events_trailing_12m_cash",
+      "total_return_12m_pct": 30.33,
+      "price_return_12m_pct": 11.38,
+      "dividend_contribution_12m_pct": 18.96,
+      "dividends_cash_12m": 6.5322,
+      "dividends_count_12m": 3,
+      "tsr_start_date": "2025-08-07",
+      "tsr_start_price": 34.46,
+      "buyback_included": false,
+      "tsr_method": "price_plus_cash_dividends_trailing_365d",
+      "tsr_note": "Total return ≈ variação de preço + dividendos em dinheiro no período. Recompra (buyback) ainda não entra nesta versão.",
+      "signal": "pre_open_gap_attention",
+      "threshold_pct": 2.0,
+      "note": "Gap abertura vs fechamento anterior ≥ limiar — atenção (não é ordem)."
+    }
+  ],
   "source": "Yahoo chart diário + eventos de dividendos",
   "disclaimer": "Conteúdo educacional. Não é recomendação de investimento."
 }
